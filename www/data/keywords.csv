@@ -1,0 +1,14 @@
+Keyword,Replacement
+{{swarm}},<b>Swarm:</b> <i>This unit is not destroyed upon taking damage.</i>
+{{scout}},"<b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>"
+{{defenseless}},<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>
+{{equip}},<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
+{{rejuvenate}},"<b>Rejuvenate:</b> <i>Whenever an allied card is deployed to this fortification's lane, that card regains +2 {l}.</i>"
+{{prismatic}},<b>Prismatic:</b> <i>This card's effects cannot be prevented or modified by another player.</i>
+"{{spellcaster,x}}","<b>Spellcaster, Rank {{x}}:</b><i> While this card is recruited, you may play a Spell card with Rank {{x}} or less. If you do, remove this card from the recruitment rail.</i>"
+"{{spell,x}}","<b>Spell, Rank {{x}}:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> "
+{{reflected}},<b>Reflected:</b> <i>Target card is moved across a fortification's reinforcement rail to the opposite side of the same fortification.</i>
+{{translated}},<b>Translated:</b> <i>Target card is moved across the nearest lane boundary to a reinforcement rail belonging to a fortification in another lane.</i>
+"{{persistence,x}}","<b>Persistence, {{x}}:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains {{x}} Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>"
+{{sanctum}},<b>Sanctum:</b> <i>Worship effects require 1 less Disciple to activate.</i>
+{{disciple}},<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>

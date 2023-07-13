@@ -26,47 +26,27 @@ class CardCodesSpreadsheet:
             
             rank = ""
             if self.spreadsheet.loc[i, "Rank"]:
-                try:
-                    rank = f' - Rank: {int(self.spreadsheet.loc[i, "Rank"])}\n'
-                except:
-                    # Doesn't have to be an int
-                    rank = f' - Rank: {self.spreadsheet.loc[i, "Rank"]}\n'
+                    rank = f' - Rank: { str(self.spreadsheet.loc[i, "Rank"]).replace(".0", "") }\n'
             cardMarkdown = cardMarkdown.replace("{{Rank}}", rank)
             
             cost = ""
             if self.spreadsheet.loc[i, "Cost"]:
-                try:
-                    cost = f' - Cost: {int(self.spreadsheet.loc[i, "Cost"])}\n'
-                except:
-                    # Doesn't have to be an int
-                    cost = f' - Cost: {self.spreadsheet.loc[i, "Cost"]}\n'
+                    cost = f' - Cost: { str(self.spreadsheet.loc[i, "Cost"]).replace(".0", "") }\n'
             cardMarkdown = cardMarkdown.replace("{{Cost}}", cost)
             
             power = ""
             if self.spreadsheet.loc[i, "Power"]:
-                try:
-                    power = f' - Power: {int(self.spreadsheet.loc[i, "Power"])}\n'
-                except:
-                    # Doesn't have to be an int
-                    power = f' - Power: {self.spreadsheet.loc[i, "Power"]}\n'
+                    power = f' - Power: { str(self.spreadsheet.loc[i, "Power"]).replace(".0", "") }\n'
             cardMarkdown = cardMarkdown.replace("{{Power}}", power)
             
             life = ""
             if self.spreadsheet.loc[i, "Life"]:
-                try:
-                    life = f' - Life: {int(self.spreadsheet.loc[i, "Life"])}\n'
-                except:
-                    # Doesn't have to be an int
-                    life = f' - Life: {self.spreadsheet.loc[i, "Life"]}\n'
+                    life = f' - Life: { str(self.spreadsheet.loc[i, "Life"]).replace(".0", "") }\n'
             cardMarkdown = cardMarkdown.replace("{{Life}}", life)
             
             hand = ""
             if self.spreadsheet.loc[i, "Hand"]:
-                try:
-                    hand = f' - Hand: {int(self.spreadsheet.loc[i, "Hand"])}\n'
-                except:
-                    # Doesn't have to be an int
-                    hand = f' - Hand: {self.spreadsheet.loc[i, "Hand"]}\n'
+                    hand = f' - Hand: { str(self.spreadsheet.loc[i, "Hand"]).replace(".0", "") }\n'
             cardMarkdown = cardMarkdown.replace("{{Hand}}", hand)
             
             returnMarkdown += f"{cardMarkdown}\r\n"
@@ -78,7 +58,40 @@ class CardCodesSpreadsheet:
         return returnMarkdown
 
     def convertCardCodesToCardCreatorCSV(self):
-        return
+        # Create the columns we need for the new dataframe
+        headers = {
+            "OverlayType": [],
+            "Art": [],
+            "Text": [],
+            "Name": [],
+            "Id": [],
+            "Rank": [],
+            "Life": [],
+            "Power": [],
+            "Attribute": [],
+            "Type": [],
+            "Hand": [],
+            "Cost": [],
+        }
+        returnSpreadsheet = pd.DataFrame(headers)
+        
+        for i in range(len(self.spreadsheet.index)):
+            data = {
+            "OverlayType": f'%PROJECT%/{self.spreadsheet.loc[i, "Attribute"]}.{self.spreadsheet.loc[i, "Type"]}.png',
+            "Art": f'%PROJECT%/{self.spreadsheet.loc[i, "Code"]}.png',
+            "Text": self.spreadsheet.loc[i, "Text"],
+            "Name": self.spreadsheet.loc[i, "Name"],
+            "Id": self.spreadsheet.loc[i, "Code"],
+            "Rank": "{r} " * int(self.spreadsheet.loc[i, "Rank"]) if self.spreadsheet.loc[i, "Rank"] else "",
+            "Life": str(self.spreadsheet.loc[i, "Life"]).replace('.0', ""),
+            "Power": str(self.spreadsheet.loc[i, "Power"]).replace('.0', ""),
+            "Attribute": self.spreadsheet.loc[i, "Attribute"],
+            "Type": f'{self.spreadsheet.loc[i, "Class"]} {self.spreadsheet.loc[i, "Type"]}' if self.spreadsheet.loc[i, "Class"] else self.spreadsheet.loc[i, "Type"],
+            "Hand": str(self.spreadsheet.loc[i, "Hand"]).replace('.0', ""),
+            "Cost": str(self.spreadsheet.loc[i, "Cost"]).replace('.0', ""),
+            }
+            returnSpreadsheet.loc[len(returnSpreadsheet)] = data
+        return returnSpreadsheet
 
 
 def _initializeDataframe(file):
@@ -129,3 +142,4 @@ def _findAndReplaceKeywords(spreadsheetDataframe, keywordsDataframe):
 ss = CardCodesSpreadsheet("www\data\cardcodes.csv", "www\data\keywords.csv")
 with open(file="www\data\cards.md", mode="w") as f:
     f.write(ss.convertCardCodesToMarkdown())
+ss.convertCardCodesToCardCreatorCSV().to_csv("www\data\cardcreator.csv", index=False)

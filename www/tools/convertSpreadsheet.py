@@ -21,7 +21,7 @@ class CardCodesSpreadsheet:
             cardMarkdown = cardMarkdown.replace("{{Attribute}}", self.spreadsheet.loc[i, "Attribute"])
             cardMarkdown = cardMarkdown.replace("{{Code}}", self.spreadsheet.loc[i, "Code"])
             
-            text = self.spreadsheet.loc[i, "Text"].replace("\r\n", "  \r\n")
+            text = self.spreadsheet.loc[i, "Text"].replace("\n", "  \n")
             cardMarkdown = cardMarkdown.replace("{{Text}}", text)
             
             rank = ""

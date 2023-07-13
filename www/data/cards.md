@@ -218,7 +218,7 @@ Cards that attack this fortification this turn have -2 Power.
  - Cost: 0
 
 
-<b>Trigger:</b> Your opponent draws a card as the result of an order.
+<b>Trigger:</b> Your opponent draws a card as the result of an order.  
 <b>Response:</b> Draw a card.
 <br>
 
@@ -232,7 +232,7 @@ Cards that attack this fortification this turn have -2 Power.
  - Cost: 0
 
 
-<b>Trigger:</b> A leader takes damage from any source.  
+<b>Trigger:</b> A leader takes damage from any source.    
 <b>Response:</b> That leader regains +1 Life. 
 <br>
 
@@ -246,7 +246,7 @@ Cards that attack this fortification this turn have -2 Power.
  - Cost: 0
 
 
-<b>Trigger:</b> A card is deployed.
+<b>Trigger:</b> A card is deployed.  
 <b>Response:</b> That card is deployed to their recruitment rail's other lane. 
 <br>
 
@@ -361,7 +361,7 @@ When this fortification is attacked, you may choose to destroy a unit from an al
  - Cost: 1
 
 
-<b>Trigger:</b> A leader deploys one or more units.
+<b>Trigger:</b> A leader deploys one or more units.  
 <b>Response:</b> That leader cannot deploy or redeploy any additional units this turn.
 <br>
 
@@ -375,7 +375,7 @@ When this fortification is attacked, you may choose to destroy a unit from an al
  - Cost: 0
 
 
-<b>Trigger:</b> A player discards one or more times to pay the Cost of a card.
+<b>Trigger:</b> A player discards one or more times to pay the Cost of a card.  
 <b>Response:</b> That player must discard an additional card (if possible).
 <br>
 
@@ -427,7 +427,7 @@ If this fortification is destroyed, you may choose to discard a card to recreate
  - Cost: 1
 
 
-<b>Trigger:</b> A player recruits one or more units.
+<b>Trigger:</b> A player recruits one or more units.  
 <b>Response:</b> That player cannot recruit any additional units this turn.
 <br>
 
@@ -452,7 +452,7 @@ If this fortification is destroyed, you may choose to discard a card to recreate
  - Cost: 1
 
 
-<b>Trigger:</b> An <b>Equip</b> order is played.
+<b>Trigger:</b> An <b>Equip</b> order is played.  
 <b>Response:</b> Destroy the <b>Equip</b> order.
 <br>
 
@@ -544,7 +544,7 @@ Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 
  - Cost: 2
 
 
-<b>Once per Turn Order (0 Cost):</b> Parent card gains any attribute or class name you choose until the end of the turn.
+<b>Once per Turn Order (0 Cost):</b> Parent card gains any attribute or class name you choose until the end of the turn.  
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
 <br>
 
@@ -638,8 +638,8 @@ The first time a card is deployed to this fortification's lane each turn, draw 1
  - Hand: 2
 
 
-Whenever you play a <b>Spell</b> card, you may choose to pay double its Cost.  If you do, the card gains the <b>Prismatic</b> keyword.
-(<b>Prismatic:</b> <i>This card's effects cannot be prevented or modified by another player.</i>)
+Whenever you play a <b>Spell</b> card, you may choose to pay double its Cost.  If you do, the card gains the <b>Prismatic</b> keyword.  
+(<b>Prismatic:</b> <i>This card's effects cannot be prevented or modified by another player.</i>)  
 <b>Spellcaster, Rank 3:</b><i> While this card is recruited, you may play a Spell card with Rank 3 or less. If you do, remove this card from the recruitment rail.</i>
 <br>
 
@@ -653,7 +653,7 @@ Whenever you play a <b>Spell</b> card, you may choose to pay double its Cost.  I
  - Cost: 1
 
 
-<b>Once per Turn Order (1 Cost):</b> Parent Wizard card gains +1 Power and its damage cannot be prevented or modified by another player.
+<b>Once per Turn Order (1 Cost):</b> Parent Wizard card gains +1 Power and its damage cannot be prevented or modified by another player.  
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
 <br>
 
@@ -667,8 +667,8 @@ Whenever you play a <b>Spell</b> card, you may choose to pay double its Cost.  I
  - Cost: 0
 
 
-<b>Trigger:</b> Target <b>Spell</b> card is played. 
-<b>Response:</b> Target card gains the <b>Prismatic</b> keyword. 
+<b>Trigger:</b> Target <b>Spell</b> card is played.   
+<b>Response:</b> Target card gains the <b>Prismatic</b> keyword.   
 (<b>Prismatic:</b> <i>This card's effects cannot be prevented or modified by another player.</i>)
 <br>
 
@@ -681,7 +681,7 @@ Whenever you play a <b>Spell</b> card, you may choose to pay double its Cost.  I
  - Life: 6
 
 
-Wizard leaders in reserve that share a lane with this fortification cannot be targeted by your opponent for attacks or card effects.
+Wizard leaders in reserve that share a lane with this fortification cannot be targeted by your opponent for attacks or card effects.  
 <b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>
 <br>
 
@@ -733,7 +733,7 @@ Wizard leaders in reserve that share a lane with this fortification cannot be ta
  - Cost: 0
 
 
-Target card on a recruitment rail gains the <b>Spellcaster, Rank 1</b> keyword until the end of this turn.
+Target card on a recruitment rail gains the <b>Spellcaster, Rank 1</b> keyword until the end of this turn.  
 (<b>Spellcaster, Rank 1:</b><i> While this card is recruited, you may play a Spell card with Rank 1 or less. If you do, remove this card from the recruitment rail.</i>)
 <br>
 
@@ -760,7 +760,7 @@ Target <b>Spellcaster</b> card gains +1 <b>Rank</b>.
  - Cost: 0
 
 
-Deal 1 damage to any target in the lane of this card's <b>Spellcaster</b>.
+Deal 1 damage to any target in the lane of this card's <b>Spellcaster</b>.  
 <b>Spell, Rank 1:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
 <br>
 
@@ -787,7 +787,7 @@ The next <b>Spell</b> card played gains -1 <b>Rank</b> (to a minimum of <b>Rank 
  - Cost: 0
 
 
-Target card on a recruitment rail is moved to any other recruitment rail allied with that card.
+Target card on a recruitment rail is moved to any other recruitment rail allied with that card.  
 <b>Spell, Rank 1:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
 <br>
 
@@ -800,7 +800,7 @@ Target card on a recruitment rail is moved to any other recruitment rail allied 
  - Rank: 1
 
 
-Any card that arrives at this fortification is <b>Reflected</b>. 
+Any card that arrives at this fortification is <b>Reflected</b>.   
 (<b>Reflected:</b> <i>Target card is moved across a fortification's reinforcement rail to the opposite side of the same fortification.</i>)
 <br>
 
@@ -813,7 +813,7 @@ Any card that arrives at this fortification is <b>Reflected</b>.
  - Rank: 1
 
 
-Any card that arrives at this fortification is <b>Translated</b>.
+Any card that arrives at this fortification is <b>Translated</b>.  
 (<b>Translated:</b> <i>Target card is moved across the nearest lane boundary to a reinforcement rail belonging to a fortification in another lane.</i>)
 <br>
 
@@ -851,7 +851,7 @@ You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> 
  - Cost: 0
 
 
-<b>Trigger:</b> A player draws one or more cards as the result of another card's effect.
+<b>Trigger:</b> A player draws one or more cards as the result of another card's effect.  
 <b>Response:</b> You may look at the cards that were drawn this way.
 <br>
 
@@ -865,7 +865,7 @@ You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> 
  - Cost: 0
 
 
-<b>Trigger:</b> An allied <b>Spell</b> card is played.
+<b>Trigger:</b> An allied <b>Spell</b> card is played.  
 <b>Response:</b> You may play a <b>Spell</b> card with equal or lesser Rank using the same <b>Spellcaster</b>.
 <br>
 
@@ -879,8 +879,8 @@ You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> 
  - Cost: 0
 
 
-<b>Trigger:</b> Target card arrives at a fortification.
-<b>Response:</b> Target card is <b>Reflected</b>.
+<b>Trigger:</b> Target card arrives at a fortification.  
+<b>Response:</b> Target card is <b>Reflected</b>.  
 (<b>Reflected:</b> <i>Target card is moved across a fortification's reinforcement rail to the opposite side of the same fortification.</i>)
 <br>
 
@@ -894,8 +894,8 @@ You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> 
  - Cost: 0
 
 
-<b>Trigger:</b> Target card arrives at a fortification.
-<b>Response:</b> Target card is <b>Translated</b>.
+<b>Trigger:</b> Target card arrives at a fortification.  
+<b>Response:</b> Target card is <b>Translated</b>.  
 (<b>Translated:</b> <i>Target card is moved across the nearest lane boundary to a reinforcement rail belonging to a fortification in another lane.</i>)
 <br>
 
@@ -909,8 +909,8 @@ You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> 
  - Cost: 2
 
 
-<b>Once per Turn Order (0 Cost):</b> Parent card gains the <b>Spellcaster, Rank 1</b> keyword.
-(<b>Spellcaster, Rank 1:</b><i> While this card is recruited, you may play a Spell card with Rank 1 or less. If you do, remove this card from the recruitment rail.</i>)
+<b>Once per Turn Order (0 Cost):</b> Parent card gains the <b>Spellcaster, Rank 1</b> keyword.  
+(<b>Spellcaster, Rank 1:</b><i> While this card is recruited, you may play a Spell card with Rank 1 or less. If you do, remove this card from the recruitment rail.</i>)  
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
 <br>
 
@@ -924,7 +924,7 @@ You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> 
  - Cost: 0
 
 
-Deal 2 damage to any target that shares a lane this card's <b>Spellcaster</b>.
+Deal 2 damage to any target that shares a lane this card's <b>Spellcaster</b>.  
 <b>Spell, Rank 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
 <br>
 
@@ -951,7 +951,7 @@ The next <b>Spell</b> card played may choose an additional target for its effect
  - Cost: 1
 
 
-Target card that shares a lane this card's <b>Spellcaster</b> may attack an additional time this turn.
+Target card that shares a lane this card's <b>Spellcaster</b> may attack an additional time this turn.  
 <b>Spell, Rank 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
 <br>
 
@@ -965,7 +965,7 @@ Target card that shares a lane this card's <b>Spellcaster</b> may attack an addi
  - Cost: 1
 
 
-Deal 2 Damage to all fortifications your opponent controls.
+Deal 2 Damage to all fortifications your opponent controls.  
 <b>Spell, Rank 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
 <br>
 
@@ -991,7 +991,7 @@ Discard a card. If you do, the deployment phase ends.
  - Cost: 0
 
 
-<b>Trigger:</b> An allied card takes damage on your turn.
+<b>Trigger:</b> An allied card takes damage on your turn.  
 <b>Response:</b> The damage is prevented.
 <br>
 
@@ -1005,7 +1005,7 @@ Discard a card. If you do, the deployment phase ends.
  - Cost: 1
 
 
-<b>Trigger:</b> An allied <b>Spellcaster</b> Leader takes damage from an opponent's card. 
+<b>Trigger:</b> An allied <b>Spellcaster</b> Leader takes damage from an opponent's card.   
 <b>Response:</b> You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> requirement to play a <b>Spell</b> card).
 <br>
 
@@ -1019,7 +1019,7 @@ Discard a card. If you do, the deployment phase ends.
  - Cost: 3
 
 
-<b>Once per Turn Order (1 Cost):</b> Parent <b>Spellcaster</b> card ignores the recruitment requirement for next <b>Spell</b> card played this turn.
+<b>Once per Turn Order (1 Cost):</b> Parent <b>Spellcaster</b> card ignores the recruitment requirement for next <b>Spell</b> card played this turn.  
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
 <br>
 
@@ -1033,7 +1033,7 @@ Discard a card. If you do, the deployment phase ends.
  - Cost: 1
 
 
-Deal 1 damage to any number of targets that share a lane this card's <b>Spellcaster</b>..
+Deal 1 damage to any number of targets that share a lane this card's <b>Spellcaster</b>..  
 <b>Spell, Rank 3:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
 <br>
 
@@ -1047,7 +1047,7 @@ Deal 1 damage to any number of targets that share a lane this card's <b>Spellcas
  - Cost: 1
 
 
-Deal 3 damage to any target that shares a lane this card's <b>Spellcaster</b>.
+Deal 3 damage to any target that shares a lane this card's <b>Spellcaster</b>.  
 <b>Spell, Rank 3:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
 <br>
 
@@ -1086,8 +1086,8 @@ Return a <b>Spell</b> card from your discard pile to your hand. X is the <b>Rank
  - Cost: 1
 
 
-<b>Trigger:</b> An order is played.
-<b>Response:</b> Negate that order's effects and destroy it.
+<b>Trigger:</b> An order is played.  
+<b>Response:</b> Negate that order's effects and destroy it.  
 <b>Spell, Rank 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
 <br>
 
@@ -1140,7 +1140,7 @@ Remove 1 Rage counter from target Berserker leader. If you do, until the start o
 ### <i>Berserker Fortification, Melee</i>
 
 
-Allied leaders gain +1 Power while deployed to a lane shared by this fortification.
+Allied leaders gain +1 Power while deployed to a lane shared by this fortification.  
 <b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>
 <br>
 
@@ -1318,8 +1318,8 @@ It this fortification is destroyed, you may recruit an allied leader for 0 Cost.
  - Cost: 2
 
 
-<b>Trigger:</b> Target leader is attacked.
-<b>Response:</b>  Damage from the attack is prevented.
+<b>Trigger:</b> Target leader is attacked.  
+<b>Response:</b>  Damage from the attack is prevented.  
 When you play this card, you may discard a card. If you do, search your deck for a <i>Riposte</i> card and add it to your hand.
 <br>
 
@@ -1333,7 +1333,7 @@ When you play this card, you may discard a card. If you do, search your deck for
  - Cost: 0
 
 
-<b>Trigger:</b> Parry is played and prevents the damage from an attack on a leader.
+<b>Trigger:</b> Parry is played and prevents the damage from an attack on a leader.  
 <b>Response:</b> Deal 1 damage to the attacking card.
 <br>
 
@@ -1347,7 +1347,7 @@ When you play this card, you may discard a card. If you do, search your deck for
  - Cost: 1
 
 
-<b>Trigger:</b> Target allied leader successfully attacks and deals damage to a fortification or leader.
+<b>Trigger:</b> Target allied leader successfully attacks and deals damage to a fortification or leader.  
 <b>Response:</b> Target leader deals 1 additional damage with their attack.
 <br>
 
@@ -1387,7 +1387,7 @@ If target melee leader is deployed this turn, you may recruit that Leader for 0 
  - Cost: 2
 
 
-<b>Once per Turn Order (1 Cost):</b> Until the start of your next turn, if parent leader would take exactly 1 damage, prevent it.
+<b>Once per Turn Order (1 Cost):</b> Until the start of your next turn, if parent leader would take exactly 1 damage, prevent it.  
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
 <br>
 
@@ -1401,7 +1401,7 @@ If target melee leader is deployed this turn, you may recruit that Leader for 0 
  - Cost: 2
 
 
-<b>Once per Turn Order (1 Cost):</b> Until the start of your next turn, when parent leader takes damage as a result of being attacked, deal 1 damage to the attacking card.
+<b>Once per Turn Order (1 Cost):</b> Until the start of your next turn, when parent leader takes damage as a result of being attacked, deal 1 damage to the attacking card.  
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
 <br>
 
@@ -1427,7 +1427,7 @@ When this fortification is attacked, you may remove a recruited leader from a re
  - Cost: 1
 
 
-<b>Trigger:</b> An order <b>Equipped</b> to an allied leader would be destroyed.
+<b>Trigger:</b> An order <b>Equipped</b> to an allied leader would be destroyed.  
 <b>Response:</b> The order is not destroyed and remains <b>Equipped</b> to the leader.
 <br>
 
@@ -1441,7 +1441,7 @@ When this fortification is attacked, you may remove a recruited leader from a re
  - Cost: 0
 
 
-<b>Trigger:</b> An order is played that increases a leader's Power.
+<b>Trigger:</b> An order is played that increases a leader's Power.  
 <b>Response:</b> That leader gains +1 Power until the end of the turn.
 <br>
 
@@ -1455,7 +1455,7 @@ When this fortification is attacked, you may remove a recruited leader from a re
  - Cost: 2
 
 
-<b>Once per Turn Order (1 Cost):</b> Parent leader gains +2 Power while attacking fortifications.
+<b>Once per Turn Order (1 Cost):</b> Parent leader gains +2 Power while attacking fortifications.  
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
 <br>
 
@@ -1469,7 +1469,7 @@ When this fortification is attacked, you may remove a recruited leader from a re
  - Cost: 2
 
 
-<b>Once per Turn Order (1 Cost):</b> Parent leader gains +2 Power while attacking other leaders.
+<b>Once per Turn Order (1 Cost):</b> Parent leader gains +2 Power while attacking other leaders.  
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
 <br>
 
@@ -1496,7 +1496,7 @@ Whenever target melee leader would gain Power this turn as the result of an orde
  - Cost: 1
 
 
-<b>Trigger:</b> Target allied leader takes damage that would reduce their Life below 1.
+<b>Trigger:</b> Target allied leader takes damage that would reduce their Life below 1.  
 <b>Response:</b> Prevent all damage dealt to that leader until the end of this turn.  
 <br>
 
@@ -1536,7 +1536,7 @@ Target melee card on an allied recruitment rail is moved to an empty reinforceme
  - Hand: 3
 
 
-<b>Worship, 2 Disciples (1 Cost):</b> Target <b>Persistence</b> card with no <b>Persist</b> counters gains +1 <b>Persist</b> counter. 
+<b>Worship, 2 Disciples (1 Cost):</b> Target <b>Persistence</b> card with no <b>Persist</b> counters gains +1 <b>Persist</b> counter.   
 <i>(This effect can only be activated while 2 allied Disciple cards share a recruitment rail with this Leader.)</i> 
 <br>
 
@@ -1562,7 +1562,7 @@ Move any number of <b>Persist</b> counters from one <b>Persistence</b> card to a
  - Rank: 3
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
 While this card is revealed in play, it is the only card that <b>Persist</b> counters must be removed from in the end phase. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>
 <br>
 
@@ -1575,8 +1575,8 @@ While this card is revealed in play, it is the only card that <b>Persist</b> cou
  - Life: 10
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
-Whenever another <b>Persistence</b> card attached to this fortification is destroyed, this card regains +2 Life.
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+Whenever another <b>Persistence</b> card attached to this fortification is destroyed, this card regains +2 Life.  
 Whenever a card attached to this fortification would gain a <b>Persist</b> counter, you may instead add that counter to this card.
 <br>
 
@@ -1654,7 +1654,7 @@ Target one reinforcement that is revealed in play. Turn it face down, then you m
  - Rank: 1
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
 Prevent the first 2 damage dealt to this fortification.
 <br>
 
@@ -1667,7 +1667,7 @@ Prevent the first 2 damage dealt to this fortification.
  - Rank: 1
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
 While this card is revealed in play, whenever this fortification would regain Life, it regains +1 Life. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>
 <br>
 
@@ -1680,7 +1680,7 @@ While this card is revealed in play, whenever this fortification would regain Li
  - Rank: 1
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
 While this card is revealed in play, this fortification cannot be targeted by the effects of your opponent's orders. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>
 <br>
 
@@ -1693,7 +1693,7 @@ While this card is revealed in play, this fortification cannot be targeted by th
  - Rank: 1
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
 This fortification regains +2 Life.
 <br>
 
@@ -1706,7 +1706,7 @@ This fortification regains +2 Life.
  - Rank: 1
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
 Cards that attack this fortification have -1 Power.
 <br>
 
@@ -1732,8 +1732,8 @@ The next <b>Worship</b> effect you activate this turn gains -2 Cost.
  - Rank: 1
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i> 
-While this card is revealed in play, this fortification gains the <b>Sanctum</b> keyword. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
+While this card is revealed in play, this fortification gains the <b>Sanctum</b> keyword. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>  
 (<b>Sanctum:</b> <i>Worship effects require 1 less Disciple to activate.</i>)
 <br>
 
@@ -1747,8 +1747,8 @@ While this card is revealed in play, this fortification gains the <b>Sanctum</b>
  - Cost: 0
 
 
-<b>Once per Turn Order (0 Cost):</b> Parent card gains the <b>Disciple</b> keyword until the end of the turn.
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
+<b>Once per Turn Order (0 Cost):</b> Parent card gains the <b>Disciple</b> keyword until the end of the turn.  
+<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
 (<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>)
 <br>
 
@@ -1800,7 +1800,7 @@ Target <b>Persistence</b> card gains +1 <b>Persist</b> counter.
  - Rank: 2
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i> 
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
 While this card is revealed in play, prevent all damage dealt to allied units.
 <br>
 
@@ -1813,7 +1813,7 @@ While this card is revealed in play, prevent all damage dealt to allied units.
  - Rank: 2
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i> 
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
 While this card is revealed in play, the first order you play each turn gains -1 Cost.
 <br>
 
@@ -1826,7 +1826,7 @@ While this card is revealed in play, the first order you play each turn gains -1
  - Rank: 2
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i> 
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
 While this card is revealed in play, the first card you recruit each turn gains -1 Cost.
 <br>
 
@@ -1839,7 +1839,7 @@ While this card is revealed in play, the first card you recruit each turn gains 
  - Rank: 2
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
 Restore 2 Life to all allied cards.
 <br>
 
@@ -1853,8 +1853,8 @@ Restore 2 Life to all allied cards.
  - Cost: 2
 
 
-<b>Trigger:</b> Target reinforcement is activated by a card arriving to its fortification.
-<b>Response:</b> Target reinforcement gains the <b>Persistence, 1</b> keyword. 
+<b>Trigger:</b> Target reinforcement is activated by a card arriving to its fortification.  
+<b>Response:</b> Target reinforcement gains the <b>Persistence, 1</b> keyword.   
 (<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)
 <br>
 
@@ -1867,7 +1867,7 @@ Restore 2 Life to all allied cards.
  - Rank: 3
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i> 
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
 While this card is revealed in play, the first time your opponent discards to pay the Cost of a card each turn, they discard an additional card (if possible).
 <br>
 
@@ -1880,7 +1880,7 @@ While this card is revealed in play, the first time your opponent discards to pa
  - Rank: 3
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
 While this card is revealed in play, all damage is prevented except damage dealt to this fortification. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>
 <br>
 
@@ -1918,7 +1918,7 @@ Replace this card with any faith reinforcement from your discard pile, then acti
  - Power: 1
 
 
-<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>
+<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>  
 When this unit is deployed at the same time as one or more faith cards, the faith cards it was deployed with each regain +1 Life.
 <br>
 
@@ -1932,7 +1932,7 @@ When this unit is deployed at the same time as one or more faith cards, the fait
  - Power: 1
 
 
-<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>
+<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>  
 When this unit deploys through a revealed <b>Persistence</b> card, it gains +1 Power until the end of the turn.
 <br>
 
@@ -1945,8 +1945,8 @@ When this unit deploys through a revealed <b>Persistence</b> card, it gains +1 P
  - Life: 6
 
 
-<b>Sanctum:</b> <i>Worship effects require 1 less Disciple to activate.</i>
-When this card would be destroyed, it instead remains in play at 0 Life and gains the <b>Defenseless</b> keyword.
+<b>Sanctum:</b> <i>Worship effects require 1 less Disciple to activate.</i>  
+When this card would be destroyed, it instead remains in play at 0 Life and gains the <b>Defenseless</b> keyword.  
 (<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>)
 <br>
 

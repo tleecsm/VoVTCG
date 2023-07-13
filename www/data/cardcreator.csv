@@ -43,7 +43,7 @@ OverlayType,Art,Text,Name,Id,Rank,Life,Power,Attribute,Type,Hand,Cost
 %PROJECT%/Non-attribute.Response.png,%PROJECT%/ALP.NAT.036.png,"<b>Trigger:</b> An <b>Equip</b> order is played.
 <b>Response:</b> Destroy the <b>Equip</b> order.",Rust Monster,ALP.NAT.036,{r} ,,,Non-attribute,Response,,1
 %PROJECT%/Non-attribute.Order.png,%PROJECT%/ALP.NAT.037.png,Destroy all <b>Equip</b> orders currently in play.,Bareknuckle Brawlers,ALP.NAT.037,{r} {r} ,,,Non-attribute,Order,,0
-%PROJECT%/Non-attribute.Reinforcement.png,%PROJECT%/ALP.NAT.038.png,"When a card <b>Equipped</b> with an order arrives at this fortification, you may discard a card. If you do, destroy all orders <b>Equipped</b> to that card.",Boots at the Door,ALP.NAT.038,{r} {r} ,,,Non-attribute,Reinforcement,,
+%PROJECT%/Non-attribute.Reinforcement.png,%PROJECT%/ALP.NAT.038.png,"When a card with an <b>Equip</b> order arrives at this fortification, you may discard a card. If you do, destroy all <b>Equip</b> orders attached to that card.",Boots at the Door,ALP.NAT.038,{r} {r} ,,,Non-attribute,Reinforcement,,
 %PROJECT%/Non-attribute.Order.png,%PROJECT%/ALP.NAT.039.png,"Draw a card, then discard a card.",Cycle,ALP.NAT.039,{r} ,,,Non-attribute,Order,,0
 %PROJECT%/Non-attribute.Fortification.png,%PROJECT%/ALP.NAT.040.png,Allied leaders in reserve that share a lane with this fortification cannot be targeted by the effects of your opponent's orders. ,Warding Tower,ALP.NAT.040,,7,,Non-attribute,Fortification,,
 %PROJECT%/Non-attribute.Order.png,%PROJECT%/ALP.NAT.041.png,Switch the position of two allied leaders in reserve.  <i>(Recruited units are not affected by a change in leader position.)</i>,Castle the King,ALP.NAT.041,{r} ,,,Non-attribute,Order,,0
@@ -58,7 +58,7 @@ OverlayType,Art,Text,Name,Id,Rank,Life,Power,Attribute,Type,Hand,Cost
 %PROJECT%/Non-attribute.Fortification.png,%PROJECT%/ALP.LMG.004.png,"The first time a card is deployed to this fortification's lane each turn, draw 1 card.",Junk Market,ALP.LMG.004,,6,,Non-attribute,Lootmonger Fortification,,
 %PROJECT%/Arcane.Leader.png,%PROJECT%/ALP.WIZ.001.png,"Whenever you play a <b>Spell</b> card, you may choose to pay double its {c}.  If you do, the card gains the <b>Prismatic</b> keyword.
 (<b>Prismatic:</b> <i>This card's effects cannot be prevented or modified by another player.</i>)
-<b>Spellcaster, Rank 2:</b><i> While this card is recruited, you may play a Spell card with Rank 2 or less. If you do, remove this card from the recruitment rail.</i>","Elq, Prismatic Witch",ALP.WIZ.001,,4,1,Arcane,Wizard Leader,2,2
+<b>Spellcaster, Rank 3:</b><i> While this card is recruited, you may play a Spell card with Rank 3 or less. If you do, remove this card from the recruitment rail.</i>","Elq, Prismatic Witch",ALP.WIZ.001,,4,1,Arcane,Wizard Leader,2,2
 %PROJECT%/Arcane.Order.png,%PROJECT%/ALP.WIZ.002.png,"<b>Once per Turn Order (1 {c}):</b> Parent Wizard card gains +1 {p} and its damage cannot be prevented or modified by another player.
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>","Bifrost, Prismatic Staff",ALP.WIZ.002,{r} {r} {r} ,,,Arcane,Wizard Order,,1
 %PROJECT%/Arcane.Response.png,%PROJECT%/ALP.WIZ.003.png,"<b>Trigger:</b> Target <b>Spell</b> card is played. 
@@ -68,7 +68,7 @@ OverlayType,Art,Text,Name,Id,Rank,Life,Power,Attribute,Type,Hand,Cost
 <b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>",Outcast's Sanctum,ALP.WIZ.004,,6,,Arcane,Wizard Fortification,,
 %PROJECT%/Arcane.Unit.png,%PROJECT%/ALP.ARC.001.png,"<b>Spellcaster, Rank 1:</b><i> While this card is recruited, you may play a Spell card with Rank 1 or less. If you do, remove this card from the recruitment rail.</i>",Conjurer,ALP.ARC.001,,,0,Arcane,Unit,,0
 %PROJECT%/Arcane.Unit.png,%PROJECT%/ALP.ARC.002.png,"<b>Spellcaster, Rank 2:</b><i> While this card is recruited, you may play a Spell card with Rank 2 or less. If you do, remove this card from the recruitment rail.</i>",Thaumaturge,ALP.ARC.002,,,1,Arcane,Unit,,1
-%PROJECT%/Arcane.Unit.png,%PROJECT%/ALP.ARC.003.png,"<b>Spellcaster, Rank 2:</b><i> While this card is recruited, you may play a Spell card with Rank 2 or less. If you do, remove this card from the recruitment rail.</i>",Magus,ALP.ARC.003,,,2,Arcane,Unit,,2
+%PROJECT%/Arcane.Unit.png,%PROJECT%/ALP.ARC.003.png,"<b>Spellcaster, Rank 3:</b><i> While this card is recruited, you may play a Spell card with Rank 3 or less. If you do, remove this card from the recruitment rail.</i>",Magus,ALP.ARC.003,,,2,Arcane,Unit,,2
 %PROJECT%/Arcane.Order.png,%PROJECT%/ALP.ARC.004.png,"Target card on a recruitment rail gains the <b>Spellcaster, Rank 1</b> keyword until the end of this turn.
 (<b>Spellcaster, Rank 1:</b><i> While this card is recruited, you may play a Spell card with Rank 1 or less. If you do, remove this card from the recruitment rail.</i>)",Magi's Teachings,ALP.ARC.004,{r} ,,,Arcane,Order,,0
 %PROJECT%/Arcane.Order.png,%PROJECT%/ALP.ARC.005.png,Target <b>Spellcaster</b> card gains +1 <b>Rank</b>.,Graduation,ALP.ARC.005,{r} ,,,Arcane,Order,,0
@@ -119,11 +119,11 @@ OverlayType,Art,Text,Name,Id,Rank,Life,Power,Attribute,Type,Hand,Cost
 %PROJECT%/Arcane.Response.png,%PROJECT%/ALP.ARC.030.png,"<b>Trigger:</b> An order is played.
 <b>Response:</b> Negate that order's effects and destroy it.
 <b>Spell, Rank 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> ",Counterspell,ALP.ARC.030,{r} {r} ,,,Arcane,Response,,1
-%PROJECT%/Melee.Leader.png,%PROJECT%/ALP.BSK.001.png,"Whenever Lothar is dealt damage to his {l}, create a Rage counter on his card.  ","Lothar, Axe of the Asperlands",ALP.BSK.001,,12,3,Melee,Berserker Leader Leader,2,3
-%PROJECT%/Melee.Order.png,%PROJECT%/ALP.BSK.002.png,"Remove all Rage counters from target Berserker leader.  Until the end of your turn, that leader may be redeployed once for each Rage counter removed this way.",Seeing Bloodred,ALP.BSK.002,{r} {r} ,,,Melee,Berserker Order Order,,2
-%PROJECT%/Melee.Order.png,%PROJECT%/ALP.BSK.003.png,"Remove 1 Rage counter from target Berserker leader. If you do, until the start of your next turn that leader cannot be reduced below 1 {l}.",Relentless Rage,ALP.BSK.003,{r} {r} ,,,Melee,Berserker Order Order,,0
+%PROJECT%/Melee.Leader.png,%PROJECT%/ALP.BSK.001.png,"Whenever Lothar is dealt damage to his {l}, create a Rage counter on his card.  ","Lothar, Axe of the Asperlands",ALP.BSK.001,,12,3,Melee,Berserker Leader,2,3
+%PROJECT%/Melee.Order.png,%PROJECT%/ALP.BSK.002.png,"Remove all Rage counters from target Berserker leader.  Until the end of your turn, that leader may be redeployed once for each Rage counter removed this way.",Seeing Bloodred,ALP.BSK.002,{r} {r} ,,,Melee,Berserker Order,,2
+%PROJECT%/Melee.Order.png,%PROJECT%/ALP.BSK.003.png,"Remove 1 Rage counter from target Berserker leader. If you do, until the start of your next turn that leader cannot be reduced below 1 {l}.",Relentless Rage,ALP.BSK.003,{r} {r} ,,,Melee,Berserker Order,,0
 %PROJECT%/Melee.Fortification.png,%PROJECT%/ALP.BSK.004.png,"Allied leaders gain +1 {p} while deployed to a lane shared by this fortification.
-<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>",Wartorn Battlefield,ALP.BSK.004,,0,,Melee,Berserker Fortification Fortification,,
+<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>",Wartorn Battlefield,ALP.BSK.004,,0,,Melee,Berserker Fortification,,
 %PROJECT%/Melee.Unit.png,%PROJECT%/ALP.MEL.001.png,,Fighter,ALP.MEL.001,,,2,Melee,Unit,,1
 %PROJECT%/Melee.Unit.png,%PROJECT%/ALP.MEL.002.png,"When this unit is deployed at the same time as a melee leader, it gains +1 {p}.",Knight,ALP.MEL.002,,,2,Melee,Unit,,2
 %PROJECT%/Melee.Unit.png,%PROJECT%/ALP.MEL.003.png,"When this unit is deployed at the same time as a melee leader, it gains any modifications to {p} that the Leader has gained this turn. ",Champion,ALP.MEL.003,,,2,Melee,Unit,,3
@@ -196,7 +196,7 @@ While this card is revealed in play, this fortification gains the <b>Sanctum</b>
 (<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>)",Her Garb of Golden Order,ALP.FTH.013,{r} ,,,Faith,Order,,0
 %PROJECT%/Faith.Order.png,%PROJECT%/ALP.FTH.014.png,All allied faith fortifications regain +2 {l}.,"Her Chapels, Restored",ALP.FTH.014,{r} {r} ,,,Faith,Order,,1
 %PROJECT%/Faith.Order.png,%PROJECT%/ALP.FTH.015.png,Target <b>Persistence</b> card gains +1 <b>Persist</b> counter. ,"Her Image, Everlasting",ALP.FTH.015,{r} {r} ,,,Faith,Order,,1
-%PROJECT%/Faith.Order.png,%PROJECT%/ALP.FTH.016.png,All face down reinforcements are revealed.,She Sees All,ALP.FTH.016,{r} {r} ,,,Faith,Order,,2
+%PROJECT%/Faith.Order.png,%PROJECT%/ALP.FTH.016.png,,She Sees All,ALP.FTH.016,{r} {r} ,,,Faith,Order,,2
 %PROJECT%/Faith.Reinforcement.png,%PROJECT%/ALP.FTH.017.png,"<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i> 
 While this card is revealed in play, prevent all damage dealt to allied units.","Her Men, Unyielding",ALP.FTH.017,{r} {r} ,,,Faith,Reinforcement,,
 %PROJECT%/Faith.Reinforcement.png,%PROJECT%/ALP.FTH.018.png,"<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i> 

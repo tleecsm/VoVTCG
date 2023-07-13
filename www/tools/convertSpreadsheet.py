@@ -60,7 +60,8 @@ class CardCodesSpreadsheet:
     def convertCardCodesToCardCreatorCSV(self):
         # Create the columns we need for the new dataframe
         headers = {
-            "OverlayType": [],
+            "TypeOverlay": [],
+            "AttributeOverlay": [],
             "Art": [],
             "Text": [],
             "Name": [],
@@ -78,6 +79,8 @@ class CardCodesSpreadsheet:
         for i in range(len(self.spreadsheet.index)):
             data = {
             "OverlayType": f'%PROJECT%/{self.spreadsheet.loc[i, "Attribute"]}.{self.spreadsheet.loc[i, "Type"]}.png',
+            "TypeOverlay": f'%PROJECT%/{self.spreadsheet.loc[i, "Type"]}.png',
+            "AttributeOverlay": f'%PROJECT%/{self.spreadsheet.loc[i, "Attribute"]}.png',
             "Art": f'%PROJECT%/{self.spreadsheet.loc[i, "Code"]}.png',
             "Text": self.spreadsheet.loc[i, "Text"],
             "Name": self.spreadsheet.loc[i, "Name"],

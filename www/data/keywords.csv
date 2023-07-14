@@ -10,5 +10,7 @@ Keyword,Replacement
 {{reflected}},<b>Reflected:</b> <i>Target card is moved across a fortification's reinforcement rail to the opposite side of the same fortification.</i>
 {{translated}},<b>Translated:</b> <i>Target card is moved across the nearest lane boundary to a reinforcement rail belonging to a fortification in another lane.</i>
 "{{persistence,x}}","<b>Persistence, {{x}}:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains {{x}} Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>"
-{{sanctum}},<b>Sanctum:</b> <i>Worship effects require 1 less Disciple to activate.</i>
+{{sanctum}},<b>Sanctum:</b> <i>Allied Worship effects require 1 less Disciple to activate.</i>
 {{disciple}},<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>
+{{unique}},<b>Unique:</b> <i>You may only include one copy of this card in your deck.</i>
+{{zodiac}},<b>Zodiac</b>

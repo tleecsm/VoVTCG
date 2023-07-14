@@ -1,540 +1,121 @@
-## <b>Commoner</b>
-### <i> Unit, Non-attribute</i>
- - Cost: 1
- - Power: 1
-
-
-
-<br>
-
-##### ALP.NAT.001
-
-<hr>
-
-## <b>Townsfolk</b>
-### <i> Unit, Non-attribute</i>
- - Cost: 2
- - Power: 2
-
-
-<b>Swarm:</b> <i>This unit is not destroyed upon taking damage.</i>
-<br>
-
-##### ALP.NAT.002
-
-<hr>
-
-## <b>Militia </b>
-### <i> Unit, Non-attribute</i>
- - Cost: 3
- - Power: 4
-
-
-<b>Swarm:</b> <i>This unit is not destroyed upon taking damage.</i>
-<br>
-
-##### ALP.NAT.003
-
-<hr>
-
-## <b>Keep</b>
-### <i> Fortification, Non-attribute</i>
- - Life: 10
-
-
-
-<br>
-
-##### ALP.NAT.004
-
-<hr>
-
-## <b>Watchtower</b>
-### <i> Fortification, Non-attribute</i>
- - Life: 7
-
-
-<b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>
-<br>
-
-##### ALP.NAT.005
-
-<hr>
-
-## <b>Battle Cry</b>
-### <i> Order, Non-attribute</i>
- - Rank: 1
- - Cost: 2
-
-
-All cards deployed this turn gain +1 Power until the end of the turn.
-<br>
-
-##### ALP.NAT.006
-
-<hr>
-
-## <b>Recycle</b>
-### <i> Order, Non-attribute</i>
- - Rank: 2
- - Cost: 0
-
-
-Draw a card.
-<br>
-
-##### ALP.NAT.007
-
-<hr>
-
-## <b>In Ruins</b>
-### <i> Order, Non-attribute</i>
- - Rank: 1
- - Cost: 0
-
-
-Place a Ruins card at the bottom of any allied fortification stack.  You may use this card to place a Ruins in an empty fortification stack.
-<br>
-
-##### ALP.NAT.008
-
-<hr>
-
-## <b>Well Rested </b>
-### <i> Order, Non-attribute</i>
- - Rank: 1
- - Cost: 0
-
-
-Target leader regains +2 Life.
-<br>
-
-##### ALP.NAT.009
-
-<hr>
-
-## <b>Fury for the Fallen</b>
-### <i> Order, Non-attribute</i>
- - Rank: 1
- - Cost: 1
-
-
-Target unit gains +2 Power until the end of this turn.
-<br>
-
-##### ALP.NAT.010
-
-<hr>
-
-## <b>Attack Order</b>
-### <i> Order, Non-attribute</i>
- - Rank: 1
- - Cost: 1
-
-
-Whenever target fortification takes damage this turn, it takes 1 additional damage.
-<br>
-
-##### ALP.NAT.011
-
-<hr>
-
-## <b>Identification </b>
-### <i> Order, Non-attribute</i>
- - Rank: 1
- - Cost: 0
-
-
-Reveal target reinforcement.
-<br>
-
-##### ALP.NAT.012
-
-<hr>
-
-## <b>Brick and Mortar </b>
-### <i> Reinforcement, Non-attribute</i>
- - Rank: 1
-
-
-This fortification regains +3 Life.
-<br>
-
-##### ALP.NAT.013
-
-<hr>
-
-## <b>Expansion Plan </b>
-### <i> Reinforcement, Non-attribute</i>
- - Rank: 1
-
-
-This fortification regains +1 Life, and the next time it would take damage this turn, prevent 3 damage.
-<br>
-
-##### ALP.NAT.014
-
-<hr>
-
-## <b>Starvation </b>
-### <i> Reinforcement, Non-attribute</i>
- - Rank: 1
-
-
-Whenever this fortification would take damage this turn, prevent it unless your opponent discards 1 card.
-<br>
-
-##### ALP.NAT.015
-
-<hr>
-
-## <b>Dishonorable Discharge </b>
-### <i> Reinforcement, Non-attribute</i>
- - Rank: 1
-
-
-Return the first unit that arrives at this fortification to its recruitment rail; that unit cannot be redeployed this turn. If multiple units arrive at the same time, your opponent may choose which unit to return.
-<br>
-
-##### ALP.NAT.016
-
-<hr>
-
-## <b>Prepared Defensive </b>
-### <i> Reinforcement, Non-attribute</i>
- - Rank: 1
-
-
-Cards that attack this fortification this turn have -2 Power.
-<br>
-
-##### ALP.NAT.017
-
-<hr>
-
-## <b>Eye for an Eye</b>
-### <i> Response, Non-attribute</i>
- - Rank: 1
- - Cost: 0
-
-
-<b>Trigger:</b> Your opponent draws a card as the result of an order.  
-<b>Response:</b> Draw a card.
-<br>
-
-##### ALP.NAT.018
-
-<hr>
-
-## <b>Rapid Response</b>
-### <i> Response, Non-attribute</i>
- - Rank: 1
- - Cost: 0
-
-
-<b>Trigger:</b> A leader takes damage from any source.    
-<b>Response:</b> That leader regains +1 Life. 
-<br>
-
-##### ALP.NAT.019
-
-<hr>
-
-## <b>Road Less Traveled </b>
-### <i> Response, Non-attribute</i>
- - Rank: 1
- - Cost: 0
-
-
-<b>Trigger:</b> A card is deployed.  
-<b>Response:</b> That card is deployed to their recruitment rail's other lane. 
-<br>
-
-##### ALP.NAT.020
-
-<hr>
-
-## <b>Upcycle</b>
-### <i> Order, Non-attribute</i>
- - Rank: 3
- - Cost: 0
-
-
-Draw 2 cards.
-<br>
-
-##### ALP.NAT.021
-
-<hr>
-
-## <b>Disarm</b>
-### <i> Order, Non-attribute</i>
- - Rank: 2
- - Cost: 0
-
-
-Disable target reinforcement until the end of your turn.
-<br>
-
-##### ALP.NAT.022
-
-<hr>
-
-## <b>I want you!</b>
-### <i> Order, Non-attribute</i>
- - Rank: 2
- - Cost: 0
-
-
-Target leader gains +1 Hand until end of your next turn.
-<br>
-
-##### ALP.NAT.023
-
-<hr>
-
-## <b>With Advantage! </b>
-### <i> Order, Non-attribute</i>
- - Rank: 2
- - Cost: 1
-
-
-If target card completes a successful attack this turn, deploy another unit to the same fortification.
-<br>
-
-##### ALP.NAT.024
-
-<hr>
-
-## <b>Repeat Offender </b>
-### <i> Order, Non-attribute</i>
+## <b>Seeing Bloodred</b>
+### <i>Berserker Order, Melee</i>
  - Rank: 2
  - Cost: 2
 
 
-If target card completes a successful attack this turn, recruit them to the same lane at the end of this turn. 
+Remove all Rage counters from target Berserker leader.  Until the end of your turn, that leader may be redeployed once for each Rage counter removed this way.
 <br>
 
-##### ALP.NAT.025
+##### ALP.BSK.002
 
 <hr>
 
-## <b>Indestructible</b>
-### <i> Reinforcement, Non-attribute</i>
- - Rank: 2
-
-
-This fortification cannot be reduced below 1 Life this turn.
-<br>
-
-##### ALP.NAT.026
-
-<hr>
-
-## <b>Caltrops</b>
-### <i> Reinforcement, Non-attribute</i>
- - Rank: 2
-
-
-Deal 1 damage to the first card that arrives at this fortification.  If multiple units arrive at the same time, your opponent may choose which card takes the damage.
-<br>
-
-##### ALP.NAT.027
-
-<hr>
-
-## <b>Meat Shield</b>
-### <i> Reinforcement, Non-attribute</i>
- - Rank: 2
-
-
-When this fortification is attacked, you may choose to destroy a unit from an allied recruitment rail and prevent damage equal to that unit's Power. 
-<br>
-
-##### ALP.NAT.028
-
-<hr>
-
-## <b>Difficult Terrain</b>
-### <i> Response, Non-attribute</i>
- - Rank: 2
- - Cost: 1
-
-
-<b>Trigger:</b> A leader deploys one or more units.  
-<b>Response:</b> That leader cannot deploy or redeploy any additional units this turn.
-<br>
-
-##### ALP.NAT.029
-
-<hr>
-
-## <b>The Cost of War </b>
-### <i> Response, Non-attribute</i>
+## <b>Relentless Rage</b>
+### <i>Berserker Order, Melee</i>
  - Rank: 2
  - Cost: 0
 
 
-<b>Trigger:</b> A player discards one or more times to pay the Cost of a card.  
-<b>Response:</b> That player must discard an additional card (if possible).
+Remove 1 Rage counter from target Berserker leader. If you do, until the start of your next turn that leader cannot be reduced below 1 Life.
 <br>
 
-##### ALP.NAT.030
+##### ALP.BSK.003
 
 <hr>
 
-## <b>Referral Bonus</b>
-### <i> Order, Non-attribute</i>
- - Rank: 3
- - Cost: 1
+## <b>Wartorn Battlefield</b>
+### <i>Berserker Fortification, Melee</i>
 
 
-All cards recruited this turn gain -1 Cost.
-<br>
-
-##### ALP.NAT.031
-
-<hr>
-
-## <b>Seek and Destroy </b>
-### <i> Order, Non-attribute</i>
- - Rank: 3
- - Cost: 1
-
-
-Destroy target reinforcement.
-<br>
-
-##### ALP.NAT.032
-
-<hr>
-
-## <b>Another Castle</b>
-### <i> Reinforcement, Non-attribute</i>
- - Rank: 3
-
-
-If this fortification is destroyed, you may choose to discard a card to recreate it with full Life. 
-<br>
-
-##### ALP.NAT.033
-
-<hr>
-
-## <b>Peace Offering </b>
-### <i> Response, Non-attribute</i>
- - Rank: 3
- - Cost: 1
-
-
-<b>Trigger:</b> A player recruits one or more units.  
-<b>Response:</b> That player cannot recruit any additional units this turn.
-<br>
-
-##### ALP.NAT.034
-
-<hr>
-
-## <b>Ruins</b>
-### <i> Fortification, Non-attribute</i>
-
-
+Allied leaders gain +1 Power while deployed to a lane shared by this fortification.  
 <b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>
 <br>
 
-##### ALP.NAT.035
+##### ALP.BSK.004
 
 <hr>
 
-## <b>Rust Monster</b>
-### <i> Response, Non-attribute</i>
- - Rank: 1
- - Cost: 1
+## <b>Lothar, Axe of the Asperlands</b>
+### <i>Berserker Leader, Melee</i>
+ - Cost: 3
+ - Power: 3
+ - Life: 12
+ - Hand: 2
 
 
-<b>Trigger:</b> An <b>Equip</b> order is played.  
-<b>Response:</b> Destroy the <b>Equip</b> order.
+Whenever Lothar is dealt damage to his Life, create a Rage counter on his card.  
 <br>
 
-##### ALP.NAT.036
+##### ALP.BSK.001
 
 <hr>
 
-## <b>Bareknuckle Brawlers</b>
-### <i> Order, Non-attribute</i>
+## <b>Prayer to the Idol</b>
+### <i>Exarch Order, Faith</i>
  - Rank: 2
- - Cost: 0
-
-
-Destroy all <b>Equip</b> orders currently in play.
-<br>
-
-##### ALP.NAT.037
-
-<hr>
-
-## <b>Boots at the Door</b>
-### <i> Reinforcement, Non-attribute</i>
- - Rank: 2
-
-
-When a card with an <b>Equip</b> order arrives at this fortification, you may discard a card. If you do, destroy all <b>Equip</b> orders attached to that card.
-<br>
-
-##### ALP.NAT.038
-
-<hr>
-
-## <b>Cycle</b>
-### <i> Order, Non-attribute</i>
- - Rank: 1
- - Cost: 0
-
-
-Draw a card, then discard a card.
-<br>
-
-##### ALP.NAT.039
-
-<hr>
-
-## <b>Warding Tower</b>
-### <i> Fortification, Non-attribute</i>
- - Life: 7
-
-
-Allied leaders in reserve that share a lane with this fortification cannot be targeted by the effects of your opponent's orders. 
-<br>
-
-##### ALP.NAT.040
-
-<hr>
-
-## <b>Castle the King</b>
-### <i> Order, Non-attribute</i>
- - Rank: 1
- - Cost: 0
-
-
-Switch the position of two allied leaders in reserve.  <i>(Recruited units are not affected by a change in leader position.)</i>
-<br>
-
-##### ALP.NAT.041
-
-<hr>
-
-## <b>Ibn Rasa, Master of None</b>
-### <i>Generalist Leader, Non-attribute</i>
  - Cost: 2
- - Power: 2
+
+
+Move any number of <b>Persist</b> counters from one <b>Persistence</b> card to another <b>Persistence</b> card.
+<br>
+
+##### ALP.EXA.002
+
+<hr>
+
+## <b>Statue of the Exarch</b>
+### <i>Exarch Reinforcement, Faith</i>
+ - Rank: 3
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+While this card is revealed in play, it is the only card that <b>Persist</b> counters must be removed from in the end phase. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>
+<br>
+
+##### ALP.EXA.003
+
+<hr>
+
+## <b>Crystalline Chapel</b>
+### <i>Exarch Fortification, Faith</i>
+ - Life: 10
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+Whenever another <b>Persistence</b> card attached to this fortification is destroyed, this card regains +2 Life.  
+Whenever a card attached to this fortification would gain a <b>Persist</b> counter, you may instead add that counter to this card.
+<br>
+
+##### ALP.EXA.004
+
+<hr>
+
+## <b>Seraphim, Idol of Worship</b>
+### <i>Exarch Leader, Faith</i>
+ - Cost: 2
  - Life: 10
  - Hand: 3
 
 
-Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 Power until the end of the turn.
+<b>Worship, 2 Disciples (1 Cost):</b> Target <b>Persistence</b> card with no <b>Persist</b> counters gains +1 <b>Persist</b> counter.   
+<i>(This effect can only be activated in your deployment phase while 2 allied Disciple cards share a recruitment rail with this Leader.)</i> 
 <br>
 
-##### ALP.GEN.001
+##### ALP.EXA.001
+
+<hr>
+
+## <b>Jack of All </b>
+### <i>Generalist Order, Non-attribute</i>
+ - Rank: 2
+ - Cost: 0
+
+
+Cards recruited this turn may be recruited to any recruitment rail in any allied lane.
+<br>
+
+##### ALP.GEN.003
 
 <hr>
 
@@ -552,19 +133,6 @@ Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 
 
 <hr>
 
-## <b>Jack of All </b>
-### <i>Generalist Order, Non-attribute</i>
- - Rank: 2
- - Cost: 0
-
-
-Cards recruited this turn may be recruited to any recruitment rail in any allied lane.
-<br>
-
-##### ALP.GEN.003
-
-<hr>
-
 ## <b>Hamlet</b>
 ### <i>Generalist Fortification, Non-attribute</i>
  - Life: 8
@@ -577,18 +145,18 @@ Cards recruited this turn may be recruited to any recruitment rail in any allied
 
 <hr>
 
-## <b>Spotstrix, Conniving Goblin</b>
-### <i>Lootmonger Leader, Non-attribute</i>
- - Cost: 1
- - Power: 1
- - Life: 5
+## <b>Ibn Rasa, Master of None</b>
+### <i>Generalist Leader, Non-attribute</i>
+ - Cost: 2
+ - Power: 2
+ - Life: 10
  - Hand: 3
 
 
-Whenever a non-attribute reinforcement controlled by an opponent is revealed, draw 1 card, then discard 1 card.
+Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 Power until the end of the turn.
 <br>
 
-##### ALP.LMG.001
+##### ALP.GEN.001
 
 <hr>
 
@@ -630,34 +198,18 @@ The first time a card is deployed to this fortification's lane each turn, draw 1
 
 <hr>
 
-## <b>Elq, Prismatic Witch</b>
-### <i>Wizard Leader, Arcane</i>
- - Cost: 2
- - Power: 1
- - Life: 4
- - Hand: 2
-
-
-Whenever you play a <b>Spell</b> card, you may choose to pay double its Cost.  If you do, the card gains the <b>Prismatic</b> keyword.  
-(<b>Prismatic:</b> <i>This card's effects cannot be prevented or modified by another player.</i>)  
-<b>Spellcaster, Rank 3:</b><i> While this card is recruited, you may play a Spell card with Rank 3 or less. If you do, remove this card from the recruitment rail.</i>
-<br>
-
-##### ALP.WIZ.001
-
-<hr>
-
-## <b>Bifrost, Prismatic Staff</b>
-### <i>Wizard Order, Arcane</i>
- - Rank: 3
+## <b>Spotstrix, Conniving Goblin</b>
+### <i>Lootmonger Leader, Non-attribute</i>
  - Cost: 1
+ - Power: 1
+ - Life: 5
+ - Hand: 3
 
 
-<b>Once per Turn Order (1 Cost):</b> Parent Wizard card gains +1 Power and its damage cannot be prevented or modified by another player.  
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
+Whenever a non-attribute reinforcement controlled by an opponent is revealed, draw 1 card, then discard 1 card.
 <br>
 
-##### ALP.WIZ.002
+##### ALP.LMG.001
 
 <hr>
 
@@ -676,6 +228,20 @@ Whenever you play a <b>Spell</b> card, you may choose to pay double its Cost.  I
 
 <hr>
 
+## <b>Bifrost, Prismatic Staff</b>
+### <i>Wizard Order, Arcane</i>
+ - Rank: 3
+ - Cost: 1
+
+
+<b>Once per Turn Order (1 Cost):</b> Parent Wizard card gains +1 Power and its damage cannot be prevented or modified by another player.  
+<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
+<br>
+
+##### ALP.WIZ.002
+
+<hr>
+
 ## <b>Outcast's Sanctum</b>
 ### <i>Wizard Fortification, Arcane</i>
  - Life: 6
@@ -689,41 +255,20 @@ Wizard leaders in reserve that share a lane with this fortification cannot be ta
 
 <hr>
 
-## <b>Conjurer</b>
-### <i> Unit, Arcane</i>
- - Cost: 0
-
-
-<b>Spellcaster, Rank 1:</b><i> While this card is recruited, you may play a Spell card with Rank 1 or less. If you do, remove this card from the recruitment rail.</i>
-<br>
-
-##### ALP.ARC.001
-
-<hr>
-
-## <b>Thaumaturge</b>
-### <i> Unit, Arcane</i>
- - Cost: 1
- - Power: 1
-
-
-<b>Spellcaster, Rank 2:</b><i> While this card is recruited, you may play a Spell card with Rank 2 or less. If you do, remove this card from the recruitment rail.</i>
-<br>
-
-##### ALP.ARC.002
-
-<hr>
-
-## <b>Magus</b>
-### <i> Unit, Arcane</i>
+## <b>Elq, Prismatic Witch</b>
+### <i>Wizard Leader, Arcane</i>
  - Cost: 2
- - Power: 2
+ - Power: 1
+ - Life: 4
+ - Hand: 2
 
 
+Whenever you play a <b>Spell</b> card, you may choose to pay double its Cost.  If you do, the card gains the <b>Prismatic</b> keyword.  
+(<b>Prismatic:</b> <i>This card's effects cannot be prevented or modified by another player.</i>)  
 <b>Spellcaster, Rank 3:</b><i> While this card is recruited, you may play a Spell card with Rank 3 or less. If you do, remove this card from the recruitment rail.</i>
 <br>
 
-##### ALP.ARC.003
+##### ALP.WIZ.001
 
 <hr>
 
@@ -792,6 +337,19 @@ Target card on a recruitment rail is moved to any other recruitment rail allied 
 <br>
 
 ##### ALP.ARC.008
+
+<hr>
+
+## <b>Extra Spell Slot</b>
+### <i> Order, Arcane</i>
+ - Rank: 1
+ - Cost: 2X
+
+
+Return a <b>Spell</b> card from your discard pile to your hand. X is the <b>Rank</b> of that <b>Spell</b> card.
+<br>
+
+##### ALP.ARC.029
 
 <hr>
 
@@ -1013,6 +571,21 @@ Discard a card. If you do, the deployment phase ends.
 
 <hr>
 
+## <b>Counterspell</b>
+### <i> Response, Arcane</i>
+ - Rank: 2
+ - Cost: 1
+
+
+<b>Trigger:</b> An order is played.  
+<b>Response:</b> Negate that order's effects and destroy it.  
+<b>Spell, Rank 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
+<br>
+
+##### ALP.ARC.030
+
+<hr>
+
 ## <b>Robes of the Outcast Witch</b>
 ### <i> Order, Arcane</i>
  - Rank: 3
@@ -1067,123 +640,411 @@ Whenever an attached reinforcement is revealed, you may play a <b>Spell</b> card
 
 <hr>
 
-## <b>Extra Spell Slot</b>
-### <i> Order, Arcane</i>
- - Rank: 1
- - Cost: 2X
-
-
-Return a <b>Spell</b> card from your discard pile to your hand. X is the <b>Rank</b> of that <b>Spell</b> card.
-<br>
-
-##### ALP.ARC.029
-
-<hr>
-
-## <b>Counterspell</b>
-### <i> Response, Arcane</i>
- - Rank: 2
- - Cost: 1
-
-
-<b>Trigger:</b> An order is played.  
-<b>Response:</b> Negate that order's effects and destroy it.  
-<b>Spell, Rank 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
-<br>
-
-##### ALP.ARC.030
-
-<hr>
-
-## <b>Lothar, Axe of the Asperlands</b>
-### <i>Berserker Leader, Melee</i>
- - Cost: 3
- - Power: 3
- - Life: 12
- - Hand: 2
-
-
-Whenever Lothar is dealt damage to his Life, create a Rage counter on his card.  
-<br>
-
-##### ALP.BSK.001
-
-<hr>
-
-## <b>Seeing Bloodred</b>
-### <i>Berserker Order, Melee</i>
- - Rank: 2
- - Cost: 2
-
-
-Remove all Rage counters from target Berserker leader.  Until the end of your turn, that leader may be redeployed once for each Rage counter removed this way.
-<br>
-
-##### ALP.BSK.002
-
-<hr>
-
-## <b>Relentless Rage</b>
-### <i>Berserker Order, Melee</i>
- - Rank: 2
+## <b>Conjurer</b>
+### <i> Unit, Arcane</i>
  - Cost: 0
 
 
-Remove 1 Rage counter from target Berserker leader. If you do, until the start of your next turn that leader cannot be reduced below 1 Life.
+<b>Spellcaster, Rank 1:</b><i> While this card is recruited, you may play a Spell card with Rank 1 or less. If you do, remove this card from the recruitment rail.</i>
 <br>
 
-##### ALP.BSK.003
+##### ALP.ARC.001
 
 <hr>
 
-## <b>Wartorn Battlefield</b>
-### <i>Berserker Fortification, Melee</i>
-
-
-Allied leaders gain +1 Power while deployed to a lane shared by this fortification.  
-<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>
-<br>
-
-##### ALP.BSK.004
-
-<hr>
-
-## <b>Fighter</b>
-### <i> Unit, Melee</i>
+## <b>Thaumaturge</b>
+### <i> Unit, Arcane</i>
  - Cost: 1
- - Power: 2
+ - Power: 1
 
 
-
+<b>Spellcaster, Rank 2:</b><i> While this card is recruited, you may play a Spell card with Rank 2 or less. If you do, remove this card from the recruitment rail.</i>
 <br>
 
-##### ALP.MEL.001
+##### ALP.ARC.002
 
 <hr>
 
-## <b>Knight</b>
-### <i> Unit, Melee</i>
+## <b>Magus</b>
+### <i> Unit, Arcane</i>
  - Cost: 2
  - Power: 2
 
 
-When this unit is deployed at the same time as a melee leader, it gains +1 Power.
+<b>Spellcaster, Rank 3:</b><i> While this card is recruited, you may play a Spell card with Rank 3 or less. If you do, remove this card from the recruitment rail.</i>
 <br>
 
-##### ALP.MEL.002
+##### ALP.ARC.003
 
 <hr>
 
-## <b>Champion</b>
-### <i> Unit, Melee</i>
- - Cost: 3
- - Power: 2
+## <b>Share All in Her World</b>
+### <i> Order, Faith</i>
+ - Rank: 1
+ - Cost: 0
 
 
-When this unit is deployed at the same time as a melee leader, it gains any modifications to Power that the Leader has gained this turn. 
+Each player targets one of their face down reinforcements and reveals it. 
 <br>
 
-##### ALP.MEL.003
+##### ALP.FTH.001
+
+<hr>
+
+## <b>Her Hymn of Rejuvenation</b>
+### <i> Order, Faith</i>
+ - Rank: 1
+ - Cost: 0
+
+
+All allied leaders regain +2 Life.
+<br>
+
+##### ALP.FTH.002
+
+<hr>
+
+## <b>Her Blessing of Light</b>
+### <i> Order, Faith</i>
+ - Rank: 1
+ - Cost: 0
+
+
+Prevent the next 1 damage all allied cards take this turn. 
+<br>
+
+##### ALP.FTH.003
+
+<hr>
+
+## <b>Her Home for You</b>
+### <i> Order, Faith</i>
+ - Rank: 1
+ - Cost: 0
+
+
+Target fortification regains +2 Life.
+<br>
+
+##### ALP.FTH.004
+
+<hr>
+
+## <b>Play Again, Her Hymn</b>
+### <i> Order, Faith</i>
+ - Rank: 1
+ - Cost: 0
+
+
+Target one reinforcement that is revealed in play. Turn it face down, then you may reveal it.
+<br>
+
+##### ALP.FTH.005
+
+<hr>
+
+## <b>In Her Name</b>
+### <i> Order, Faith</i>
+ - Rank: 1
+ - Cost: 0
+
+
+The next <b>Worship</b> effect you activate this turn gains -2 Cost.
+<br>
+
+##### ALP.FTH.011
+
+<hr>
+
+## <b>Her Garb of Golden Order</b>
+### <i> Order, Faith</i>
+ - Rank: 1
+ - Cost: 0
+
+
+<b>Once per Turn Order (0 Cost):</b> Parent card gains the <b>Disciple</b> keyword until the end of the turn.  
+<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+(<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>)
+<br>
+
+##### ALP.FTH.013
+
+<hr>
+
+## <b>Enchant, Her Golden Light</b>
+### <i> Reinforcement, Faith</i>
+ - Rank: 1
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+Prevent the first 2 damage dealt to this fortification.
+<br>
+
+##### ALP.FTH.006
+
+<hr>
+
+## <b>Prosperous Harvest, Her Gift</b>
+### <i> Reinforcement, Faith</i>
+ - Rank: 1
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+While this card is revealed in play, whenever this fortification would regain Life, it regains +1 Life. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>
+<br>
+
+##### ALP.FTH.007
+
+<hr>
+
+## <b>Greet Thy Neighbor, Her Child</b>
+### <i> Reinforcement, Faith</i>
+ - Rank: 1
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+While this card is revealed in play, this fortification cannot be targeted by the effects of your opponent's orders. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>
+<br>
+
+##### ALP.FTH.008
+
+<hr>
+
+## <b>Her Gift of Golden Grain</b>
+### <i> Reinforcement, Faith</i>
+ - Rank: 1
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+This fortification regains +2 Life.
+<br>
+
+##### ALP.FTH.009
+
+<hr>
+
+## <b>Her Blessing, Divine</b>
+### <i> Reinforcement, Faith</i>
+ - Rank: 1
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+Cards that attack this fortification have -1 Power.
+<br>
+
+##### ALP.FTH.010
+
+<hr>
+
+## <b>Her Presence, Emanating</b>
+### <i> Reinforcement, Faith</i>
+ - Rank: 1
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
+While this card is revealed in play, this fortification gains the <b>Sanctum</b> keyword. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>  
+(<b>Sanctum:</b> <i>Allied Worship effects require 1 less Disciple to activate.</i>)
+<br>
+
+##### ALP.FTH.012
+
+<hr>
+
+## <b>Her Chapels, Restored</b>
+### <i> Order, Faith</i>
+ - Rank: 2
+ - Cost: 1
+
+
+All allied faith fortifications regain +2 Life.
+<br>
+
+##### ALP.FTH.014
+
+<hr>
+
+## <b>Her Image, Everlasting</b>
+### <i> Order, Faith</i>
+ - Rank: 2
+ - Cost: 1
+
+
+Target <b>Persistence</b> card gains +1 <b>Persist</b> counter. 
+<br>
+
+##### ALP.FTH.015
+
+<hr>
+
+## <b>She Sees All</b>
+### <i> Order, Faith</i>
+ - Rank: 2
+ - Cost: 2
+
+
+All face down reinforcements are revealed.
+<br>
+
+##### ALP.FTH.016
+
+<hr>
+
+## <b>Her Men, Unyielding</b>
+### <i> Reinforcement, Faith</i>
+ - Rank: 2
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
+While this card is revealed in play, prevent all damage dealt to allied units.
+<br>
+
+##### ALP.FTH.017
+
+<hr>
+
+## <b>For Her, They Follow</b>
+### <i> Reinforcement, Faith</i>
+ - Rank: 2
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
+While this card is revealed in play, the first order you play each turn gains -1 Cost.
+<br>
+
+##### ALP.FTH.018
+
+<hr>
+
+## <b>To Her, They Come</b>
+### <i> Reinforcement, Faith</i>
+ - Rank: 2
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
+While this card is revealed in play, the first card you recruit each turn gains -1 Cost.
+<br>
+
+##### ALP.FTH.019
+
+<hr>
+
+## <b>Flow, Her Radiant Embrace</b>
+### <i> Reinforcement, Faith</i>
+ - Rank: 2
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+Restore 2 Life to all allied cards.
+<br>
+
+##### ALP.FTH.020
+
+<hr>
+
+## <b>Come to Her, Stay with Her</b>
+### <i> Response, Faith</i>
+ - Rank: 2
+ - Cost: 2
+
+
+<b>Trigger:</b> Target reinforcement is activated by a card arriving to its fortification.  
+<b>Response:</b> Target reinforcement gains the <b>Persistence, 1</b> keyword.   
+(<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)
+<br>
+
+##### ALP.FTH.021
+
+<hr>
+
+## <b>Against Her, They Relent</b>
+### <i> Reinforcement, Faith</i>
+ - Rank: 3
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
+While this card is revealed in play, the first time your opponent discards to pay the Cost of a card each turn, they discard an additional card (if possible).
+<br>
+
+##### ALP.FTH.022
+
+<hr>
+
+## <b>Peace Be Upon Her Land</b>
+### <i> Reinforcement, Faith</i>
+ - Rank: 3
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+While this card is revealed in play, all damage is prevented except damage dealt to this fortification. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>
+<br>
+
+##### ALP.FTH.023
+
+<hr>
+
+## <b>By Her Name, Return</b>
+### <i> Reinforcement, Faith</i>
+ - Rank: 3
+
+
+Replace this card with any faith reinforcement from your discard pile, then activate that reinforcement.
+<br>
+
+##### ALP.FTH.024
+
+<hr>
+
+## <b>Her Hallowed Grounds</b>
+### <i> Fortification, Faith</i>
+ - Life: 6
+
+
+<b>Sanctum:</b> <i>Allied Worship effects require 1 less Disciple to activate.</i>  
+When this card would be destroyed, it instead remains in play at 0 Life and gains the <b>Defenseless</b> keyword.  
+(<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>)
+<br>
+
+##### ALP.FTH.028
+
+<hr>
+
+## <b>Devoted</b>
+### <i> Unit, Faith</i>
+ - Cost: 1
+
+
+<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>
+<br>
+
+##### ALP.FTH.025
+
+<hr>
+
+## <b>Priest</b>
+### <i> Unit, Faith</i>
+ - Cost: 2
+ - Power: 1
+
+
+<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>  
+When this unit is deployed at the same time as one or more faith cards, the faith cards it was deployed with each regain +1 Life.
+<br>
+
+##### ALP.FTH.026
+
+<hr>
+
+## <b>Cleric</b>
+### <i> Unit, Faith</i>
+ - Cost: 2
+ - Power: 1
+
+
+<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>  
+When this unit is deployed to a lane with a revealed <b>Persistence</b> card in it, it gains +1 Power until the end of the turn.
+<br>
+
+##### ALP.FTH.027
 
 <hr>
 
@@ -1249,6 +1110,19 @@ Target leader has +2 Power until the end of the turn.  You cannot recuit this le
 <br>
 
 ##### ALP.MEL.008
+
+<hr>
+
+## <b>Stationed</b>
+### <i> Order, Melee</i>
+ - Rank: 1
+ - Cost: 0
+
+
+Target melee card on an allied recruitment rail is moved to an empty reinforcement zone on an allied reinforcement rail. The next time that fortification would be attacked, the attached melee card becomes the new target of the attack. If the attack does not destroy the attached melee card, return it to its original recruitment rail.
+<br>
+
+##### ALP.MEL.029
 
 <hr>
 
@@ -1483,7 +1357,7 @@ When this fortification is attacked, you may remove a recruited leader from a re
  - Cost: 1
 
 
-Whenever target melee leader would gain Power this turn as the result of an order or response, they gain an additional +1 Power.
+Whenever target melee leader would gain Power this turn as the result of an order or response, they gain an additional +1 Power until the end of this turn.
 <br>
 
 ##### ALP.MEL.026
@@ -1516,441 +1390,567 @@ Whenever you recruit a leader to a recruitment rail that shares a lane with this
 
 <hr>
 
-## <b>Stationed</b>
-### <i> Order, Melee</i>
+## <b>Fighter</b>
+### <i> Unit, Melee</i>
+ - Cost: 1
+ - Power: 2
+
+
+
+<br>
+
+##### ALP.MEL.001
+
+<hr>
+
+## <b>Knight</b>
+### <i> Unit, Melee</i>
+ - Cost: 2
+ - Power: 2
+
+
+When this unit is deployed at the same time as a melee leader, it gains +1 Power.
+<br>
+
+##### ALP.MEL.002
+
+<hr>
+
+## <b>Champion</b>
+### <i> Unit, Melee</i>
+ - Cost: 3
+ - Power: 2
+
+
+When this unit is deployed at the same time as a melee leader, it gains any modifications to Power that the Leader has gained this turn. 
+<br>
+
+##### ALP.MEL.003
+
+<hr>
+
+## <b>Battle Cry</b>
+### <i> Order, Non-attribute</i>
+ - Rank: 1
+ - Cost: 2
+
+
+All cards deployed this turn gain +1 Power until the end of the turn.
+<br>
+
+##### ALP.NAT.006
+
+<hr>
+
+## <b>In Ruins</b>
+### <i> Order, Non-attribute</i>
  - Rank: 1
  - Cost: 0
 
 
-Target melee card on an allied recruitment rail is moved to an empty reinforcement zone on an allied reinforcement rail. The next time that fortification would be attacked, the attached melee card becomes the new target of the attack. If the attack does not destroy the attached melee card, return it to its original recruitment rail.
+Place a Ruins card at the bottom of any allied fortification stack.  You may use this card to place a Ruins in an empty fortification stack.
 <br>
 
-##### ALP.MEL.029
+##### ALP.NAT.008
 
 <hr>
 
-## <b>Seraphim, Idol of Worship</b>
-### <i>Exarch Leader, Faith</i>
+## <b>Well Rested </b>
+### <i> Order, Non-attribute</i>
+ - Rank: 1
+ - Cost: 0
+
+
+Target leader regains +2 Life.
+<br>
+
+##### ALP.NAT.009
+
+<hr>
+
+## <b>Fury for the Fallen</b>
+### <i> Order, Non-attribute</i>
+ - Rank: 1
+ - Cost: 1
+
+
+Target unit gains +2 Power until the end of this turn.
+<br>
+
+##### ALP.NAT.010
+
+<hr>
+
+## <b>Attack Order</b>
+### <i> Order, Non-attribute</i>
+ - Rank: 1
+ - Cost: 1
+
+
+Whenever target fortification takes damage this turn, it takes 1 additional damage.
+<br>
+
+##### ALP.NAT.011
+
+<hr>
+
+## <b>Identification </b>
+### <i> Order, Non-attribute</i>
+ - Rank: 1
+ - Cost: 0
+
+
+Reveal target reinforcement.
+<br>
+
+##### ALP.NAT.012
+
+<hr>
+
+## <b>Cycle</b>
+### <i> Order, Non-attribute</i>
+ - Rank: 1
+ - Cost: 0
+
+
+Draw a card, then discard a card.
+<br>
+
+##### ALP.NAT.039
+
+<hr>
+
+## <b>Castle the King</b>
+### <i> Order, Non-attribute</i>
+ - Rank: 1
+ - Cost: 0
+
+
+Switch the position of two allied leaders in reserve.  <i>(Recruited units are not affected by a change in leader position.)</i>
+<br>
+
+##### ALP.NAT.041
+
+<hr>
+
+## <b>Brick and Mortar </b>
+### <i> Reinforcement, Non-attribute</i>
+ - Rank: 1
+
+
+This fortification regains +3 Life.
+<br>
+
+##### ALP.NAT.013
+
+<hr>
+
+## <b>Expansion Plan </b>
+### <i> Reinforcement, Non-attribute</i>
+ - Rank: 1
+
+
+This fortification regains +1 Life, and the next time it would take damage this turn, prevent 3 damage.
+<br>
+
+##### ALP.NAT.014
+
+<hr>
+
+## <b>Starvation </b>
+### <i> Reinforcement, Non-attribute</i>
+ - Rank: 1
+
+
+Whenever this fortification would take damage this turn, prevent it unless your opponent discards 1 card.
+<br>
+
+##### ALP.NAT.015
+
+<hr>
+
+## <b>Dishonorable Discharge </b>
+### <i> Reinforcement, Non-attribute</i>
+ - Rank: 1
+
+
+Return the first unit that arrives at this fortification to its recruitment rail; that unit cannot be redeployed this turn. If multiple units arrive at the same time, your opponent may choose which unit to return.
+<br>
+
+##### ALP.NAT.016
+
+<hr>
+
+## <b>Prepared Defensive </b>
+### <i> Reinforcement, Non-attribute</i>
+ - Rank: 1
+
+
+Cards that attack this fortification this turn have -2 Power.
+<br>
+
+##### ALP.NAT.017
+
+<hr>
+
+## <b>Eye for an Eye</b>
+### <i> Response, Non-attribute</i>
+ - Rank: 1
+ - Cost: 0
+
+
+<b>Trigger:</b> Your opponent draws a card as the result of an order.  
+<b>Response:</b> Draw a card.
+<br>
+
+##### ALP.NAT.018
+
+<hr>
+
+## <b>Rapid Response</b>
+### <i> Response, Non-attribute</i>
+ - Rank: 1
+ - Cost: 0
+
+
+<b>Trigger:</b> A leader takes damage from any source.    
+<b>Response:</b> That leader regains +1 Life. 
+<br>
+
+##### ALP.NAT.019
+
+<hr>
+
+## <b>Road Less Traveled </b>
+### <i> Response, Non-attribute</i>
+ - Rank: 1
+ - Cost: 0
+
+
+<b>Trigger:</b> A card is deployed.  
+<b>Response:</b> That card is deployed to their recruitment rail's other lane. 
+<br>
+
+##### ALP.NAT.020
+
+<hr>
+
+## <b>Rust Monster</b>
+### <i> Response, Non-attribute</i>
+ - Rank: 1
+ - Cost: 1
+
+
+<b>Trigger:</b> An <b>Equip</b> order is played.  
+<b>Response:</b> Destroy the <b>Equip</b> order.
+<br>
+
+##### ALP.NAT.036
+
+<hr>
+
+## <b>Recycle</b>
+### <i> Order, Non-attribute</i>
+ - Rank: 2
+ - Cost: 0
+
+
+Draw a card.
+<br>
+
+##### ALP.NAT.007
+
+<hr>
+
+## <b>Disarm</b>
+### <i> Order, Non-attribute</i>
+ - Rank: 2
+ - Cost: 0
+
+
+Disable target reinforcement until the end of your turn.
+<br>
+
+##### ALP.NAT.022
+
+<hr>
+
+## <b>I want you!</b>
+### <i> Order, Non-attribute</i>
+ - Rank: 2
+ - Cost: 0
+
+
+Target leader gains +1 Hand until end of your next turn.
+<br>
+
+##### ALP.NAT.023
+
+<hr>
+
+## <b>With Advantage! </b>
+### <i> Order, Non-attribute</i>
+ - Rank: 2
+ - Cost: 1
+
+
+If target card completes a successful attack this turn, deploy another unit to the same fortification.
+<br>
+
+##### ALP.NAT.024
+
+<hr>
+
+## <b>Repeat Offender </b>
+### <i> Order, Non-attribute</i>
+ - Rank: 2
  - Cost: 2
+
+
+If target card completes a successful attack this turn, recruit them to the same lane at the end of this turn. 
+<br>
+
+##### ALP.NAT.025
+
+<hr>
+
+## <b>Bareknuckle Brawlers</b>
+### <i> Order, Non-attribute</i>
+ - Rank: 2
+ - Cost: 0
+
+
+Destroy all <b>Equip</b> orders currently in play.
+<br>
+
+##### ALP.NAT.037
+
+<hr>
+
+## <b>Indestructible</b>
+### <i> Reinforcement, Non-attribute</i>
+ - Rank: 2
+
+
+This fortification cannot be reduced below 1 Life this turn.
+<br>
+
+##### ALP.NAT.026
+
+<hr>
+
+## <b>Caltrops</b>
+### <i> Reinforcement, Non-attribute</i>
+ - Rank: 2
+
+
+Deal 1 damage to the first card that arrives at this fortification.  If multiple units arrive at the same time, your opponent may choose which card takes the damage.
+<br>
+
+##### ALP.NAT.027
+
+<hr>
+
+## <b>Meat Shield</b>
+### <i> Reinforcement, Non-attribute</i>
+ - Rank: 2
+
+
+When this fortification is attacked, you may choose to destroy a unit from an allied recruitment rail and prevent damage equal to that unit's Power. 
+<br>
+
+##### ALP.NAT.028
+
+<hr>
+
+## <b>Boots at the Door</b>
+### <i> Reinforcement, Non-attribute</i>
+ - Rank: 2
+
+
+When a card with an <b>Equip</b> order arrives at this fortification, you may discard a card. If you do, destroy all <b>Equip</b> orders attached to that card.
+<br>
+
+##### ALP.NAT.038
+
+<hr>
+
+## <b>Difficult Terrain</b>
+### <i> Response, Non-attribute</i>
+ - Rank: 2
+ - Cost: 1
+
+
+<b>Trigger:</b> A leader deploys one or more units.  
+<b>Response:</b> That leader cannot deploy or redeploy any additional units this turn.
+<br>
+
+##### ALP.NAT.029
+
+<hr>
+
+## <b>The Cost of War </b>
+### <i> Response, Non-attribute</i>
+ - Rank: 2
+ - Cost: 0
+
+
+<b>Trigger:</b> A player discards one or more times to pay the Cost of a card.  
+<b>Response:</b> That player must discard an additional card (if possible).
+<br>
+
+##### ALP.NAT.030
+
+<hr>
+
+## <b>Peace Offering </b>
+### <i> Response, Non-attribute</i>
+ - Rank: 2
+ - Cost: 1
+
+
+<b>Trigger:</b> A player recruits one or more units.  
+<b>Response:</b> That player cannot recruit any additional units this turn.
+<br>
+
+##### ALP.NAT.034
+
+<hr>
+
+## <b>Upcycle</b>
+### <i> Order, Non-attribute</i>
+ - Rank: 3
+ - Cost: 0
+
+
+Draw 2 cards.
+<br>
+
+##### ALP.NAT.021
+
+<hr>
+
+## <b>Referral Bonus</b>
+### <i> Order, Non-attribute</i>
+ - Rank: 3
+ - Cost: 1
+
+
+All cards recruited this turn gain -1 Cost.
+<br>
+
+##### ALP.NAT.031
+
+<hr>
+
+## <b>Seek and Destroy </b>
+### <i> Order, Non-attribute</i>
+ - Rank: 3
+ - Cost: 1
+
+
+Destroy target reinforcement.
+<br>
+
+##### ALP.NAT.032
+
+<hr>
+
+## <b>Another Castle</b>
+### <i> Reinforcement, Non-attribute</i>
+ - Rank: 3
+
+
+If this fortification is destroyed, you may choose to discard a card to recreate it with full Life. 
+<br>
+
+##### ALP.NAT.033
+
+<hr>
+
+## <b>Keep</b>
+### <i> Fortification, Non-attribute</i>
  - Life: 10
- - Hand: 3
 
 
-<b>Worship, 2 Disciples (1 Cost):</b> Target <b>Persistence</b> card with no <b>Persist</b> counters gains +1 <b>Persist</b> counter.   
-<i>(This effect can only be activated while 2 allied Disciple cards share a recruitment rail with this Leader.)</i> 
+
 <br>
 
-##### ALP.EXA.001
+##### ALP.NAT.004
 
 <hr>
 
-## <b>Prayer to the Idol</b>
-### <i>Exarch Order, Faith</i>
- - Rank: 2
- - Cost: 2
+## <b>Watchtower</b>
+### <i> Fortification, Non-attribute</i>
+ - Life: 7
 
 
-Move any number of <b>Persist</b> counters from one <b>Persistence</b> card to another <b>Persistence</b> card.
+<b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>
 <br>
 
-##### ALP.EXA.002
+##### ALP.NAT.005
 
 <hr>
 
-## <b>Statue of the Exarch</b>
-### <i>Exarch Reinforcement, Faith</i>
- - Rank: 3
+## <b>Ruins</b>
+### <i> Fortification, Non-attribute</i>
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-While this card is revealed in play, it is the only card that <b>Persist</b> counters must be removed from in the end phase. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>
+<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>
 <br>
 
-##### ALP.EXA.003
+##### ALP.NAT.035
 
 <hr>
 
-## <b>Crystalline Chapel</b>
-### <i>Exarch Fortification, Faith</i>
- - Life: 10
+## <b>Warding Tower</b>
+### <i> Fortification, Non-attribute</i>
+ - Life: 7
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-Whenever another <b>Persistence</b> card attached to this fortification is destroyed, this card regains +2 Life.  
-Whenever a card attached to this fortification would gain a <b>Persist</b> counter, you may instead add that counter to this card.
+Allied leaders in reserve that share a lane with this fortification cannot be targeted by the effects of your opponent's orders. 
 <br>
 
-##### ALP.EXA.004
+##### ALP.NAT.040
 
 <hr>
 
-## <b>Share All in Her World</b>
-### <i> Order, Faith</i>
- - Rank: 1
- - Cost: 0
-
-
-Each player targets one of their face down reinforcements and reveals it. 
-<br>
-
-##### ALP.FTH.001
-
-<hr>
-
-## <b>Her Hymn of Rejuvenation</b>
-### <i> Order, Faith</i>
- - Rank: 1
- - Cost: 0
-
-
-All allied leaders regain +2 Life.
-<br>
-
-##### ALP.FTH.002
-
-<hr>
-
-## <b>Her Blessing of Light</b>
-### <i> Order, Faith</i>
- - Rank: 1
- - Cost: 0
-
-
-Prevent the next 1 damage all allied cards take this turn. 
-<br>
-
-##### ALP.FTH.003
-
-<hr>
-
-## <b>Her Home for You</b>
-### <i> Order, Faith</i>
- - Rank: 1
- - Cost: 0
-
-
-Target fortification regains +2 Life.
-<br>
-
-##### ALP.FTH.004
-
-<hr>
-
-## <b>Play Again, Her Hymn</b>
-### <i> Order, Faith</i>
- - Rank: 1
- - Cost: 0
-
-
-Target one reinforcement that is revealed in play. Turn it face down, then you may reveal it.
-<br>
-
-##### ALP.FTH.005
-
-<hr>
-
-## <b>Enchant, Her Golden Light</b>
-### <i> Reinforcement, Faith</i>
- - Rank: 1
-
-
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-Prevent the first 2 damage dealt to this fortification.
-<br>
-
-##### ALP.FTH.006
-
-<hr>
-
-## <b>Prosperous Harvest, Her Gift</b>
-### <i> Reinforcement, Faith</i>
- - Rank: 1
-
-
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-While this card is revealed in play, whenever this fortification would regain Life, it regains +1 Life. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>
-<br>
-
-##### ALP.FTH.007
-
-<hr>
-
-## <b>Greet Thy Neighbor, Her Child</b>
-### <i> Reinforcement, Faith</i>
- - Rank: 1
-
-
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-While this card is revealed in play, this fortification cannot be targeted by the effects of your opponent's orders. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>
-<br>
-
-##### ALP.FTH.008
-
-<hr>
-
-## <b>Her Gift of Golden Grain</b>
-### <i> Reinforcement, Faith</i>
- - Rank: 1
-
-
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-This fortification regains +2 Life.
-<br>
-
-##### ALP.FTH.009
-
-<hr>
-
-## <b>Her Blessing, Divine</b>
-### <i> Reinforcement, Faith</i>
- - Rank: 1
-
-
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-Cards that attack this fortification have -1 Power.
-<br>
-
-##### ALP.FTH.010
-
-<hr>
-
-## <b>In Her Name</b>
-### <i> Order, Faith</i>
- - Rank: 1
- - Cost: 0
-
-
-The next <b>Worship</b> effect you activate this turn gains -2 Cost.
-<br>
-
-##### ALP.FTH.011
-
-<hr>
-
-## <b>Her Presence, Emanating</b>
-### <i> Reinforcement, Faith</i>
- - Rank: 1
-
-
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
-While this card is revealed in play, this fortification gains the <b>Sanctum</b> keyword. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>  
-(<b>Sanctum:</b> <i>Worship effects require 1 less Disciple to activate.</i>)
-<br>
-
-##### ALP.FTH.012
-
-<hr>
-
-## <b>Her Garb of Golden Order</b>
-### <i> Order, Faith</i>
- - Rank: 1
- - Cost: 0
-
-
-<b>Once per Turn Order (0 Cost):</b> Parent card gains the <b>Disciple</b> keyword until the end of the turn.  
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
-(<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>)
-<br>
-
-##### ALP.FTH.013
-
-<hr>
-
-## <b>Her Chapels, Restored</b>
-### <i> Order, Faith</i>
- - Rank: 2
+## <b>Commoner</b>
+### <i> Unit, Non-attribute</i>
  - Cost: 1
-
-
-All allied faith fortifications regain +2 Life.
-<br>
-
-##### ALP.FTH.014
-
-<hr>
-
-## <b>Her Image, Everlasting</b>
-### <i> Order, Faith</i>
- - Rank: 2
- - Cost: 1
-
-
-Target <b>Persistence</b> card gains +1 <b>Persist</b> counter. 
-<br>
-
-##### ALP.FTH.015
-
-<hr>
-
-## <b>She Sees All</b>
-### <i> Order, Faith</i>
- - Rank: 2
- - Cost: 2
-
-
-
-<br>
-
-##### ALP.FTH.016
-
-<hr>
-
-## <b>Her Men, Unyielding</b>
-### <i> Reinforcement, Faith</i>
- - Rank: 2
-
-
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
-While this card is revealed in play, prevent all damage dealt to allied units.
-<br>
-
-##### ALP.FTH.017
-
-<hr>
-
-## <b>For Her, They Follow</b>
-### <i> Reinforcement, Faith</i>
- - Rank: 2
-
-
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
-While this card is revealed in play, the first order you play each turn gains -1 Cost.
-<br>
-
-##### ALP.FTH.018
-
-<hr>
-
-## <b>To Her, They Come</b>
-### <i> Reinforcement, Faith</i>
- - Rank: 2
-
-
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
-While this card is revealed in play, the first card you recruit each turn gains -1 Cost.
-<br>
-
-##### ALP.FTH.019
-
-<hr>
-
-## <b>Flow, Her Radiant Embrace</b>
-### <i> Reinforcement, Faith</i>
- - Rank: 2
-
-
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-Restore 2 Life to all allied cards.
-<br>
-
-##### ALP.FTH.020
-
-<hr>
-
-## <b>Come to Her, Stay with Her</b>
-### <i> Response, Faith</i>
- - Rank: 2
- - Cost: 2
-
-
-<b>Trigger:</b> Target reinforcement is activated by a card arriving to its fortification.  
-<b>Response:</b> Target reinforcement gains the <b>Persistence, 1</b> keyword.   
-(<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)
-<br>
-
-##### ALP.FTH.021
-
-<hr>
-
-## <b>Against Her, They Relent</b>
-### <i> Reinforcement, Faith</i>
- - Rank: 3
-
-
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
-While this card is revealed in play, the first time your opponent discards to pay the Cost of a card each turn, they discard an additional card (if possible).
-<br>
-
-##### ALP.FTH.022
-
-<hr>
-
-## <b>Peace Be Upon Her Land</b>
-### <i> Reinforcement, Faith</i>
- - Rank: 3
-
-
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-While this card is revealed in play, all damage is prevented except damage dealt to this fortification. <i>(This effect can be active regardless of whether or not the card has been activated this turn.)</i>
-<br>
-
-##### ALP.FTH.023
-
-<hr>
-
-## <b>By Her Name, Return</b>
-### <i> Reinforcement, Faith</i>
- - Rank: 3
-
-
-Replace this card with any faith reinforcement from your discard pile, then activate that reinforcement.
-<br>
-
-##### ALP.FTH.024
-
-<hr>
-
-## <b>Devoted</b>
-### <i> Unit, Faith</i>
- - Cost: 1
-
-
-<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>
-<br>
-
-##### ALP.FTH.025
-
-<hr>
-
-## <b>Priest</b>
-### <i> Unit, Faith</i>
- - Cost: 2
  - Power: 1
 
 
-<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>  
-When this unit is deployed at the same time as one or more faith cards, the faith cards it was deployed with each regain +1 Life.
+
 <br>
 
-##### ALP.FTH.026
+##### ALP.NAT.001
 
 <hr>
 
-## <b>Cleric</b>
-### <i> Unit, Faith</i>
+## <b>Townsfolk</b>
+### <i> Unit, Non-attribute</i>
  - Cost: 2
- - Power: 1
+ - Power: 2
 
 
-<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>  
-When this unit deploys through a revealed <b>Persistence</b> card, it gains +1 Power until the end of the turn.
+<b>Swarm:</b> <i>This unit is not destroyed upon taking damage.</i>
 <br>
 
-##### ALP.FTH.027
+##### ALP.NAT.002
 
 <hr>
 
-## <b>Her Hallowed Grounds</b>
-### <i> Fortification, Faith</i>
- - Life: 6
+## <b>Militia </b>
+### <i> Unit, Non-attribute</i>
+ - Cost: 3
+ - Power: 4
 
 
-<b>Sanctum:</b> <i>Worship effects require 1 less Disciple to activate.</i>  
-When this card would be destroyed, it instead remains in play at 0 Life and gains the <b>Defenseless</b> keyword.  
-(<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>)
+<b>Swarm:</b> <i>This unit is not destroyed upon taking damage.</i>
 <br>
 
-##### ALP.FTH.028
+##### ALP.NAT.003
 
 <hr>
 

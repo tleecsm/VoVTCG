@@ -176,13 +176,13 @@ TypeOverlay,AttributeOverlay,Art,Text,Name,Id,Rank,Life,Power,Attribute,Type,Han
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.BSK.003.png,"Remove 1 Rage counter from target Berserker leader. If you do, until the start of your next turn that leader cannot be reduced below 1 {l}.",Relentless Rage,ALP.BSK.003,{r} {r} ,,,Melee,Berserker Order,,0
 %PROJECT%/Fortification.png,%PROJECT%/Melee.png,%PROJECT%/ALP.BSK.004.png,"Allied leaders gain +1 {p} while deployed to a lane shared by this fortification.
 <b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>",Wartorn Battlefield,ALP.BSK.004,,0,,Melee,Berserker Fortification,,
-%PROJECT%/Leader.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.001.png,"<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other <b>Pack Hunter</b> cards to the same lane.</i>
+%PROJECT%/Leader.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.001.png,"<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>
 Whenever Vvulf is recruited, recruit a <i>Vvolf</i> to an allied lane.","Vvulf, Pack Leader",ALP.PRM.001,,10,2,Melee,Primalist Leader,2,2
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.002.png,All Primalist cards deployed this turn gain +1 {p} until the end of the turn.,Hunt,ALP.PRM.002,{r} {r} ,,,Melee,Primalist Order,,1
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.003.png,"Until the start of your next turn, whenever a <i>Vvolf</i> is recruited, recruit an additional <i>Vvolf</i> to the same recruitment rail.",Family,ALP.PRM.003,{r} {r} ,,,Melee,Primalist Order,,1
 %PROJECT%/Fortification.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.004.png,"Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an allied lane.
 <b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>",Vvolves' Den,ALP.PRM.004,,0,,Melee,Primalist Fortification,,
-%PROJECT%/Unit.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.005.png,<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other <b>Pack Hunter</b> cards to the same lane.</i>,Vvolf,ALP.PRM.005,T,,1,Melee,Primalist Unit,,0
+%PROJECT%/Unit.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.005.png,<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>,Vvolf,ALP.PRM.005,T,,1,Melee,Primalist Unit,,0
 %PROJECT%/Unit.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.001.png,,Fighter,ALP.MEL.001,,,2,Melee,Unit,,1
 %PROJECT%/Unit.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.002.png,"When this unit is deployed at the same time as a melee leader, it gains +1 {p}.",Knight,ALP.MEL.002,,,2,Melee,Unit,,2
 %PROJECT%/Unit.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.003.png,"When this unit is deployed at the same time as a melee leader, it gains any modifications to {p} that the Leader has gained this turn. ",Champion,ALP.MEL.003,,,2,Melee,Unit,,3

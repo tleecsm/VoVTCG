@@ -1376,7 +1376,7 @@ Allied leaders gain +1 Power while deployed to a lane shared by this fortificati
  - Hand: 2
 
 
-<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other <b>Pack Hunter</b> cards to the same lane.</i>  
+<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>  
 Whenever Vvulf is recruited, recruit a <i>Vvolf</i> to an allied lane.
 <br>
 
@@ -1429,7 +1429,7 @@ Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an alli
  - Power: 1
 
 
-<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other <b>Pack Hunter</b> cards to the same lane.</i>
+<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>
 <br>
 
 ##### ALP.PRM.005

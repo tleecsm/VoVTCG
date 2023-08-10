@@ -1,5 +1,6 @@
 ## <b>Commoner</b>
 ### <i> Unit, Non-attribute</i>
+ - Rank: T
  - Cost: 1
  - Power: 1
 
@@ -13,6 +14,7 @@
 
 ## <b>Townsfolk</b>
 ### <i> Unit, Non-attribute</i>
+ - Rank: T
  - Cost: 2
  - Power: 2
 
@@ -26,6 +28,7 @@
 
 ## <b>Militia </b>
 ### <i> Unit, Non-attribute</i>
+ - Rank: T
  - Cost: 3
  - Power: 4
 
@@ -39,6 +42,7 @@
 
 ## <b>Keep</b>
 ### <i> Fortification, Non-attribute</i>
+ - Rank: T
  - Life: 10
 
 
@@ -51,6 +55,7 @@
 
 ## <b>Watchtower</b>
 ### <i> Fortification, Non-attribute</i>
+ - Rank: T
  - Life: 7
 
 
@@ -299,7 +304,7 @@ Target leader gains +1 Hand until end of your next turn.
  - Cost: 1
 
 
-If target card completes a successful attack this turn, deploy another unit to the same fortification.
+If target card completes a successful attack this turn, deploy another unit to the same lane.
 <br>
 
 ##### ALP.NAT.024
@@ -312,7 +317,7 @@ If target card completes a successful attack this turn, deploy another unit to t
  - Cost: 2
 
 
-If target card completes a successful attack this turn, recruit them to the same lane at the end of this turn. 
+
 <br>
 
 ##### ALP.NAT.025
@@ -437,6 +442,7 @@ If this fortification is destroyed, you may choose to discard a card to recreate
 
 ## <b>Ruins</b>
 ### <i> Fortification, Non-attribute</i>
+ - Rank: T
 
 
 <b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>
@@ -500,6 +506,7 @@ Draw a card, then discard a card.
 
 ## <b>Warding Tower</b>
 ### <i> Fortification, Non-attribute</i>
+ - Rank: T
  - Life: 7
 
 
@@ -525,10 +532,11 @@ Switch the position of two allied leaders in reserve.  <i>(Recruited units are n
 
 ## <b>Ibn Rasa, Master of None</b>
 ### <i>Generalist Leader, Non-attribute</i>
+ - Rank: T
  - Cost: 2
  - Power: 2
  - Life: 10
- - Hand: 3
+ - Hand: +1
 
 
 Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 Power until the end of the turn.
@@ -567,6 +575,7 @@ Cards recruited this turn may be recruited to any recruitment rail in any allied
 
 ## <b>Hamlet</b>
 ### <i>Generalist Fortification, Non-attribute</i>
+ - Rank: T
  - Life: 8
 
 
@@ -579,10 +588,11 @@ Cards recruited this turn may be recruited to any recruitment rail in any allied
 
 ## <b>Gerky, Conniving Goblin</b>
 ### <i>Lootmonger Leader, Non-attribute</i>
+ - Rank: T
  - Cost: 1
  - Power: 1
  - Life: 5
- - Hand: 3
+ - Hand: +1
 
 
 Whenever a non-attribute reinforcement controlled by an opponent is revealed, draw 1 card, then discard 1 card.
@@ -620,6 +630,7 @@ Whenever you would draw one or more cards this turn as the result of an effect, 
 
 ## <b>Junk Market</b>
 ### <i>Lootmonger Fortification, Non-attribute</i>
+ - Rank: T
  - Life: 6
 
 
@@ -632,10 +643,10 @@ The first time a card is deployed to this fortification's lane each turn, draw 1
 
 ## <b>Elq, Prismatic Witch</b>
 ### <i>Wizard Leader, Arcane</i>
+ - Rank: T
  - Cost: 2
  - Power: 1
  - Life: 4
- - Hand: 2
 
 
 Whenever you play a <b>Spell</b> card, you may choose to pay double its Cost.  If you do, the card gains the <b>Prismatic</b> keyword.  
@@ -678,6 +689,7 @@ Whenever you play a <b>Spell</b> card, you may choose to pay double its Cost.  I
 
 ## <b>Outcast's Sanctum</b>
 ### <i>Wizard Fortification, Arcane</i>
+ - Rank: T
  - Life: 6
 
 
@@ -691,9 +703,10 @@ Wizard leaders in reserve that share a lane with this fortification cannot be ta
 
 ## <b>Celq, Celestial Queen</b>
 ### <i>Astrologer Leader, Arcane</i>
+ - Rank: T
  - Cost: 3
  - Life: 4
- - Hand: 2
+ - Hand: -1
 
 
 At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each <b>Season</b> from your hand. If you do, draw a card for each card revealed this way.  
@@ -807,7 +820,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 
 
 <b>Zodiac, Season of Autumn</b>  
-<b>Trigger:</b> You draw a card outside of the end phase as a result of an order or card effect.  
+<b>Trigger:</b> You draw a card outside of the end phase as the result of an order or card effect.  
 <b>Response:</b> Target arcane leader gains a +1 Hand counter.  
 <b>Unique:</b> <i>You may only include one copy of this card in your deck.</i>
 <br>
@@ -823,7 +836,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 
 
 <b>Zodiac, Season of Autumn</b>  
-<b>Trigger:</b> You draw a card outside of the end phase as a result of an order or card effect.  
+<b>Trigger:</b> You draw a card outside of the end phase as the result of an order or card effect.  
 <b>Response:</b> Target arcane leader gains a +1 Hand counter.  
 <b>Unique:</b> <i>You may only include one copy of this card in your deck.</i>
 <br>
@@ -839,7 +852,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 
 
 <b>Zodiac, Season of Autumn</b>  
-<b>Trigger:</b> You draw a card outside of the end phase as a result of an order or card effect.  
+<b>Trigger:</b> You draw a card outside of the end phase as the result of an order or card effect.  
 <b>Response:</b> Target arcane leader gains a +1 Hand counter.  
 <b>Unique:</b> <i>You may only include one copy of this card in your deck.</i>
 <br>
@@ -898,10 +911,11 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 
 ## <b>Stargazer's Observatory</b>
 ### <i>Astrologer Fortification, Arcane</i>
+ - Rank: T
  - Life: 6
 
 
-The first time you play a <b>Zodiac</b> card each turn, you may search your deck for a <b>Zodiac</b> card with a different <b>Season</b>. If you do, add it to your hand.  
+Once per turn, when you play a <b>Zodiac</b> card that targets a leader that shares a lane with this fortification, you may search your deck for a <b>Zodiac</b> card with a different <b>Season</b>. If you do, add it to your hand.  
 <b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>
 <br>
 
@@ -911,6 +925,7 @@ The first time you play a <b>Zodiac</b> card each turn, you may search your deck
 
 ## <b>Conjurer</b>
 ### <i> Unit, Arcane</i>
+ - Rank: T
  - Cost: 0
 
 
@@ -923,6 +938,7 @@ The first time you play a <b>Zodiac</b> card each turn, you may search your deck
 
 ## <b>Thaumaturge</b>
 ### <i> Unit, Arcane</i>
+ - Rank: T
  - Cost: 1
  - Power: 1
 
@@ -936,6 +952,7 @@ The first time you play a <b>Zodiac</b> card each turn, you may search your deck
 
 ## <b>Magus</b>
 ### <i> Unit, Arcane</i>
+ - Rank: T
  - Cost: 2
  - Power: 2
 
@@ -1198,7 +1215,7 @@ Deal 2 Damage to all fortifications your opponent controls.
  - Rank: 2
 
 
-Discard a card. If you do, the deployment phase ends.
+Discard a card. If you do, return all deployed units to their recruitment rail; the deployment phase ends.
 <br>
 
 ##### ALP.ARC.022
@@ -1277,6 +1294,7 @@ Deal 3 damage to any target that shares a lane this card's <b>Spellcaster</b>.
 
 ## <b>College of Arcane Arts</b>
 ### <i> Fortification, Arcane</i>
+ - Rank: T
  - Life: 8
 
 
@@ -1317,10 +1335,11 @@ Return a <b>Spell</b> card from your discard pile to your hand. X is the <b>Rank
 
 ## <b>Lothar, Axe of the Asperlands</b>
 ### <i>Berserker Leader, Melee</i>
+ - Rank: T
  - Cost: 3
  - Power: 3
  - Life: 12
- - Hand: 2
+ - Hand: -1
 
 
 Whenever Lothar is dealt damage to his Life, create a Rage counter on his card.  
@@ -1358,6 +1377,7 @@ Remove 1 Rage counter from target Berserker leader. If you do, until the start o
 
 ## <b>Wartorn Battlefield</b>
 ### <i>Berserker Fortification, Melee</i>
+ - Rank: T
 
 
 Allied leaders gain +1 Power while deployed to a lane shared by this fortification.  
@@ -1370,10 +1390,11 @@ Allied leaders gain +1 Power while deployed to a lane shared by this fortificati
 
 ## <b>Vvulf, Pack Leader</b>
 ### <i>Primalist Leader, Melee</i>
+ - Rank: T
  - Cost: 2
  - Power: 2
  - Life: 10
- - Hand: 2
+ - Hand: -1
 
 
 <b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>  
@@ -1412,6 +1433,7 @@ Until the start of your next turn, whenever a <i>Vvolf</i> is recruited, recruit
 
 ## <b>Vvolves' Den</b>
 ### <i>Primalist Fortification, Melee</i>
+ - Rank: T
 
 
 Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an allied lane.  
@@ -1438,6 +1460,7 @@ Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an alli
 
 ## <b>Fighter</b>
 ### <i> Unit, Melee</i>
+ - Rank: T
  - Cost: 1
  - Power: 2
 
@@ -1451,6 +1474,7 @@ Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an alli
 
 ## <b>Knight</b>
 ### <i> Unit, Melee</i>
+ - Rank: T
  - Cost: 2
  - Power: 2
 
@@ -1464,6 +1488,7 @@ When this unit is deployed at the same time as a melee leader, it gains +1 Power
 
 ## <b>Champion</b>
 ### <i> Unit, Melee</i>
+ - Rank: T
  - Cost: 3
  - Power: 2
 
@@ -1507,7 +1532,7 @@ The next time target leader would take damage, prevent 1 damage and regain +1 Li
  - Cost: 1
 
 
-You may destroy a unit on an allied recruitment rail.  If you do, you may recruit an allied leader for 0 Cost.
+You may destroy a melee unit on an allied recruitment rail.  If you do, place an allied Leader in reserve on the same recruitment rail.
 <br>
 
 ##### ALP.MEL.006
@@ -1557,7 +1582,7 @@ When this fortification is attacked, you may choose to defend it with an allied 
  - Rank: 1
 
 
-When this fortification is attacked, it takes no damage unless the attacking card is an opposing leader card.
+When a card arrives at this fortification, that card deals no damage this turn unless it is an opposing leader card.
 <br>
 
 ##### ALP.MEL.010
@@ -1569,7 +1594,7 @@ When this fortification is attacked, it takes no damage unless the attacking car
  - Rank: 1
 
 
-Until the end of your opponents turn, whenever an allied leader would take damage, they prevent 1 damage. 
+Until the end of this turn, whenever an allied leader would take damage, they prevent 1 damage. 
 <br>
 
 ##### ALP.MEL.011
@@ -1581,7 +1606,7 @@ Until the end of your opponents turn, whenever an allied leader would take damag
  - Rank: 1
 
 
-When this fortification takes damage, target leader gains +1 Life. 
+Whenever a unit arrives at this fortification, target leader gains +1 Life (<i>this can increase their Life above its maximum value</i>). 
 <br>
 
 ##### ALP.MEL.012
@@ -1593,7 +1618,7 @@ When this fortification takes damage, target leader gains +1 Life.
  - Rank: 1
 
 
-It this fortification is destroyed, you may recruit an allied leader for 0 Cost. 
+It this fortification is destroyed, you may place any number of melee leaders in reserve on allied recruitment rails. 
 <br>
 
 ##### ALP.MEL.013
@@ -1622,7 +1647,7 @@ When you play this card, you may discard a card. If you do, search your deck for
 
 
 <b>Trigger:</b> Parry is played and prevents the damage from an attack on a leader.  
-<b>Response:</b> Deal 1 damage to the attacking card.
+<b>Response:</b> Deal 3 damage to the attacking card.
 <br>
 
 ##### ALP.MEL.015
@@ -1632,7 +1657,7 @@ When you play this card, you may discard a card. If you do, search your deck for
 ## <b>Twist the Knife</b>
 ### <i> Response, Melee</i>
  - Rank: 1
- - Cost: 1
+ - Cost: 0
 
 
 <b>Trigger:</b> Target allied leader successfully attacks and deals damage to a fortification or leader.  
@@ -1649,7 +1674,7 @@ When you play this card, you may discard a card. If you do, search your deck for
  - Cost: 1
 
 
-If target leader is deployed to any lane this turn, you may redeploy them to a different fortification.  
+If target leader is deployed to any lane this turn, you may redeploy them.  They must be redeployed to a different lane.
 <br>
 
 ##### ALP.MEL.017
@@ -1775,7 +1800,7 @@ When a card arrives at this fortification, you may remove a recruited leader fro
  - Cost: 1
 
 
-Whenever target melee leader would gain Power this turn as the result of an order or response, they gain an additional +1 Power until the end of this turn.
+Whenever target melee leader would gain Power this turn as the result of an order, response, or fortification, they gain an additional +1 Power until the end of this turn.
 <br>
 
 ##### ALP.MEL.026
@@ -1798,10 +1823,11 @@ Whenever target melee leader would gain Power this turn as the result of an orde
 
 ## <b>Garrison</b>
 ### <i> Fortification, Melee</i>
- - Life: 8
+ - Rank: T
+ - Life: 7
 
 
-Whenever you recruit a leader to a recruitment rail that shares a lane with this fortification, you may recruit a unit with the same attribute(s) to the same recruitment rail for -1 Cost.
+Whenever you recruit a leader to a recruitment rail that shares a lane with this fortification, the next unit you recruit with the same attribute(s) to the same recruitment rail gains -1 Cost.
 <br>
 
 ##### ALP.MEL.028
@@ -1814,7 +1840,7 @@ Whenever you recruit a leader to a recruitment rail that shares a lane with this
  - Cost: 0
 
 
-Target melee card on an allied recruitment rail is moved to an empty reinforcement zone on an allied reinforcement rail. The next time a card arrives at that fortification, the attached melee card becomes the target of that card's attack. If the attack does not destroy the attached melee card, return it to its original recruitment rail.
+Target melee card on an allied recruitment rail is moved to an empty reinforcement zone attached to an allied fortification. The next time a card arrives at that fortification, the attached melee card becomes the target of that card's attack. If the attack does not destroy the attached melee card, return it to its original recruitment rail.
 <br>
 
 ##### ALP.MEL.029
@@ -1823,9 +1849,10 @@ Target melee card on an allied recruitment rail is moved to an empty reinforceme
 
 ## <b>Seraphim, Idol of Worship</b>
 ### <i>Exarch Leader, Faith</i>
+ - Rank: T
  - Cost: 2
  - Life: 10
- - Hand: 3
+ - Hand: +1
 
 
 <b>Worship, 2 Disciples (1 Cost):</b> Target <b>Persistence</b> card with no <b>Persist</b> counters gains +1 <b>Persist</b> counter.   
@@ -1864,6 +1891,7 @@ While this card is revealed in play, it is the only card that <b>Persist</b> cou
 
 ## <b>Crystalline Chapel</b>
 ### <i>Exarch Fortification, Faith</i>
+ - Rank: T
  - Life: 10
 
 
@@ -2185,7 +2213,7 @@ While this card is revealed in play, all damage is prevented except damage dealt
  - Rank: 3
 
 
-Replace this card with any faith reinforcement from your discard pile, then activate that reinforcement.
+Replace this card with any faith reinforcement from your discard pile (except <i>By Her Name, Return</i>), then activate that reinforcement.
 <br>
 
 ##### ALP.FTH.024
@@ -2194,6 +2222,7 @@ Replace this card with any faith reinforcement from your discard pile, then acti
 
 ## <b>Devoted</b>
 ### <i> Unit, Faith</i>
+ - Rank: T
  - Cost: 1
 
 
@@ -2206,6 +2235,7 @@ Replace this card with any faith reinforcement from your discard pile, then acti
 
 ## <b>Priest</b>
 ### <i> Unit, Faith</i>
+ - Rank: T
  - Cost: 2
  - Power: 1
 
@@ -2220,6 +2250,7 @@ When this unit is deployed at the same time as one or more faith cards, the fait
 
 ## <b>Cleric</b>
 ### <i> Unit, Faith</i>
+ - Rank: T
  - Cost: 2
  - Power: 1
 
@@ -2234,6 +2265,7 @@ When this unit is deployed to a lane with a revealed <b>Persistence</b> card in 
 
 ## <b>Her Hallowed Grounds</b>
 ### <i> Fortification, Faith</i>
+ - Rank: T
  - Life: 6
 
 

@@ -46,7 +46,10 @@ class CardCodesSpreadsheet:
             
             hand = ""
             if self.spreadsheet.loc[i, "Hand"]:
-                    hand = f' - Hand: { str(self.spreadsheet.loc[i, "Hand"]).replace(".0", "") }\n'
+                handSubString = str(self.spreadsheet.loc[i, "Hand"]).replace(".0", "")
+                if self.spreadsheet.loc[i, "Hand"] >= 0:
+                    handSubString = f'+{handSubString}'
+                hand = f' - Hand: { handSubString }\n'
             cardMarkdown = cardMarkdown.replace("{{Hand}}", hand)
             
             returnMarkdown += f"{cardMarkdown}\r\n"
@@ -77,6 +80,9 @@ class CardCodesSpreadsheet:
         returnSpreadsheet = pd.DataFrame(headers)
         
         for i in range(len(self.spreadsheet.index)):
+            handSubstring = str(self.spreadsheet.loc[i, "Hand"]).replace('.0', "")
+            if self.spreadsheet.loc[i, "Hand"] and self.spreadsheet.loc[i, "Hand"] >= 0:
+                    handSubstring = f'+{handSubstring}'
             data = {
             "OverlayType": f'%PROJECT%/{self.spreadsheet.loc[i, "Attribute"]}.{self.spreadsheet.loc[i, "Type"]}.png',
             "TypeOverlay": f'%PROJECT%/{self.spreadsheet.loc[i, "Type"]}.png',
@@ -90,7 +96,7 @@ class CardCodesSpreadsheet:
             "Power": str(self.spreadsheet.loc[i, "Power"]).replace('.0', ""),
             "Attribute": self.spreadsheet.loc[i, "Attribute"],
             "Type": f'{self.spreadsheet.loc[i, "Class"]} {self.spreadsheet.loc[i, "Type"]}' if self.spreadsheet.loc[i, "Class"] else self.spreadsheet.loc[i, "Type"],
-            "Hand": str(self.spreadsheet.loc[i, "Hand"]).replace('.0', ""),
+            "Hand": handSubstring,
             "Cost": str(self.spreadsheet.loc[i, "Cost"]).replace('.0', ""),
             }
             returnSpreadsheet.loc[len(returnSpreadsheet)] = data

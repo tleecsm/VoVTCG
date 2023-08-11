@@ -7,11 +7,12 @@ Keyword,Replacement
 {{prismatic}},<b>Prismatic:</b> <i>This card's effects cannot be prevented or modified by another player.</i>
 "{{spellcaster,x}}","<b>Spellcaster, Rank {{x}}:</b><i> While this card is recruited, you may play a Spell card with Rank {{x}} or less. If you do, remove this card from the recruitment rail.</i>"
 "{{spell,x}}","<b>Spell, Rank {{x}}:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> "
-{{reflected}},<b>Reflected:</b> <i>Target card is moved across a fortification's reinforcement rail to the opposite side of the same fortification.</i>
-{{translated}},<b>Translated:</b> <i>Target card is moved across the nearest lane boundary to a reinforcement rail belonging to a fortification in another lane.</i>
+{{reflected}},<b>Reflected:</b> <i>Target card is moved to the opposite lane an equal distance away from the center lane.</i>
+{{translated}},<b>Translated:</b> <i>Target card is moved to an adjacent lane of your choice.</i>
 "{{persistence,x}}","<b>Persistence, {{x}}:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains {{x}} Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>"
 {{sanctum}},<b>Sanctum:</b> <i>Allied Worship effects require 1 less Disciple to activate.</i>
 {{disciple}},<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>
 {{unique}},<b>Unique:</b> <i>You may only include one copy of this card in your deck.</i>
 "{{zodiac,x}}","<b>Zodiac, Season of {{x}}</b>"
 {{packhunter}},<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>
+{{armed}},"<b>Armed:</b> <i>At the start of the game, attach a token Equip order to this card. The order you choose must share an attribute or class with this card.</i>"

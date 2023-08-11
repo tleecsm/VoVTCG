@@ -1038,7 +1038,7 @@ Target card on a recruitment rail is moved to any other recruitment rail allied 
 
 
 Any card that arrives at this fortification is <b>Reflected</b>.   
-(<b>Reflected:</b> <i>Target card is moved across a fortification's reinforcement rail to the opposite side of the same fortification.</i>)
+(<b>Reflected:</b> <i>Target card is moved to the opposite lane an equal distance away from the center lane.</i>)
 <br>
 
 ##### ALP.ARC.009
@@ -1051,7 +1051,7 @@ Any card that arrives at this fortification is <b>Reflected</b>.
 
 
 Any card that arrives at this fortification is <b>Translated</b>.  
-(<b>Translated:</b> <i>Target card is moved across the nearest lane boundary to a reinforcement rail belonging to a fortification in another lane.</i>)
+(<b>Translated:</b> <i>Target card is moved to an adjacent lane of your choice.</i>)
 <br>
 
 ##### ALP.ARC.010
@@ -1118,7 +1118,7 @@ You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> 
 
 <b>Trigger:</b> Target card arrives at a fortification.  
 <b>Response:</b> Target card is <b>Reflected</b>.  
-(<b>Reflected:</b> <i>Target card is moved across a fortification's reinforcement rail to the opposite side of the same fortification.</i>)
+(<b>Reflected:</b> <i>Target card is moved to the opposite lane an equal distance away from the center lane.</i>)
 <br>
 
 ##### ALP.ARC.015
@@ -1133,7 +1133,7 @@ You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> 
 
 <b>Trigger:</b> Target card arrives at a fortification.  
 <b>Response:</b> Target card is <b>Translated</b>.  
-(<b>Translated:</b> <i>Target card is moved across the nearest lane boundary to a reinforcement rail belonging to a fortification in another lane.</i>)
+(<b>Translated:</b> <i>Target card is moved to an adjacent lane of your choice.</i>)
 <br>
 
 ##### ALP.ARC.016
@@ -1333,6 +1333,20 @@ Return a <b>Spell</b> card from your discard pile to your hand. X is the <b>Rank
 
 <hr>
 
+## <b>Phantasmal Armament</b>
+### <i> Order, Arcane</i>
+ - Rank: 2
+ - Cost: X
+
+
+This card becomes a copy of target <b>Equip</b> order in play. Destroy this card if the original target order leaves play. X is the <b>Rank</b> of the target order (or 0 if the target is a token).  
+<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
+<br>
+
+##### ALP.ARC.031
+
+<hr>
+
 ## <b>Lothar, Axe of the Asperlands</b>
 ### <i>Berserker Leader, Melee</i>
  - Rank: T
@@ -1342,6 +1356,7 @@ Return a <b>Spell</b> card from your discard pile to your hand. X is the <b>Rank
  - Hand: -1
 
 
+<b>Armed:</b> <i>At the start of the game, attach a token Equip order to this card. The order you choose must share an attribute or class with this card.</i>    
 Whenever Lothar is dealt damage to his Life, create a Rage counter on his card.  
 <br>
 
@@ -1388,6 +1403,20 @@ Allied leaders gain +1 Power while deployed to a lane shared by this fortificati
 
 <hr>
 
+## <b>Blood-wretched Battle-axe</b>
+### <i>Berserker Order, Melee</i>
+ - Rank: T
+ - Cost: 1
+
+
+<b>Once per Turn Order (0 Cost):</b> Deal 2 damage to parent leader. If you do, they gain +1 Power until the end of the turn.  
+<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
+<br>
+
+##### ALP.BSK.005
+
+<hr>
+
 ## <b>Vvulf, Pack Leader</b>
 ### <i>Primalist Leader, Melee</i>
  - Rank: T
@@ -1398,6 +1427,7 @@ Allied leaders gain +1 Power while deployed to a lane shared by this fortificati
 
 
 <b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>  
+<b>Armed:</b> <i>At the start of the game, attach a token Equip order to this card. The order you choose must share an attribute or class with this card.</i>    
 Whenever Vvulf is recruited, recruit a <i>Vvolf</i> to an allied lane.
 <br>
 
@@ -1436,7 +1466,7 @@ Until the start of your next turn, whenever a <i>Vvolf</i> is recruited, recruit
  - Rank: T
 
 
-Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an allied lane.  
+Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an allied recruitment rail.  
 <b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>
 <br>
 
@@ -1455,6 +1485,20 @@ Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an alli
 <br>
 
 ##### ALP.PRM.005
+
+<hr>
+
+## <b>Alpha's Cowl</b>
+### <i>Primalist Order, Melee</i>
+ - Rank: T
+ - Cost: 2
+
+
+<b>Order (1 Cost):</b> Recruit a <i>Vvolf</i> to an allied recruitment rail.  
+<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
+<br>
+
+##### ALP.PRM.006
 
 <hr>
 
@@ -1741,7 +1785,7 @@ When a card arrives at this fortification, you may remove a recruited leader fro
 ## <b>Requip</b>
 ### <i> Response, Melee</i>
  - Rank: 2
- - Cost: 1
+ - Cost: 0
 
 
 <b>Trigger:</b> An order <b>Equipped</b> to an allied leader would be destroyed.  
@@ -1847,6 +1891,60 @@ Target melee card on an allied recruitment rail is moved to an empty reinforceme
 
 <hr>
 
+## <b>Bastard Sword</b>
+### <i> Order, Melee</i>
+ - Rank: T
+ - Cost: 1
+
+
+<b>Once per Turn Order (1 Cost):</b> Parent leader gains +1 Power while attacking other recruited leaders.  
+<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
+<br>
+
+##### ALP.MEL.030
+
+<hr>
+
+## <b>Broadhead Pike</b>
+### <i> Order, Melee</i>
+ - Rank: T
+ - Cost: 1
+
+
+<b>Once per Turn Order (1 Cost):</b> Parent leader gains +1 Power while attacking other leaders in reserve.  
+<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
+<br>
+
+##### ALP.MEL.031
+
+<hr>
+
+## <b>Rearm</b>
+### <i> Order, Melee</i>
+ - Rank: 1
+ - Cost: 0
+
+
+Create a token <b>Equip</b> order that shares an attribute or class with an allied leader, then add it to your hand.
+<br>
+
+##### ALP.MEL.032
+
+<hr>
+
+## <b>Armed to the Teeth</b>
+### <i> Order, Melee</i>
+ - Rank: 2
+ - Cost: 1
+
+
+<b>Equip</b> orders attached to target melee card may be activated for 1 Cost less until the end of this turn.
+<br>
+
+##### ALP.MEL.033
+
+<hr>
+
 ## <b>Seraphim, Idol of Worship</b>
 ### <i>Exarch Leader, Faith</i>
  - Rank: T
@@ -1866,7 +1964,7 @@ Target melee card on an allied recruitment rail is moved to an empty reinforceme
 ## <b>Prayer to the Idol</b>
 ### <i>Exarch Order, Faith</i>
  - Rank: 2
- - Cost: 2
+ - Cost: 0
 
 
 Move any number of <b>Persist</b> counters from one <b>Persistence</b> card to another <b>Persistence</b> card.
@@ -1901,6 +1999,62 @@ Whenever a card attached to this fortification would gain a <b>Persist</b> count
 <br>
 
 ##### ALP.EXA.004
+
+<hr>
+
+## <b>Father Azari, Golden Guidance</b>
+### <i>Apostle Leader, Faith</i>
+ - Rank: T
+ - Cost: 1
+ - Life: 8
+
+
+<b>Worship, 1 Disciple (1 Cost):</b> Whenever an allied faith unit is deployed this turn, target allied card regains +1 Life.   
+<i>(This effect can only be activated in your deployment phase while 1 allied Disciple card shares a recruitment rail with this Leader.)</i> 
+<br>
+
+##### ALP.APS.001
+
+<hr>
+
+## <b>Shepherd for All</b>
+### <i>Apostle Order, Faith</i>
+ - Rank: 1
+ - Cost: 0
+
+
+All cards regain +1 Life.
+<br>
+
+##### ALP.APS.002
+
+<hr>
+
+## <b>Lead to Enlightenment</b>
+### <i>Apostle Reinforcement, Faith</i>
+ - Rank: 3
+
+
+<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+While this card is revealed in play, whenever an allied card regains any Life, all other allied cards regain +1 Life.
+<br>
+
+##### ALP.APS.003
+
+<hr>
+
+## <b>Radiant Sanctuary</b>
+### <i>Apostle Reinforcement, Faith</i>
+ - Rank: T
+ - Life: 6
+
+
+<b>Rejuvenate:</b> <i>Whenever an allied card is deployed to this fortification's lane, that card regains +2 Life.</i>  
+When this card would be destroyed, it instead remains in play at 0 Life and gains the <b>Defenseless</b> keyword.  
+(<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>)
+<br>
+
+##### ALP.APS.004
 
 <hr>
 

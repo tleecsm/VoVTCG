@@ -1,9 +1,9 @@
 TypeOverlay,AttributeOverlay,Art,Text,Name,Id,Rank,Life,Power,Attribute,Type,Hand,Cost
-%PROJECT%/Unit.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.001.png,,Commoner,ALP.NAT.001,T,,1,Non-attribute,Unit,,1
-%PROJECT%/Unit.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.002.png,<b>Swarm:</b> <i>This unit is not destroyed upon taking damage.</i>,Townsfolk,ALP.NAT.002,T,,2,Non-attribute,Unit,,2
-%PROJECT%/Unit.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.003.png,<b>Swarm:</b> <i>This unit is not destroyed upon taking damage.</i>,Militia ,ALP.NAT.003,T,,4,Non-attribute,Unit,,3
-%PROJECT%/Fortification.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.004.png,,Keep,ALP.NAT.004,T,10,,Non-attribute,Fortification,,
-%PROJECT%/Fortification.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.005.png,"<b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>",Watchtower,ALP.NAT.005,T,7,,Non-attribute,Fortification,,
+%PROJECT%/Unit.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.001.png,,Commoner,ALP.NAT.001,,,1,Non-attribute,Unit,,1
+%PROJECT%/Unit.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.002.png,<b>Swarm:</b> <i>This unit is not destroyed upon taking damage.</i>,Townsfolk,ALP.NAT.002,,,2,Non-attribute,Unit,,2
+%PROJECT%/Unit.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.003.png,<b>Swarm:</b> <i>This unit is not destroyed upon taking damage.</i>,Militia ,ALP.NAT.003,,,4,Non-attribute,Unit,,3
+%PROJECT%/Fortification.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.004.png,,Keep,ALP.NAT.004,,10,,Non-attribute,Fortification,,
+%PROJECT%/Fortification.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.005.png,"<b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>",Watchtower,ALP.NAT.005,,7,,Non-attribute,Fortification,,
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.006.png,All cards deployed this turn gain +1 {p} until the end of the turn.,Battle Cry,ALP.NAT.006,{r} ,,,Non-attribute,Order,,2
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.007.png,Draw a card.,Recycle,ALP.NAT.007,{r} {r} ,,,Non-attribute,Order,,0
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.008.png,Place a Ruins card at the bottom of any allied fortification stack.  You may use this card to place a Ruins in an empty fortification stack.,In Ruins,ALP.NAT.008,{r} ,,,Non-attribute,Order,,0
@@ -11,63 +11,63 @@ TypeOverlay,AttributeOverlay,Art,Text,Name,Id,Rank,Life,Power,Attribute,Type,Han
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.010.png,Target unit gains +2 {p} until the end of this turn.,Fury for the Fallen,ALP.NAT.010,{r} ,,,Non-attribute,Order,,1
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.011.png,"Whenever target fortification takes damage this turn, it takes 1 additional damage.",Attack Order,ALP.NAT.011,{r} ,,,Non-attribute,Order,,1
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.012.png,Reveal target reinforcement.,Identification ,ALP.NAT.012,{r} ,,,Non-attribute,Order,,0
-%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.013.png,This fortification regains +3 {l}.,Brick and Mortar ,ALP.NAT.013,{r} ,,,Non-attribute,Reinforcement,,
-%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.014.png,"This fortification regains +1 {l}, and the next time it would take damage this turn, prevent 3 damage.",Expansion Plan ,ALP.NAT.014,{r} ,,,Non-attribute,Reinforcement,,
-%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.015.png,"Whenever this fortification would take damage this turn, prevent it unless your opponent discards 1 card.",Starvation ,ALP.NAT.015,{r} ,,,Non-attribute,Reinforcement,,
-%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.016.png,"Return the first unit that arrives at this fortification to its recruitment rail; that unit cannot be redeployed this turn. If multiple units arrive at the same time, your opponent may choose which unit to return.",Dishonorable Discharge ,ALP.NAT.016,{r} ,,,Non-attribute,Reinforcement,,
-%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.017.png,Cards that arrive at this fortification have -2 {p} until the end of this turn.,Prepared Defensive ,ALP.NAT.017,{r} ,,,Non-attribute,Reinforcement,,
-%PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.018.png,"<b>Trigger:</b> Your opponent draws a card as the result of an order.
+%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.013.png,Attached fortifications regain +3 {l}.,Brick and Mortar ,ALP.NAT.013,{r} ,,,Non-attribute,Reinforcement,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.014.png,"Attached fortifications regain +1 {l}, and the next time they would take damage this turn, prevent 3 damage.",Expansion Plan ,ALP.NAT.014,{r} ,,,Non-attribute,Reinforcement,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.015.png,"Whenever an attached fortification would take damage this turn, prevent it unless your opponent discards 1 card.",Starvation ,ALP.NAT.015,{r} ,,,Non-attribute,Reinforcement,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.016.png,Return the first unit that arrives at each attached fortification to its recruitment rail; that unit cannot be redeployed this turn.,Dishonorable Discharge ,ALP.NAT.016,{r} ,,,Non-attribute,Reinforcement,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.017.png,Cards that arrive at an attached fortification have -2 {p} until the end of this turn.,Prepared Defensive ,ALP.NAT.017,{r} ,,,Non-attribute,Reinforcement,,
+%PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.018.png,"<b>Trigger:</b> An opponent draws a card as the result of an order.
 <b>Response:</b> Draw a card.",Eye for an Eye,ALP.NAT.018,{r} ,,,Non-attribute,Response,,0
-%PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.019.png,"<b>Trigger:</b> A leader takes damage from any source.  
-<b>Response:</b> That leader regains +1 {l}. ",Rapid Response,ALP.NAT.019,{r} ,,,Non-attribute,Response,,0
-%PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.020.png,"<b>Trigger:</b> A card is deployed.
-<b>Response:</b> That card is deployed to their recruitment rail's other lane. ",Road Less Traveled ,ALP.NAT.020,{r} ,,,Non-attribute,Response,,0
+%PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.019.png,"<b>Trigger:</b> Target leader takes damage from any source.  
+<b>Response:</b> Target leader regains +1 {l}. ",Rapid Response,ALP.NAT.019,{r} ,,,Non-attribute,Response,,0
+%PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.020.png,"<b>Trigger:</b> Target card is deployed to a lane.
+<b>Response:</b> Target card is deployed to another unoccupied lane. ",Road Less Traveled ,ALP.NAT.020,{r} ,,,Non-attribute,Response,,0
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.021.png,Draw 2 cards.,Upcycle,ALP.NAT.021,{r} {r} {r} ,,,Non-attribute,Order,,0
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.022.png,Disable target reinforcement until the end of your turn.,Disarm,ALP.NAT.022,{r} {r} ,,,Non-attribute,Order,,0
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.023.png,Target leader gains +1 {h} until end of your next turn.,I want you!,ALP.NAT.023,{r} {r} ,,,Non-attribute,Order,,0
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.024.png,"If target card completes a successful attack this turn, deploy another unit to the same lane.",With Advantage! ,ALP.NAT.024,{r} {r} ,,,Non-attribute,Order,,1
-%PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.025.png,,Repeat Offender ,ALP.NAT.025,{r} {r} ,,,Non-attribute,Order,,2
-%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.026.png,This fortification cannot be reduced below 1 {l} this turn.,Indestructible,ALP.NAT.026,{r} {r} ,,,Non-attribute,Reinforcement,,
-%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.027.png,"Deal 1 damage to the first card that arrives at this fortification.  If multiple units arrive at the same time, your opponent may choose which card takes the damage.",Caltrops,ALP.NAT.027,{r} {r} ,,,Non-attribute,Reinforcement,,
-%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.028.png,"When this fortification is attacked, you may choose to destroy a unit from an allied recruitment rail and prevent damage equal to that unit's {p}. ",Meat Shield,ALP.NAT.028,{r} {r} ,,,Non-attribute,Reinforcement,,
-%PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.029.png,"<b>Trigger:</b> A leader deploys one or more units.
-<b>Response:</b> That leader cannot deploy or redeploy any additional units this turn.",Difficult Terrain,ALP.NAT.029,{r} {r} ,,,Non-attribute,Response,,1
-%PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.030.png,"<b>Trigger:</b> A player discards one or more times to pay the {c} of a card.
-<b>Response:</b> That player must discard an additional card (if possible).",The Cost of War ,ALP.NAT.030,{r} {r} ,,,Non-attribute,Response,,0
+%PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.025.png,"If target card completes a successful attack this turn, recruit them to the same lane at the end of this turn. ",Repeat Offender ,ALP.NAT.025,{r} {r} ,,,Non-attribute,Order,,2
+%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.026.png,Attached fortifications cannot be reduced below 1 {l} this turn.,Indestructible,ALP.NAT.026,{r} {r} ,,,Non-attribute,Reinforcement,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.027.png,Deal 1 damage to the first card that arrives at each attached fortification.,Caltrops,ALP.NAT.027,{r} {r} ,,,Non-attribute,Reinforcement,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.028.png,"When an attached fortification is attacked, you may choose to destroy a unit from an allied recruitment rail and prevent damage equal to that unit's {p}. ",Meat Shield,ALP.NAT.028,{r} {r} ,,,Non-attribute,Reinforcement,,
+%PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.029.png,"<b>Trigger:</b> Target player deploys one or more units.
+<b>Response:</b> Target player cannot deploy or redeploy any additional units this turn.",Difficult Terrain,ALP.NAT.029,{r} {r} ,,,Non-attribute,Response,,1
+%PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.030.png,"<b>Trigger:</b> Target player discards one or more times to pay the {c} of a card.
+<b>Response:</b> Target player must discard an additional card (if possible).",The Cost of War ,ALP.NAT.030,{r} {r} ,,,Non-attribute,Response,,0
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.031.png,All cards recruited this turn gain -1 {c}.,Referral Bonus,ALP.NAT.031,{r} {r} {r} ,,,Non-attribute,Order,,1
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.032.png,Destroy target reinforcement.,Seek and Destroy ,ALP.NAT.032,{r} {r} {r} ,,,Non-attribute,Order,,1
-%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.033.png,"If this fortification is destroyed, you may choose to discard a card to recreate it with full {l}. ",Another Castle,ALP.NAT.033,{r} {r} {r} ,,,Non-attribute,Reinforcement,,
-%PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.034.png,"<b>Trigger:</b> A player recruits one or more units.
-<b>Response:</b> That player cannot recruit any additional units this turn.",Peace Offering ,ALP.NAT.034,{r} {r} ,,,Non-attribute,Response,,1
-%PROJECT%/Fortification.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.035.png,<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>,Ruins,ALP.NAT.035,T,0,,Non-attribute,Fortification,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.033.png,"If an attached fortification is destroyed, you may discard a card.  If you do, recreate it with full {l}. ",Another Castle,ALP.NAT.033,{r} {r} {r} ,,,Non-attribute,Reinforcement,,
+%PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.034.png,"<b>Trigger:</b> Target player recruits one or more units.
+<b>Response:</b> Target player cannot recruit any additional units this turn.",Peace Offering ,ALP.NAT.034,{r} {r} ,,,Non-attribute,Response,,1
+%PROJECT%/Fortification.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.035.png,<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>,Ruins,ALP.NAT.035,,0,,Non-attribute,Fortification,,
 %PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.036.png,"<b>Trigger:</b> An <b>Equip</b> order is played.
-<b>Response:</b> Destroy the <b>Equip</b> order.",Rust Monster,ALP.NAT.036,{r} ,,,Non-attribute,Response,,1
+<b>Response:</b> Destroy the <b>Equip</b> order.",Rust Monster,ALP.NAT.036,{r} ,,,Non-attribute,Response,,0
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.037.png,Destroy all <b>Equip</b> orders currently in play.,Bareknuckle Brawlers,ALP.NAT.037,{r} {r} ,,,Non-attribute,Order,,0
-%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.038.png,"When a card with an <b>Equip</b> order arrives at this fortification, you may discard a card. If you do, destroy all <b>Equip</b> orders attached to that card.",Boots at the Door,ALP.NAT.038,{r} {r} ,,,Non-attribute,Reinforcement,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.038.png,"When a card with an <b>Equip</b> order arrives at an attached fortification, you may discard a card. If you do, destroy all <b>Equip</b> orders attached to that card.",Boots at the Door,ALP.NAT.038,{r} {r} ,,,Non-attribute,Reinforcement,,
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.039.png,"Draw a card, then discard a card.",Cycle,ALP.NAT.039,{r} ,,,Non-attribute,Order,,0
-%PROJECT%/Fortification.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.040.png,Allied leaders in reserve that share a lane with this fortification cannot be targeted by the effects of your opponent's orders. ,Warding Tower,ALP.NAT.040,T,7,,Non-attribute,Fortification,,
+%PROJECT%/Fortification.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.040.png,Allied leaders in reserve that share a lane with this fortification cannot be targeted by the effects of your opponent's orders. ,Warding Tower,ALP.NAT.040,,7,,Non-attribute,Fortification,,
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.041.png,Switch the position of two allied leaders in reserve.  <i>(Recruited units are not affected by a change in leader position.)</i>,Castle the King,ALP.NAT.041,{r} ,,,Non-attribute,Order,,0
-%PROJECT%/Leader.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.GEN.001.png,"Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 {p} until the end of the turn.","Ibn Rasa, Master of None",ALP.GEN.001,T,10,2,Non-attribute,Generalist Leader,+1,2
+%PROJECT%/Leader.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.GEN.001.png,"Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 {p} until the end of the turn.","Ibn Rasa, Master of None",ALP.GEN.001,,10,2,Non-attribute,Generalist Leader,+1,2
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.GEN.002.png,"<b>Once per Turn Order (0 {c}):</b> Parent card gains any attribute or class name you choose until the end of the turn.
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>",Simple Robe,ALP.GEN.002,{r} {r} {r} ,,,Non-attribute,Generalist Order,,2
-%PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.GEN.003.png,Cards recruited this turn may be recruited to any recruitment rail in any allied lane.,Jack of All ,ALP.GEN.003,{r} {r} ,,,Non-attribute,Generalist Order,,0
-%PROJECT%/Fortification.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.GEN.004.png,"<b>Rejuvenate:</b> <i>Whenever an allied card is deployed to this fortification's lane, that card regains +2 {l}.</i>",Hamlet,ALP.GEN.004,T,8,,Non-attribute,Generalist Fortification,,
-%PROJECT%/Leader.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.LMG.001.png,"Whenever a non-attribute reinforcement controlled by an opponent is revealed, draw 1 card, then discard 1 card.","Gerky, Conniving Goblin",ALP.LMG.001,T,5,1,Non-attribute,Lootmonger Leader,+1,1
+%PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.GEN.003.png,Cards recruited this turn may be recruited to any recruitment rail in any allied lane.,Jack of All ,ALP.GEN.003,{r} ,,,Non-attribute,Generalist Order,,0
+%PROJECT%/Fortification.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.GEN.004.png,"<b>Rejuvenate:</b> <i>Whenever an allied card is deployed to this fortification's lane, that card regains +2 {l}.</i>",Hamlet,ALP.GEN.004,,8,,Non-attribute,Generalist Fortification,,
+%PROJECT%/Leader.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.LMG.001.png,"Whenever a non-attribute reinforcement controlled by an opponent is revealed, draw 1 card, then discard 1 card.","Gerky, Conniving Goblin",ALP.LMG.001,,6,1,Non-attribute,Lootmonger Leader,+1,1
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.LMG.002.png,"If this is the first order you have played this turn, draw 2 cards.",Kickstart,ALP.LMG.002,{r} {r} ,,,Non-attribute,Lootmonger Order,,0
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.LMG.003.png,"Whenever you would draw one or more cards this turn as the result of an effect, draw 1 card.",Goblin's Greed,ALP.LMG.003,{r} {r} {r} ,,,Non-attribute,Lootmonger Order,,1
-%PROJECT%/Fortification.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.LMG.004.png,"The first time a card is deployed to this fortification's lane each turn, draw 1 card.",Junk Market,ALP.LMG.004,T,6,,Non-attribute,Lootmonger Fortification,,
-%PROJECT%/Leader.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.WIZ.001.png,"Whenever you play a <b>Spell</b> card, you may choose to pay double its {c}.  If you do, the card gains the <b>Prismatic</b> keyword.
+%PROJECT%/Fortification.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.LMG.004.png,"The first time a card arrives at this fortification each turn, draw 1 card.",Junk Market,ALP.LMG.004,,6,,Non-attribute,Lootmonger Fortification,,
+%PROJECT%/Leader.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.WIZ.001.png,"Whenever you play a <b>Spell</b> card, you may change its {c} to 2{c}.  If you do, the card gains the <b>Prismatic</b> keyword.
 (<b>Prismatic:</b> <i>This card's effects cannot be prevented or modified by another player.</i>)
-<b>Spellcaster, Rank 3:</b><i> While this card is recruited, you may play a Spell card with Rank 3 or less. If you do, remove this card from the recruitment rail.</i>","Elq, Prismatic Witch",ALP.WIZ.001,T,4,1,Arcane,Wizard Leader,0,2
+<b>Spellcaster, Rank 3:</b><i> While this card is recruited, you may play a Spell card with Rank 3 or less. If you do, remove this card from the recruitment rail.</i>","Elq, Prismatic Witch",ALP.WIZ.001,,4,1,Arcane,Wizard Leader,0,2
 %PROJECT%/Order.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.WIZ.002.png,"<b>Once per Turn Order (1 {c}):</b> Parent Wizard card gains +1 {p} and its damage cannot be prevented or modified by another player.
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>","Bifrost, Prismatic Staff",ALP.WIZ.002,{r} {r} {r} ,,,Arcane,Wizard Order,,1
 %PROJECT%/Response.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.WIZ.003.png,"<b>Trigger:</b> Target <b>Spell</b> card is played. 
 <b>Response:</b> Target card gains the <b>Prismatic</b> keyword. 
 (<b>Prismatic:</b> <i>This card's effects cannot be prevented or modified by another player.</i>)",Color Spray,ALP.WIZ.003,{r} ,,,Arcane,Wizard Response,,0
 %PROJECT%/Fortification.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.WIZ.004.png,"Wizard leaders in reserve that share a lane with this fortification cannot be targeted by your opponent for attacks or card effects.
-<b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>",Outcast's Sanctum,ALP.WIZ.004,T,6,,Arcane,Wizard Fortification,,
+<b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>",Outcast's Sanctum,ALP.WIZ.004,,6,,Arcane,Wizard Fortification,,
 %PROJECT%/Leader.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.AST.001.png,"At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each <b>Season</b> from your hand. If you do, draw a card for each card revealed this way.
-<b>Spellcaster, Rank 1:</b><i> While this card is recruited, you may play a Spell card with Rank 1 or less. If you do, remove this card from the recruitment rail.</i>","Celq, Celestial Queen",ALP.AST.001,T,4,0,Arcane,Astrologer Leader,-1,3
+<b>Spellcaster, Rank 1:</b><i> While this card is recruited, you may play a Spell card with Rank 1 or less. If you do, remove this card from the recruitment rail.</i>","Celq, Celestial Queen",ALP.AST.001,,4,0,Arcane,Astrologer Leader,-1,3
 %PROJECT%/Response.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.AST.002.png,"<b>Zodiac, Season of Spring</b>
 <b>Trigger:</b> Target arcane leader attacks.
 <b>Response:</b> Target arcane leader gains +2 {p} counter.
@@ -82,15 +82,15 @@ TypeOverlay,AttributeOverlay,Art,Text,Name,Id,Rank,Life,Power,Attribute,Type,Han
 <b>Unique:</b> <i>You may only include one copy of this card in your deck.</i>","Divine Bull, Tauros",ALP.AST.004,{r} {r} {r} ,,,Arcane,Astrologer Response,,1
 %PROJECT%/Response.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.AST.005.png,"<b>Zodiac, Season of Summer</b>
 <b>Trigger:</b> Target arcane leader takes damage.
-<b>Response:</b> Target arcane leader gains +4 {l} <i>(this can increase their {l} above its maximum value)</i>. 
+<b>Response:</b> Prevent the damage, and if you do target arcane leader gains +2 {l} <i>(this can increase their {l} above its maximum value)</i>. 
 <b>Unique:</b> <i>You may only include one copy of this card in your deck.</i>","Breaching Crab, Karkinos",ALP.AST.005,{r} ,,,Arcane,Astrologer Response,,3
 %PROJECT%/Response.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.AST.006.png,"<b>Zodiac, Season of Summer</b>
 <b>Trigger:</b> Target arcane leader takes damage.
-<b>Response:</b> Target arcane leader gains +4 {l} <i>(this can increase their {l} above its maximum value)</i>. 
+<b>Response:</b> Prevent the damage, and if you do target arcane leader gains +2 {l} <i>(this can increase their {l} above its maximum value)</i>. 
 <b>Unique:</b> <i>You may only include one copy of this card in your deck.</i>","Solitary Goddess, Parthenos",ALP.AST.006,{r} {r} ,,,Arcane,Astrologer Response,,2
 %PROJECT%/Response.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.AST.007.png,"<b>Zodiac, Season of Summer</b>
 <b>Trigger:</b> Target arcane leader takes damage.
-<b>Response:</b> Target arcane leader gains +4 {l} <i>(this can increase their {l} above its maximum value)</i>. 
+<b>Response:</b> Prevent the damage, and if you do target arcane leader gains +2 {l} <i>(this can increase their {l} above its maximum value)</i>. 
 <b>Unique:</b> <i>You may only include one copy of this card in your deck.</i>","Invincible Lion, Leon",ALP.AST.007,{r} {r} {r} ,,,Arcane,Astrologer Response,,1
 %PROJECT%/Response.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.AST.008.png,"<b>Zodiac, Season of Autumn</b>
 <b>Trigger:</b> You draw a card outside of the end phase as the result of an order or card effect.
@@ -117,10 +117,10 @@ TypeOverlay,AttributeOverlay,Art,Text,Name,Id,Rank,Life,Power,Attribute,Type,Han
 <b>Response:</b> Target arcane leader gains a -1 {c} counter.
 <b>Unique:</b> <i>You may only include one copy of this card in your deck.</i>","Lord of the Water, Aigokeros",ALP.AST.013,{r} {r} {r} ,,,Arcane,Astrologer Response,,1
 %PROJECT%/Fortification.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.AST.014.png,"Once per turn, when you play a <b>Zodiac</b> card that targets a leader that shares a lane with this fortification, you may search your deck for a <b>Zodiac</b> card with a different <b>Season</b>. If you do, add it to your hand.
-<b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>",Stargazer's Observatory,ALP.AST.014,T,6,,Arcane,Astrologer Fortification,,
-%PROJECT%/Unit.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.001.png,"<b>Spellcaster, Rank 1:</b><i> While this card is recruited, you may play a Spell card with Rank 1 or less. If you do, remove this card from the recruitment rail.</i>",Conjurer,ALP.ARC.001,T,,0,Arcane,Unit,,0
-%PROJECT%/Unit.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.002.png,"<b>Spellcaster, Rank 2:</b><i> While this card is recruited, you may play a Spell card with Rank 2 or less. If you do, remove this card from the recruitment rail.</i>",Thaumaturge,ALP.ARC.002,T,,1,Arcane,Unit,,1
-%PROJECT%/Unit.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.003.png,"<b>Spellcaster, Rank 3:</b><i> While this card is recruited, you may play a Spell card with Rank 3 or less. If you do, remove this card from the recruitment rail.</i>",Magus,ALP.ARC.003,T,,2,Arcane,Unit,,2
+<b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>",Stargazer's Observatory,ALP.AST.014,,6,,Arcane,Astrologer Fortification,,
+%PROJECT%/Unit.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.001.png,"<b>Spellcaster, Rank 1:</b><i> While this card is recruited, you may play a Spell card with Rank 1 or less. If you do, remove this card from the recruitment rail.</i>",Conjurer,ALP.ARC.001,,,0,Arcane,Unit,,0
+%PROJECT%/Unit.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.002.png,"<b>Spellcaster, Rank 2:</b><i> While this card is recruited, you may play a Spell card with Rank 2 or less. If you do, remove this card from the recruitment rail.</i>",Thaumaturge,ALP.ARC.002,,,1,Arcane,Unit,,1
+%PROJECT%/Unit.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.003.png,"<b>Spellcaster, Rank 3:</b><i> While this card is recruited, you may play a Spell card with Rank 3 or less. If you do, remove this card from the recruitment rail.</i>",Magus,ALP.ARC.003,,,2,Arcane,Unit,,2
 %PROJECT%/Order.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.004.png,"Target card on a recruitment rail gains the <b>Spellcaster, Rank 1</b> keyword until the end of this turn.
 (<b>Spellcaster, Rank 1:</b><i> While this card is recruited, you may play a Spell card with Rank 1 or less. If you do, remove this card from the recruitment rail.</i>)",Magi's Teachings,ALP.ARC.004,{r} ,,,Arcane,Order,,0
 %PROJECT%/Order.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.005.png,Target <b>Spellcaster</b> card gains +1 <b>Rank</b>.,Graduation,ALP.ARC.005,{r} ,,,Arcane,Order,,0
@@ -129,11 +129,11 @@ TypeOverlay,AttributeOverlay,Art,Text,Name,Id,Rank,Life,Power,Attribute,Type,Han
 %PROJECT%/Order.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.007.png,The next <b>Spell</b> card played gains -1 <b>Rank</b> (to a minimum of <b>Rank 1</b>).,From the Spell Scroll,ALP.ARC.007,{r} ,,,Arcane,Order,,1
 %PROJECT%/Order.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.008.png,"Target card on a recruitment rail is moved to any other recruitment rail allied with that card.
 <b>Spell, Rank 1:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> ",Teleport,ALP.ARC.008,{r} ,,,Arcane,Order,,0
-%PROJECT%/Reinforcement.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.009.png,"Any card that arrives at this fortification is <b>Reflected</b>. 
+%PROJECT%/Reinforcement.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.009.png,"Any card that arrives at an attached fortification is <b>Reflected</b>. 
 (<b>Reflected:</b> <i>Target card is moved to the opposite lane an equal distance away from the center lane.</i>)",Reflection,ALP.ARC.009,{r} ,,,Arcane,Reinforcement,,
-%PROJECT%/Reinforcement.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.010.png,"Any card that arrives at this fortification is <b>Translated</b>.
+%PROJECT%/Reinforcement.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.010.png,"Any card that arrives at an attached fortification is <b>Translated</b>.
 (<b>Translated:</b> <i>Target card is moved to an adjacent lane of your choice.</i>)",Translation,ALP.ARC.010,{r} ,,,Arcane,Reinforcement,,
-%PROJECT%/Reinforcement.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.011.png,"You may discard a card. If you do, replace this fortification with a different fortification card that you do not already control. All damage dealt to the original fortification is transfered to the new fortification.",Illusory Keep,ALP.ARC.011,{r} ,,,Arcane,Reinforcement,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.011.png,"You may discard a card. If you do, replace an attached fortification with a different fortification card that you do not already control. All damage dealt to the original fortification is transfered to the new fortification.",Illusory Keep,ALP.ARC.011,{r} ,,,Arcane,Reinforcement,,
 %PROJECT%/Reinforcement.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.012.png,You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> requirement to play a <b>Spell</b> card).,Glowing Sigils,ALP.ARC.012,{r} ,,,Arcane,Reinforcement,,
 %PROJECT%/Response.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.013.png,"<b>Trigger:</b> A player draws one or more cards as the result of another card's effect.
 <b>Response:</b> You may look at the cards that were drawn this way.",Scrying,ALP.ARC.013,{r} ,,,Arcane,Response,,0
@@ -155,55 +155,56 @@ TypeOverlay,AttributeOverlay,Art,Text,Name,Id,Rank,Life,Power,Attribute,Type,Han
 <b>Spell, Rank 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> ",Haste,ALP.ARC.020,{r} {r} ,,,Arcane,Order,,1
 %PROJECT%/Order.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.021.png,"Deal 2 Damage to all fortifications your opponent controls.
 <b>Spell, Rank 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> ",Chain Lightning,ALP.ARC.021,{r} {r} ,,,Arcane,Order,,1
-%PROJECT%/Reinforcement.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.022.png,"Discard a card. If you do, return all deployed units to their recruitment rail; the deployment phase ends.",Time Skip,ALP.ARC.022,{r} {r} ,,,Arcane,Reinforcement,,
-%PROJECT%/Response.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.023.png,"<b>Trigger:</b> An allied card takes damage on your turn.
-<b>Response:</b> The damage is prevented.",Divination,ALP.ARC.023,{r} {r} ,,,Arcane,Response,,0
-%PROJECT%/Response.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.024.png,"<b>Trigger:</b> An allied <b>Spellcaster</b> Leader takes damage from an opponent's card. 
-<b>Response:</b> You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> requirement to play a <b>Spell</b> card).",Spellish Rebuke,ALP.ARC.024,{r} {r} ,,,Arcane,Response,,1
+%PROJECT%/Reinforcement.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.022.png,"Discard a card. If you do, return all deployed cards to their recruitment rail; the deployment phase ends. 
+<i>(Cards that have arrived or attacked this turn are not returned to the recruitment rail)</i>",Time Skip,ALP.ARC.022,{r} {r} ,,,Arcane,Reinforcement,,
+%PROJECT%/Response.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.023.png,"<b>Trigger:</b> Target allied card takes damage on your turn.
+<b>Response:</b> Prevent the damage.",Divination,ALP.ARC.023,{r} {r} ,,,Arcane,Response,,0
+%PROJECT%/Response.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.024.png,"<b>Trigger:</b> Target allied <b>Spellcaster</b> leader takes damage from an opponent's card. 
+<b>Response:</b> You may play a <b>Spell</b> card using the target leader as the <b>Spellcaster</b>, and if you do ignore the recruitment requirement for that <b>Spell</b>.",Spellish Rebuke,ALP.ARC.024,{r} {r} ,,,Arcane,Response,,1
 %PROJECT%/Order.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.025.png,"<b>Once per Turn Order (1 {c}):</b> Parent <b>Spellcaster</b> card ignores the recruitment requirement for next <b>Spell</b> card played this turn.
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>",Robes of the Outcast Witch,ALP.ARC.025,{r} {r} {r} ,,,Arcane,Order,,3
 %PROJECT%/Order.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.026.png,"Deal 1 damage to any number of targets that share a lane this card's <b>Spellcaster</b>..
 <b>Spell, Rank 3:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> ",Meteor Shower,ALP.ARC.026,{r} {r} {r} ,,,Arcane,Order,,1
 %PROJECT%/Order.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.027.png,"Deal 3 damage to any target that shares a lane this card's <b>Spellcaster</b>.
 <b>Spell, Rank 3:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> ",Flare,ALP.ARC.027,{r} {r} {r} ,,,Arcane,Order,,1
-%PROJECT%/Fortification.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.028.png,"Whenever an attached reinforcement is revealed, you may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> requirement to play a <b>Spell</b> card).",College of Arcane Arts,ALP.ARC.028,T,8,,Arcane,Fortification,,
+%PROJECT%/Fortification.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.028.png,"Whenever an attached reinforcement is revealed, you may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> requirement to play a <b>Spell</b> card).",College of Arcane Arts,ALP.ARC.028,,8,,Arcane,Fortification,,
 %PROJECT%/Order.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.029.png,Return a <b>Spell</b> card from your discard pile to your hand. X is the <b>Rank</b> of that <b>Spell</b> card.,Extra Spell Slot,ALP.ARC.029,{r} ,,,Arcane,Order,,2X
 %PROJECT%/Response.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.030.png,"<b>Trigger:</b> An order is played.
 <b>Response:</b> Negate that order's effects and destroy it.
 <b>Spell, Rank 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> ",Counterspell,ALP.ARC.030,{r} {r} ,,,Arcane,Response,,1
-%PROJECT%/Order.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.031.png,"This card becomes a copy of target <b>Equip</b> order in play. Destroy this card if the original target order leaves play. X is the <b>Rank</b> of the target order (or 0 if the target is a token).
+%PROJECT%/Order.png,%PROJECT%/Arcane.png,%PROJECT%/ALP.ARC.031.png,"This card becomes a copy of target <b>Equip</b> order in play. Destroy this card if the original target order leaves play. X is the <b>Rank</b> of the target order.
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>",Phantasmal Armament,ALP.ARC.031,{r} {r} ,,,Arcane,Order,,X
 %PROJECT%/Leader.png,%PROJECT%/Melee.png,%PROJECT%/ALP.BSK.001.png,"<b>Armed:</b> <i>At the start of the game, attach a token Equip order to this card. The order you choose must share an attribute or class with this card.</i>  
-Whenever Lothar is dealt damage to his {l}, create a Rage counter on his card.  ","Lothar, Axe of the Asperlands",ALP.BSK.001,T,12,3,Melee,Berserker Leader,-1,3
+Whenever Lothar is dealt damage to his {l}, create a Rage counter on his card.  ","Lothar, Axe of the Asperlands",ALP.BSK.001,,12,3,Melee,Berserker Leader,-1,3
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.BSK.002.png,"Remove all Rage counters from target Berserker leader.  Until the end of your turn, that leader may be redeployed once for each Rage counter removed this way.",Seeing Bloodred,ALP.BSK.002,{r} {r} ,,,Melee,Berserker Order,,2
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.BSK.003.png,"Remove 1 Rage counter from target Berserker leader. If you do, until the start of your next turn that leader cannot be reduced below 1 {l}.",Relentless Rage,ALP.BSK.003,{r} {r} ,,,Melee,Berserker Order,,0
 %PROJECT%/Fortification.png,%PROJECT%/Melee.png,%PROJECT%/ALP.BSK.004.png,"Allied leaders gain +1 {p} while deployed to a lane shared by this fortification.
-<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>",Wartorn Battlefield,ALP.BSK.004,T,0,,Melee,Berserker Fortification,,
+<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>",Wartorn Battlefield,ALP.BSK.004,,0,,Melee,Berserker Fortification,,
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.BSK.005.png,"<b>Once per Turn Order (0 {c}):</b> Deal 2 damage to parent leader. If you do, they gain +1 {p} until the end of the turn.
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>",Blood-wretched Battle-axe,ALP.BSK.005,T,,,Melee,Berserker Order,,1
+<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>",Blood-wretched Battle-axe,ALP.BSK.005,,,,Melee,Berserker Order,,1
 %PROJECT%/Leader.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.001.png,"<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>
 <b>Armed:</b> <i>At the start of the game, attach a token Equip order to this card. The order you choose must share an attribute or class with this card.</i>  
-Whenever Vvulf is recruited, recruit a <i>Vvolf</i> to an allied lane.","Vvulf, Pack Leader",ALP.PRM.001,T,10,2,Melee,Primalist Leader,-1,2
+Whenever Vvulf is recruited, recruit a <i>Vvolf</i> to an allied lane.","Vvulf, Pack Leader",ALP.PRM.001,,10,2,Melee,Primalist Leader,-1,2
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.002.png,All Primalist cards deployed this turn gain +1 {p} until the end of the turn.,Hunt,ALP.PRM.002,{r} {r} ,,,Melee,Primalist Order,,1
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.003.png,"Until the start of your next turn, whenever a <i>Vvolf</i> is recruited, recruit an additional <i>Vvolf</i> to the same recruitment rail.",Family,ALP.PRM.003,{r} {r} ,,,Melee,Primalist Order,,1
 %PROJECT%/Fortification.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.004.png,"Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an allied recruitment rail.
-<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>",Vvolves' Den,ALP.PRM.004,T,0,,Melee,Primalist Fortification,,
-%PROJECT%/Unit.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.005.png,<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>,Vvolf,ALP.PRM.005,T,,1,Melee,Primalist Unit,,0
-%PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.006.png,"<b>Order (1 {c}):</b> Recruit a <i>Vvolf</i> to an allied recruitment rail.
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>",Alpha's Cowl,ALP.PRM.006,T,,,Melee,Primalist Order,,2
-%PROJECT%/Unit.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.001.png,,Fighter,ALP.MEL.001,T,,2,Melee,Unit,,1
-%PROJECT%/Unit.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.002.png,"When this unit is deployed at the same time as a melee leader, it gains +1 {p}.",Knight,ALP.MEL.002,T,,2,Melee,Unit,,2
-%PROJECT%/Unit.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.003.png,"When this unit is deployed at the same time as a melee leader, it gains any modifications to {p} that the Leader has gained this turn. ",Champion,ALP.MEL.003,T,,2,Melee,Unit,,3
-%PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.004.png,Target leader gains a +1 {p} counter.,A Bigger Sword,ALP.MEL.004,{r} ,,,Melee,Order,,2
+<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>",Vvolves' Den,ALP.PRM.004,,0,,Melee,Primalist Fortification,,
+%PROJECT%/Token Unit.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.005.png,<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>,Vvolf,ALP.PRM.005,,,1,Melee,Primalist Token Unit,,0
+%PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.PRM.006.png,"<b>Order (1 {c}):</b> Create a <i>Vvolf</i> and add it to an allied reserve deck.
+<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>",Alpha's Cowl,ALP.PRM.006,,,,Melee,Primalist Order,,2
+%PROJECT%/Unit.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.001.png,,Fighter,ALP.MEL.001,,,2,Melee,Unit,,1
+%PROJECT%/Unit.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.002.png,"When this unit is deployed at the same time as a melee leader, it gains +1 {p}.",Knight,ALP.MEL.002,,,2,Melee,Unit,,2
+%PROJECT%/Unit.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.003.png,"When this unit is deployed at the same time as a melee leader, it gains any modifications to {p} that the Leader has gained this turn. ",Champion,ALP.MEL.003,,,3,Melee,Unit,,3
+%PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.004.png,Target leader gains a +1 {p} counter.,A Bigger Sword,ALP.MEL.004,{r} {r} ,,,Melee,Order,,1
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.005.png,"The next time target leader would take damage, prevent 1 damage and regain +1 {l}.",Second Wind,ALP.MEL.005,{r} ,,,Melee,Order,,0
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.006.png,"You may destroy a melee unit on an allied recruitment rail.  If you do, place an allied Leader in reserve on the same recruitment rail.",Frontline Fighter,ALP.MEL.006,{r} ,,,Melee,Order,,1
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.007.png,Target leader has -2 {c} until the end of your turn.,Willingness to Wage,ALP.MEL.007,{r} ,,,Melee,Order,,0
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.008.png,Target leader has +2 {p} until the end of the turn.  You cannot recuit this leader this turn.  ,Overexert,ALP.MEL.008,{r} ,,,Melee,Order,,0
-%PROJECT%/Reinforcement.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.009.png,"When this fortification is attacked, you may choose to defend it with an allied leader.  The leader you defend with becomes the new target of the attack.",Get Through Me!,ALP.MEL.009,{r} ,,,Melee,Reinforcement,,
-%PROJECT%/Reinforcement.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.010.png,"When a card arrives at this fortification, that card deals no damage this turn unless it is an opposing leader card.",Honorable Duel,ALP.MEL.010,{r} ,,,Melee,Reinforcement,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.009.png,"When an attached fortification is attacked, you may choose to defend it with an allied leader.  The leader you defend with becomes the new target of the attack.",Get Through Me!,ALP.MEL.009,{r} ,,,Melee,Reinforcement,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.010.png,"When a card arrives at an attached fortification, that card deals no damage this turn unless it is an opposing leader card.",Honorable Duel,ALP.MEL.010,{r} ,,,Melee,Reinforcement,,
 %PROJECT%/Reinforcement.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.011.png,"Until the end of this turn, whenever an allied leader would take damage, they prevent 1 damage. ",Last Line of Defense,ALP.MEL.011,{r} ,,,Melee,Reinforcement,,
-%PROJECT%/Reinforcement.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.012.png,"Whenever a unit arrives at this fortification, target leader gains +1 {l} (<i>this can increase their {l} above its maximum value</i>). ",Back Home,ALP.MEL.012,{r} ,,,Melee,Reinforcement,,
-%PROJECT%/Reinforcement.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.013.png,"It this fortification is destroyed, you may place any number of melee leaders in reserve on allied recruitment rails. ",Seek Vengeance ,ALP.MEL.013,{r} ,,,Melee,Reinforcement,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.012.png,"When a unit arrives at an attached fortification, target leader gains +1 {l} (<i>this can increase their {l} above its maximum value</i>). ",Back Home,ALP.MEL.012,{r} ,,,Melee,Reinforcement,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.013.png,"It an attached fortification is destroyed, you may place any number of melee leaders in reserve on allied recruitment rails. ",Seek Vengeance ,ALP.MEL.013,{r} ,,,Melee,Reinforcement,,
 %PROJECT%/Response.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.014.png,"<b>Trigger:</b> Target leader is attacked.
 <b>Response:</b>  Damage from the attack is prevented.
 When you play this card, you may discard a card. If you do, search your deck for a <i>Riposte</i> card and add it to your hand.",Parry,ALP.MEL.014,{r} ,,,Melee,Response,,2
@@ -221,7 +222,7 @@ When you play this card, you may discard a card. If you do, search your deck for
 <b>Trigger:</b> Target leader takes damage from an attack.
 <b>Response:</b>  Deal 2 damage to the attacking card.
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>",Briared Cuirass,ALP.MEL.021,{r} {r} ,,,Melee,Order,,2
-%PROJECT%/Reinforcement.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.022.png,"When a card arrives at this fortification, you may remove a recruited leader from a recruitment rail.  If you do, deal damage to the arriving card equal to that leader's {p}.",Foxholed Hero,ALP.MEL.022,{r} {r} ,,,Melee,Reinforcement,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.022.png,"When a card arrives at an attached fortification, you may remove a recruited leader from a recruitment rail.  If you do, deal damage to the arriving card equal to that leader's {p}.",Foxholed Hero,ALP.MEL.022,{r} {r} ,,,Melee,Reinforcement,,
 %PROJECT%/Response.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.023.png,"<b>Trigger:</b> An order <b>Equipped</b> to an allied leader would be destroyed.
 <b>Response:</b> The order is not destroyed and remains <b>Equipped</b> to the leader.",Requip,ALP.MEL.023,{r} {r} ,,,Melee,Response,,0
 %PROJECT%/Response.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.024.png,"<b>Trigger:</b> An order is played that increases a leader's {p}.
@@ -233,48 +234,48 @@ When you play this card, you may discard a card. If you do, search your deck for
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.026.png,"Whenever target melee leader would gain {p} this turn as the result of an order, response, or fortification, they gain an additional +1 {p} until the end of this turn.",Once They Know,ALP.MEL.026,{r} {r} {r} ,,,Melee,Order,,1
 %PROJECT%/Response.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.027.png,"<b>Trigger:</b> Target allied leader takes damage that would reduce their {l} below 1.
 <b>Response:</b> Prevent all damage dealt to that leader until the end of this turn.  ",Indomitable,ALP.MEL.027,{r} {r} {r} ,,,Melee,Response,,1
-%PROJECT%/Fortification.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.028.png,"Whenever you recruit a leader to a recruitment rail that shares a lane with this fortification, the next unit you recruit with the same attribute(s) to the same recruitment rail gains -1 {c}.",Garrison,ALP.MEL.028,T,7,,Melee,Fortification,,
+%PROJECT%/Fortification.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.028.png,"Whenever you recruit a leader to a recruitment rail that shares a lane with this fortification, the next unit you recruit with the same attribute(s) gains -1 {c}.",Garrison,ALP.MEL.028,,7,,Melee,Fortification,,
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.029.png,"Target melee card on an allied recruitment rail is moved to an empty reinforcement zone attached to an allied fortification. The next time a card arrives at that fortification, the attached melee card becomes the target of that card's attack. If the attack does not destroy the attached melee card, return it to its original recruitment rail.",Stationed,ALP.MEL.029,{r} ,,,Melee,Order,,0
-%PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.030.png,"<b>Once per Turn Order (1 {c}):</b> Parent leader gains +1 {p} while attacking other recruited leaders.
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>",Bastard Sword,ALP.MEL.030,T,,,Melee,Order,,1
-%PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.031.png,"<b>Once per Turn Order (1 {c}):</b> Parent leader gains +1 {p} while attacking other leaders in reserve.
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>",Broadhead Pike,ALP.MEL.031,T,,,Melee,Order,,1
+%PROJECT%/Token Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.030.png,"<b>Once per Turn Order (1 {c}):</b> Parent leader gains +1 {p} while attacking other recruited leaders.
+<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>",Bastard Sword,ALP.MEL.030,,,,Melee,Token Order,,1
+%PROJECT%/Token Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.031.png,"<b>Once per Turn Order (1 {c}):</b> Parent leader gains +1 {p} while attacking other leaders in reserve.
+<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>",Broadhead Pike,ALP.MEL.031,,,,Melee,Token Order,,1
 %PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.032.png,"Create a token <b>Equip</b> order that shares an attribute or class with an allied leader, then add it to your hand.",Rearm,ALP.MEL.032,{r} ,,,Melee,Order,,0
-%PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.033.png,<b>Equip</b> orders attached to target melee card may be activated for 1 {c} less until the end of this turn.,Armed to the Teeth,ALP.MEL.033,{r} {r} ,,,Melee,Order,,1
+%PROJECT%/Order.png,%PROJECT%/Melee.png,%PROJECT%/ALP.MEL.033.png,"The first time each <b>Equip</b> order attached to target melee card is activated this turn, it activation gains -1 {c}.",Armed to the Teeth,ALP.MEL.033,{r} {r} ,,,Melee,Order,,1
 %PROJECT%/Leader.png,%PROJECT%/Faith.png,%PROJECT%/ALP.EXA.001.png,"<b>Worship, 2 Disciples (1 {c}):</b> Target <b>Persistence</b> card with no <b>Persist</b> counters gains +1 <b>Persist</b> counter. 
-<i>(This effect can only be activated in your deployment phase while 2 allied Disciple cards share a recruitment rail with this Leader.)</i> ","Seraphim, Idol of Worship",ALP.EXA.001,T,10,0,Faith,Exarch Leader,+1,2
+<i>(This effect can only be activated in your deployment phase while 2 allied Disciple cards share a recruitment rail with this Leader.)</i> ","Seraphim, Idol of Worship",ALP.EXA.001,,10,0,Faith,Exarch Leader,+1,2
 %PROJECT%/Order.png,%PROJECT%/Faith.png,%PROJECT%/ALP.EXA.002.png,Move any number of <b>Persist</b> counters from one <b>Persistence</b> card to another <b>Persistence</b> card.,Prayer to the Idol,ALP.EXA.002,{r} {r} ,,,Faith,Exarch Order,,0
 %PROJECT%/Reinforcement.png,%PROJECT%/Faith.png,%PROJECT%/ALP.EXA.003.png,"<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
 While this card is revealed in play, it is the only card that <b>Persist</b> counters must be removed from in the end phase.",Statue of the Exarch,ALP.EXA.003,{r} {r} {r} ,,,Faith,Exarch Reinforcement,,
 %PROJECT%/Fortification.png,%PROJECT%/Faith.png,%PROJECT%/ALP.EXA.004.png,"<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
 Whenever another <b>Persistence</b> card attached to this fortification is destroyed, this card regains +2 {l}.
-Whenever a card attached to this fortification would gain a <b>Persist</b> counter, you may instead add that counter to this card.",Crystalline Chapel,ALP.EXA.004,T,10,,Faith,Exarch Fortification,,
+Whenever a card attached to this fortification would gain a <b>Persist</b> counter, you may instead add that counter to this card.",Crystalline Chapel,ALP.EXA.004,,10,,Faith,Exarch Fortification,,
 %PROJECT%/Leader.png,%PROJECT%/Faith.png,%PROJECT%/ALP.APS.001.png,"<b>Worship, 1 Disciple (1 {c}):</b> Whenever an allied faith unit is deployed this turn, target allied card regains +1 {l}. 
-<i>(This effect can only be activated in your deployment phase while 1 allied Disciple card shares a recruitment rail with this Leader.)</i> ","Father Azari, Golden Guidance",ALP.APS.001,T,8,0,Faith,Apostle Leader,0,1
+<i>(This effect can only be activated in your deployment phase while 1 allied Disciple card shares a recruitment rail with this Leader.)</i> ","Father Azari, Golden Guidance",ALP.APS.001,,8,0,Faith,Apostle Leader,0,1
 %PROJECT%/Order.png,%PROJECT%/Faith.png,%PROJECT%/ALP.APS.002.png,All cards regain +1 {l}.,Shepherd for All,ALP.APS.002,{r} ,,,Faith,Apostle Order,,0
 %PROJECT%/Reinforcement.png,%PROJECT%/Faith.png,%PROJECT%/ALP.APS.003.png,"<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
 While this card is revealed in play, whenever an allied card regains any {l}, all other allied cards regain +1 {l}.",Lead to Enlightenment,ALP.APS.003,{r} {r} {r} ,,,Faith,Apostle Reinforcement,,
-%PROJECT%/Reinforcement.png,%PROJECT%/Faith.png,%PROJECT%/ALP.APS.004.png,"<b>Rejuvenate:</b> <i>Whenever an allied card is deployed to this fortification's lane, that card regains +2 {l}.</i>
+%PROJECT%/Fortification.png,%PROJECT%/Faith.png,%PROJECT%/ALP.APS.004.png,"<b>Rejuvenate:</b> <i>Whenever an allied card is deployed to this fortification's lane, that card regains +2 {l}.</i>
 When this card would be destroyed, it instead remains in play at 0 {l} and gains the <b>Defenseless</b> keyword.
-(<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>)",Radiant Sanctuary,ALP.APS.004,T,6,,Faith,Apostle Reinforcement,,
+(<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>)",Radiant Sanctuary,ALP.APS.004,,6,,Faith,Apostle Fortification,,
 %PROJECT%/Order.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.001.png,Each player targets one of their face down reinforcements and reveals it. ,Share All in Her World,ALP.FTH.001,{r} ,,,Faith,Order,,0
 %PROJECT%/Order.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.002.png,All allied leaders regain +2 {l}.,Her Hymn of Rejuvenation,ALP.FTH.002,{r} ,,,Faith,Order,,0
 %PROJECT%/Order.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.003.png,Prevent the next 1 damage all allied cards take this turn. ,Her Blessing of Light,ALP.FTH.003,{r} ,,,Faith,Order,,0
 %PROJECT%/Order.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.004.png,Target fortification regains +2 {l}.,Her Home for You,ALP.FTH.004,{r} ,,,Faith,Order,,0
 %PROJECT%/Order.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.005.png,"Target one reinforcement that is revealed in play. Turn it face down, then you may reveal it.","Play Again, Her Hymn",ALP.FTH.005,{r} ,,,Faith,Order,,0
 %PROJECT%/Reinforcement.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.006.png,"<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
-Prevent the first 2 damage dealt to this fortification.","Enchant, Her Golden Light",ALP.FTH.006,{r} ,,,Faith,Reinforcement,,
+Prevent the first 2 damage dealt to attached fortifications.","Enchant, Her Golden Light",ALP.FTH.006,{r} ,,,Faith,Reinforcement,,
 %PROJECT%/Reinforcement.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.007.png,"<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
-While this card is revealed in play, whenever this fortification would regain {l}, it regains +1 {l}.","Prosperous Harvest, Her Gift",ALP.FTH.007,{r} ,,,Faith,Reinforcement,,
+While this card is revealed in play, whenever an attached fortification would regain {l}, it regains +1 {l}.","Prosperous Harvest, Her Gift",ALP.FTH.007,{r} ,,,Faith,Reinforcement,,
 %PROJECT%/Reinforcement.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.008.png,"<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
-While this card is revealed in play, this fortification cannot be targeted by the effects of your opponent's orders.","Greet Thy Neighbor, Her Child",ALP.FTH.008,{r} ,,,Faith,Reinforcement,,
+While this card is revealed in play, attached fortifications cannot be targeted by the effects of your opponent's orders.","Greet Thy Neighbor, Her Child",ALP.FTH.008,{r} ,,,Faith,Reinforcement,,
 %PROJECT%/Reinforcement.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.009.png,"<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
-This fortification regains +2 {l}.",Her Gift of Golden Grain,ALP.FTH.009,{r} ,,,Faith,Reinforcement,,
+Attached fortifications regain +2 {l}.",Her Gift of Golden Grain,ALP.FTH.009,{r} ,,,Faith,Reinforcement,,
 %PROJECT%/Reinforcement.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.010.png,"<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
-Cards that arrive at this fortification have -1 {p} until the end of the turn.","Her Blessing, Divine",ALP.FTH.010,{r} ,,,Faith,Reinforcement,,
+Cards that arrive at attached fortifications have -1 {p} until the end of the turn.","Her Blessing, Divine",ALP.FTH.010,{r} ,,,Faith,Reinforcement,,
 %PROJECT%/Order.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.011.png,The next <b>Worship</b> effect you activate this turn gains -2 {c}.,In Her Name,ALP.FTH.011,{r} ,,,Faith,Order,,0
 %PROJECT%/Reinforcement.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.012.png,"<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i> 
-While this card is revealed in play, this fortification gains the <b>Sanctum</b> keyword.
+Choose one attached fortification. While this card is revealed in play, it gain the <b>Sanctum</b> keyword.
 (<b>Sanctum:</b> <i>Allied Worship effects require 1 less Disciple to activate.</i>)","Her Presence, Emanating",ALP.FTH.012,{r} ,,,Faith,Reinforcement,,
 %PROJECT%/Order.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.013.png,"<b>Once per Turn Order (0 {c}):</b> Parent card gains the <b>Disciple</b> keyword until the end of the turn.
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
@@ -296,13 +297,13 @@ Restore 2 {l} to all allied cards.","Flow, Her Radiant Embrace",ALP.FTH.020,{r} 
 %PROJECT%/Reinforcement.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.022.png,"<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i> 
 While this card is revealed in play, the first time your opponent discards to pay the {c} of a card each turn, they discard an additional card (if possible).","Against Her, They Relent",ALP.FTH.022,{r} {r} {r} ,,,Faith,Reinforcement,,
 %PROJECT%/Reinforcement.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.023.png,"<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>
-While this card is revealed in play, all damage is prevented except damage dealt to this fortification.",Peace Be Upon Her Land,ALP.FTH.023,{r} {r} {r} ,,,Faith,Reinforcement,,
+While this card is revealed in play, all damage is prevented except damage dealt to attached fortifications.",Peace Be Upon Her Land,ALP.FTH.023,{r} {r} {r} ,,,Faith,Reinforcement,,
 %PROJECT%/Reinforcement.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.024.png,"Replace this card with any faith reinforcement from your discard pile (except <i>By Her Name, Return</i>), then activate that reinforcement.","By Her Name, Return",ALP.FTH.024,{r} {r} {r} ,,,Faith,Reinforcement,,
-%PROJECT%/Unit.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.025.png,<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>,Devoted,ALP.FTH.025,T,,0,Faith,Unit,,1
+%PROJECT%/Unit.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.025.png,<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>,Devoted,ALP.FTH.025,,,0,Faith,Unit,,1
 %PROJECT%/Unit.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.026.png,"<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>
-When this unit is deployed at the same time as one or more faith cards, the faith cards it was deployed with each regain +1 {l}.",Priest,ALP.FTH.026,T,,1,Faith,Unit,,2
+When this unit is deployed at the same time as one or more faith cards, the faith cards it was deployed with each regain +1 {l}.",Priest,ALP.FTH.026,,,1,Faith,Unit,,2
 %PROJECT%/Unit.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.027.png,"<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>
-When this unit is deployed to a lane with a revealed <b>Persistence</b> card in it, it gains +1 {p} until the end of the turn.",Cleric,ALP.FTH.027,T,,1,Faith,Unit,,2
+When this unit is deployed to a lane with a revealed <b>Persistence</b> card in it, it gains +1 {p} until the end of the turn.",Cleric,ALP.FTH.027,,,1,Faith,Unit,,2
 %PROJECT%/Fortification.png,%PROJECT%/Faith.png,%PROJECT%/ALP.FTH.028.png,"<b>Sanctum:</b> <i>Allied Worship effects require 1 less Disciple to activate.</i>
 When this card would be destroyed, it instead remains in play at 0 {l} and gains the <b>Defenseless</b> keyword.
-(<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>)",Her Hallowed Grounds,ALP.FTH.028,T,6,,Faith,Fortification,,
+(<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>)",Her Hallowed Grounds,ALP.FTH.028,,6,,Faith,Fortification,,

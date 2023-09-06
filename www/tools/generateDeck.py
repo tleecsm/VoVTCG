@@ -17,8 +17,10 @@ width, height = base.size
 totalWidth = width * 10
 totalHeight = height * 6
 output = Image.new(size=(totalWidth, totalHeight), mode="RGB")
-for w in range(10):
-    for h in range(6):
+for h in range(6):
+    for w in range(10):
+        if len(cardlist) == 0:
+            break
         im = Image.open( cardlist.pop(0) )
         output.paste(im, (w*width, h*height))
 output.save("www\img\!output.jpg")

@@ -91,7 +91,7 @@ class CardCodesSpreadsheet:
             "Text": self.spreadsheet.loc[i, "Text"],
             "Name": self.spreadsheet.loc[i, "Name"],
             "Id": self.spreadsheet.loc[i, "Code"],
-            "Rank": "{r} " * int(self.spreadsheet.loc[i, "Rank"]) if self.spreadsheet.loc[i, "Rank"].isnumeric() else self.spreadsheet.loc[i, "Rank"],
+            "Rank": "{r} " * int(self.spreadsheet.loc[i, "Rank"]) if self.spreadsheet.loc[i, "Rank"] else "",
             "Life": str(self.spreadsheet.loc[i, "Life"]).replace('.0', ""),
             "Power": str(self.spreadsheet.loc[i, "Power"]).replace('.0', ""),
             "Attribute": self.spreadsheet.loc[i, "Attribute"],

@@ -14,19 +14,19 @@ ALP.NAT.012,Identification ,1,Order,,Non-attribute,0,,,,Reveal target reinforcem
 ALP.NAT.013,Brick and Mortar ,1,Reinforcement,,Non-attribute,,,,,Attached fortifications regain +3 {l}.
 ALP.NAT.014,Expansion Plan ,1,Reinforcement,,Non-attribute,,,,,"Attached fortifications regain +1 {l}, and the next time they would take damage this turn, prevent 3 damage."
 ALP.NAT.015,Starvation ,1,Reinforcement,,Non-attribute,,,,,"Whenever an attached fortification would take damage this turn, prevent it unless your opponent discards 1 card."
-ALP.NAT.016,Dishonorable Discharge ,1,Reinforcement,,Non-attribute,,,,,Return the first unit that arrives at each attached fortification to its recruitment rail; that unit cannot be redeployed this turn.
+ALP.NAT.016,Dishonorable Discharge ,1,Reinforcement,,Non-attribute,,,,,Return the first unit that arrives at each attached fortification to its recruitment rail; returned units cannot be redeployed this turn.
 ALP.NAT.017,Prepared Defensive ,1,Reinforcement,,Non-attribute,,,,,Cards that arrive at an attached fortification have -2 {p} until the end of this turn.
 ALP.NAT.018,Eye for an Eye,1,Response,,Non-attribute,0,,,,"<b>Trigger:</b> An opponent draws a card as the result of an order.
 <b>Response:</b> Draw a card."
 ALP.NAT.019,Rapid Response,1,Response,,Non-attribute,0,,,,"<b>Trigger:</b> Target leader takes damage from any source.  
 <b>Response:</b> Target leader regains +1 {l}. "
 ALP.NAT.020,Road Less Traveled ,1,Response,,Non-attribute,0,,,,"<b>Trigger:</b> Target card is deployed to a lane.
-<b>Response:</b> Target card is deployed to another unoccupied lane. "
+<b>Response:</b> Target card is deployed to a different, unoccupied lane. "
 ALP.NAT.021,Upcycle,3,Order,,Non-attribute,0,,,,Draw 2 cards.
 ALP.NAT.022,Disarm,2,Order,,Non-attribute,0,,,,Disable target reinforcement until the end of your turn.
 ALP.NAT.023,I want you!,2,Order,,Non-attribute,0,,,,Target leader gains +1 {h} until end of your next turn.
 ALP.NAT.024,With Advantage! ,2,Order,,Non-attribute,1,,,,"If target card completes a successful attack this turn, deploy another unit to the same lane."
-ALP.NAT.025,Repeat Offender ,2,Order,,Non-attribute,2,,,,"If target card completes a successful attack this turn, recruit them to the same lane at the end of this turn. "
+ALP.NAT.025,Repeat Offender ,2,Order,,Non-attribute,2,,,,"If target card completes a successful attack this turn, recruit them to the same field at the end of this turn. "
 ALP.NAT.026,Indestructible,2,Reinforcement,,Non-attribute,,,,,Attached fortifications cannot be reduced below 1 {l} this turn.
 ALP.NAT.027,Caltrops,2,Reinforcement,,Non-attribute,,,,,Deal 1 damage to the first card that arrives at each attached fortification.
 ALP.NAT.028,Meat Shield,2,Reinforcement,,Non-attribute,,,,,"When an attached fortification is attacked, you may choose to destroy a unit from an allied recruitment rail and prevent damage equal to that unit's {p}. "
@@ -45,13 +45,13 @@ ALP.NAT.036,Rust Monster,1,Response,,Non-attribute,0,,,,"<b>Trigger:</b> An <b>E
 ALP.NAT.037,Bareknuckle Brawlers,2,Order,,Non-attribute,0,,,,Destroy all <b>Equip</b> orders currently in play.
 ALP.NAT.038,Boots at the Door,2,Reinforcement,,Non-attribute,,,,,"When a card with an <b>Equip</b> order arrives at an attached fortification, you may discard a card. If you do, destroy all <b>Equip</b> orders attached to that card."
 ALP.NAT.039,Cycle,1,Order,,Non-attribute,0,,,,"Draw a card, then discard a card."
-ALP.NAT.040,Warding Tower,,Fortification,,Non-attribute,,,7,,Allied leaders in reserve that share a lane with this fortification cannot be targeted by the effects of your opponent's orders. 
+ALP.NAT.040,Warding Tower,,Fortification,,Non-attribute,,,7,,Allied leaders in reserve that share a field with this fortification cannot be targeted by the effects of your opponent's orders. 
 ALP.NAT.041,Castle the King,1,Order,,Non-attribute,0,,,,Switch the position of two allied leaders in reserve.  <i>(Recruited units are not affected by a change in leader position.)</i>
-ALP.GEN.001,"Ibn Rasa, Master of None",,Leader,Generalist,Non-attribute,2,2,10,1,"Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 {p} until the end of the turn."
+ALP.GEN.001,"Ibn Rasa, Master of None",,Leader,Generalist,Non-attribute,2,2,10,0,"Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 {p} until the end of the turn."
 ALP.GEN.002,Simple Robe,3,Order,Generalist,Non-attribute,2,,,,"<b>Once per Turn Order (0 {c}):</b> Parent card gains any attribute or class name you choose until the end of the turn.
 {{equip}}"
-ALP.GEN.003,Jack of All ,1,Order,Generalist,Non-attribute,0,,,,Cards recruited this turn may be recruited to any recruitment rail in any allied lane.
-ALP.GEN.004,Hamlet,,Fortification,Generalist,Non-attribute,,,8,,{{rejuvenate}}
+ALP.GEN.003,Jack of All ,1,Order,Generalist,Non-attribute,0,,,,Cards recruited this turn may be recruited to any allied recruitment rail.
+ALP.GEN.004,Hamlet,,Fortification,Generalist,Non-attribute,,,7,,{{rejuvenate}}
 ALP.LMG.001,"Gerky, Conniving Goblin",,Leader,Lootmonger,Non-attribute,1,1,6,1,"Whenever a non-attribute reinforcement controlled by an opponent is revealed, draw 1 card, then discard 1 card."
 ALP.LMG.002,Kickstart,2,Order,Lootmonger,Non-attribute,0,,,,"If this is the first order you have played this turn, draw 2 cards."
 ALP.LMG.003,Goblin's Greed,3,Order,Lootmonger,Non-attribute,1,,,,"Whenever you would draw one or more cards this turn as the result of an effect, draw 1 card."
@@ -64,7 +64,7 @@ ALP.WIZ.002,"Bifrost, Prismatic Staff",3,Order,Wizard,Arcane,1,,,,"<b>Once per T
 ALP.WIZ.003,Color Spray,1,Response,Wizard,Arcane,0,,,,"<b>Trigger:</b> Target <b>Spell</b> card is played. 
 <b>Response:</b> Target card gains the <b>Prismatic</b> keyword. 
 ({{prismatic}})"
-ALP.WIZ.004,Outcast's Sanctum,,Fortification,Wizard,Arcane,,,6,,"Wizard leaders in reserve that share a lane with this fortification cannot be targeted by your opponent for attacks or card effects.
+ALP.WIZ.004,Outcast's Sanctum,,Fortification,Wizard,Arcane,,,6,,"Wizard leaders in reserve that share a field with this fortification cannot be targeted by your opponent for attacks or card effects.
 {{scout}}"
 ALP.AST.001,"Celq, Celestial Queen",,Leader,Astrologer,Arcane,3,0,4,-1,"At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each <b>Season</b> from your hand. If you do, draw a card for each card revealed this way.
 {{spellcaster,1}}"
@@ -82,15 +82,15 @@ ALP.AST.004,"Divine Bull, Tauros",3,Response,Astrologer,Arcane,1,,,,"{{zodiac,Sp
 {{unique}}"
 ALP.AST.005,"Breaching Crab, Karkinos",1,Response,Astrologer,Arcane,3,,,,"{{zodiac,Summer}}
 <b>Trigger:</b> Target arcane leader takes damage.
-<b>Response:</b> Prevent the damage, and if you do target arcane leader gains +2 {l} <i>(this can increase their {l} above its maximum value)</i>. 
+<b>Response:</b> Prevent 2 of the damage, and if you do target arcane leader gains +2 {l} <i>(this can increase their {l} above its maximum value)</i>. 
 {{unique}}"
 ALP.AST.006,"Solitary Goddess, Parthenos",2,Response,Astrologer,Arcane,2,,,,"{{zodiac,Summer}}
 <b>Trigger:</b> Target arcane leader takes damage.
-<b>Response:</b> Prevent the damage, and if you do target arcane leader gains +2 {l} <i>(this can increase their {l} above its maximum value)</i>. 
+<b>Response:</b> Prevent 2 of the damage, and if you do target arcane leader gains +2 {l} <i>(this can increase their {l} above its maximum value)</i>. 
 {{unique}}"
 ALP.AST.007,"Invincible Lion, Leon",3,Response,Astrologer,Arcane,1,,,,"{{zodiac,Summer}}
 <b>Trigger:</b> Target arcane leader takes damage.
-<b>Response:</b> Prevent the damage, and if you do target arcane leader gains +2 {l} <i>(this can increase their {l} above its maximum value)</i>. 
+<b>Response:</b> Prevent 2 of the damage, and if you do target arcane leader gains +2 {l} <i>(this can increase their {l} above its maximum value)</i>. 
 {{unique}}"
 ALP.AST.008,"Autumn Hunt, Skorpios",1,Response,Astrologer,Arcane,3,,,,"{{zodiac,Autumn}}
 <b>Trigger:</b> You draw a card outside of the end phase as the result of an order or card effect.
@@ -116,7 +116,7 @@ ALP.AST.013,"Lord of the Water, Aigokeros",3,Response,Astrologer,Arcane,1,,,,"{{
 <b>Trigger:</b> Target arcane leader is recruited.
 <b>Response:</b> Target arcane leader gains a -1 {c} counter.
 {{unique}}"
-ALP.AST.014,Stargazer's Observatory,,Fortification,Astrologer,Arcane,,,6,,"Once per turn, when you play a <b>Zodiac</b> card that targets a leader that shares a lane with this fortification, you may search your deck for a <b>Zodiac</b> card with a different <b>Season</b>. If you do, add it to your hand.
+ALP.AST.014,Stargazer's Observatory,,Fortification,Astrologer,Arcane,,,6,,"Once per turn, when you play a <b>Zodiac</b> card that targets a leader that shares a field with this fortification, you may search your deck for a <b>Zodiac</b> card with a different <b>Season</b>. If you do, add it to your hand.
 {{scout}}"
 ALP.ARC.001,Conjurer,,Unit,,Arcane,0,0,,,"{{spellcaster,1}}"
 ALP.ARC.002,Thaumaturge,,Unit,,Arcane,1,1,,,"{{spellcaster,2}}"
@@ -124,7 +124,7 @@ ALP.ARC.003,Magus,,Unit,,Arcane,2,2,,,"{{spellcaster,3}}"
 ALP.ARC.004,Magi's Teachings,1,Order,,Arcane,0,,,,"Target card on a recruitment rail gains the <b>Spellcaster, Rank 1</b> keyword until the end of this turn.
 ({{spellcaster,1}})"
 ALP.ARC.005,Graduation,1,Order,,Arcane,0,,,,Target <b>Spellcaster</b> card gains +1 <b>Rank</b>.
-ALP.ARC.006,Firebolt,1,Order,,Arcane,0,,,,"Deal 1 damage to any target in the lane of this card's <b>Spellcaster</b>.
+ALP.ARC.006,Firebolt,1,Order,,Arcane,0,,,,"Deal 1 damage to a target card that shares a field with this card's <b>Spellcaster</b>.
 {{spell,1}}"
 ALP.ARC.007,From the Spell Scroll,1,Order,,Arcane,1,,,,The next <b>Spell</b> card played gains -1 <b>Rank</b> (to a minimum of <b>Rank 1</b>).
 ALP.ARC.008,Teleport,1,Order,,Arcane,0,,,,"Target card on a recruitment rail is moved to any other recruitment rail allied with that card.
@@ -148,10 +148,10 @@ ALP.ARC.016,Shift,1,Response,,Arcane,0,,,,"<b>Trigger:</b> Target card arrives a
 ALP.ARC.017,Robes of the Archmagus,2,Order,,Arcane,2,,,,"<b>Once per Turn Order (0 {c}):</b> Parent card gains the <b>Spellcaster, Rank 1</b> keyword.
 ({{spellcaster,1}})
 {{equip}}"
-ALP.ARC.018,Fireball,2,Order,,Arcane,0,,,,"Deal 2 damage to any target that shares a lane this card's <b>Spellcaster</b>.
+ALP.ARC.018,Fireball,2,Order,,Arcane,0,,,,"Deal 2 damage to a target card that shares a field with this card's <b>Spellcaster</b>.
 {{spell,2}}"
 ALP.ARC.019,Dualcast,2,Order,,Arcane,1,,,,The next <b>Spell</b> card played may choose an additional target for its effect.
-ALP.ARC.020,Haste,2,Order,,Arcane,1,,,,"Target card that shares a lane this card's <b>Spellcaster</b> may attack an additional time this turn.
+ALP.ARC.020,Haste,2,Order,,Arcane,1,,,,"Target card that shares a field with this card's <b>Spellcaster</b> may attack an additional time this turn.
 {{spell,2}}"
 ALP.ARC.021,Chain Lightning,2,Order,,Arcane,1,,,,"Deal 2 Damage to all fortifications your opponent controls.
 {{spell,2}}"
@@ -163,9 +163,9 @@ ALP.ARC.024,Spellish Rebuke,2,Response,,Arcane,1,,,,"<b>Trigger:</b> Target alli
 <b>Response:</b> You may play a <b>Spell</b> card using the target leader as the <b>Spellcaster</b>, and if you do ignore the recruitment requirement for that <b>Spell</b>."
 ALP.ARC.025,Robes of the Outcast Witch,3,Order,,Arcane,3,,,,"<b>Once per Turn Order (1 {c}):</b> Parent <b>Spellcaster</b> card ignores the recruitment requirement for next <b>Spell</b> card played this turn.
 {{equip}}"
-ALP.ARC.026,Meteor Shower,3,Order,,Arcane,1,,,,"Deal 1 damage to any number of targets that share a lane this card's <b>Spellcaster</b>..
+ALP.ARC.026,Meteor Shower,3,Order,,Arcane,1,,,,"Deal 1 damage to any number of targets that share a field with this card's <b>Spellcaster</b>..
 {{spell,3}}"
-ALP.ARC.027,Flare,3,Order,,Arcane,1,,,,"Deal 3 damage to any target that shares a lane this card's <b>Spellcaster</b>.
+ALP.ARC.027,Flare,3,Order,,Arcane,1,,,,"Deal 3 damage to a target card that shares a field with this card's <b>Spellcaster</b>.
 {{spell,3}}"
 ALP.ARC.028,College of Arcane Arts,,Fortification,,Arcane,,,8,,"Whenever an attached reinforcement is revealed, you may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> requirement to play a <b>Spell</b> card)."
 ALP.ARC.029,Extra Spell Slot,1,Order,,Arcane,2X,,,,Return a <b>Spell</b> card from your discard pile to your hand. X is the <b>Rank</b> of that <b>Spell</b> card.
@@ -174,23 +174,29 @@ ALP.ARC.030,Counterspell,2,Response,,Arcane,1,,,,"<b>Trigger:</b> An order is pl
 {{spell,2}}"
 ALP.ARC.031,Phantasmal Armament,2,Order,,Arcane,X,,,,"This card becomes a copy of target <b>Equip</b> order in play. Destroy this card if the original target order leaves play. X is the <b>Rank</b> of the target order.
 {{equip}}"
+ALP.ARC.032,Gale,1,Order,,Arcane,0,,,,"Remove target unit from any recruitment rail that shares a field with this card's <b>Spellcaster</b>.
+{{spell,1}}"
+ALP.ARC.033,Storm,2,Order,,Arcane,0,,,,"Remove target leader from any recruitment rail that shares a field with this card's <b>Spellcaster</b>.
+{{spell,2}}"
+ALP.ARC.034,Hurricane,3,Order,,Arcane,0,,,,"Remove any number of target cards from any recruitment rail that shares a field with this card's <b>Spellcaster</b>.
+{{spell,3}}"
 ALP.BSK.001,"Lothar, Axe of the Asperlands",,Leader,Berserker,Melee,3,3,12,-1,"{{armed}}  
 Whenever Lothar is dealt damage to his {l}, create a Rage counter on his card.  "
-ALP.BSK.002,Seeing Bloodred,2,Order,Berserker,Melee,2,,,,"Remove all Rage counters from target Berserker leader.  Until the end of your turn, that leader may be redeployed once for each Rage counter removed this way."
+ALP.BSK.002,Seeing Bloodred,2,Order,Berserker,Melee,3,,,,"Remove all Rage counters from target Berserker leader.  Until the end of your turn, that leader may be redeployed once for each Rage counter removed this way."
 ALP.BSK.003,Relentless Rage,2,Order,Berserker,Melee,0,,,,"Remove 1 Rage counter from target Berserker leader. If you do, until the start of your next turn that leader cannot be reduced below 1 {l}."
-ALP.BSK.004,Wartorn Battlefield,,Fortification,Berserker,Melee,,,0,,"Allied leaders gain +1 {p} while deployed to a lane shared by this fortification.
+ALP.BSK.004,Wartorn Battlefield,,Fortification,Berserker,Melee,,,0,,"When an allied leaders is deployed from a field shared by this fortification, it gain +1 {p}.
 {{defenseless}}"
-ALP.BSK.005,Blood-wretched Battle-axe,,Order,Berserker,Melee,1,,,,"<b>Once per Turn Order (0 {c}):</b> Deal 2 damage to parent leader. If you do, they gain +1 {p} until the end of the turn.
+ALP.BSK.005,Blood-wretched Battle-axe,,Token Order,Berserker,Melee,1,,,,"<b>Once per Turn Order (0 {c}):</b> Deal 3 damage to parent leader. If you do, they gain +1 {p} until the end of the turn.
 {{equip}}"
 ALP.PRM.001,"Vvulf, Pack Leader",,Leader,Primalist,Melee,2,2,10,-1,"{{packhunter}}
 {{armed}}  
-Whenever Vvulf is recruited, recruit a <i>Vvolf</i> to an allied lane."
-ALP.PRM.002,Hunt,2,Order,Primalist,Melee,1,,,,All Primalist cards deployed this turn gain +1 {p} until the end of the turn.
+Whenever Vvulf is recruited, recruit a <i>Vvolf</i> to an allied recruitment rail."
+ALP.PRM.002,Hunt,2,Order,Primalist,Melee,1,,,,All Primalist cards deployed this turn gain +1 {p}.
 ALP.PRM.003,Family,2,Order,Primalist,Melee,1,,,,"Until the start of your next turn, whenever a <i>Vvolf</i> is recruited, recruit an additional <i>Vvolf</i> to the same recruitment rail."
 ALP.PRM.004,Vvolves' Den,,Fortification,Primalist,Melee,,,0,,"Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an allied recruitment rail.
 {{defenseless}}"
 ALP.PRM.005,Vvolf,,Token Unit,Primalist,Melee,0,1,,,{{packhunter}}
-ALP.PRM.006,Alpha's Cowl,,Order,Primalist,Melee,2,,,,"<b>Order (1 {c}):</b> Create a <i>Vvolf</i> and add it to an allied reserve deck.
+ALP.PRM.006,Alpha's Cowl,,Token Order,Primalist,Melee,2,,,,"<b>Order (1 {c}):</b> Create a <i>Vvolf</i> and add it to an allied reserve deck.
 {{equip}}"
 ALP.MEL.001,Fighter,,Unit,,Melee,1,2,,,
 ALP.MEL.002,Knight,,Unit,,Melee,2,2,,,"When this unit is deployed at the same time as a melee leader, it gains +1 {p}."
@@ -234,7 +240,7 @@ ALP.MEL.025,"Ragnarok, Vorpal Blade",3,Order,,Melee,2,,,,"<b>Once per Turn Order
 ALP.MEL.026,Once They Know,3,Order,,Melee,1,,,,"Whenever target melee leader would gain {p} this turn as the result of an order, response, or fortification, they gain an additional +1 {p} until the end of this turn."
 ALP.MEL.027,Indomitable,3,Response,,Melee,1,,,,"<b>Trigger:</b> Target allied leader takes damage that would reduce their {l} below 1.
 <b>Response:</b> Prevent all damage dealt to that leader until the end of this turn.  "
-ALP.MEL.028,Garrison,,Fortification,,Melee,,,7,,"Whenever you recruit a leader to a recruitment rail that shares a lane with this fortification, the next unit you recruit with the same attribute(s) gains -1 {c}."
+ALP.MEL.028,Garrison,,Fortification,,Melee,,,7,,"Whenever you recruit a leader to a recruitment rail that shares a field with this fortification, the next unit you recruit with the same attribute(s) gains -1 {c}."
 ALP.MEL.029,Stationed,1,Order,,Melee,0,,,,"Target melee card on an allied recruitment rail is moved to an empty reinforcement zone attached to an allied fortification. The next time a card arrives at that fortification, the attached melee card becomes the target of that card's attack. If the attack does not destroy the attached melee card, return it to its original recruitment rail."
 ALP.MEL.030,Bastard Sword,,Token Order,,Melee,1,,,,"<b>Once per Turn Order (1 {c}):</b> Parent leader gains +1 {p} while attacking other recruited leaders.
 {{equip}}"
@@ -242,6 +248,9 @@ ALP.MEL.031,Broadhead Pike,,Token Order,,Melee,1,,,,"<b>Once per Turn Order (1 {
 {{equip}}"
 ALP.MEL.032,Rearm,1,Order,,Melee,0,,,,"Create a token <b>Equip</b> order that shares an attribute or class with an allied leader, then add it to your hand."
 ALP.MEL.033,Armed to the Teeth,2,Order,,Melee,1,,,,"The first time each <b>Equip</b> order attached to target melee card is activated this turn, it activation gains -1 {c}."
+ALP.MEL.034,Steel-plated Maul,,Token Order,,Melee,1,,,,"<b>Once per Turn Order (1 {c}):</b> Parent leader gains <b>Knockback</b>.
+({{knockback}})
+{{equip}}"
 ALP.EXA.001,"Seraphim, Idol of Worship",,Leader,Exarch,Faith,2,0,10,1,"<b>Worship, 2 Disciples (1 {c}):</b> Target <b>Persistence</b> card with no <b>Persist</b> counters gains +1 <b>Persist</b> counter. 
 <i>(This effect can only be activated in your deployment phase while 2 allied Disciple cards share a recruitment rail with this Leader.)</i> "
 ALP.EXA.002,Prayer to the Idol,2,Order,Exarch,Faith,0,,,,Move any number of <b>Persist</b> counters from one <b>Persistence</b> card to another <b>Persistence</b> card.
@@ -282,7 +291,7 @@ ALP.FTH.013,Her Garb of Golden Order,1,Order,,Faith,0,,,,"<b>Once per Turn Order
 ({{disciple}})"
 ALP.FTH.014,"Her Chapels, Restored",2,Order,,Faith,1,,,,All allied faith fortifications regain +2 {l}.
 ALP.FTH.015,"Her Image, Everlasting",2,Order,,Faith,1,,,,Target <b>Persistence</b> card gains +1 <b>Persist</b> counter. 
-ALP.FTH.016,She Sees All,2,Order,,Faith,2,,,,All face down reinforcements are revealed.
+ALP.FTH.016,She Sees All,2,Order,,Faith,1,,,,All face down reinforcements are revealed.
 ALP.FTH.017,"Her Men, Unyielding",2,Reinforcement,,Faith,,,,,"{{persistence,1}} 
 While this card is revealed in play, prevent all damage dealt to allied units."
 ALP.FTH.018,"For Her, They Follow",2,Reinforcement,,Faith,,,,,"{{persistence,1}} 
@@ -290,20 +299,20 @@ While this card is revealed in play, the first order you play each turn gains -1
 ALP.FTH.019,"To Her, They Come",2,Reinforcement,,Faith,,,,,"{{persistence,1}} 
 While this card is revealed in play, the first card you recruit each turn gains -1 {c}."
 ALP.FTH.020,"Flow, Her Radiant Embrace",2,Reinforcement,,Faith,,,,,"{{persistence,1}}
-Restore 2 {l} to all allied cards."
+All allied cards regain +2 {l}."
 ALP.FTH.021,"Come to Her, Stay with Her",2,Response,,Faith,2,,,,"<b>Trigger:</b> Target reinforcement is activated by a card arriving to its fortification.
 <b>Response:</b> Target reinforcement gains the <b>Persistence, 1</b> keyword. 
 ({{persistence,1}})"
 ALP.FTH.022,"Against Her, They Relent",3,Reinforcement,,Faith,,,,,"{{persistence,1}} 
 While this card is revealed in play, the first time your opponent discards to pay the {c} of a card each turn, they discard an additional card (if possible)."
 ALP.FTH.023,Peace Be Upon Her Land,3,Reinforcement,,Faith,,,,,"{{persistence,1}}
-While this card is revealed in play, all damage is prevented except damage dealt to attached fortifications."
+While this card is revealed in play, all damage is prevented and attached fortifications gain ""<i>damage dealt to this fortification cannot be prevented</i>"".  If this card is attached to a <b>Defenseless</b> fortification, destroy it."
 ALP.FTH.024,"By Her Name, Return",3,Reinforcement,,Faith,,,,,"Replace this card with any faith reinforcement from your discard pile (except <i>By Her Name, Return</i>), then activate that reinforcement."
 ALP.FTH.025,Devoted,,Unit,,Faith,1,0,,,{{disciple}}
-ALP.FTH.026,Priest,,Unit,,Faith,2,1,,,"{{disciple}}
-When this unit is deployed at the same time as one or more faith cards, the faith cards it was deployed with each regain +1 {l}."
+ALP.FTH.026,Priest,,Unit,,Faith,1,1,,,"{{disciple}}
+When this unit is deployed at the same time as one or more faith cards, every card it was deployed with regains +1 {l}."
 ALP.FTH.027,Cleric,,Unit,,Faith,2,1,,,"{{disciple}}
-When this unit is deployed to a lane with a revealed <b>Persistence</b> card in it, it gains +1 {p} until the end of the turn."
+When this unit is deployed to a lane with a revealed <b>Persistence</b> card in it, it gains +2 {p} until the end of the turn."
 ALP.FTH.028,Her Hallowed Grounds,,Fortification,,Faith,,,6,,"{{sanctum}}
 When this card would be destroyed, it instead remains in play at 0 {l} and gains the <b>Defenseless</b> keyword.
 ({{defenseless}})"

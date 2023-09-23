@@ -54,7 +54,7 @@
  - Life: 7
 
 
-<b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>
+<b>Scout:</b> <i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>
 <br>
 
 ##### ALP.NAT.005
@@ -193,7 +193,7 @@ Whenever an attached fortification would take damage this turn, prevent it unles
  - Rank: 1
 
 
-Return the first unit that arrives at each attached fortification to its recruitment rail; that unit cannot be redeployed this turn.
+Return the first unit that arrives at each attached fortification to its recruitment rail; returned units cannot be redeployed this turn.
 <br>
 
 ##### ALP.NAT.016
@@ -247,7 +247,7 @@ Cards that arrive at an attached fortification have -2 Power until the end of th
 
 
 <b>Trigger:</b> Target card is deployed to a lane.  
-<b>Response:</b> Target card is deployed to another unoccupied lane. 
+<b>Response:</b> Target card is deployed to a different, unoccupied lane. 
 <br>
 
 ##### ALP.NAT.020
@@ -312,7 +312,7 @@ If target card completes a successful attack this turn, deploy another unit to t
  - Cost: 2
 
 
-If target card completes a successful attack this turn, recruit them to the same lane at the end of this turn. 
+If target card completes a successful attack this turn, recruit them to the same field at the end of this turn. 
 <br>
 
 ##### ALP.NAT.025
@@ -439,7 +439,7 @@ If an attached fortification is destroyed, you may discard a card.  If you do, r
 ### <i> Fortification, Non-attribute</i>
 
 
-<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>
+<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>
 <br>
 
 ##### ALP.NAT.035
@@ -503,7 +503,7 @@ Draw a card, then discard a card.
  - Life: 7
 
 
-Allied leaders in reserve that share a lane with this fortification cannot be targeted by the effects of your opponent's orders. 
+Allied leaders in reserve that share a field with this fortification cannot be targeted by the effects of your opponent's orders. 
 <br>
 
 ##### ALP.NAT.040
@@ -528,7 +528,6 @@ Switch the position of two allied leaders in reserve.  <i>(Recruited units are n
  - Cost: 2
  - Power: 2
  - Life: 10
- - Hand: +1
 
 
 Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 Power until the end of the turn.
@@ -558,7 +557,7 @@ Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 
  - Cost: 0
 
 
-Cards recruited this turn may be recruited to any recruitment rail in any allied lane.
+Cards recruited this turn may be recruited to any allied recruitment rail.
 <br>
 
 ##### ALP.GEN.003
@@ -567,10 +566,10 @@ Cards recruited this turn may be recruited to any recruitment rail in any allied
 
 ## <b>Hamlet</b>
 ### <i>Generalist Fortification, Non-attribute</i>
- - Life: 8
+ - Life: 7
 
 
-<b>Rejuvenate:</b> <i>Whenever an allied card is deployed to this fortification's lane, that card regains +2 Life.</i>
+<b>Rejuvenate:</b> <i>When an allied card is deployed from a field shared by this fortification, that card regains +1 Life.</i>
 <br>
 
 ##### ALP.GEN.004
@@ -680,8 +679,8 @@ Whenever you play a <b>Spell</b> card, you may change its Cost to 2Cost.  If you
  - Life: 6
 
 
-Wizard leaders in reserve that share a lane with this fortification cannot be targeted by your opponent for attacks or card effects.  
-<b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>
+Wizard leaders in reserve that share a field with this fortification cannot be targeted by your opponent for attacks or card effects.  
+<b>Scout:</b> <i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>
 <br>
 
 ##### ALP.WIZ.004
@@ -759,7 +758,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 
 <b>Zodiac, Season of Summer</b>  
 <b>Trigger:</b> Target arcane leader takes damage.  
-<b>Response:</b> Prevent the damage, and if you do target arcane leader gains +2 Life <i>(this can increase their Life above its maximum value)</i>.   
+<b>Response:</b> Prevent 2 of the damage, and if you do target arcane leader gains +2 Life <i>(this can increase their Life above its maximum value)</i>.   
 <b>Unique:</b> <i>You may only include one copy of this card in your deck.</i>
 <br>
 
@@ -775,7 +774,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 
 <b>Zodiac, Season of Summer</b>  
 <b>Trigger:</b> Target arcane leader takes damage.  
-<b>Response:</b> Prevent the damage, and if you do target arcane leader gains +2 Life <i>(this can increase their Life above its maximum value)</i>.   
+<b>Response:</b> Prevent 2 of the damage, and if you do target arcane leader gains +2 Life <i>(this can increase their Life above its maximum value)</i>.   
 <b>Unique:</b> <i>You may only include one copy of this card in your deck.</i>
 <br>
 
@@ -791,7 +790,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 
 <b>Zodiac, Season of Summer</b>  
 <b>Trigger:</b> Target arcane leader takes damage.  
-<b>Response:</b> Prevent the damage, and if you do target arcane leader gains +2 Life <i>(this can increase their Life above its maximum value)</i>.   
+<b>Response:</b> Prevent 2 of the damage, and if you do target arcane leader gains +2 Life <i>(this can increase their Life above its maximum value)</i>.   
 <b>Unique:</b> <i>You may only include one copy of this card in your deck.</i>
 <br>
 
@@ -900,8 +899,8 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
  - Life: 6
 
 
-Once per turn, when you play a <b>Zodiac</b> card that targets a leader that shares a lane with this fortification, you may search your deck for a <b>Zodiac</b> card with a different <b>Season</b>. If you do, add it to your hand.  
-<b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>
+Once per turn, when you play a <b>Zodiac</b> card that targets a leader that shares a field with this fortification, you may search your deck for a <b>Zodiac</b> card with a different <b>Season</b>. If you do, add it to your hand.  
+<b>Scout:</b> <i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>
 <br>
 
 ##### ALP.AST.014
@@ -979,7 +978,7 @@ Target <b>Spellcaster</b> card gains +1 <b>Rank</b>.
  - Cost: 0
 
 
-Deal 1 damage to any target in the lane of this card's <b>Spellcaster</b>.  
+Deal 1 damage to a target card that shares a field with this card's <b>Spellcaster</b>.  
 <b>Spell, Rank 1:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
 <br>
 
@@ -1143,7 +1142,7 @@ You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> 
  - Cost: 0
 
 
-Deal 2 damage to any target that shares a lane this card's <b>Spellcaster</b>.  
+Deal 2 damage to a target card that shares a field with this card's <b>Spellcaster</b>.  
 <b>Spell, Rank 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
 <br>
 
@@ -1170,7 +1169,7 @@ The next <b>Spell</b> card played may choose an additional target for its effect
  - Cost: 1
 
 
-Target card that shares a lane this card's <b>Spellcaster</b> may attack an additional time this turn.  
+Target card that shares a field with this card's <b>Spellcaster</b> may attack an additional time this turn.  
 <b>Spell, Rank 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
 <br>
 
@@ -1253,7 +1252,7 @@ Discard a card. If you do, return all deployed cards to their recruitment rail; 
  - Cost: 1
 
 
-Deal 1 damage to any number of targets that share a lane this card's <b>Spellcaster</b>..  
+Deal 1 damage to any number of targets that share a field with this card's <b>Spellcaster</b>..  
 <b>Spell, Rank 3:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
 <br>
 
@@ -1267,7 +1266,7 @@ Deal 1 damage to any number of targets that share a lane this card's <b>Spellcas
  - Cost: 1
 
 
-Deal 3 damage to any target that shares a lane this card's <b>Spellcaster</b>.  
+Deal 3 damage to a target card that shares a field with this card's <b>Spellcaster</b>.  
 <b>Spell, Rank 3:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
 <br>
 
@@ -1329,6 +1328,48 @@ This card becomes a copy of target <b>Equip</b> order in play. Destroy this card
 
 <hr>
 
+## <b>Gale</b>
+### <i> Order, Arcane</i>
+ - Rank: 1
+ - Cost: 0
+
+
+Remove target unit from any recruitment rail that shares a field with this card's <b>Spellcaster</b>.  
+<b>Spell, Rank 1:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
+<br>
+
+##### ALP.ARC.032
+
+<hr>
+
+## <b>Storm</b>
+### <i> Order, Arcane</i>
+ - Rank: 2
+ - Cost: 0
+
+
+Remove target leader from any recruitment rail that shares a field with this card's <b>Spellcaster</b>.  
+<b>Spell, Rank 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
+<br>
+
+##### ALP.ARC.033
+
+<hr>
+
+## <b>Hurricane</b>
+### <i> Order, Arcane</i>
+ - Rank: 3
+ - Cost: 0
+
+
+Remove any number of target cards from any recruitment rail that shares a field with this card's <b>Spellcaster</b>.  
+<b>Spell, Rank 3:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> 
+<br>
+
+##### ALP.ARC.034
+
+<hr>
+
 ## <b>Lothar, Axe of the Asperlands</b>
 ### <i>Berserker Leader, Melee</i>
  - Cost: 3
@@ -1348,7 +1389,7 @@ Whenever Lothar is dealt damage to his Life, create a Rage counter on his card.
 ## <b>Seeing Bloodred</b>
 ### <i>Berserker Order, Melee</i>
  - Rank: 2
- - Cost: 2
+ - Cost: 3
 
 
 Remove all Rage counters from target Berserker leader.  Until the end of your turn, that leader may be redeployed once for each Rage counter removed this way.
@@ -1375,8 +1416,8 @@ Remove 1 Rage counter from target Berserker leader. If you do, until the start o
 ### <i>Berserker Fortification, Melee</i>
 
 
-Allied leaders gain +1 Power while deployed to a lane shared by this fortification.  
-<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>
+When an allied leaders is deployed from a field shared by this fortification, it gain +1 Power.  
+<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>
 <br>
 
 ##### ALP.BSK.004
@@ -1384,11 +1425,11 @@ Allied leaders gain +1 Power while deployed to a lane shared by this fortificati
 <hr>
 
 ## <b>Blood-wretched Battle-axe</b>
-### <i>Berserker Order, Melee</i>
+### <i>Berserker Token Order, Melee</i>
  - Cost: 1
 
 
-<b>Once per Turn Order (0 Cost):</b> Deal 2 damage to parent leader. If you do, they gain +1 Power until the end of the turn.  
+<b>Once per Turn Order (0 Cost):</b> Deal 3 damage to parent leader. If you do, they gain +1 Power until the end of the turn.  
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
 <br>
 
@@ -1406,7 +1447,7 @@ Allied leaders gain +1 Power while deployed to a lane shared by this fortificati
 
 <b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>  
 <b>Armed:</b> <i>At the start of the game, attach a token Equip order to this card. The order you choose must share an attribute or class with this card.</i>    
-Whenever Vvulf is recruited, recruit a <i>Vvolf</i> to an allied lane.
+Whenever Vvulf is recruited, recruit a <i>Vvolf</i> to an allied recruitment rail.
 <br>
 
 ##### ALP.PRM.001
@@ -1419,7 +1460,7 @@ Whenever Vvulf is recruited, recruit a <i>Vvolf</i> to an allied lane.
  - Cost: 1
 
 
-All Primalist cards deployed this turn gain +1 Power until the end of the turn.
+All Primalist cards deployed this turn gain +1 Power.
 <br>
 
 ##### ALP.PRM.002
@@ -1444,7 +1485,7 @@ Until the start of your next turn, whenever a <i>Vvolf</i> is recruited, recruit
 
 
 Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an allied recruitment rail.  
-<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>
+<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>
 <br>
 
 ##### ALP.PRM.004
@@ -1465,7 +1506,7 @@ Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an alli
 <hr>
 
 ## <b>Alpha's Cowl</b>
-### <i>Primalist Order, Melee</i>
+### <i>Primalist Token Order, Melee</i>
  - Cost: 2
 
 
@@ -1842,7 +1883,7 @@ Whenever target melee leader would gain Power this turn as the result of an orde
  - Life: 7
 
 
-Whenever you recruit a leader to a recruitment rail that shares a lane with this fortification, the next unit you recruit with the same attribute(s) gains -1 Cost.
+Whenever you recruit a leader to a recruitment rail that shares a field with this fortification, the next unit you recruit with the same attribute(s) gains -1 Cost.
 <br>
 
 ##### ALP.MEL.028
@@ -1911,6 +1952,20 @@ The first time each <b>Equip</b> order attached to target melee card is activate
 <br>
 
 ##### ALP.MEL.033
+
+<hr>
+
+## <b>Steel-plated Maul</b>
+### <i> Token Order, Melee</i>
+ - Cost: 1
+
+
+<b>Once per Turn Order (1 Cost):</b> Parent leader gains <b>Knockback</b>.  
+(<b>Knockback:</b> <i>When this card attacks and deals damage to a target on a recruitment rail, that target is removed from the recruitment rail.</i>)  
+<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
+<br>
+
+##### ALP.MEL.034
 
 <hr>
 
@@ -2014,9 +2069,9 @@ While this card is revealed in play, whenever an allied card regains any Life, a
  - Life: 6
 
 
-<b>Rejuvenate:</b> <i>Whenever an allied card is deployed to this fortification's lane, that card regains +2 Life.</i>  
+<b>Rejuvenate:</b> <i>When an allied card is deployed from a field shared by this fortification, that card regains +1 Life.</i>  
 When this card would be destroyed, it instead remains in play at 0 Life and gains the <b>Defenseless</b> keyword.  
-(<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>)
+(<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>)
 <br>
 
 ##### ALP.APS.004
@@ -2224,7 +2279,7 @@ Target <b>Persistence</b> card gains +1 <b>Persist</b> counter.
 ## <b>She Sees All</b>
 ### <i> Order, Faith</i>
  - Rank: 2
- - Cost: 2
+ - Cost: 1
 
 
 All face down reinforcements are revealed.
@@ -2279,7 +2334,7 @@ While this card is revealed in play, the first card you recruit each turn gains 
 
 
 <b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-Restore 2 Life to all allied cards.
+All allied cards regain +2 Life.
 <br>
 
 ##### ALP.FTH.020
@@ -2320,7 +2375,7 @@ While this card is revealed in play, the first time your opponent discards to pa
 
 
 <b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-While this card is revealed in play, all damage is prevented except damage dealt to attached fortifications.
+While this card is revealed in play, all damage is prevented and attached fortifications gain "<i>damage dealt to this fortification cannot be prevented</i>".  If this card is attached to a <b>Defenseless</b> fortification, destroy it.
 <br>
 
 ##### ALP.FTH.023
@@ -2353,12 +2408,12 @@ Replace this card with any faith reinforcement from your discard pile (except <i
 
 ## <b>Priest</b>
 ### <i> Unit, Faith</i>
- - Cost: 2
+ - Cost: 1
  - Power: 1
 
 
 <b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>  
-When this unit is deployed at the same time as one or more faith cards, the faith cards it was deployed with each regain +1 Life.
+When this unit is deployed at the same time as one or more faith cards, every card it was deployed with regains +1 Life.
 <br>
 
 ##### ALP.FTH.026
@@ -2372,7 +2427,7 @@ When this unit is deployed at the same time as one or more faith cards, the fait
 
 
 <b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>  
-When this unit is deployed to a lane with a revealed <b>Persistence</b> card in it, it gains +1 Power until the end of the turn.
+When this unit is deployed to a lane with a revealed <b>Persistence</b> card in it, it gains +2 Power until the end of the turn.
 <br>
 
 ##### ALP.FTH.027
@@ -2386,7 +2441,7 @@ When this unit is deployed to a lane with a revealed <b>Persistence</b> card in 
 
 <b>Sanctum:</b> <i>Allied Worship effects require 1 less Disciple to activate.</i>  
 When this card would be destroyed, it instead remains in play at 0 Life and gains the <b>Defenseless</b> keyword.  
-(<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>)
+(<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>)
 <br>
 
 ##### ALP.FTH.028

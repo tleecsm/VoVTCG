@@ -1,9 +1,9 @@
 Keyword,Replacement
 {{swarm}},<b>Swarm:</b> <i>This unit is not destroyed upon taking damage.</i>
-{{scout}},"<b>Scout:</b> <i>Whenever an opponent places a reinforcement in this lane, reveal it.</i>"
-{{defenseless}},<b>Defenseless:</b> <i>This fortification cannot be targeted for attacks. Any leader or unit that shares a lane with this fortification can be targeted for attacks.</i>
+{{scout}},"<b>Scout:</b> <i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>"
+{{defenseless}},<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>
 {{equip}},<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
-{{rejuvenate}},"<b>Rejuvenate:</b> <i>Whenever an allied card is deployed to this fortification's lane, that card regains +2 {l}.</i>"
+{{rejuvenate}},"<b>Rejuvenate:</b> <i>When an allied card is deployed from a field shared by this fortification, that card regains +1 {l}.</i>"
 {{prismatic}},<b>Prismatic:</b> <i>This card's effects cannot be prevented or modified by another player.</i>
 "{{spellcaster,x}}","<b>Spellcaster, Rank {{x}}:</b><i> While this card is recruited, you may play a Spell card with Rank {{x}} or less. If you do, remove this card from the recruitment rail.</i>"
 "{{spell,x}}","<b>Spell, Rank {{x}}:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> "
@@ -16,3 +16,4 @@ Keyword,Replacement
 "{{zodiac,x}}","<b>Zodiac, Season of {{x}}</b>"
 {{packhunter}},<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>
 {{armed}},"<b>Armed:</b> <i>At the start of the game, attach a token Equip order to this card. The order you choose must share an attribute or class with this card.</i>"
+{{knockback}},"<b>Knockback:</b> <i>When this card attacks and deals damage to a target on a recruitment rail, that target is removed from the recruitment rail.</i>"

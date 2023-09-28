@@ -273,10 +273,10 @@ ALP.FTH.003,Her Blessing of Light,1,Order,,Faith,0,,,,Prevent the next 1 damage 
 ALP.FTH.004,Her Home for You,1,Order,,Faith,0,,,,Target fortification regains +2 {l}.
 ALP.FTH.005,"Play Again, Her Hymn",1,Order,,Faith,0,,,,"Target one reinforcement that is revealed in play. Turn it face down, then you may reveal it."
 ALP.FTH.006,"Enchant, Her Golden Light",1,Reinforcement,,Faith,,,,,"{{persistence,1}}
-Prevent the first 2 damage dealt to attached fortifications."
-ALP.FTH.007,"Prosperous Harvest, Her Gift",1,Reinforcement,,Faith,,,,,"{{persistence,1}}
+Prevent the first 2 damage dealt to attached fortifications this turn."
+ALP.FTH.007,"Prosperous Harvest, Her Gift",1,Reinforcement,,Faith,,,,,"{{persistence,2}}
 While this card is revealed in play, whenever an attached fortification would regain {l}, it regains +1 {l}."
-ALP.FTH.008,"Greet Thy Neighbor, Her Child",1,Reinforcement,,Faith,,,,,"{{persistence,1}}
+ALP.FTH.008,"Greet Thy Neighbor, Her Child",1,Reinforcement,,Faith,,,,,"{{persistence,2}}
 While this card is revealed in play, attached fortifications cannot be targeted by the effects of your opponent's orders."
 ALP.FTH.009,Her Gift of Golden Grain,1,Reinforcement,,Faith,,,,,"{{persistence,1}}
 Attached fortifications regain +2 {l}."
@@ -299,18 +299,18 @@ While this card is revealed in play, the first order you play each turn gains -1
 ALP.FTH.019,"To Her, They Come",2,Reinforcement,,Faith,,,,,"{{persistence,1}} 
 While this card is revealed in play, the first card you recruit each turn gains -1 {c}."
 ALP.FTH.020,"Flow, Her Radiant Embrace",2,Reinforcement,,Faith,,,,,"{{persistence,1}}
-All allied cards regain +2 {l}."
+All allied cards regain +1 {l}."
 ALP.FTH.021,"Come to Her, Stay with Her",2,Response,,Faith,2,,,,"<b>Trigger:</b> Target reinforcement is activated by a card arriving to its fortification.
 <b>Response:</b> Target reinforcement gains the <b>Persistence, 1</b> keyword. 
 ({{persistence,1}})"
 ALP.FTH.022,"Against Her, They Relent",3,Reinforcement,,Faith,,,,,"{{persistence,1}} 
 While this card is revealed in play, the first time your opponent discards to pay the {c} of a card each turn, they discard an additional card (if possible)."
 ALP.FTH.023,Peace Be Upon Her Land,3,Reinforcement,,Faith,,,,,"{{persistence,1}}
-While this card is revealed in play, all damage is prevented and attached fortifications gain ""<i>damage dealt to this fortification cannot be prevented</i>"".  If this card is attached to a <b>Defenseless</b> fortification, destroy it."
+While this card is revealed in play, all damage dealt on your opponent's turn is prevented and attached fortifications gain <i>""damage dealt to this fortification cannot be prevented""</i>.  If this card is attached to a <b>Defenseless</b> fortification, destroy it."
 ALP.FTH.024,"By Her Name, Return",3,Reinforcement,,Faith,,,,,"Replace this card with any faith reinforcement from your discard pile (except <i>By Her Name, Return</i>), then activate that reinforcement."
 ALP.FTH.025,Devoted,,Unit,,Faith,1,0,,,{{disciple}}
-ALP.FTH.026,Priest,,Unit,,Faith,1,1,,,"{{disciple}}
-When this unit is deployed at the same time as one or more faith cards, every card it was deployed with regains +1 {l}."
+ALP.FTH.026,Priest,,Unit,,Faith,2,1,,,"{{disciple}}
+When this unit is recruited, every card on the recruitment rail it was recruited to regains +1 {l}."
 ALP.FTH.027,Cleric,,Unit,,Faith,2,1,,,"{{disciple}}
 When this unit is deployed to a lane with a revealed <b>Persistence</b> card in it, it gains +2 {p} until the end of the turn."
 ALP.FTH.028,Her Hallowed Grounds,,Fortification,,Faith,,,6,,"{{sanctum}}

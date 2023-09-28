@@ -2149,7 +2149,7 @@ Target one reinforcement that is revealed in play. Turn it face down, then you m
 
 
 <b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-Prevent the first 2 damage dealt to attached fortifications.
+Prevent the first 2 damage dealt to attached fortifications this turn.
 <br>
 
 ##### ALP.FTH.006
@@ -2161,7 +2161,7 @@ Prevent the first 2 damage dealt to attached fortifications.
  - Rank: 1
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+<b>Persistence, 2:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 2 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
 While this card is revealed in play, whenever an attached fortification would regain Life, it regains +1 Life.
 <br>
 
@@ -2174,7 +2174,7 @@ While this card is revealed in play, whenever an attached fortification would re
  - Rank: 1
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+<b>Persistence, 2:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 2 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
 While this card is revealed in play, attached fortifications cannot be targeted by the effects of your opponent's orders.
 <br>
 
@@ -2334,7 +2334,7 @@ While this card is revealed in play, the first card you recruit each turn gains 
 
 
 <b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-All allied cards regain +2 Life.
+All allied cards regain +1 Life.
 <br>
 
 ##### ALP.FTH.020
@@ -2375,7 +2375,7 @@ While this card is revealed in play, the first time your opponent discards to pa
 
 
 <b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-While this card is revealed in play, all damage is prevented and attached fortifications gain "<i>damage dealt to this fortification cannot be prevented</i>".  If this card is attached to a <b>Defenseless</b> fortification, destroy it.
+While this card is revealed in play, all damage dealt on your opponent's turn is prevented and attached fortifications gain <i>"damage dealt to this fortification cannot be prevented"</i>.  If this card is attached to a <b>Defenseless</b> fortification, destroy it.
 <br>
 
 ##### ALP.FTH.023
@@ -2408,12 +2408,12 @@ Replace this card with any faith reinforcement from your discard pile (except <i
 
 ## <b>Priest</b>
 ### <i> Unit, Faith</i>
- - Cost: 1
+ - Cost: 2
  - Power: 1
 
 
 <b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>  
-When this unit is deployed at the same time as one or more faith cards, every card it was deployed with regains +1 Life.
+When this unit is recruited, every card on the recruitment rail it was recruited to regains +1 Life.
 <br>
 
 ##### ALP.FTH.026

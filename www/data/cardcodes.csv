@@ -32,8 +32,8 @@ ALP.NAT.027,Caltrops,2,Reinforcement,,Non-attribute,,,,,Deal 1 damage to the fir
 ALP.NAT.028,Meat Shield,2,Reinforcement,,Non-attribute,,,,,"When an attached fortification is attacked, you may choose to destroy a unit from an allied recruitment rail and prevent damage equal to that unit's {p}. "
 ALP.NAT.029,Difficult Terrain,2,Response,,Non-attribute,1,,,,"<b>Trigger:</b> Target player deploys one or more units.
 <b>Response:</b> Target player cannot deploy or redeploy any additional units this turn."
-ALP.NAT.030,The Cost of War ,2,Response,,Non-attribute,0,,,,"<b>Trigger:</b> Target player discards one or more times to pay the {c} of a card.
-<b>Response:</b> Target player must discard an additional card (if possible)."
+ALP.NAT.030,Cost of War,2,Response,,Non-attribute,0,,,,"<b>Trigger:</b> Target player pays one or more cards to fulfill the {c} of another card.
+<b>Response:</b> Target player must pay an additional card (if possible)."
 ALP.NAT.031,Referral Bonus,3,Order,,Non-attribute,1,,,,All cards recruited this turn gain -1 {c}.
 ALP.NAT.032,Seek and Destroy ,3,Order,,Non-attribute,1,,,,Destroy target reinforcement.
 ALP.NAT.033,Another Castle,3,Reinforcement,,Non-attribute,,,,,"If an attached fortification is destroyed, you may discard a card.  If you do, recreate it with full {l}. "
@@ -47,6 +47,8 @@ ALP.NAT.038,Boots at the Door,2,Reinforcement,,Non-attribute,,,,,"When a card wi
 ALP.NAT.039,Cycle,1,Order,,Non-attribute,0,,,,"Draw a card, then discard a card."
 ALP.NAT.040,Warding Tower,,Fortification,,Non-attribute,,,7,,Allied leaders in reserve that share a field with this fortification cannot be targeted by the effects of your opponent's orders. 
 ALP.NAT.041,Castle the King,1,Order,,Non-attribute,0,,,,Switch the position of two allied leaders in reserve.  <i>(Recruited units are not affected by a change in leader position.)</i>
+ALP.NAT.042,Casualties of War,2,Response,,Non-attribute,0,,,,"<b>Trigger:</b> Target player pays one or more cards to fulfill the {c} of another card.
+<b>Response:</b> Target player discards each card used for payment."
 ALP.GEN.001,"Ibn Rasa, Master of None",,Leader,Generalist,Non-attribute,2,2,10,0,"Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 {p} until the end of the turn."
 ALP.GEN.002,Simple Robe,3,Order,Generalist,Non-attribute,2,,,,"<b>Once per Turn Order (0 {c}):</b> Parent card gains any attribute or class name you choose until the end of the turn.
 {{equip}}"
@@ -263,7 +265,7 @@ ALP.APS.001,"Father Azari, Golden Guidance",,Leader,Apostle,Faith,1,0,8,0,"<b>Wo
 <i>(This effect can only be activated in your deployment phase while 1 allied Disciple card shares a recruitment rail with this Leader.)</i> "
 ALP.APS.002,Shepherd for All,1,Order,Apostle,Faith,0,,,,All cards regain +1 {l}.
 ALP.APS.003,Lead to Enlightenment,3,Reinforcement,Apostle,Faith,,,,,"{{persistence,1}}
-While this card is revealed in play, whenever an allied card regains any {l}, all other allied cards regain +1 {l}."
+While this card is revealed in play, whenever an allied card regains any {l} (except from <i>Lead to Enlightenment</i>), all other allied cards regain +1 {l}."
 ALP.APS.004,Radiant Sanctuary,,Fortification,Apostle,Faith,,,6,,"{{rejuvenate}}
 When this card would be destroyed, it instead remains in play at 0 {l} and gains the <b>Defenseless</b> keyword.
 ({{defenseless}})"
@@ -304,7 +306,7 @@ ALP.FTH.021,"Come to Her, Stay with Her",2,Response,,Faith,2,,,,"<b>Trigger:</b>
 <b>Response:</b> Target reinforcement gains the <b>Persistence, 1</b> keyword. 
 ({{persistence,1}})"
 ALP.FTH.022,"Against Her, They Relent",3,Reinforcement,,Faith,,,,,"{{persistence,1}} 
-While this card is revealed in play, the first time your opponent discards to pay the {c} of a card each turn, they discard an additional card (if possible)."
+While this card is revealed in play, the first time your opponent pays one or more cards to fulfill the {c} of another card each turn, they pay an additional card (if possible)."
 ALP.FTH.023,Peace Be Upon Her Land,3,Reinforcement,,Faith,,,,,"{{persistence,1}}
 While this card is revealed in play, all damage dealt on your opponent's turn is prevented and attached fortifications gain <i>""damage dealt to this fortification cannot be prevented""</i>.  If this card is attached to a <b>Defenseless</b> fortification, destroy it."
 ALP.FTH.024,"By Her Name, Return",3,Reinforcement,,Faith,,,,,"Replace this card with any faith reinforcement from your discard pile (except <i>By Her Name, Return</i>), then activate that reinforcement."
@@ -316,3 +318,5 @@ When this unit is deployed to a lane with a revealed <b>Persistence</b> card in 
 ALP.FTH.028,Her Hallowed Grounds,,Fortification,,Faith,,,6,,"{{sanctum}}
 When this card would be destroyed, it instead remains in play at 0 {l} and gains the <b>Defenseless</b> keyword.
 ({{defenseless}})"
+ALP.FTH.029,"Her Gospel, Received",2,Response,,Faith,0,,,,"<b>Trigger:</b> A card is deployed.
+<b>Response:</b> Target reinforcement is revealed."

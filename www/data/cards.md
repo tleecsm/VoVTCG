@@ -369,14 +369,14 @@ When an attached fortification is attacked, you may choose to destroy a unit fro
 
 <hr>
 
-## <b>The Cost of War </b>
+## <b>Cost of War</b>
 ### <i> Response, Non-attribute</i>
  - Rank: 2
  - Cost: 0
 
 
-<b>Trigger:</b> Target player discards one or more times to pay the Cost of a card.  
-<b>Response:</b> Target player must discard an additional card (if possible).
+<b>Trigger:</b> Target player pays one or more cards to fulfill the Cost of another card.  
+<b>Response:</b> Target player must pay an additional card (if possible).
 <br>
 
 ##### ALP.NAT.030
@@ -523,6 +523,20 @@ Switch the position of two allied leaders in reserve.  <i>(Recruited units are n
 
 <hr>
 
+## <b>Casualties of War</b>
+### <i> Response, Non-attribute</i>
+ - Rank: 2
+ - Cost: 0
+
+
+<b>Trigger:</b> Target player pays one or more cards to fulfill the Cost of another card.  
+<b>Response:</b> Target player discards each card used for payment.
+<br>
+
+##### ALP.NAT.042
+
+<hr>
+
 ## <b>Ibn Rasa, Master of None</b>
 ### <i>Generalist Leader, Non-attribute</i>
  - Cost: 2
@@ -569,7 +583,7 @@ Cards recruited this turn may be recruited to any allied recruitment rail.
  - Life: 7
 
 
-<b>Rejuvenate:</b> <i>When an allied card is deployed from a field shared by this fortification, that card regains +1 Life.</i>
+<b>Rejuvenate:</b> <i>When an allied card is deployed to a lane shared by this fortification, that card regains +1 Life.</i>
 <br>
 
 ##### ALP.GEN.004
@@ -2057,7 +2071,7 @@ All cards regain +1 Life.
 
 
 <b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-While this card is revealed in play, whenever an allied card regains any Life, all other allied cards regain +1 Life.
+While this card is revealed in play, whenever an allied card regains any Life (except from <i>Lead to Enlightenment</i>), all other allied cards regain +1 Life.
 <br>
 
 ##### ALP.APS.003
@@ -2069,7 +2083,7 @@ While this card is revealed in play, whenever an allied card regains any Life, a
  - Life: 6
 
 
-<b>Rejuvenate:</b> <i>When an allied card is deployed from a field shared by this fortification, that card regains +1 Life.</i>  
+<b>Rejuvenate:</b> <i>When an allied card is deployed to a lane shared by this fortification, that card regains +1 Life.</i>  
 When this card would be destroyed, it instead remains in play at 0 Life and gains the <b>Defenseless</b> keyword.  
 (<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>)
 <br>
@@ -2362,7 +2376,7 @@ All allied cards regain +1 Life.
 
 
 <b>Persistence, 1:</b> <i>This card is not destroyed by activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
-While this card is revealed in play, the first time your opponent discards to pay the Cost of a card each turn, they discard an additional card (if possible).
+While this card is revealed in play, the first time your opponent pays one or more cards to fulfill the Cost of another card each turn, they pay an additional card (if possible).
 <br>
 
 ##### ALP.FTH.022
@@ -2445,6 +2459,20 @@ When this card would be destroyed, it instead remains in play at 0 Life and gain
 <br>
 
 ##### ALP.FTH.028
+
+<hr>
+
+## <b>Her Gospel, Received</b>
+### <i> Response, Faith</i>
+ - Rank: 2
+ - Cost: 0
+
+
+<b>Trigger:</b> A card is deployed.  
+<b>Response:</b> Target reinforcement is revealed.
+<br>
+
+##### ALP.FTH.029
 
 <hr>
 

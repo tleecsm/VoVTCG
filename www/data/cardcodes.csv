@@ -54,10 +54,10 @@ ALP.GEN.002,Simple Robe,3,Order,Generalist,Non-attribute,2,,,,"<b>Once per Turn 
 {{equip}}"
 ALP.GEN.003,Jack of All ,1,Order,Generalist,Non-attribute,0,,,,Cards recruited this turn may be recruited to any allied recruitment rail.
 ALP.GEN.004,Hamlet,,Fortification,Generalist,Non-attribute,,,7,,{{rejuvenate}}
-ALP.LMG.001,"Gerky, Conniving Goblin",,Leader,Lootmonger,Non-attribute,1,1,6,1,"Whenever a non-attribute reinforcement controlled by an opponent is revealed, draw 1 card, then discard 1 card."
+ALP.LMG.001,"Gerky, Conniving Goblin",,Leader,Lootmonger,Non-attribute,1,1,6,1,"Whenever a non-attribute reinforcement controlled by an opponent is revealed, draw a card, then discard a card."
 ALP.LMG.002,Kickstart,2,Order,Lootmonger,Non-attribute,0,,,,"If this is the first order you have played this turn, draw 2 cards."
-ALP.LMG.003,Goblin's Greed,3,Order,Lootmonger,Non-attribute,1,,,,"Whenever you would draw one or more cards this turn as the result of an effect, draw 1 card."
-ALP.LMG.004,Junk Market,,Fortification,Lootmonger,Non-attribute,,,6,,"The first time a card arrives at this fortification each turn, draw 1 card."
+ALP.LMG.003,Goblin's Greed,3,Order,Lootmonger,Non-attribute,0,,,,"Whenever you would draw one or more cards this turn as the result of an effect, draw a card."
+ALP.LMG.004,Junk Market,,Fortification,Lootmonger,Non-attribute,,,6,,"The first time a card arrives at this fortification each turn, draw a card."
 ALP.WIZ.001,"Elq, Prismatic Witch",,Leader,Wizard,Arcane,2,1,4,0,"Whenever you play a <b>Spell</b> card, you may change its {c} to 2{c}.  If you do, the card gains the <b>Prismatic</b> keyword.
 ({{prismatic}})
 {{spellcaster,3}}"
@@ -123,31 +123,31 @@ ALP.AST.014,Stargazer's Observatory,,Fortification,Astrologer,Arcane,,,6,,"Once 
 ALP.ARC.001,Conjurer,,Unit,,Arcane,0,0,,,"{{spellcaster,1}}"
 ALP.ARC.002,Thaumaturge,,Unit,,Arcane,1,1,,,"{{spellcaster,2}}"
 ALP.ARC.003,Magus,,Unit,,Arcane,2,2,,,"{{spellcaster,3}}"
-ALP.ARC.004,Magi's Teachings,1,Order,,Arcane,0,,,,"Target card on a recruitment rail gains the <b>Spellcaster, Rank 1</b> keyword until the end of this turn.
+ALP.ARC.004,Magi's Teachings,1,Order,,Arcane,0,,,,"Target card on a recruitment rail gains the <b>Spellcaster, Level 1</b> keyword until the end of this turn.
 ({{spellcaster,1}})"
-ALP.ARC.005,Graduation,1,Order,,Arcane,0,,,,Target <b>Spellcaster</b> card gains +1 <b>Rank</b>.
+ALP.ARC.005,Graduation,1,Order,,Arcane,0,,,,Target <b>Spellcaster</b> card gains +1 <b>Level</b>.
 ALP.ARC.006,Firebolt,1,Order,,Arcane,0,,,,"Deal 1 damage to a target card that shares a field with this card's <b>Spellcaster</b>.
 {{spell,1}}"
-ALP.ARC.007,From the Spell Scroll,1,Order,,Arcane,1,,,,The next <b>Spell</b> card played gains -1 <b>Rank</b> (to a minimum of <b>Rank 1</b>).
+ALP.ARC.007,From the Spell Scroll,1,Order,,Arcane,1,,,,The next <b>Spell</b> card played gains -1 <b>Level</b> (to a minimum of <b>Level 1</b>).
 ALP.ARC.008,Teleport,1,Order,,Arcane,0,,,,"Target card on a recruitment rail is moved to any other recruitment rail allied with that card.
 {{spell,1}}"
 ALP.ARC.009,Reflection,1,Reinforcement,,Arcane,,,,,"Any card that arrives at an attached fortification is <b>Reflected</b>. 
 ({{reflected}})"
 ALP.ARC.010,Translation,1,Reinforcement,,Arcane,,,,,"Any card that arrives at an attached fortification is <b>Translated</b>.
 ({{translated}})"
-ALP.ARC.011,Illusory Keep,1,Reinforcement,,Arcane,,,,,"You may discard a card. If you do, replace an attached fortification with a different fortification card that you do not already control. All damage dealt to the original fortification is transfered to the new fortification."
+ALP.ARC.011,Illusory Keep,1,Reinforcement,,Arcane,,,,,Replace an attached fortification with a different fortification card that you do not already control. All damage dealt to the original fortification is transfered to the new fortification.
 ALP.ARC.012,Glowing Sigils,1,Reinforcement,,Arcane,,,,,You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> requirement to play a <b>Spell</b> card).
 ALP.ARC.013,Scrying,1,Response,,Arcane,0,,,,"<b>Trigger:</b> A player draws one or more cards as the result of another card's effect.
 <b>Response:</b> You may look at the cards that were drawn this way."
 ALP.ARC.014,Spell Echo,1,Response,,Arcane,0,,,,"<b>Trigger:</b> An allied <b>Spell</b> card is played.
-<b>Response:</b> You may play a <b>Spell</b> card with equal or lesser Rank using the same <b>Spellcaster</b>."
+<b>Response:</b> You may play a <b>Spell</b> card with equal or lesser <b>Level</b> using the same <b>Spellcaster</b>."
 ALP.ARC.015,Blink,1,Response,,Arcane,0,,,,"<b>Trigger:</b> Target card arrives at a fortification.
 <b>Response:</b> Target card is <b>Reflected</b>.
 ({{reflected}})"
 ALP.ARC.016,Shift,1,Response,,Arcane,0,,,,"<b>Trigger:</b> Target card arrives at a fortification.
 <b>Response:</b> Target card is <b>Translated</b>.
 ({{translated}})"
-ALP.ARC.017,Robes of the Archmagus,2,Order,,Arcane,2,,,,"<b>Once per Turn Order (0 {c}):</b> Parent card gains the <b>Spellcaster, Rank 1</b> keyword.
+ALP.ARC.017,Robes of the Archmagus,2,Order,,Arcane,2,,,,"<b>Once per Turn Order (0 {c}):</b> Parent card gains the <b>Spellcaster, Level 1</b> keyword.
 ({{spellcaster,1}})
 {{equip}}"
 ALP.ARC.018,Fireball,2,Order,,Arcane,0,,,,"Deal 2 damage to a target card that shares a field with this card's <b>Spellcaster</b>.
@@ -165,16 +165,16 @@ ALP.ARC.024,Spellish Rebuke,2,Response,,Arcane,1,,,,"<b>Trigger:</b> Target alli
 <b>Response:</b> You may play a <b>Spell</b> card using the target leader as the <b>Spellcaster</b>, and if you do ignore the recruitment requirement for that <b>Spell</b>."
 ALP.ARC.025,Robes of the Outcast Witch,3,Order,,Arcane,3,,,,"<b>Once per Turn Order (1 {c}):</b> Parent <b>Spellcaster</b> card ignores the recruitment requirement for next <b>Spell</b> card played this turn.
 {{equip}}"
-ALP.ARC.026,Meteor Shower,3,Order,,Arcane,1,,,,"Deal 1 damage to any number of targets that share a field with this card's <b>Spellcaster</b>..
+ALP.ARC.026,Meteor Shower,3,Order,,Arcane,1,,,,"Deal 1 damage to any number of targets that share a field with this card's <b>Spellcaster</b>.
 {{spell,3}}"
 ALP.ARC.027,Flare,3,Order,,Arcane,1,,,,"Deal 3 damage to a target card that shares a field with this card's <b>Spellcaster</b>.
 {{spell,3}}"
 ALP.ARC.028,College of Arcane Arts,,Fortification,,Arcane,,,8,,"Whenever an attached reinforcement is revealed, you may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> requirement to play a <b>Spell</b> card)."
-ALP.ARC.029,Extra Spell Slot,1,Order,,Arcane,2X,,,,Return a <b>Spell</b> card from your discard pile to your hand. X is the <b>Rank</b> of that <b>Spell</b> card.
+ALP.ARC.029,Extra Spell Slot,1,Order,,Arcane,2X,,,,"Return a <b>Spell</b> card from your discard pile to your hand, where X is the <b>Level</b> of that <b>Spell</b> card."
 ALP.ARC.030,Counterspell,2,Response,,Arcane,1,,,,"<b>Trigger:</b> An order is played.
 <b>Response:</b> Negate that order's effects and destroy it.
 {{spell,2}}"
-ALP.ARC.031,Phantasmal Armament,2,Order,,Arcane,X,,,,"This card becomes a copy of target <b>Equip</b> order in play. Destroy this card if the original target order leaves play. X is the <b>Rank</b> of the target order.
+ALP.ARC.031,Phantasmal Armament,2,Order,,Arcane,X,,,,"This card becomes a copy of target <b>Equip</b> order in play, where X is the <b>Rank</b> of the target order. Destroy this card if the original target order leaves play. 
 {{equip}}"
 ALP.ARC.032,Gale,1,Order,,Arcane,0,,,,"Remove target unit from any recruitment rail that shares a field with this card's <b>Spellcaster</b>.
 {{spell,1}}"
@@ -250,16 +250,17 @@ ALP.MEL.031,Broadhead Pike,,Token Order,,Melee,1,,,,"<b>Once per Turn Order (1 {
 {{equip}}"
 ALP.MEL.032,Rearm,1,Order,,Melee,0,,,,"Create a token <b>Equip</b> order that shares an attribute or class with an allied leader, then add it to your hand."
 ALP.MEL.033,Armed to the Teeth,2,Order,,Melee,1,,,,"The first time each <b>Equip</b> order attached to target melee card is activated this turn, it activation gains -1 {c}."
-ALP.MEL.034,Steel-plated Maul,,Token Order,,Melee,1,,,,"<b>Once per Turn Order (1 {c}):</b> Parent leader gains <b>Knockback</b>.
+ALP.MEL.034,Steel-plated Maul,,Token Order,,Melee,1,,,,"<b>Once per Turn Order (1 {c}):</b> Parent leader gains the <b>Knockback</b> keyword until the end of the turn.
 ({{knockback}})
 {{equip}}"
+ALP.MEL.035,Wild Charge,1,Order,,Melee,1,,,,The first unit that attacks this turn gains the <b>Knockback</b> keyword.
 ALP.EXA.001,"Seraphim, Idol of Worship",,Leader,Exarch,Faith,2,0,10,1,"<b>Worship, 2 Disciples (1 {c}):</b> Target <b>Persistence</b> card with no <b>Persist</b> counters gains +1 <b>Persist</b> counter. 
 <i>(This effect can only be activated in your deployment phase while 2 allied Disciple cards share a recruitment rail with this Leader.)</i> "
 ALP.EXA.002,Prayer to the Idol,2,Order,Exarch,Faith,0,,,,Move any number of <b>Persist</b> counters from one <b>Persistence</b> card to another <b>Persistence</b> card.
 ALP.EXA.003,Statue of the Exarch,3,Reinforcement,Exarch,Faith,,,,,"{{persistence,1}}
-While this card is revealed in play, it is the only card that <b>Persist</b> counters must be removed from in the end phase."
+While this card is revealed in play, it is the only card that <b>Persist</b> counters must be removed from in the end phase. When this card leaves play, destroy all allied <b>Persistance</b> cards in play."
 ALP.EXA.004,Crystalline Chapel,,Fortification,Exarch,Faith,,,10,,"{{persistence,1}}
-Whenever another <b>Persistence</b> card attached to this fortification is destroyed, this card regains +2 {l}.
+Whenever a <b>Persistence</b> card attached to this fortification is destroyed in the end phase, this card regains +2 {l}.
 Whenever a card attached to this fortification would gain a <b>Persist</b> counter, you may instead add that counter to this card."
 ALP.APS.001,"Father Azari, Golden Guidance",,Leader,Apostle,Faith,1,0,8,0,"<b>Worship, 1 Disciple (1 {c}):</b> Whenever an allied faith unit is deployed this turn, target allied card regains +1 {l}. 
 <i>(This effect can only be activated in your deployment phase while 1 allied Disciple card shares a recruitment rail with this Leader.)</i> "
@@ -320,3 +321,10 @@ When this card would be destroyed, it instead remains in play at 0 {l} and gains
 ({{defenseless}})"
 ALP.FTH.029,"Her Gospel, Received",2,Response,,Faith,0,,,,"<b>Trigger:</b> A card is deployed.
 <b>Response:</b> Target reinforcement is revealed."
+ALP.SCT.001,"Teyr, Treetop Watchman",,Leader,Scout,Ranged,2,2,6,1,"{{longdistance,1}}"
+ALP.SCT.002,Bird's Eye View,1,Order,Scout,Ranged,1,,,,"Until the start of your next turn, whenever an opponent would reveal a reinforcement, they instead reveal all of their face down reinforcements."
+ALP.SCT.003,"Misfortune, Avoided",3,Order,Scout,Ranged,1,,,,"Until the start of your next turn, whenever an opponent reveals a reinforcement, that reinforcement is placed on the bottom of their deck."
+ALP.RNG.001,Bowman,,Unit,,Ranged,2,2,,,"{{longdistance,1}}"
+ALP.RNG.002,Arbalist ,,Unit,,Ranged,2,2,,,"{{piercing,1}}"
+ALP.RNG.003,Ballista Crew,,Unit,,Ranged,3,3,,,"{{longdistance,2}}
+{{piercing,2}}"

@@ -2497,7 +2497,8 @@ When this card would be destroyed, it instead remains in play at 0 Life and gain
  - Hand: +1
 
 
-<b>Long-distance, 1:</b> <i>This card may skip the arrival step. If it does its Power becomes 1 until the end of the turn.</i>
+<b>Long-distance, 1:</b> <i>This card may skip the arrival step. If it does its Power becomes 1 until the end of the turn.</i>  
+Whenever a <b>Long-distance</b> card skips the arrival step, reveal a reinforcement in the lane that card was deployed to.  
 <br>
 
 ##### ALP.SCT.001
@@ -2510,7 +2511,7 @@ When this card would be destroyed, it instead remains in play at 0 Life and gain
  - Cost: 1
 
 
-Until the start of your next turn, whenever an opponent would reveal a reinforcement, they instead reveal all of their face down reinforcements.
+Until the start of your next turn, whenever an opponent's reinforcement would be revealed, instead reveal all of their face down reinforcements.
 <br>
 
 ##### ALP.SCT.002
@@ -2523,7 +2524,7 @@ Until the start of your next turn, whenever an opponent would reveal a reinforce
  - Cost: 1
 
 
-Until the start of your next turn, whenever an opponent reveals a reinforcement, that reinforcement is placed on the bottom of their deck.
+Until the start of your next turn, whenever an opponent's reinforcement is revealed, that reinforcement is placed on the bottom of their deck.
 <br>
 
 ##### ALP.SCT.003

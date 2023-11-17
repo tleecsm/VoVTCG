@@ -321,9 +321,10 @@ When this card would be destroyed, it instead remains in play at 0 {l} and gains
 ({{defenseless}})"
 ALP.FTH.029,"Her Gospel, Received",2,Response,,Faith,0,,,,"<b>Trigger:</b> A card is deployed.
 <b>Response:</b> Target reinforcement is revealed."
-ALP.SCT.001,"Teyr, Treetop Watchman",,Leader,Scout,Ranged,2,2,6,1,"{{longdistance,1}}"
-ALP.SCT.002,Bird's Eye View,1,Order,Scout,Ranged,1,,,,"Until the start of your next turn, whenever an opponent would reveal a reinforcement, they instead reveal all of their face down reinforcements."
-ALP.SCT.003,"Misfortune, Avoided",3,Order,Scout,Ranged,1,,,,"Until the start of your next turn, whenever an opponent reveals a reinforcement, that reinforcement is placed on the bottom of their deck."
+ALP.SCT.001,"Teyr, Treetop Watchman",,Leader,Scout,Ranged,2,2,6,1,"{{longdistance,1}}
+Whenever a <b>Long-distance</b> card skips the arrival step, reveal a reinforcement in the lane that card was deployed to.  "
+ALP.SCT.002,Bird's Eye View,1,Order,Scout,Ranged,1,,,,"Until the start of your next turn, whenever an opponent's reinforcement would be revealed, instead reveal all of their face down reinforcements."
+ALP.SCT.003,"Misfortune, Avoided",3,Order,Scout,Ranged,1,,,,"Until the start of your next turn, whenever an opponent's reinforcement is revealed, that reinforcement is placed on the bottom of their deck."
 ALP.RNG.001,Bowman,,Unit,,Ranged,2,2,,,"{{longdistance,1}}"
 ALP.RNG.002,Arbalist ,,Unit,,Ranged,2,2,,,"{{piercing,1}}"
 ALP.RNG.003,Ballista Crew,,Unit,,Ranged,3,3,,,"{{longdistance,2}}

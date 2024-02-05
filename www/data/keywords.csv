@@ -19,3 +19,4 @@ Keyword,Replacement
 {{knockback}},"<b>Knockback:</b> <i>When this card attacks and deals damage to a target on a recruitment rail, that target is removed from the recruitment rail.</i>"
 "{{longdistance,x}}","<b>Long-distance, {{x}}:</b> <i>This card may skip the arrival step. If it does its {p} becomes {{x}} until the end of the turn.</i>"
 "{{piercing,x}}","<b>Piercing, {{x}}:</b> <i>When this card deals damage to a fortification, you may deal {{x}} damage to a recruited card that it shares a field with.</i>"
+{{ammo}},"<b>Ammo:</b> <i>When this card is activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.</i>"

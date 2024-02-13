@@ -67,7 +67,7 @@
  - Cost: 2
 
 
-All cards deployed this turn gain +1 Power until the end of the turn.
+All cards deployed this turn gain +1 Power until the end of this turn.
 <br>
 
 ##### ALP.NAT.006
@@ -556,7 +556,7 @@ Place this card on the bottom of your deck.
  - Life: 10
 
 
-Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 Power until the end of the turn.
+Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 Power until the end of this turn.
 <br>
 
 ##### ALP.GEN.001
@@ -570,7 +570,7 @@ Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 
 
 
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
-<b>Once per Turn Order:</b> Parent card gains any attribute or class name you choose until the end of the turn.
+<b>Once per Turn Order:</b> Parent card gains any attribute or class name you choose until the end of this turn.
 <br>
 
 ##### ALP.GEN.002
@@ -1442,8 +1442,8 @@ Remove 1 Rage counter from target Berserker leader. If you do, until the start o
 ### <i>Berserker Fortification, Melee</i>
 
 
-When an allied leaders is deployed from a field shared by this fortification, it gain +1 Power.  
-<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>
+<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>  
+When an allied leader is deployed from a field shared by this fortification, it gain +1 Power.
 <br>
 
 ##### ALP.BSK.004
@@ -1456,7 +1456,7 @@ When an allied leaders is deployed from a field shared by this fortification, it
 
 
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
-<b>Once per Turn Order (deal 3 damage to parent leader):</b> Parent leader gains +1 Power until the end of the turn.
+<b>Once per Turn Order (deal 3 damage to parent leader):</b> Parent leader gains +1 Power until the end of this turn.
 <br>
 
 ##### ALP.BSK.005
@@ -1510,8 +1510,8 @@ Until the start of your next turn, whenever a <i>Vvolf</i> is recruited, recruit
 ### <i>Primalist Fortification, Melee</i>
 
 
-Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an allied recruitment rail.  
-<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>
+<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>  
+Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an allied recruitment rail.
 <br>
 
 ##### ALP.PRM.004
@@ -1641,7 +1641,7 @@ Target leader has -2 Cost until the end of your turn.
  - Cost: 0
 
 
-Target leader has +2 Power until the end of the turn.  You cannot recuit this leader this turn.  
+Target leader has +2 Power until the end of this turn.  You cannot recuit this leader this turn.  
 <br>
 
 ##### ALP.MEL.008
@@ -1653,7 +1653,7 @@ Target leader has +2 Power until the end of the turn.  You cannot recuit this le
  - Rank: 1
 
 
-When an attached fortification is attacked, you may choose to defend it with an allied leader.  The leader you defend with becomes the new target of the attack.
+When an attached fortification is attacked, you may choose to defend it with an allied leader. The leader you defend with becomes the new target of the attack.
 <br>
 
 ##### ALP.MEL.009
@@ -1842,7 +1842,7 @@ When a card arrives at an attached fortification, you may remove a recruited lea
 
 
 <b>Trigger:</b> An order is played that increases a leader's Power.  
-<b>Response:</b> That leader gains +1 Power until the end of the turn.
+<b>Response:</b> That leader gains +1 Power until the end of this turn.
 <br>
 
 ##### ALP.MEL.024
@@ -1987,7 +1987,7 @@ The first time each <b>Equip</b> order attached to target melee card is activate
 
 
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
-<b>Once per Turn Order (1 Cost):</b> Parent leader gains the <b>Knockback</b> keyword until the end of the turn.  
+<b>Once per Turn Order (1 Cost):</b> Parent leader gains the <b>Knockback</b> keyword until the end of this turn.  
 (<b>Knockback:</b> <i>When this card attacks and deals damage to a target on a recruitment rail, that target is removed from the recruitment rail.</i>)
 <br>
 
@@ -2241,7 +2241,7 @@ Attached fortifications regain +2 Life.
 
 
 <b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
-Cards that arrive at attached fortifications have -1 Power until the end of the turn.
+Cards that arrive at attached fortifications have -1 Power until the end of this turn.
 <br>
 
 ##### ALP.FTH.010
@@ -2282,7 +2282,7 @@ Choose one attached fortification. While this card is revealed in play, it gain 
 
 
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
-<b>Once per Turn Order:</b> Parent card gains the <b>Disciple</b> keyword until the end of the turn.  
+<b>Once per Turn Order:</b> Parent card gains the <b>Disciple</b> keyword until the end of this turn.  
 (<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>)
 <br>
 
@@ -2467,7 +2467,7 @@ When this unit is recruited, every card on the recruitment rail it was recruited
 
 
 <b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>  
-When this unit is deployed to a lane with a revealed <b>Persistence</b> card in it, it gains +2 Power until the end of the turn.
+When this unit is deployed to a lane with a revealed <b>Persistence</b> card in it, it gains +2 Power until the end of this turn.
 <br>
 
 ##### ALP.FTH.027
@@ -2544,6 +2544,19 @@ Until the start of your next turn, whenever a reinforcement controlled by an opp
 
 <hr>
 
+## <b>Crow's Nest</b>
+### <i>Scout Fortification, Ranged</i>
+ - Power: 7
+
+
+<b>Scout:</b> <i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>  
+Allied fortifications that share a lane with this fortification gain the <b>Scout</b> keyword while it is in play.
+<br>
+
+##### ALP.SCT.004
+
+<hr>
+
 ## <b>Sandpit Christy, Heartseeker</b>
 ### <i>Deadeye Leader, Ranged</i>
  - Cost: 3
@@ -2584,6 +2597,18 @@ Whenever a card with <b>Piercing</b> and <b>Long-distance</b> deploys this turn 
 <br>
 
 ##### ALP.DDE.003
+
+<hr>
+
+## <b>Predator's Loophole</b>
+### <i>Deadeye Fortification, Ranged</i>
+
+
+<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>  
+Whenever a Deadeye leader is deployed from a field shared by this fortification, it may declare attack targets as though it were deployed to any lane from an adjacent field.
+<br>
+
+##### ALP.DDE.004
 
 <hr>
 
@@ -2661,7 +2686,7 @@ Whenever an allied <b>Long-distance</b> card arrives at a fortification this tur
 
 <b>Ammo:</b> <i>When this card is activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.</i>  
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
-<b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Long-distance, 1</b> keyword until the end of the turn.  
+<b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Long-distance, 1</b> keyword until the end of this turn.  
 (<b>Long-distance, 1:</b> <i>This card may skip the arrival step. If it does its Power becomes 1 until the end of the turn.</i>)
 <br>
 
@@ -2677,7 +2702,7 @@ Whenever an allied <b>Long-distance</b> card arrives at a fortification this tur
 
 <b>Ammo:</b> <i>When this card is activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.</i>  
 <b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
-<b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Piercing, 1</b> keyword until the end of the turn.  
+<b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Piercing, 1</b> keyword until the end of this turn.  
 (<b>Piercing, 1:</b> <i>When this card deals damage to a fortification, you may deal 1 damage to a recruited card that it shares a field with.</i>)
 <br>
 
@@ -2728,7 +2753,7 @@ Deal 1 damage to any card your opponent has recruited or deployed.
  - Rank: 1
 
 
-Prevent all damage dealt to recruited allied cards that share a field with this reinforcement until the end of the turn.
+Prevent all damage dealt to recruited allied cards that share a field with this reinforcement until the end of this turn.
 <br>
 
 ##### ALP.RNG.011
@@ -2747,7 +2772,7 @@ Reveal target card your opponent controls that shares a field with this reinforc
 
 <hr>
 
-## <b>Back With Bullets</b>
+## <b>Resupply Run</b>
 ### <i> Reinforcement, Ranged</i>
  - Rank: 1
 
@@ -2766,7 +2791,7 @@ You may play an <b>Ammo</b> order without paying its Cost.
 
 
 <b>Trigger:</b> Allied <b>Ammo</b> card is played.  
-<b>Response:</b> Discard an <b>Ammo</b> card from your hand. If you do, target card gains its activation effect.   
+<b>Response:</b> Discard an <b>Ammo</b> card from your hand. If you do, target card gains its Order activation effect.   
 <i>(This does not count as activating the discarded <b>Ammo</b> card)</i>.
 <br>
 
@@ -2852,7 +2877,7 @@ For each ranged card you have recruited, deal 1 damage to a target fortification
  - Cost: 0
 
 
-Until the end of the turn, whenever an allied card would gain <b>Long-distance</b> or <b>Piercing</b> while already having the given keyword, increase the value of the original keyword by 1. 
+Until the end of this turn, whenever an allied card would gain <b>Long-distance</b> or <b>Piercing</b> while already having the given keyword, increase the value of the original keyword by 1. 
 <br>
 
 ##### ALP.RNG.020
@@ -2933,7 +2958,7 @@ Return the first card that arrives at an attached fortification to its recruitme
  - Cost: 1
 
 
-Any number of <b>Long-distance</b> cards may be deployed to the same lane until the end of the turn. Any <b>Long-distance</b> card deployed this turn must skip the arrival step.
+Any number of <b>Long-distance</b> cards may be deployed to the same lane until the end of this turn. Any <b>Long-distance</b> card deployed this turn must skip the arrival step.
 <br>
 
 ##### ALP.RNG.026
@@ -2946,7 +2971,7 @@ Any number of <b>Long-distance</b> cards may be deployed to the same lane until 
  - Cost: 0
 
 
-Whenever a ranged card arrives at a fortification this turn, you may discard a card. If you do, the arriving card attacks twice in the attack step until the end of the turn.
+Whenever a ranged card arrives at a fortification this turn, you may discard a card. If you do, the arriving card attacks twice in the attack step until the end of this turn.
 <br>
 
 ##### ALP.RNG.027
@@ -2964,6 +2989,18 @@ Whenever a ranged card arrives at a fortification this turn, you may discard a c
 <br>
 
 ##### ALP.RNG.028
+
+<hr>
+
+## <b>Ramparts</b>
+### <i> Fortification, Ranged</i>
+ - Life: 7
+
+
+The first time a card arrives at this fortification each turn, you may destory a ranged card on an allied recruitment rail. If you do, deal 1 damage to the arriving card.
+<br>
+
+##### ALP.RNG.029
 
 <hr>
 

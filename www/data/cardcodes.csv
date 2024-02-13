@@ -327,7 +327,7 @@ ALP.SCT.001,"Teyr, Treetop Watchman",,Leader,Scout,Ranged,2,2,6,1,"{{longdistanc
 Whenever a <b>Long-distance</b> card skips the arrival step, reveal target face down reinforcement in the lane that card was deployed to.  "
 ALP.SCT.002,Bird's Eye View,1,Order,Scout,Ranged,1,,,,"Until the start of your next turn, whenever a reinforcement controlled by an opponent would be revealed, instead reveal all of their face down reinforcements."
 ALP.SCT.003,"Misfortune, Avoided",2,Order,Scout,Ranged,1,,,,"Until the start of your next turn, whenever a reinforcement controlled by an opponent is revealed, that reinforcement is placed on the bottom of their deck."
-ALP.SCT.004,Crow's Nest,,Fortification,Scout,Ranged,,7,,,"{{scout}}
+ALP.SCT.004,Crow's Nest,,Fortification,Scout,Ranged,,,7,,"{{scout}}
 Allied fortifications that share a lane with this fortification gain the <b>Scout</b> keyword while it is in play."
 ALP.DDE.001,"Sandpit Christy, Heartseeker",,Leader,Deadeye,Ranged,3,2,6,-1,"{{longdistance,3}}
 {{piercing,3}}"

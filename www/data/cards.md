@@ -2546,7 +2546,7 @@ Until the start of your next turn, whenever a reinforcement controlled by an opp
 
 ## <b>Crow's Nest</b>
 ### <i>Scout Fortification, Ranged</i>
- - Power: 7
+ - Life: 7
 
 
 <b>Scout:</b> <i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>  

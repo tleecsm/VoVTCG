@@ -26,7 +26,7 @@ ALP.NAT.021,Upcycle,3,Order,,Non-attribute,0,,,,Draw 2 cards.
 ALP.NAT.022,Disarm,2,Order,,Non-attribute,0,,,,Disable target reinforcement until the end of your turn.
 ALP.NAT.023,I want you!,2,Order,,Non-attribute,0,,,,Target leader gains +1 {h} until end of your next turn.
 ALP.NAT.024,With Advantage! ,2,Order,,Non-attribute,1,,,,"If target card completes a successful attack this turn, deploy another unit to the same lane."
-ALP.NAT.025,Repeat Offender ,2,Order,,Non-attribute,2,,,,"If target card completes a successful attack this turn, recruit them to the same field at the end of this turn. "
+ALP.NAT.025,Repeat Offender ,2,Order,,Non-attribute,2,,,,"If target card deals damage with an attack this turn, recruit them to the same recruitment rail at the end of the deployment phase. "
 ALP.NAT.026,Indestructible,2,Reinforcement,,Non-attribute,,,,,Attached fortifications cannot be reduced below 1 {l} this turn.
 ALP.NAT.027,Caltrops,2,Reinforcement,,Non-attribute,,,,,Deal 1 damage to the first card that arrives at each attached fortification.
 ALP.NAT.028,Meat Shield,2,Reinforcement,,Non-attribute,,,,,"When an attached fortification is attacked, you may choose to destroy a unit from an allied recruitment rail and prevent damage equal to that unit's {p}. "
@@ -50,9 +50,9 @@ ALP.NAT.041,Castle the King,1,Order,,Non-attribute,0,,,,Switch the position of t
 ALP.NAT.042,Casualties of War,2,Response,,Non-attribute,0,,,,"<b>Trigger:</b> Target player pays one or more cards to fulfill the {c} of another card.
 <b>Response:</b> Target player discards each card used for payment."
 ALP.NAT.043,Bluff,1,Reinforcement,,Non-attribute,,,,,Place this card on the bottom of your deck.
-ALP.GEN.001,"Ibn Rasa, Master of None",,Leader,Generalist,Non-attribute,2,2,10,0,"Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 {p} until the end of this turn."
+ALP.GEN.001,"Ibn Rasa, Master of None",,Leader,Generalist,Non-attribute,2,2,10,0,"Whenever an allied non-attribute card attacks, it gains +1 {p} until the end of this turn."
 ALP.GEN.002,Simple Robe,3,Order,Generalist,Non-attribute,2,,,,"{{equip}}
-<b>Once per Turn Order:</b> Parent card gains any attribute or class name you choose until the end of this turn."
+<b>Once per Turn Order:</b> Parent card gains up to one attribute and up to one class name you choose until the end of this turn."
 ALP.GEN.003,Jack of All ,1,Order,Generalist,Non-attribute,0,,,,Cards recruited this turn may be recruited to any allied recruitment rail.
 ALP.GEN.004,Hamlet,,Fortification,Generalist,Non-attribute,,,7,,{{rejuvenate}}
 ALP.LMG.001,"Gerky, Conniving Goblin",,Leader,Lootmonger,Non-attribute,1,1,6,1,"Whenever a non-attribute reinforcement controlled by an opponent is revealed, draw a card, then discard a card."
@@ -222,7 +222,7 @@ ALP.MEL.015,Riposte,1,Response,,Melee,0,,,,"<b>Trigger:</b> Parry is played and 
 ALP.MEL.016,Twist the Knife,1,Response,,Melee,0,,,,"<b>Trigger:</b> Target allied leader successfully attacks and deals damage to a fortification or leader.
 <b>Response:</b> Target leader deals 1 additional damage with their attack."
 ALP.MEL.017,Everywhere At Once,2,Order,,Melee,1,,,,"If target leader is deployed to any lane this turn, you may redeploy them.  They must be redeployed to a different lane."
-ALP.MEL.018,Return of the King,2,Order,,Melee,1,,,,"If target melee leader is deployed this turn, you may recruit that Leader for 0 {c} until the end of your turn.  "
+ALP.MEL.018,Return of the King,2,Order,,Melee,1,,,,"If target melee leader is deployed this turn, you may recruit that leader for 0 {c} until the end of your turn.  "
 ALP.MEL.020,Fractal Plate,2,Order,,Melee,2,,,,"{{equip}}
 <b>Once per Turn Response (1 {c}):</b> 
 <b>Trigger:</b> Target leader takes damage from an attack.
@@ -250,7 +250,7 @@ ALP.MEL.030,Bastard Sword,,Token Order,,Melee,1,,,,"{{equip}}
 ALP.MEL.031,Broadhead Pike,,Token Order,,Melee,1,,,,"{{equip}}
 <b>Once per Turn Order (1 {c}):</b> Parent leader gains +1 {p} while attacking other leaders in reserve."
 ALP.MEL.032,Rearm,1,Order,,Melee,0,,,,"Create a <b>Equip</b> order token that shares an attribute or class with an allied leader, then add it to your hand."
-ALP.MEL.033,Armed to the Teeth,2,Order,,Melee,1,,,,"The first time each <b>Equip</b> order attached to target melee card is activated this turn, it activation gains -1 {c}."
+ALP.MEL.033,Armed to the Teeth,2,Order,,Melee,1,,,,"The first time each <b>Equip</b> order attached to target melee card is activated this turn, that activation gains -1 {c}."
 ALP.MEL.034,Steel-plated Maul,,Token Order,,Melee,1,,,,"{{equip}}
 <b>Once per Turn Order (1 {c}):</b> Parent leader gains the <b>Knockback</b> keyword until the end of this turn.
 ({{knockback}})"
@@ -341,15 +341,12 @@ ALP.RNG.002,Arbalist ,,Unit,,Ranged,2,2,,,"{{piercing,1}}"
 ALP.RNG.003,Ballista Crew,,Unit,,Ranged,3,3,,,"{{longdistance,2}}
 {{piercing,2}}"
 ALP.RNG.004,Ricochet,1,Order,,Ranged,0,,,,"Whenever an allied card would deal <b>Piercing</b> damage to a recruited card this turn, instead you may deal that damage to a different fortification that shares a lane with the original fortification the card attacked. "
-ALP.RNG.005,Point-Blank,1,Order,,Ranged,0,,,,"Whenever an allied <b>Long-distance</b> card arrives at a fortification this turn, it gains +X {p}, where X is equal to its <b>Long-distance</b> damage."
-ALP.RNG.006,Flight Arrows,1,Order,,Ranged,1,,,,"{{ammo}}
-{{equip}}
+ALP.RNG.005,Point-Blank,1,Order,,Ranged,1,,,,"Whenever an allied <b>Long-distance</b> card arrives at a fortification this turn, it gains +X {p}, where X is equal to its <b>Long-distance</b> damage."
+ALP.RNG.006,Flight Arrows,1,Order,,Ranged,1,,,,"<b>Equip</b>, {{ammo}}
 <b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Long-distance, 1</b> keyword until the end of this turn.
-({{longdistance,1}})"
-ALP.RNG.007,Piercing Bolts,1,Order,,Ranged,1,,,,"{{ammo}}
-{{equip}}
-<b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Piercing, 1</b> keyword until the end of this turn.
-({{piercing,1}})"
+"
+ALP.RNG.007,Piercing Bolts,1,Order,,Ranged,1,,,,"<b>Equip</b>, {{ammo}}
+<b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Piercing, 1</b> keyword until the end of this turn."
 ALP.RNG.008,Shrapnel Shot,1,Order,,Ranged,1,,,,"The next time target ranged card would deal damage to a fortification this turn, that damage may instead be distributed to any number of recruited cards that share a field with the fortification."
 ALP.RNG.009,Concussion Shot,1,Order,,Ranged,1,,,,"The next time target ranged card would deal damage to a recruited card this turn, instead remove that card from its recruitment rail."
 ALP.RNG.010,Pick Off,1,Reinforcement,,Ranged,,,,,Deal 1 damage to any card your opponent has recruited or deployed.
@@ -364,11 +361,9 @@ ALP.RNG.015,Watchful Sentry,1,Response,,Ranged,1,,,,"<b>Trigger:</b> Allied fort
 ALP.RNG.016,Bound Back,1,Response,,Ranged,0,,,,"<b>Trigger:</b> Target <b>Long-distance</b> card arrives at a fortification and activates a reinforcement card.
 <b>Response:</b> Redeploy target <b>Long-distance</b> card to the same lane and skip the arrival step. 
 <i>(The activated reinforcement card's effect still resolves)</i>"
-ALP.RNG.017,Bunker Buster Bolts,2,Order,,Ranged,2,,,,"{{ammo}}
-{{equip}}
+ALP.RNG.017,Bunker Buster Bolts,2,Order,,Ranged,2,,,,"<b>Equip</b>, {{ammo}}
 <b>Once per Turn Order (destroy this):</b> Parent ranged card gains +1 {p} while attacking fortifications."
-ALP.RNG.018,Arc Arrows,2,Order,,Ranged,2,,,,"{{ammo}}
-{{equip}}
+ALP.RNG.018,Arc Arrows,2,Order,,Ranged,2,,,,"<b>Equip</b>, {{ammo}}
 <b>Once per Turn Order (destroy this):</b> The first time parent ranged card deals damage to a fortification this turn, deal 1 damage to all other fortifications controlled by an opponent."
 ALP.RNG.019,Firing Line,2,Order,,Ranged,1,,,,"For each ranged card you have recruited, deal 1 damage to a target fortification controlled by an opponent. You cannot declare deployments this turn."
 ALP.RNG.020,Practice Makes Perfect,2,Order,,Ranged,0,,,,"Until the end of this turn, whenever an allied card would gain <b>Long-distance</b> or <b>Piercing</b> while already having the given keyword, increase the value of the original keyword by 1. "

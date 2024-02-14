@@ -1,22 +1,22 @@
 Keyword,Replacement
-{{swarm}},<b>Swarm:</b> <i>This unit is not destroyed upon taking damage.</i>
-{{scout}},"<b>Scout:</b> <i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>"
-{{defenseless}},<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>
-{{equip}},<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>
-{{rejuvenate}},"<b>Rejuvenate:</b> <i>When an allied card is deployed to a lane shared by this fortification, that card regains +1 {l}.</i>"
-{{prismatic}},<b>Prismatic:</b> <i>This card's effects cannot be prevented or modified by another player.</i>
-"{{spellcaster,x}}","<b>Spellcaster, Level {{x}}:</b><i> While this card is recruited, you may play a Spell card with Level {{x}} or less. If you do, remove this card from the recruitment rail.</i>"
-"{{spell,x}}","<b>Spell, Level {{x}}:</b> <i>This card can only be played by the effect of a Spellcaster card.</i> "
-{{reflected}},<b>Reflected:</b> <i>Target card is moved to the opposite lane an equal distance away from the center lane.</i>
-{{translated}},<b>Translated:</b> <i>Target card is moved to an adjacent lane of your choice.</i>
-"{{persistence,x}}","<b>Persistence, {{x}}:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains {{x}} Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>"
-{{sanctum}},<b>Sanctum:</b> <i>Allied Worship effects require 1 less Disciple to activate.</i>
-{{disciple}},<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>
-{{unique}},<b>Unique:</b> <i>You can only include one copy of this card in your deck.</i>
+{{swarm}},<b>Swarm</b> (<i>This unit is not destroyed upon taking damage.</i>)
+{{scout}},"<b>Scout</b> (<i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>)"
+{{defenseless}},<b>Defenseless</b> (<i>This fortification does not prevent allied cards from being targeted for attacks.</i>)
+{{equip}},<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)
+{{rejuvenate}},"<b>Rejuvenate</b> (<i>When an allied card is deployed to a lane shared by this fortification, that card regains +1 {l}.</i>)"
+{{prismatic}},<b>Prismatic</b> (<i>This card's effects cannot be prevented or modified by another player.</i>)
+"{{spellcaster,x}}","<b>Spellcaster, Level {{x}}</b> (<i>While this card is recruited, you may play a Spell card with Level {{x}} or less. If you do, remove this card from the recruitment rail.</i>)"
+"{{spell,x}}","<b>Spell, Level {{x}}</b> (<i>This card can only be played by the effect of a Spellcaster card.</i>)"
+{{reflected}},<b>Reflected</b> (<i>Target card is moved to the opposite lane an equal distance away from the center lane.</i>)
+{{translated}},<b>Translated</b> (<i>Target card is moved to an adjacent lane of your choice.</i>)
+"{{persistence,x}}","<b>Persistence, {{x}}</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains {{x}} Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)"
+{{sanctum}},<b>Sanctum</b> (<i>Allied Worship effects require 1 less Disciple to activate.</i>)
+{{disciple}},<b>Disciple</b> (<i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>)
+{{unique}},<b>Unique</b> (<i>You can only include one copy of this card in your deck.</i>)
 "{{zodiac,x}}","<b>Zodiac, Season of {{x}}</b>"
-{{packhunter}},<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>
-{{armed}},"<b>Armed:</b> <i>At the start of the game, attach a token Equip order to this card. The order you choose must share an attribute or class with this card.</i>"
-{{knockback}},"<b>Knockback:</b> <i>When this card attacks and deals damage to a target on a recruitment rail, that target is removed from the recruitment rail.</i>"
-"{{longdistance,x}}","<b>Long-distance, {{x}}:</b> <i>This card may skip the arrival step. If it does its {p} becomes {{x}} until the end of the turn.</i>"
-"{{piercing,x}}","<b>Piercing, {{x}}:</b> <i>When this card deals damage to a fortification, you may deal {{x}} damage to a recruited card that it shares a field with.</i>"
-{{ammo}},"<b>Ammo:</b> <i>When this card is activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.</i>"
+{{packhunter}},<b>Pack Hunter</b> (<i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>)
+{{armed}},"<b>Armed</b> (<i>At the start of the game, attach a token Equip order to this card. The order you choose must share an attribute or class with this card.</i>)"
+{{knockback}},"<b>Knockback</b> (<i>When this card attacks and deals damage to a target on a recruitment rail, that target is removed from the recruitment rail.</i>)"
+"{{longdistance,x}}","<b>Long-distance, {{x}}</b> (<i>This card may skip the arrival step. If it does its {p} becomes {{x}} until the end of the turn.</i>)"
+"{{piercing,x}}","<b>Piercing, {{x}}</b> (<i>When this card deals damage to a fortification, you may deal {{x}} damage to a recruited card that it shares a field with.</i>)"
+{{ammo}},"<b>Ammo</b> (<i>When this card is activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.</i>)"

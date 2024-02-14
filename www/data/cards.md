@@ -17,7 +17,7 @@
  - Power: 2
 
 
-<b>Swarm:</b> <i>This unit is not destroyed upon taking damage.</i>
+<b>Swarm</b> (<i>This unit is not destroyed upon taking damage.</i>)
 <br>
 
 ##### ALP.NAT.002
@@ -30,7 +30,7 @@
  - Power: 4
 
 
-<b>Swarm:</b> <i>This unit is not destroyed upon taking damage.</i>
+<b>Swarm</b> (<i>This unit is not destroyed upon taking damage.</i>)
 <br>
 
 ##### ALP.NAT.003
@@ -54,7 +54,7 @@
  - Life: 7
 
 
-<b>Scout:</b> <i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>
+<b>Scout</b> (<i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>)
 <br>
 
 ##### ALP.NAT.005
@@ -312,7 +312,7 @@ If target card completes a successful attack this turn, deploy another unit to t
  - Cost: 2
 
 
-If target card completes a successful attack this turn, recruit them to the same field at the end of this turn. 
+If target card deals damage with an attack this turn, recruit them to the same recruitment rail at the end of the deployment phase. 
 <br>
 
 ##### ALP.NAT.025
@@ -439,7 +439,7 @@ If an attached fortification is destroyed, you may discard a card.  If you do, r
 ### <i> Fortification, Non-attribute</i>
 
 
-<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>
+<b>Defenseless</b> (<i>This fortification does not prevent allied cards from being targeted for attacks.</i>)
 <br>
 
 ##### ALP.NAT.035
@@ -556,7 +556,7 @@ Place this card on the bottom of your deck.
  - Life: 10
 
 
-Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 Power until the end of this turn.
+Whenever an allied non-attribute card attacks, it gains +1 Power until the end of this turn.
 <br>
 
 ##### ALP.GEN.001
@@ -569,8 +569,8 @@ Whenever a non-attribute card controlled by you or an ally attacks, it gains +1 
  - Cost: 2
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
-<b>Once per Turn Order:</b> Parent card gains any attribute or class name you choose until the end of this turn.
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
+<b>Once per Turn Order:</b> Parent card gains up to one attribute and up to one class name you choose until the end of this turn.
 <br>
 
 ##### ALP.GEN.002
@@ -595,7 +595,7 @@ Cards recruited this turn may be recruited to any allied recruitment rail.
  - Life: 7
 
 
-<b>Rejuvenate:</b> <i>When an allied card is deployed to a lane shared by this fortification, that card regains +1 Life.</i>
+<b>Rejuvenate</b> (<i>When an allied card is deployed to a lane shared by this fortification, that card regains +1 Life.</i>)
 <br>
 
 ##### ALP.GEN.004
@@ -662,9 +662,9 @@ The first time a card arrives at this fortification each turn, draw a card.
  - Life: 4
 
 
-<b>Spellcaster, Level 3:</b><i> While this card is recruited, you may play a Spell card with Level 3 or less. If you do, remove this card from the recruitment rail.</i>  
+<b>Spellcaster, Level 3</b> (<i>While this card is recruited, you may play a Spell card with Level 3 or less. If you do, remove this card from the recruitment rail.</i>)  
 Whenever you play a <b>Spell</b> card, you may double its Cost.  If you do, the card gains the <b>Prismatic</b> keyword.  
-(<b>Prismatic:</b> <i>This card's effects cannot be prevented or modified by another player.</i>)
+(<b>Prismatic</b> (<i>This card's effects cannot be prevented or modified by another player.</i>))
 <br>
 
 ##### ALP.WIZ.001
@@ -677,7 +677,7 @@ Whenever you play a <b>Spell</b> card, you may double its Cost.  If you do, the 
  - Cost: 1
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 <b>Once per Turn Order (1 Cost):</b> Parent Wizard card gains +1 Power and its damage cannot be prevented or modified by another player.
 <br>
 
@@ -693,7 +693,7 @@ Whenever you play a <b>Spell</b> card, you may double its Cost.  If you do, the 
 
 <b>Trigger:</b> Target <b>Spell</b> card is played.   
 <b>Response:</b> Target card gains the <b>Prismatic</b> keyword.   
-(<b>Prismatic:</b> <i>This card's effects cannot be prevented or modified by another player.</i>)
+(<b>Prismatic</b> (<i>This card's effects cannot be prevented or modified by another player.</i>))
 <br>
 
 ##### ALP.WIZ.003
@@ -705,7 +705,7 @@ Whenever you play a <b>Spell</b> card, you may double its Cost.  If you do, the 
  - Life: 6
 
 
-<b>Scout:</b> <i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>  
+<b>Scout</b> (<i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>)  
 Wizard leaders in reserve that share a field with this fortification cannot be targeted by your opponent for attacks or card effects.
 <br>
 
@@ -720,7 +720,7 @@ Wizard leaders in reserve that share a field with this fortification cannot be t
  - Hand: -1
 
 
-<b>Spellcaster, Level 1:</b><i> While this card is recruited, you may play a Spell card with Level 1 or less. If you do, remove this card from the recruitment rail.</i>  
+<b>Spellcaster, Level 1</b> (<i>While this card is recruited, you may play a Spell card with Level 1 or less. If you do, remove this card from the recruitment rail.</i>)  
 At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each <b>Season</b> from your hand. If you do, draw a card for each card revealed this way.
 <br>
 
@@ -737,7 +737,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 <b>Zodiac, Season of Spring</b>  
 <b>Trigger:</b> Target arcane leader attacks.  
 <b>Response:</b> Target arcane leader gains +2 Power counter.  
-<b>Unique:</b> <i>You can only include one copy of this card in your deck.</i>
+<b>Unique</b> (<i>You can only include one copy of this card in your deck.</i>)
 <br>
 
 ##### ALP.AST.002
@@ -753,7 +753,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 <b>Zodiac, Season of Spring</b>  
 <b>Trigger:</b> Target arcane leader attacks.  
 <b>Response:</b> Target arcane leader gains +2 Power counter.  
-<b>Unique:</b> <i>You can only include one copy of this card in your deck.</i>
+<b>Unique</b> (<i>You can only include one copy of this card in your deck.</i>)
 <br>
 
 ##### ALP.AST.003
@@ -769,7 +769,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 <b>Zodiac, Season of Spring</b>  
 <b>Trigger:</b> Target arcane leader attacks.  
 <b>Response:</b> Target arcane leader gains +2 Power counter.  
-<b>Unique:</b> <i>You can only include one copy of this card in your deck.</i>
+<b>Unique</b> (<i>You can only include one copy of this card in your deck.</i>)
 <br>
 
 ##### ALP.AST.004
@@ -785,7 +785,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 <b>Zodiac, Season of Summer</b>  
 <b>Trigger:</b> Target arcane leader takes damage.  
 <b>Response:</b> Prevent 2 of the damage, and if you do target arcane leader gains +2 Life <i>(this can increase their Life above its maximum value)</i>.   
-<b>Unique:</b> <i>You can only include one copy of this card in your deck.</i>
+<b>Unique</b> (<i>You can only include one copy of this card in your deck.</i>)
 <br>
 
 ##### ALP.AST.005
@@ -801,7 +801,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 <b>Zodiac, Season of Summer</b>  
 <b>Trigger:</b> Target arcane leader takes damage.  
 <b>Response:</b> Prevent 2 of the damage, and if you do target arcane leader gains +2 Life <i>(this can increase their Life above its maximum value)</i>.   
-<b>Unique:</b> <i>You can only include one copy of this card in your deck.</i>
+<b>Unique</b> (<i>You can only include one copy of this card in your deck.</i>)
 <br>
 
 ##### ALP.AST.006
@@ -817,7 +817,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 <b>Zodiac, Season of Summer</b>  
 <b>Trigger:</b> Target arcane leader takes damage.  
 <b>Response:</b> Prevent 2 of the damage, and if you do target arcane leader gains +2 Life <i>(this can increase their Life above its maximum value)</i>.   
-<b>Unique:</b> <i>You can only include one copy of this card in your deck.</i>
+<b>Unique</b> (<i>You can only include one copy of this card in your deck.</i>)
 <br>
 
 ##### ALP.AST.007
@@ -833,7 +833,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 <b>Zodiac, Season of Autumn</b>  
 <b>Trigger:</b> You draw a card outside of the end phase as the result of an order or card effect.  
 <b>Response:</b> Target arcane leader gains a +1 Hand counter.  
-<b>Unique:</b> <i>You can only include one copy of this card in your deck.</i>
+<b>Unique</b> (<i>You can only include one copy of this card in your deck.</i>)
 <br>
 
 ##### ALP.AST.008
@@ -849,7 +849,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 <b>Zodiac, Season of Autumn</b>  
 <b>Trigger:</b> You draw a card outside of the end phase as the result of an order or card effect.  
 <b>Response:</b> Target arcane leader gains a +1 Hand counter.  
-<b>Unique:</b> <i>You can only include one copy of this card in your deck.</i>
+<b>Unique</b> (<i>You can only include one copy of this card in your deck.</i>)
 <br>
 
 ##### ALP.AST.009
@@ -865,7 +865,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 <b>Zodiac, Season of Autumn</b>  
 <b>Trigger:</b> You draw a card outside of the end phase as the result of an order or card effect.  
 <b>Response:</b> Target arcane leader gains a +1 Hand counter.  
-<b>Unique:</b> <i>You can only include one copy of this card in your deck.</i>
+<b>Unique</b> (<i>You can only include one copy of this card in your deck.</i>)
 <br>
 
 ##### ALP.AST.010
@@ -881,7 +881,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 <b>Zodiac, Season of Winter</b>  
 <b>Trigger:</b> Target arcane leader is recruited.  
 <b>Response:</b> Target arcane leader gains a -1 Cost counter.  
-<b>Unique:</b> <i>You can only include one copy of this card in your deck.</i>
+<b>Unique</b> (<i>You can only include one copy of this card in your deck.</i>)
 <br>
 
 ##### ALP.AST.011
@@ -897,7 +897,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 <b>Zodiac, Season of Winter</b>  
 <b>Trigger:</b> Target arcane leader is recruited.  
 <b>Response:</b> Target arcane leader gains a -1 Cost counter.  
-<b>Unique:</b> <i>You can only include one copy of this card in your deck.</i>
+<b>Unique</b> (<i>You can only include one copy of this card in your deck.</i>)
 <br>
 
 ##### ALP.AST.012
@@ -913,7 +913,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
 <b>Zodiac, Season of Winter</b>  
 <b>Trigger:</b> Target arcane leader is recruited.  
 <b>Response:</b> Target arcane leader gains a -1 Cost counter.  
-<b>Unique:</b> <i>You can only include one copy of this card in your deck.</i>
+<b>Unique</b> (<i>You can only include one copy of this card in your deck.</i>)
 <br>
 
 ##### ALP.AST.013
@@ -925,7 +925,7 @@ At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each 
  - Life: 6
 
 
-<b>Scout:</b> <i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>  
+<b>Scout</b> (<i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>)  
 Once per turn, when you play a <b>Zodiac</b> card that targets a leader that shares a field with this fortification, you may search your deck for a <b>Zodiac</b> card with a different <b>Season</b>. If you do, add it to your hand.
 <br>
 
@@ -938,7 +938,7 @@ Once per turn, when you play a <b>Zodiac</b> card that targets a leader that sha
  - Cost: 0
 
 
-<b>Spellcaster, Level 1:</b><i> While this card is recruited, you may play a Spell card with Level 1 or less. If you do, remove this card from the recruitment rail.</i>
+<b>Spellcaster, Level 1</b> (<i>While this card is recruited, you may play a Spell card with Level 1 or less. If you do, remove this card from the recruitment rail.</i>)
 <br>
 
 ##### ALP.ARC.001
@@ -951,7 +951,7 @@ Once per turn, when you play a <b>Zodiac</b> card that targets a leader that sha
  - Power: 1
 
 
-<b>Spellcaster, Level 2:</b><i> While this card is recruited, you may play a Spell card with Level 2 or less. If you do, remove this card from the recruitment rail.</i>
+<b>Spellcaster, Level 2</b> (<i>While this card is recruited, you may play a Spell card with Level 2 or less. If you do, remove this card from the recruitment rail.</i>)
 <br>
 
 ##### ALP.ARC.002
@@ -964,7 +964,7 @@ Once per turn, when you play a <b>Zodiac</b> card that targets a leader that sha
  - Power: 2
 
 
-<b>Spellcaster, Level 3:</b><i> While this card is recruited, you may play a Spell card with Level 3 or less. If you do, remove this card from the recruitment rail.</i>
+<b>Spellcaster, Level 3</b> (<i>While this card is recruited, you may play a Spell card with Level 3 or less. If you do, remove this card from the recruitment rail.</i>)
 <br>
 
 ##### ALP.ARC.003
@@ -978,7 +978,7 @@ Once per turn, when you play a <b>Zodiac</b> card that targets a leader that sha
 
 
 Target card on a recruitment rail gains the <b>Spellcaster, Level 1</b> keyword until the end of this turn.  
-(<b>Spellcaster, Level 1:</b><i> While this card is recruited, you may play a Spell card with Level 1 or less. If you do, remove this card from the recruitment rail.</i>)
+(<b>Spellcaster, Level 1</b> (<i>While this card is recruited, you may play a Spell card with Level 1 or less. If you do, remove this card from the recruitment rail.</i>))
 <br>
 
 ##### ALP.ARC.004
@@ -1004,7 +1004,7 @@ Target <b>Spellcaster</b> card gains +1 <b>Level</b>.
  - Cost: 0
 
 
-<b>Spell, Level 1:</b> <i>This card can only be played by the effect of a Spellcaster card.</i>   
+<b>Spell, Level 1</b> (<i>This card can only be played by the effect of a Spellcaster card.</i>)  
 Deal 1 damage to a target card that shares a field with this card's <b>Spellcaster</b>.
 <br>
 
@@ -1031,7 +1031,7 @@ The next <b>Spell</b> card played gains -1 <b>Level</b> (to a minimum of <b>Leve
  - Cost: 0
 
 
-<b>Spell, Level 1:</b> <i>This card can only be played by the effect of a Spellcaster card.</i>   
+<b>Spell, Level 1</b> (<i>This card can only be played by the effect of a Spellcaster card.</i>)  
 Target card on a recruitment rail is moved to any other recruitment rail allied with that card.
 <br>
 
@@ -1045,7 +1045,7 @@ Target card on a recruitment rail is moved to any other recruitment rail allied 
 
 
 Any card that arrives at an attached fortification is <b>Reflected</b>.   
-(<b>Reflected:</b> <i>Target card is moved to the opposite lane an equal distance away from the center lane.</i>)
+(<b>Reflected</b> (<i>Target card is moved to the opposite lane an equal distance away from the center lane.</i>))
 <br>
 
 ##### ALP.ARC.009
@@ -1058,7 +1058,7 @@ Any card that arrives at an attached fortification is <b>Reflected</b>.
 
 
 Any card that arrives at an attached fortification is <b>Translated</b>.  
-(<b>Translated:</b> <i>Target card is moved to an adjacent lane of your choice.</i>)
+(<b>Translated</b> (<i>Target card is moved to an adjacent lane of your choice.</i>))
 <br>
 
 ##### ALP.ARC.010
@@ -1125,7 +1125,7 @@ You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> 
 
 <b>Trigger:</b> Target card arrives at a fortification.  
 <b>Response:</b> Target card is <b>Reflected</b>.  
-(<b>Reflected:</b> <i>Target card is moved to the opposite lane an equal distance away from the center lane.</i>)
+(<b>Reflected</b> (<i>Target card is moved to the opposite lane an equal distance away from the center lane.</i>))
 <br>
 
 ##### ALP.ARC.015
@@ -1140,7 +1140,7 @@ You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> 
 
 <b>Trigger:</b> Target card arrives at a fortification.  
 <b>Response:</b> Target card is <b>Translated</b>.  
-(<b>Translated:</b> <i>Target card is moved to an adjacent lane of your choice.</i>)
+(<b>Translated</b> (<i>Target card is moved to an adjacent lane of your choice.</i>))
 <br>
 
 ##### ALP.ARC.016
@@ -1153,9 +1153,9 @@ You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> 
  - Cost: 2
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 <b>Once per Turn Order:</b> Parent card gains the <b>Spellcaster, Level 1</b> keyword.  
-(<b>Spellcaster, Level 1:</b><i> While this card is recruited, you may play a Spell card with Level 1 or less. If you do, remove this card from the recruitment rail.</i>)
+(<b>Spellcaster, Level 1</b> (<i>While this card is recruited, you may play a Spell card with Level 1 or less. If you do, remove this card from the recruitment rail.</i>))
 <br>
 
 ##### ALP.ARC.017
@@ -1168,7 +1168,7 @@ You may play a <b>Spell</b> card (you must still satisfy the <b>Spellcaster</b> 
  - Cost: 0
 
 
-<b>Spell, Level 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i>   
+<b>Spell, Level 2</b> (<i>This card can only be played by the effect of a Spellcaster card.</i>)  
 Deal 2 damage to a target card that shares a field with this card's <b>Spellcaster</b>.
 <br>
 
@@ -1195,7 +1195,7 @@ The next <b>Spell</b> card played may choose an additional target for its effect
  - Cost: 1
 
 
-<b>Spell, Level 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i>   
+<b>Spell, Level 2</b> (<i>This card can only be played by the effect of a Spellcaster card.</i>)  
 Target card that shares a field with this card's <b>Spellcaster</b> may attack an additional time this turn.
 <br>
 
@@ -1209,7 +1209,7 @@ Target card that shares a field with this card's <b>Spellcaster</b> may attack a
  - Cost: 1
 
 
-<b>Spell, Level 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i>   
+<b>Spell, Level 2</b> (<i>This card can only be played by the effect of a Spellcaster card.</i>)  
 Deal 2 Damage to all fortifications your opponent controls.
 <br>
 
@@ -1264,7 +1264,7 @@ Discard a card. If you do, return all deployed cards to their recruitment rail; 
  - Cost: 3
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 <b>Once per Turn Order (1 Cost):</b> Parent <b>Spellcaster</b> card ignores the recruitment requirement for next <b>Spell</b> card played this turn.
 <br>
 
@@ -1278,7 +1278,7 @@ Discard a card. If you do, return all deployed cards to their recruitment rail; 
  - Cost: 1
 
 
-<b>Spell, Level 3:</b> <i>This card can only be played by the effect of a Spellcaster card.</i>   
+<b>Spell, Level 3</b> (<i>This card can only be played by the effect of a Spellcaster card.</i>)  
 Deal 1 damage to any number of targets that share a field with this card's <b>Spellcaster</b>.
 <br>
 
@@ -1292,7 +1292,7 @@ Deal 1 damage to any number of targets that share a field with this card's <b>Sp
  - Cost: 1
 
 
-<b>Spell, Level 3:</b> <i>This card can only be played by the effect of a Spellcaster card.</i>   
+<b>Spell, Level 3</b> (<i>This card can only be played by the effect of a Spellcaster card.</i>)  
 Deal 3 damage to a target card that shares a field with this card's <b>Spellcaster</b>.
 <br>
 
@@ -1331,7 +1331,7 @@ Return a <b>Spell</b> card from your discard pile to your hand, where X is the <
  - Cost: 1
 
 
-<b>Spell, Level 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i>   
+<b>Spell, Level 2</b> (<i>This card can only be played by the effect of a Spellcaster card.</i>)  
 <b>Trigger:</b> An order is played.  
 <b>Response:</b> Negate that order's effects and destroy it.
 <br>
@@ -1346,7 +1346,7 @@ Return a <b>Spell</b> card from your discard pile to your hand, where X is the <
  - Cost: X
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 This card becomes a copy of target <b>Equip</b> order in play, where X is the <b>Rank</b> of the target order. Destroy this card if the original target order leaves play. 
 <br>
 
@@ -1360,7 +1360,7 @@ This card becomes a copy of target <b>Equip</b> order in play, where X is the <b
  - Cost: 0
 
 
-<b>Spell, Level 1:</b> <i>This card can only be played by the effect of a Spellcaster card.</i>   
+<b>Spell, Level 1</b> (<i>This card can only be played by the effect of a Spellcaster card.</i>)  
 Remove target unit from any recruitment rail that shares a field with this card's <b>Spellcaster</b>.
 <br>
 
@@ -1374,7 +1374,7 @@ Remove target unit from any recruitment rail that shares a field with this card'
  - Cost: 0
 
 
-<b>Spell, Level 2:</b> <i>This card can only be played by the effect of a Spellcaster card.</i>   
+<b>Spell, Level 2</b> (<i>This card can only be played by the effect of a Spellcaster card.</i>)  
 Remove target leader from any recruitment rail that shares a field with this card's <b>Spellcaster</b>.
 <br>
 
@@ -1388,7 +1388,7 @@ Remove target leader from any recruitment rail that shares a field with this car
  - Cost: 0
 
 
-<b>Spell, Level 3:</b> <i>This card can only be played by the effect of a Spellcaster card.</i>   
+<b>Spell, Level 3</b> (<i>This card can only be played by the effect of a Spellcaster card.</i>)  
 Remove any number of target cards from any recruitment rail that shares a field with this card's <b>Spellcaster</b>.
 <br>
 
@@ -1404,7 +1404,7 @@ Remove any number of target cards from any recruitment rail that shares a field 
  - Hand: -1
 
 
-<b>Armed:</b> <i>At the start of the game, attach a token Equip order to this card. The order you choose must share an attribute or class with this card.</i>    
+<b>Armed</b> (<i>At the start of the game, attach a token Equip order to this card. The order you choose must share an attribute or class with this card.</i>)    
 Whenever Lothar is dealt damage to his Life, create a Rage counter on his card.  
 <br>
 
@@ -1442,7 +1442,7 @@ Remove 1 Rage counter from target Berserker leader. If you do, until the start o
 ### <i>Berserker Fortification, Melee</i>
 
 
-<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>  
+<b>Defenseless</b> (<i>This fortification does not prevent allied cards from being targeted for attacks.</i>)  
 When an allied leader is deployed from a field shared by this fortification, it gain +1 Power.
 <br>
 
@@ -1455,7 +1455,7 @@ When an allied leader is deployed from a field shared by this fortification, it 
  - Cost: 1
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 <b>Once per Turn Order (deal 3 damage to parent leader):</b> Parent leader gains +1 Power until the end of this turn.
 <br>
 
@@ -1471,8 +1471,8 @@ When an allied leader is deployed from a field shared by this fortification, it 
  - Hand: -1
 
 
-<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>  
-<b>Armed:</b> <i>At the start of the game, attach a token Equip order to this card. The order you choose must share an attribute or class with this card.</i>    
+<b>Pack Hunter</b> (<i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>)  
+<b>Armed</b> (<i>At the start of the game, attach a token Equip order to this card. The order you choose must share an attribute or class with this card.</i>)    
 Whenever Vvulf is recruited, recruit a <i>Vvolf</i> to an allied recruitment rail.
 <br>
 
@@ -1510,7 +1510,7 @@ Until the start of your next turn, whenever a <i>Vvolf</i> is recruited, recruit
 ### <i>Primalist Fortification, Melee</i>
 
 
-<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>  
+<b>Defenseless</b> (<i>This fortification does not prevent allied cards from being targeted for attacks.</i>)  
 Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an allied recruitment rail.
 <br>
 
@@ -1524,7 +1524,7 @@ Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an alli
  - Power: 1
 
 
-<b>Pack Hunter:</b> <i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>
+<b>Pack Hunter</b> (<i>This card may be deployed alongside any number of other Pack Hunter cards to the same lane.</i>)
 <br>
 
 ##### ALP.PRM.005
@@ -1536,7 +1536,7 @@ Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an alli
  - Cost: 2
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 <b>Order (1 Cost):</b> Create a <i>Vvolf</i> and add it to an allied reserve deck.
 <br>
 
@@ -1770,7 +1770,7 @@ If target leader is deployed to any lane this turn, you may redeploy them.  They
  - Cost: 1
 
 
-If target melee leader is deployed this turn, you may recruit that Leader for 0 Cost until the end of your turn.  
+If target melee leader is deployed this turn, you may recruit that leader for 0 Cost until the end of your turn.  
 <br>
 
 ##### ALP.MEL.018
@@ -1783,7 +1783,7 @@ If target melee leader is deployed this turn, you may recruit that Leader for 0 
  - Cost: 2
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 <b>Once per Turn Response (1 Cost):</b>   
 <b>Trigger:</b> Target leader takes damage from an attack.  
 <b>Response:</b>  Prevent 2 of that damage.
@@ -1799,7 +1799,7 @@ If target melee leader is deployed this turn, you may recruit that Leader for 0 
  - Cost: 2
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 <b>Once per Turn Response (1 Cost):</b>   
 <b>Trigger:</b> Target leader takes damage from an attack.  
 <b>Response:</b>  Deal 2 damage to the attacking card.
@@ -1855,7 +1855,7 @@ When a card arrives at an attached fortification, you may remove a recruited lea
  - Cost: 2
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 <b>Once per Turn Order (1 Cost):</b> Parent leader gains +2 Power while attacking fortifications.
 <br>
 
@@ -1869,7 +1869,7 @@ When a card arrives at an attached fortification, you may remove a recruited lea
  - Cost: 2
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 <b>Once per Turn Order (1 Cost):</b> Parent leader gains +2 Power while attacking other leaders.
 <br>
 
@@ -1934,7 +1934,7 @@ Target melee card on an allied recruitment rail is moved to an empty reinforceme
  - Cost: 1
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 <b>Once per Turn Order (1 Cost):</b> Parent leader gains +1 Power while attacking other recruited leaders.
 <br>
 
@@ -1947,7 +1947,7 @@ Target melee card on an allied recruitment rail is moved to an empty reinforceme
  - Cost: 1
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 <b>Once per Turn Order (1 Cost):</b> Parent leader gains +1 Power while attacking other leaders in reserve.
 <br>
 
@@ -1974,7 +1974,7 @@ Create a <b>Equip</b> order token that shares an attribute or class with an alli
  - Cost: 1
 
 
-The first time each <b>Equip</b> order attached to target melee card is activated this turn, it activation gains -1 Cost.
+The first time each <b>Equip</b> order attached to target melee card is activated this turn, that activation gains -1 Cost.
 <br>
 
 ##### ALP.MEL.033
@@ -1986,9 +1986,9 @@ The first time each <b>Equip</b> order attached to target melee card is activate
  - Cost: 1
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 <b>Once per Turn Order (1 Cost):</b> Parent leader gains the <b>Knockback</b> keyword until the end of this turn.  
-(<b>Knockback:</b> <i>When this card attacks and deals damage to a target on a recruitment rail, that target is removed from the recruitment rail.</i>)
+(<b>Knockback</b> (<i>When this card attacks and deals damage to a target on a recruitment rail, that target is removed from the recruitment rail.</i>))
 <br>
 
 ##### ALP.MEL.034
@@ -2002,7 +2002,7 @@ The first time each <b>Equip</b> order attached to target melee card is activate
 
 
 The first unit that attacks this turn gains the <b>Knockback</b> keyword.  
-(<b>Knockback:</b> <i>When this card attacks and deals damage to a target on a recruitment rail, that target is removed from the recruitment rail.</i>)
+(<b>Knockback</b> (<i>When this card attacks and deals damage to a target on a recruitment rail, that target is removed from the recruitment rail.</i>))
 <br>
 
 ##### ALP.MEL.035
@@ -2042,7 +2042,7 @@ Move any number of <b>Persist</b> counters from one <b>Persistence</b> card to a
  - Rank: 3
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+<b>Persistence, 1</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)  
 While this card is revealed in play, it is the only card that <b>Persist</b> counters must be removed from in the end phase. When this card leaves play, destroy all allied <b>Persistance</b> cards in play.
 <br>
 
@@ -2055,7 +2055,7 @@ While this card is revealed in play, it is the only card that <b>Persist</b> cou
  - Life: 10
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+<b>Persistence, 1</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)  
 Whenever a <b>Persistence</b> card attached to this fortification is destroyed in the end phase, this card regains +2 Life.  
 Whenever a card attached to this fortification would gain a <b>Persist</b> counter, you may instead add that counter to this card.
 <br>
@@ -2096,7 +2096,7 @@ All cards regain +1 Life.
  - Rank: 3
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+<b>Persistence, 1</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)  
 While this card is revealed in play, whenever an allied card regains any Life (except from <i>Lead to Enlightenment</i>), all other allied cards regain +1 Life.
 <br>
 
@@ -2109,9 +2109,9 @@ While this card is revealed in play, whenever an allied card regains any Life (e
  - Life: 6
 
 
-<b>Rejuvenate:</b> <i>When an allied card is deployed to a lane shared by this fortification, that card regains +1 Life.</i>  
+<b>Rejuvenate</b> (<i>When an allied card is deployed to a lane shared by this fortification, that card regains +1 Life.</i>)  
 When this card would be destroyed, it instead remains in play at 0 Life and gains the <b>Defenseless</b> keyword.  
-(<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>)
+(<b>Defenseless</b> (<i>This fortification does not prevent allied cards from being targeted for attacks.</i>))
 <br>
 
 ##### ALP.APS.004
@@ -2188,7 +2188,7 @@ Target one reinforcement that is revealed in play. Turn it face down, then you m
  - Rank: 1
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+<b>Persistence, 1</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)  
 Prevent the first 2 damage dealt to attached fortifications this turn.
 <br>
 
@@ -2201,7 +2201,7 @@ Prevent the first 2 damage dealt to attached fortifications this turn.
  - Rank: 1
 
 
-<b>Persistence, 2:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 2 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+<b>Persistence, 2</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 2 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)  
 While this card is revealed in play, whenever an attached fortification would regain Life, it regains +1 Life.
 <br>
 
@@ -2214,7 +2214,7 @@ While this card is revealed in play, whenever an attached fortification would re
  - Rank: 1
 
 
-<b>Persistence, 2:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 2 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+<b>Persistence, 2</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 2 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)  
 While this card is revealed in play, attached fortifications cannot be targeted by the effects of your opponent's orders.
 <br>
 
@@ -2227,7 +2227,7 @@ While this card is revealed in play, attached fortifications cannot be targeted 
  - Rank: 1
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+<b>Persistence, 1</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)  
 Attached fortifications regain +2 Life.
 <br>
 
@@ -2240,7 +2240,7 @@ Attached fortifications regain +2 Life.
  - Rank: 1
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+<b>Persistence, 1</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)  
 Cards that arrive at attached fortifications have -1 Power until the end of this turn.
 <br>
 
@@ -2266,9 +2266,9 @@ The next <b>Worship</b> effect you activate this turn gains -2 Cost.
  - Rank: 1
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
+<b>Persistence, 1</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)   
 Choose one attached fortification. While this card is revealed in play, it gain the <b>Sanctum</b> keyword.  
-(<b>Sanctum:</b> <i>Allied Worship effects require 1 less Disciple to activate.</i>)
+(<b>Sanctum</b> (<i>Allied Worship effects require 1 less Disciple to activate.</i>))
 <br>
 
 ##### ALP.FTH.012
@@ -2281,9 +2281,9 @@ Choose one attached fortification. While this card is revealed in play, it gain 
  - Cost: 0
 
 
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 <b>Once per Turn Order:</b> Parent card gains the <b>Disciple</b> keyword until the end of this turn.  
-(<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>)
+(<b>Disciple</b> (<i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>))
 <br>
 
 ##### ALP.FTH.013
@@ -2334,7 +2334,7 @@ All face down reinforcements are revealed.
  - Rank: 2
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
+<b>Persistence, 1</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)   
 While this card is revealed in play, prevent all damage dealt to allied units.
 <br>
 
@@ -2347,7 +2347,7 @@ While this card is revealed in play, prevent all damage dealt to allied units.
  - Rank: 2
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
+<b>Persistence, 1</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)   
 While this card is revealed in play, the first order you play each turn gains -1 Cost.
 <br>
 
@@ -2360,7 +2360,7 @@ While this card is revealed in play, the first order you play each turn gains -1
  - Rank: 2
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
+<b>Persistence, 1</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)   
 While this card is revealed in play, the first card you recruit each turn gains -1 Cost.
 <br>
 
@@ -2373,7 +2373,7 @@ While this card is revealed in play, the first card you recruit each turn gains 
  - Rank: 2
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+<b>Persistence, 1</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)  
 All allied cards regain +1 Life.
 <br>
 
@@ -2389,7 +2389,7 @@ All allied cards regain +1 Life.
 
 <b>Trigger:</b> Target reinforcement is activated by a card arriving to its fortification.  
 <b>Response:</b> Target reinforcement gains the <b>Persistence, 1</b> keyword.   
-(<b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)
+(<b>Persistence, 1</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>))
 <br>
 
 ##### ALP.FTH.021
@@ -2401,7 +2401,7 @@ All allied cards regain +1 Life.
  - Rank: 3
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>   
+<b>Persistence, 1</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)   
 While this card is revealed in play, the first time your opponent pays one or more cards to fulfill the Cost of another card each turn, they pay an additional card (if possible).
 <br>
 
@@ -2414,7 +2414,7 @@ While this card is revealed in play, the first time your opponent pays one or mo
  - Rank: 3
 
 
-<b>Persistence, 1:</b> <i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>  
+<b>Persistence, 1</b> (<i>This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.</i>)  
 While this card is revealed in play, all damage dealt on your opponent's turn is prevented and attached fortifications gain <i>"damage dealt to this fortification cannot be prevented"</i>.  If this card is attached to a <b>Defenseless</b> fortification, destroy it.
 <br>
 
@@ -2439,7 +2439,7 @@ Replace this card with any faith reinforcement from your discard pile (except <i
  - Cost: 1
 
 
-<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>
+<b>Disciple</b> (<i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>)
 <br>
 
 ##### ALP.FTH.025
@@ -2452,7 +2452,7 @@ Replace this card with any faith reinforcement from your discard pile (except <i
  - Power: 1
 
 
-<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>  
+<b>Disciple</b> (<i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>)  
 When this unit is recruited, every card on the recruitment rail it was recruited to regains +1 Life.
 <br>
 
@@ -2466,7 +2466,7 @@ When this unit is recruited, every card on the recruitment rail it was recruited
  - Power: 1
 
 
-<b>Disciple:</b> <i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>  
+<b>Disciple</b> (<i>This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.</i>)  
 When this unit is deployed to a lane with a revealed <b>Persistence</b> card in it, it gains +2 Power until the end of this turn.
 <br>
 
@@ -2479,9 +2479,9 @@ When this unit is deployed to a lane with a revealed <b>Persistence</b> card in 
  - Life: 6
 
 
-<b>Sanctum:</b> <i>Allied Worship effects require 1 less Disciple to activate.</i>  
+<b>Sanctum</b> (<i>Allied Worship effects require 1 less Disciple to activate.</i>)  
 When this card would be destroyed, it instead remains in play at 0 Life and gains the <b>Defenseless</b> keyword.  
-(<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>)
+(<b>Defenseless</b> (<i>This fortification does not prevent allied cards from being targeted for attacks.</i>))
 <br>
 
 ##### ALP.FTH.028
@@ -2510,7 +2510,7 @@ When this card would be destroyed, it instead remains in play at 0 Life and gain
  - Hand: +1
 
 
-<b>Long-distance, 1:</b> <i>This card may skip the arrival step. If it does its Power becomes 1 until the end of the turn.</i>  
+<b>Long-distance, 1</b> (<i>This card may skip the arrival step. If it does its Power becomes 1 until the end of the turn.</i>)  
 Whenever a <b>Long-distance</b> card skips the arrival step, reveal target face down reinforcement in the lane that card was deployed to.  
 <br>
 
@@ -2549,7 +2549,7 @@ Until the start of your next turn, whenever a reinforcement controlled by an opp
  - Life: 7
 
 
-<b>Scout:</b> <i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>  
+<b>Scout</b> (<i>Whenever an opponent places a reinforcement that shares a field with this fortification, reveal it.</i>)  
 Allied fortifications that share a lane with this fortification gain the <b>Scout</b> keyword while it is in play.
 <br>
 
@@ -2565,8 +2565,8 @@ Allied fortifications that share a lane with this fortification gain the <b>Scou
  - Hand: -1
 
 
-<b>Long-distance, 3:</b> <i>This card may skip the arrival step. If it does its Power becomes 3 until the end of the turn.</i>  
-<b>Piercing, 3:</b> <i>When this card deals damage to a fortification, you may deal 3 damage to a recruited card that it shares a field with.</i>
+<b>Long-distance, 3</b> (<i>This card may skip the arrival step. If it does its Power becomes 3 until the end of the turn.</i>)  
+<b>Piercing, 3</b> (<i>When this card deals damage to a fortification, you may deal 3 damage to a recruited card that it shares a field with.</i>)
 <br>
 
 ##### ALP.DDE.001
@@ -2604,7 +2604,7 @@ Whenever a card with <b>Piercing</b> and <b>Long-distance</b> deploys this turn 
 ### <i>Deadeye Fortification, Ranged</i>
 
 
-<b>Defenseless:</b> <i>This fortification does not prevent allied cards from being targeted for attacks.</i>  
+<b>Defenseless</b> (<i>This fortification does not prevent allied cards from being targeted for attacks.</i>)  
 Whenever a Deadeye leader is deployed from a field shared by this fortification, it may declare attack targets as though it were deployed to any lane from an adjacent field.
 <br>
 
@@ -2618,7 +2618,7 @@ Whenever a Deadeye leader is deployed from a field shared by this fortification,
  - Power: 2
 
 
-<b>Long-distance, 1:</b> <i>This card may skip the arrival step. If it does its Power becomes 1 until the end of the turn.</i>
+<b>Long-distance, 1</b> (<i>This card may skip the arrival step. If it does its Power becomes 1 until the end of the turn.</i>)
 <br>
 
 ##### ALP.RNG.001
@@ -2631,7 +2631,7 @@ Whenever a Deadeye leader is deployed from a field shared by this fortification,
  - Power: 2
 
 
-<b>Piercing, 1:</b> <i>When this card deals damage to a fortification, you may deal 1 damage to a recruited card that it shares a field with.</i>
+<b>Piercing, 1</b> (<i>When this card deals damage to a fortification, you may deal 1 damage to a recruited card that it shares a field with.</i>)
 <br>
 
 ##### ALP.RNG.002
@@ -2644,8 +2644,8 @@ Whenever a Deadeye leader is deployed from a field shared by this fortification,
  - Power: 3
 
 
-<b>Long-distance, 2:</b> <i>This card may skip the arrival step. If it does its Power becomes 2 until the end of the turn.</i>  
-<b>Piercing, 2:</b> <i>When this card deals damage to a fortification, you may deal 2 damage to a recruited card that it shares a field with.</i>
+<b>Long-distance, 2</b> (<i>This card may skip the arrival step. If it does its Power becomes 2 until the end of the turn.</i>)  
+<b>Piercing, 2</b> (<i>When this card deals damage to a fortification, you may deal 2 damage to a recruited card that it shares a field with.</i>)
 <br>
 
 ##### ALP.RNG.003
@@ -2668,7 +2668,7 @@ Whenever an allied card would deal <b>Piercing</b> damage to a recruited card th
 ## <b>Point-Blank</b>
 ### <i> Order, Ranged</i>
  - Rank: 1
- - Cost: 0
+ - Cost: 1
 
 
 Whenever an allied <b>Long-distance</b> card arrives at a fortification this turn, it gains +X Power, where X is equal to its <b>Long-distance</b> damage.
@@ -2684,10 +2684,9 @@ Whenever an allied <b>Long-distance</b> card arrives at a fortification this tur
  - Cost: 1
 
 
-<b>Ammo:</b> <i>When this card is activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.</i>  
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b>, <b>Ammo</b> (<i>When this card is activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.</i>)  
 <b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Long-distance, 1</b> keyword until the end of this turn.  
-(<b>Long-distance, 1:</b> <i>This card may skip the arrival step. If it does its Power becomes 1 until the end of the turn.</i>)
+
 <br>
 
 ##### ALP.RNG.006
@@ -2700,10 +2699,8 @@ Whenever an allied <b>Long-distance</b> card arrives at a fortification this tur
  - Cost: 1
 
 
-<b>Ammo:</b> <i>When this card is activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.</i>  
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
-<b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Piercing, 1</b> keyword until the end of this turn.  
-(<b>Piercing, 1:</b> <i>When this card deals damage to a fortification, you may deal 1 damage to a recruited card that it shares a field with.</i>)
+<b>Equip</b>, <b>Ammo</b> (<i>When this card is activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.</i>)  
+<b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Piercing, 1</b> keyword until the end of this turn.
 <br>
 
 ##### ALP.RNG.007
@@ -2834,8 +2831,7 @@ You may play an <b>Ammo</b> order without paying its Cost.
  - Cost: 2
 
 
-<b>Ammo:</b> <i>When this card is activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.</i>  
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b>, <b>Ammo</b> (<i>When this card is activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.</i>)  
 <b>Once per Turn Order (destroy this):</b> Parent ranged card gains +1 Power while attacking fortifications.
 <br>
 
@@ -2849,8 +2845,7 @@ You may play an <b>Ammo</b> order without paying its Cost.
  - Cost: 2
 
 
-<b>Ammo:</b> <i>When this card is activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.</i>  
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b>, <b>Ammo</b> (<i>When this card is activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.</i>)  
 <b>Once per Turn Order (destroy this):</b> The first time parent ranged card deals damage to a fortification this turn, deal 1 damage to all other fortifications controlled by an opponent.
 <br>
 
@@ -2902,7 +2897,7 @@ The first time an attached fortification takes damage this turn, you may destroy
 
 
 Return the first card that arrives at an attached fortification to its recruitment rail and <b>equip</b> this card to it. While this is equipped, parent card cannot be deployed.  
-<b>Equip:</b> <i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>  
+<b>Equip</b> (<i>Attach this card to another card. It remains attached until the parent card is destroyed.</i>)  
 <b>Once per Turn Order (1 Cost):</b> Destroy this card.
 <br>
 

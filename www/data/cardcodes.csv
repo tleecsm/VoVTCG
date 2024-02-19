@@ -45,7 +45,7 @@ ALP.NAT.036,Rust Monster,1,Response,,Non-attribute,0,,,,"<b>Trigger:</b> An <b>E
 ALP.NAT.037,Bareknuckle Brawlers,2,Order,,Non-attribute,0,,,,Destroy all <b>Equip</b> orders currently in play.
 ALP.NAT.038,Boots at the Door,2,Reinforcement,,Non-attribute,,,,,"When a card with an <b>Equip</b> order arrives at an attached fortification, you may discard a card. If you do, destroy all <b>Equip</b> orders attached to that card."
 ALP.NAT.039,Cycle,1,Order,,Non-attribute,0,,,,"Draw a card, then discard a card."
-ALP.NAT.040,Warding Tower,,Fortification,,Non-attribute,,,7,,Allied leaders in reserve that share a field with this fortification cannot be targeted by the effects of your opponent's orders. 
+ALP.NAT.040,Warding Tower,,Fortification,,Non-attribute,,,7,,Allied leaders in reserve that share a field with this fortification cannot be targeted by the effects of an opponent's orders. 
 ALP.NAT.041,Castle the King,1,Order,,Non-attribute,0,,,,Switch the position of two allied leaders in reserve.  <i>(Recruited units are not affected by a change in leader position.)</i>
 ALP.NAT.042,Casualties of War,2,Response,,Non-attribute,0,,,,"<b>Trigger:</b> Target player pays one or more cards to fulfill the {c} of another card.
 <b>Response:</b> Target player discards each card used for payment."
@@ -68,7 +68,7 @@ ALP.WIZ.003,Color Spray,1,Response,Wizard,Arcane,0,,,,"<b>Trigger:</b> Target <b
 <b>Response:</b> Target card gains the <b>Prismatic</b> keyword. 
 ({{prismatic}})"
 ALP.WIZ.004,Outcast's Sanctum,,Fortification,Wizard,Arcane,,,6,,"{{scout}}
-Wizard leaders in reserve that share a field with this fortification cannot be targeted by your opponent for attacks or card effects."
+Wizard leaders in reserve that share a field with this fortification cannot be targeted by an opponent for attacks or card effects."
 ALP.AST.001,"Celq, Celestial Queen",,Leader,Astrologer,Arcane,3,0,4,-1,"{{spellcaster,1}}
 At the start of your turn, you may reveal up to one <b>Zodiac</b> card for each <b>Season</b> from your hand. If you do, draw a card for each card revealed this way."
 ALP.AST.002,"Great Twins, Castor & Pollux",1,Response,Astrologer,Arcane,3,,,,"{{zodiac,Spring}}
@@ -157,7 +157,7 @@ ALP.ARC.019,Dualcast,2,Order,,Arcane,1,,,,The next <b>Spell</b> card played may 
 ALP.ARC.020,Haste,2,Order,,Arcane,1,,,,"{{spell,2}}
 Target card that shares a field with this card's <b>Spellcaster</b> may attack an additional time this turn."
 ALP.ARC.021,Chain Lightning,2,Order,,Arcane,1,,,,"{{spell,2}}
-Deal 2 Damage to all fortifications your opponent controls."
+Deal 2 Damage to all fortifications controlled by an opponent."
 ALP.ARC.022,Time Skip,2,Reinforcement,,Arcane,,,,,"Discard a card. If you do, return all deployed cards to their recruitment rail; the deployment phase ends. 
 <i>(Cards that have arrived or attacked this turn are not returned to the recruitment rail)</i>"
 ALP.ARC.023,Divination,2,Response,,Arcane,0,,,,"<b>Trigger:</b> Target allied card takes damage on your turn.
@@ -210,9 +210,9 @@ ALP.MEL.006,Frontline Fighter,1,Order,,Melee,1,,,,"You may destroy a melee unit 
 ALP.MEL.007,Willingness to Wage,1,Order,,Melee,0,,,,Target leader has -2 {c} until the end of your turn.
 ALP.MEL.008,Overexert,1,Order,,Melee,0,,,,Target leader has +2 {p} until the end of this turn.  You cannot recuit this leader this turn.  
 ALP.MEL.009,Get Through Me!,1,Reinforcement,,Melee,,,,,"When an attached fortification is attacked, you may choose to defend it with an allied leader. The leader you defend with becomes the new target of the attack."
-ALP.MEL.010,Honorable Duel,1,Reinforcement,,Melee,,,,,"When a card arrives at an attached fortification, that card deals no damage this turn unless it is an opposing leader card."
+ALP.MEL.010,Honorable Duel,1,Reinforcement,,Melee,,,,,"Whenever a card arrives at an attached fortification, that card deals no damage this turn unless it is an opposing leader card."
 ALP.MEL.011,Last Line of Defense,1,Reinforcement,,Melee,,,,,"Until the end of this turn, whenever an allied leader would take damage, they prevent 1 damage. "
-ALP.MEL.012,Back Home,1,Reinforcement,,Melee,,,,,"When a unit arrives at an attached fortification, target leader gains +1 {l} (<i>this can increase their {l} above its maximum value</i>). "
+ALP.MEL.012,Back Home,1,Reinforcement,,Melee,,,,,"Whenever a unit arrives at an attached fortification, target leader gains +1 {l} (<i>this can increase their {l} above its maximum value</i>). "
 ALP.MEL.013,Seek Vengeance ,1,Reinforcement,,Melee,,,,,"It an attached fortification is destroyed, you may place any number of melee leaders in reserve on allied recruitment rails. "
 ALP.MEL.014,Parry,1,Response,,Melee,2,,,,"<b>Trigger:</b> Target leader is attacked.
 <b>Response:</b>  Damage from the attack is prevented.
@@ -231,7 +231,7 @@ ALP.MEL.021,Briared Cuirass,2,Order,,Melee,2,,,,"{{equip}}
 <b>Once per Turn Response (1 {c}):</b> 
 <b>Trigger:</b> Target leader takes damage from an attack.
 <b>Response:</b>  Deal 2 damage to the attacking card."
-ALP.MEL.022,Foxholed Hero,2,Reinforcement,,Melee,,,,,"When a card arrives at an attached fortification, you may remove a recruited leader from a recruitment rail.  If you do, deal damage to the arriving card equal to that leader's {p}."
+ALP.MEL.022,Foxholed Hero,2,Reinforcement,,Melee,,,,,"Whenever a card arrives at an attached fortification, you may remove a recruited leader from a recruitment rail.  If you do, deal damage to the arriving card equal to that leader's {p}."
 ALP.MEL.023,Requip,2,Response,,Melee,0,,,,"<b>Trigger:</b> An order <b>Equipped</b> to an allied leader would be destroyed.
 <b>Response:</b> The order is not destroyed and remains <b>Equipped</b> to the leader."
 ALP.MEL.024,Plus Ultra,2,Response,,Melee,0,,,,"<b>Trigger:</b> An order is played that increases a leader's {p}.
@@ -282,7 +282,7 @@ Prevent the first 2 damage dealt to attached fortifications this turn."
 ALP.FTH.007,"Prosperous Harvest, Her Gift",1,Reinforcement,,Faith,,,,,"{{persistence,2}}
 While this card is revealed in play, whenever an attached fortification would regain {l}, it regains +1 {l}."
 ALP.FTH.008,"Greet Thy Neighbor, Her Child",1,Reinforcement,,Faith,,,,,"{{persistence,2}}
-While this card is revealed in play, attached fortifications cannot be targeted by the effects of your opponent's orders."
+While this card is revealed in play, attached fortifications cannot be targeted by the effects of an opponent's orders."
 ALP.FTH.009,Her Gift of Golden Grain,1,Reinforcement,,Faith,,,,,"{{persistence,1}}
 Attached fortifications regain +2 {l}."
 ALP.FTH.010,"Her Blessing, Divine",1,Reinforcement,,Faith,,,,,"{{persistence,1}}
@@ -309,9 +309,9 @@ ALP.FTH.021,"Come to Her, Stay with Her",2,Response,,Faith,2,,,,"<b>Trigger:</b>
 <b>Response:</b> Target reinforcement gains the <b>Persistence, 1</b> keyword. 
 ({{persistence,1}})"
 ALP.FTH.022,"Against Her, They Relent",3,Reinforcement,,Faith,,,,,"{{persistence,1}} 
-While this card is revealed in play, the first time your opponent pays one or more cards to fulfill the {c} of another card each turn, they pay an additional card (if possible)."
+While this card is revealed in play, the first time an opponent pays one or more cards to fulfill the {c} of another card each turn, they pay an additional card (if possible)."
 ALP.FTH.023,Peace Be Upon Her Land,3,Reinforcement,,Faith,,,,,"{{persistence,1}}
-While this card is revealed in play, all damage dealt on your opponent's turn is prevented and attached fortifications gain <i>""damage dealt to this fortification cannot be prevented""</i>.  If this card is attached to a <b>Defenseless</b> fortification, destroy it."
+While this card is revealed in play, all damage dealt on an opponent's turn is prevented and attached fortifications gain <i>""damage dealt to this fortification cannot be prevented""</i>.  If this card is attached to a <b>Defenseless</b> fortification, destroy it."
 ALP.FTH.024,"By Her Name, Return",3,Reinforcement,,Faith,,,,,"Replace this card with any faith reinforcement from your discard pile (except <i>By Her Name, Return</i>), then activate that reinforcement."
 ALP.FTH.025,Devoted,,Unit,,Faith,1,0,,,{{disciple}}
 ALP.FTH.026,Priest,,Unit,,Faith,2,1,,,"{{disciple}}
@@ -349,9 +349,9 @@ ALP.RNG.007,Piercing Bolts,1,Order,,Ranged,1,,,,"<b>Equip</b>, {{ammo}}
 <b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Piercing, 1</b> keyword until the end of this turn."
 ALP.RNG.008,Shrapnel Shot,1,Order,,Ranged,1,,,,"The next time target ranged card would deal damage to a fortification this turn, that damage may instead be distributed to any number of recruited cards that share a field with the fortification."
 ALP.RNG.009,Concussion Shot,1,Order,,Ranged,1,,,,"The next time target ranged card would deal damage to a recruited card this turn, instead remove that card from its recruitment rail."
-ALP.RNG.010,Pick Off,1,Reinforcement,,Ranged,,,,,Deal 1 damage to any card your opponent has recruited or deployed.
+ALP.RNG.010,Pick Off,1,Reinforcement,,Ranged,,,,,Deal 1 damage to any card an opponent has recruited or deployed.
 ALP.RNG.011,A Mile Away,1,Reinforcement,,Ranged,,,,,Prevent all damage dealt to recruited allied cards that share a field with this reinforcement until the end of this turn.
-ALP.RNG.012,Exposed Sightline,1,Reinforcement,,Ranged,,,,,Reveal target card your opponent controls that shares a field with this reinforcement.
+ALP.RNG.012,Exposed Sightline,1,Reinforcement,,Ranged,,,,,Reveal target card an opponent controls that shares a field with this reinforcement.
 ALP.RNG.013,Resupply Run,1,Reinforcement,,Ranged,,,,,You may play an <b>Ammo</b> order without paying its {c}.
 ALP.RNG.014,Two in the Chamber,1,Response,,Ranged,0,,,,"<b>Trigger:</b> Allied <b>Ammo</b> card is played.
 <b>Response:</b> Discard an <b>Ammo</b> card from your hand. If you do, target card gains its Order activation effect. 
@@ -367,7 +367,7 @@ ALP.RNG.018,Arc Arrows,2,Order,,Ranged,2,,,,"<b>Equip</b>, {{ammo}}
 <b>Once per Turn Order (destroy this):</b> The first time parent ranged card deals damage to a fortification this turn, deal 1 damage to all other fortifications controlled by an opponent."
 ALP.RNG.019,Firing Line,2,Order,,Ranged,1,,,,"For each ranged card you have recruited, deal 1 damage to a target fortification controlled by an opponent. You cannot declare deployments this turn."
 ALP.RNG.020,Practice Makes Perfect,2,Order,,Ranged,0,,,,"Until the end of this turn, whenever an allied card would gain <b>Long-distance</b> or <b>Piercing</b> while already having the given keyword, increase the value of the original keyword by 1. "
-ALP.RNG.021,Return Fire,2,Reinforcement,,Ranged,,,,,"The first time an attached fortification takes damage this turn, you may destroy an allied ranged unit on a recruitment rail that shares a field with the fortification. If you do, deal damage equal to your destroyed unit's {p} to all cards your opponent has recruited to that field."
+ALP.RNG.021,Return Fire,2,Reinforcement,,Ranged,,,,,"The first time an attached fortification takes damage this turn, you may destroy an allied ranged unit on a recruitment rail that shares a field with the fortification. If you do, deal damage equal to your destroyed unit's {p} to all cards an opponent has recruited to that field."
 ALP.RNG.022,Snare,2,Reinforcement,,Ranged,,,,,"Return the first card that arrives at an attached fortification to its recruitment rail and <b>equip</b> this card to it. While this is equipped, parent card cannot be deployed.
 {{equip}}
 <b>Once per Turn Order (1 {c}):</b> Destroy this card."

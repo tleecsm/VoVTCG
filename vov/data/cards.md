@@ -678,7 +678,7 @@ Whenever you play a <b>Spell</b> card, you may double its Cost.  If you do, the 
 
 
 <b>Equip</b> <i>(Attach this card to another card. It remains attached until the parent card is destroyed.)</i>  
-<b>Once per Turn Order (1 Cost):</b> Parent Wizard card gains +1 Power and its damage cannot be prevented or modified by another player.
+<b>Once per Turn Order (1 {d}):</b> Parent Wizard card gains +1 Power and its damage cannot be prevented or modified by another player.
 <br>
 
 ##### ALP.WIZ.002
@@ -1265,7 +1265,7 @@ Discard a card. If you do, return all deployed cards to their recruitment rail; 
 
 
 <b>Equip</b> <i>(Attach this card to another card. It remains attached until the parent card is destroyed.)</i>  
-<b>Once per Turn Order (1 Cost):</b> Parent <b>Spellcaster</b> card ignores the recruitment requirement for next <b>Spell</b> card played this turn.
+<b>Once per Turn Order (1 {d}):</b> Parent <b>Spellcaster</b> card ignores the recruitment requirement for next <b>Spell</b> card played this turn.
 <br>
 
 ##### ALP.ARC.025
@@ -1511,7 +1511,7 @@ Until the start of your next turn, whenever a <i>Vvolf</i> is recruited, recruit
 
 
 <b>Defenseless</b> <i>(This fortification does not prevent allied cards from being targeted for attacks.)</i>  
-Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an allied recruitment rail.
+Whenever a card arrives at this fortification, recruit a <i>Vvolf</i> to an allied recruitment rail.
 <br>
 
 ##### ALP.PRM.004
@@ -1537,7 +1537,7 @@ Whenever a unit arrives at this fortification, recruit a <i>Vvolf</i> to an alli
 
 
 <b>Equip</b> <i>(Attach this card to another card. It remains attached until the parent card is destroyed.)</i>  
-<b>Order (1 Cost):</b> Create a <i>Vvolf</i> and add it to an allied reserve deck.
+<b>Order (1 {d}):</b> Create a <i>Vvolf</i> and add it to an allied reserve deck.
 <br>
 
 ##### ALP.PRM.006
@@ -1784,9 +1784,9 @@ If target melee leader is deployed this turn, you may recruit that leader for 0 
 
 
 <b>Equip</b> <i>(Attach this card to another card. It remains attached until the parent card is destroyed.)</i>  
-<b>Once per Turn Response (1 Cost):</b>   
-<b>Trigger:</b> Target leader takes damage from an attack.  
-<b>Response:</b>  Prevent 2 of that damage.
+<b>Once per Turn Response (1 {d}):</b>   
+<b>Trigger:</b> Parent leader takes damage from a source controlled by an opponent.  
+<b>Response:</b>  Prevent 1 of that damage.
 <br>
 
 ##### ALP.MEL.020
@@ -1800,7 +1800,7 @@ If target melee leader is deployed this turn, you may recruit that leader for 0 
 
 
 <b>Equip</b> <i>(Attach this card to another card. It remains attached until the parent card is destroyed.)</i>  
-<b>Once per Turn Response (1 Cost):</b>   
+<b>Once per Turn Response (1 {d}):</b>   
 <b>Trigger:</b> Target leader takes damage from an attack.  
 <b>Response:</b>  Deal 2 damage to the attacking card.
 <br>
@@ -1856,7 +1856,7 @@ Whenever a card arrives at an attached fortification, you may remove a recruited
 
 
 <b>Equip</b> <i>(Attach this card to another card. It remains attached until the parent card is destroyed.)</i>  
-<b>Once per Turn Order (1 Cost):</b> Parent leader gains +2 Power while attacking fortifications.
+<b>Once per Turn Order (1 {d}):</b> Parent leader gains +2 Power while attacking fortifications.
 <br>
 
 ##### ALP.MEL.019
@@ -1870,7 +1870,7 @@ Whenever a card arrives at an attached fortification, you may remove a recruited
 
 
 <b>Equip</b> <i>(Attach this card to another card. It remains attached until the parent card is destroyed.)</i>  
-<b>Once per Turn Order (1 Cost):</b> Parent leader gains +2 Power while attacking other leaders.
+<b>Once per Turn Order (1 {d}):</b> Parent leader gains +2 Power while attacking other leaders.
 <br>
 
 ##### ALP.MEL.025
@@ -1935,7 +1935,7 @@ Target melee card on an allied recruitment rail is moved to an empty reinforceme
 
 
 <b>Equip</b> <i>(Attach this card to another card. It remains attached until the parent card is destroyed.)</i>  
-<b>Once per Turn Order (1 Cost):</b> Parent leader gains +1 Power while attacking other recruited leaders.
+<b>Once per Turn Order (1 {d}):</b> Parent leader gains +1 Power while attacking other recruited leaders.
 <br>
 
 ##### ALP.MEL.030
@@ -1948,7 +1948,7 @@ Target melee card on an allied recruitment rail is moved to an empty reinforceme
 
 
 <b>Equip</b> <i>(Attach this card to another card. It remains attached until the parent card is destroyed.)</i>  
-<b>Once per Turn Order (1 Cost):</b> Parent leader gains +1 Power while attacking other leaders in reserve.
+<b>Once per Turn Order (1 {d}):</b> Parent leader gains +1 Power while attacking other leaders in reserve.
 <br>
 
 ##### ALP.MEL.031
@@ -1971,10 +1971,10 @@ Create a <b>Equip</b> order token that shares an attribute or class with an alli
 ## <b>Armed to the Teeth</b>
 ### <i> Order, Melee</i>
  - Rank: 2
- - Cost: 1
+ - Cost: 0
 
 
-The first time each <b>Equip</b> order attached to target melee card is activated this turn, that activation gains -1 Cost.
+The first time each <b>Equip</b> order attached to target melee card is activated this turn, that activation gains -1 {d}.
 <br>
 
 ##### ALP.MEL.033
@@ -1987,7 +1987,7 @@ The first time each <b>Equip</b> order attached to target melee card is activate
 
 
 <b>Equip</b> <i>(Attach this card to another card. It remains attached until the parent card is destroyed.)</i>  
-<b>Once per Turn Order (1 Cost):</b> Parent leader gains the <b>Knockback</b> keyword until the end of this turn.  
+<b>Once per Turn Order (1 {d}):</b> Parent leader gains the <b>Knockback</b> keyword until the end of this turn.  
 (<b>Knockback</b> <i>(When this card attacks and deals damage to a target on a recruitment rail, that target is removed from the recruitment rail.)</i>)
 <br>
 
@@ -2016,7 +2016,7 @@ The first unit that attacks this turn gains the <b>Knockback</b> keyword.
  - Hand: +1
 
 
-<b>Worship, 2 Disciples (1 Cost):</b> Target <b>Persistence</b> card with no <b>Persist</b> counters gains +1 <b>Persist</b> counter.   
+<b>Worship, 2 Disciples (1 {d}):</b> Target <b>Persistence</b> card with no <b>Persist</b> counters gains +1 <b>Persist</b> counter.   
 <i>(This effect can only be activated in your deployment phase while 2 allied Disciple cards share a recruitment rail with this Leader.)</i> 
 <br>
 
@@ -2070,7 +2070,7 @@ Whenever a card attached to this fortification would gain a <b>Persist</b> count
  - Life: 8
 
 
-<b>Worship, 1 Disciple (1 Cost):</b> Whenever an allied faith unit is deployed this turn, target allied card regains +1 Life.   
+<b>Worship, 1 Disciple (1 {d}):</b> Whenever an allied faith unit is deployed this turn, target allied card regains +1 Life.   
 <i>(This effect can only be activated in your deployment phase while 1 allied Disciple card shares a recruitment rail with this Leader.)</i> 
 <br>
 
@@ -2254,7 +2254,7 @@ Cards that arrive at attached fortifications have -1 Power until the end of this
  - Cost: 0
 
 
-The next <b>Worship</b> effect you activate this turn gains -2 Cost.
+The next <b>Worship</b> effect you activate this turn gains -2 {d}.
 <br>
 
 ##### ALP.FTH.011
@@ -2511,7 +2511,7 @@ When this card would be destroyed, it instead remains in play at 0 Life and gain
 
 
 <b>Long-distance, 1</b> <i>(This card may skip the arrival step. If it does its Power becomes 1 until the end of the turn.)</i>  
-Whenever a <b>Long-distance</b> card skips the arrival step, reveal target face down reinforcement in the lane that card was deployed to.  
+Whenever a <b>Long-distance</b> card skips the arrival step, you may reveal target face down reinforcement in the lane that card was deployed to.  
 <br>
 
 ##### ALP.SCT.001
@@ -2561,7 +2561,7 @@ Allied fortifications that share a lane with this fortification gain the <b>Scou
 ### <i>Deadeye Leader, Ranged</i>
  - Cost: 3
  - Power: 2
- - Life: 6
+ - Life: 5
  - Hand: -1
 
 
@@ -2668,7 +2668,7 @@ Whenever an allied card would deal <b>Piercing</b> damage to a recruited card th
 ## <b>Point-Blank</b>
 ### <i> Order, Ranged</i>
  - Rank: 1
- - Cost: 1
+ - Cost: X
 
 
 Whenever an allied <b>Long-distance</b> card arrives at a fortification this turn, it gains +X Power, where X is equal to its <b>Long-distance</b> damage.
@@ -2898,7 +2898,7 @@ The first time an attached fortification takes damage this turn, you may destroy
 
 Return the first card that arrives at an attached fortification to its recruitment rail and <b>equip</b> this card to it. While this is equipped, parent card cannot be deployed.  
 <b>Equip</b> <i>(Attach this card to another card. It remains attached until the parent card is destroyed.)</i>  
-<b>Once per Turn Order (1 Cost):</b> Destroy this card.
+<b>Once per Turn Order (1 {d}):</b> Destroy this card.
 <br>
 
 ##### ALP.RNG.022
@@ -2963,10 +2963,10 @@ Any number of <b>Long-distance</b> cards may be deployed to the same lane until 
 ## <b>Rapid Fire</b>
 ### <i> Order, Ranged</i>
  - Rank: 3
- - Cost: 0
+ - Cost: 1
 
 
-Whenever a ranged card arrives at a fortification this turn, you may discard a card. If you do, the arriving card attacks twice in the attack step until the end of this turn.
+Whenever a ranged card arrives at a fortification this turn, you may discard a card. If you do, the arriving card attacks twice in the attack step until the end of this turn. (<i>You may choose different targets for the attacks</i>).
 <br>
 
 ##### ALP.RNG.027

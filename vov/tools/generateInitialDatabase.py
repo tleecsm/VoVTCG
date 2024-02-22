@@ -6,15 +6,16 @@ import os
 
 def initialize_database():
     # Backup the database then delete it 
-    if os.path.exists("../database/database.db"):
-        shutil.copyfile("../database/database.db", "../database/database.backup.db")
-        os.remove("../database/database.db")
+    if os.path.exists("vov/database/vov.db"):
+        shutil.copyfile("vov/database/vov.db", "vov/database/vov.backup.db")
+        os.remove("vov/database/vov.db")
 
-    connection = sqlite3.connect("../database/database.db")
+    # Apply the schema
+    connection = sqlite3.connect("vov/database/vov.db")
     cursor = connection.cursor()
-    with open("schema.sql") as f:
+    with open("vov/database/schema.sql") as f:
         cursor.executescript(f.read())
-        
+
     cursor.execute("SELECT * FROM Cards")
     print(cursor.fetchall())
     connection.commit()

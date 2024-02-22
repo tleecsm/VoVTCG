@@ -16,8 +16,6 @@ def initialize_database():
     with open("vov/database/schema.sql") as f:
         cursor.executescript(f.read())
 
-    cursor.execute("SELECT * FROM Cards")
-    print(cursor.fetchall())
     connection.commit()
     connection.close()
 

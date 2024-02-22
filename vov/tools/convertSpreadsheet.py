@@ -10,7 +10,7 @@ class CardCodesSpreadsheet:
             _initializeDataframe(spreadsheetFile), self.keywords)
         
     def convertCardCodesToSQL(self):
-        # INSERT INTO Cards(id, name, rank, type, class, attribute, cost, power, life, hand, text) VALUES (...);
+        # INSERT OR REPLACE INTO Cards(id, name, rank, type, class, attribute, cost, power, life, hand, text) VALUES (...);
         returnStatements = []
         for i in range(len(self.spreadsheet.index)):
             data = {
@@ -18,17 +18,18 @@ class CardCodesSpreadsheet:
             "name": self.spreadsheet.loc[i, "Name"],
             "type": self.spreadsheet.loc[i, "Type"],
             "rank": self.spreadsheet.loc[i, "Rank"] if self.spreadsheet.loc[i, "Rank"] else "NULL",
+            "attribute": self.spreadsheet.loc[i, "Attribute"] if self.spreadsheet.loc[i, "Attribute"] else "NULL",
             "class": self.spreadsheet.loc[i, "Class"] if self.spreadsheet.loc[i, "Class"] else "NULL",
             "cost": self.spreadsheet.loc[i, "Cost"] if self.spreadsheet.loc[i, "Cost"] else "NULL",
             "power": self.spreadsheet.loc[i, "Power"] if self.spreadsheet.loc[i, "Power"] else "NULL",
             "life": self.spreadsheet.loc[i, "Life"] if self.spreadsheet.loc[i, "Life"] else "NULL",
             "hand": self.spreadsheet.loc[i, "Hand"] if self.spreadsheet.loc[i, "Hand"] else "NULL",
-            "text": self.spreadsheet.loc[i, "Text"] if self.spreadsheet.loc[i, "Text"] else "NULL"
+            "text": self.spreadsheet.loc[i, "Text"].replace('"', '""') if self.spreadsheet.loc[i, "Text"] else "NULL"
             }
             returnStatements.append(
-                f'INSERT INTO Cards(id, name, rank, type, class, attribute, cost, power, life, hand, text) '
-                f'VALUES ("{data["id"]}", "{data["name"]}", "{data["type"]}", {data["rank"]}, "{data["class"]}", '
-                f'{data["cost"]}, {data["power"]}, {data["life"]}, {data["hand"]}, "{data["text"]}");')
+                f'INSERT OR REPLACE INTO Cards(id, name, rank, type, class, attribute, cost, power, life, hand, text) '
+                f'VALUES ("{data["id"]}", "{data["name"]}", {data["rank"]}, "{data["type"]}", "{data["class"]}", '
+                f'"{data["attribute"]}", "{data["cost"]}", {data["power"]}, {data["life"]}, {data["hand"]}, "{data["text"]}");')
         returnStatement = '\n'.join(returnStatements)
         return returnStatement.replace('"NULL"', 'NULL')
         

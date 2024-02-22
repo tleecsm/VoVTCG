@@ -9,6 +9,29 @@ class CardCodesSpreadsheet:
         self.spreadsheet = _findAndReplaceKeywords(
             _initializeDataframe(spreadsheetFile), self.keywords)
         
+    def convertCardCodesToSQL(self):
+        # INSERT INTO Cards(id, name, rank, type, class, attribute, cost, power, life, hand, text) VALUES (...);
+        returnStatements = []
+        for i in range(len(self.spreadsheet.index)):
+            data = {
+            "id": self.spreadsheet.loc[i, "Code"],
+            "name": self.spreadsheet.loc[i, "Name"],
+            "type": self.spreadsheet.loc[i, "Type"],
+            "rank": self.spreadsheet.loc[i, "Rank"] if self.spreadsheet.loc[i, "Rank"] else "NULL",
+            "class": self.spreadsheet.loc[i, "Class"] if self.spreadsheet.loc[i, "Class"] else "NULL",
+            "cost": self.spreadsheet.loc[i, "Cost"] if self.spreadsheet.loc[i, "Cost"] else "NULL",
+            "power": self.spreadsheet.loc[i, "Power"] if self.spreadsheet.loc[i, "Power"] else "NULL",
+            "life": self.spreadsheet.loc[i, "Life"] if self.spreadsheet.loc[i, "Life"] else "NULL",
+            "hand": self.spreadsheet.loc[i, "Hand"] if self.spreadsheet.loc[i, "Hand"] else "NULL",
+            "text": self.spreadsheet.loc[i, "Text"] if self.spreadsheet.loc[i, "Text"] else "NULL"
+            }
+            returnStatements.append(
+                f'INSERT INTO Cards(id, name, rank, type, class, attribute, cost, power, life, hand, text) '
+                f'VALUES ("{data["id"]}", "{data["name"]}", "{data["type"]}", {data["rank"]}, "{data["class"]}", '
+                f'{data["cost"]}, {data["power"]}, {data["life"]}, {data["hand"]}, "{data["text"]}");')
+        returnStatement = '\n'.join(returnStatements)
+        return returnStatement.replace('"NULL"', 'NULL')
+        
     def convertCardCodesToMarkdown(self):
         # Search through each row of the card data
         md = ""
@@ -153,4 +176,6 @@ def _findAndReplaceKeywords(spreadsheetDataframe, keywordsDataframe):
 ss = CardCodesSpreadsheet("vov/data/cardcodes.csv", "vov/data/keywords.csv")
 with open(file="vov/data/cards.md", mode="w") as f:
     f.write(ss.convertCardCodesToMarkdown())
+with open(file="vov/database/cards.sql", mode="w") as f:
+    f.write(ss.convertCardCodesToSQL())
 ss.convertCardCodesToCardCreatorCSV().to_csv("vov/data/cardcreator.csv", index=False)

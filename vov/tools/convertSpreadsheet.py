@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import pandas as pd
 import re
 
@@ -11,7 +13,7 @@ class CardCodesSpreadsheet:
         # Search through each row of the card data
         md = ""
         returnMarkdown = ""
-        with open(file="www\\tools\markdownTemplate.md") as f:
+        with open(file="vov/tools/markdownTemplate.md") as f:
             md = f.read()
         for i in range(len(self.spreadsheet.index)):
             cardMarkdown = md
@@ -148,7 +150,7 @@ def _findAndReplaceKeywords(spreadsheetDataframe, keywordsDataframe):
         spreadsheetDataframe.loc[i, "Text"] = cardText
     return spreadsheetDataframe
 
-ss = CardCodesSpreadsheet("www\data\cardcodes.csv", "www\data\keywords.csv")
-with open(file="www\data\cards.md", mode="w") as f:
+ss = CardCodesSpreadsheet("vov/data/cardcodes.csv", "vov/data/keywords.csv")
+with open(file="vov/data/cards.md", mode="w") as f:
     f.write(ss.convertCardCodesToMarkdown())
-ss.convertCardCodesToCardCreatorCSV().to_csv("www\data\cardcreator.csv", index=False)
+ss.convertCardCodesToCardCreatorCSV().to_csv("vov/data/cardcreator.csv", index=False)

@@ -33,3 +33,9 @@ CREATE TABLE DeckCards(
     FOREIGN KEY (card) REFERENCES Cards(id),
     FOREIGN KEY (deck) REFERENCES Decks(id)
 );
+
+CREATE TABLE Keywords(
+    name TEXT NOT NULL PRIMARY KEY,
+    template TEXT NOT NULL,
+    replacement TEXT NOT NULL
+);

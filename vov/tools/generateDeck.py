@@ -1,15 +1,17 @@
+#!/usr/bin/python
+
 from PIL import Image
 import pandas as pd
 
 # Start by getting the decklist in a usable format
-rawDeck = pd.read_csv("www\data\decklist.csv").fillna("")
+rawDeck = pd.read_csv("vov/data/decklist.csv").fillna("")
 cardlist = []
 for i in range(rawDeck.shape[0]):
     for j in range(rawDeck.shape[1]):
         if rawDeck.iloc[i, j] and rawDeck.iloc[i, j].split("@")[0]:
             id, amount = rawDeck.iloc[i, j].split("@")
             for k in range(int(amount)):
-                cardlist.append(f"www\img\{id.replace('.', '')}.jpg")
+                cardlist.append(f"vov/img/{id.replace('.', '')}.jpg")
 
 base = Image.open( cardlist[0] )
 width, height = base.size
@@ -23,4 +25,4 @@ for h in range(6):
             break
         im = Image.open( cardlist.pop(0) )
         output.paste(im, (w*width, h*height))
-output.save("www\img\!output.jpg")
+output.save("vov/img/!output.jpg")

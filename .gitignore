@@ -1,6 +1,7 @@
 # Project specific
 vov/img
 vov/vovSecrets.py
+*.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

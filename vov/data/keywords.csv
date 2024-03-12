@@ -9,7 +9,7 @@ Keyword,Replacement
 "{{spell,x}}","<b>Spell, Level {{x}}</b> <i>(This card can only be played by the effect of a Spellcaster card.)</i>"
 {{reflected}},<b>Reflected</b> <i>(Target card is moved to the opposite lane an equal distance away from the center lane.)</i>
 {{translated}},<b>Translated</b> <i>(Target card is moved to an adjacent lane of your choice.)</i>
-"{{persistence,x}}","<b>Persistence, {{x}}</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains {{x}} Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>"
+"{{persistence,x}}","<b>Persistence, {{x}}</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains {{x}} Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>"
 {{sanctum}},<b>Sanctum</b> <i>(Allied Worship effects require 1 less Disciple to activate.)</i>
 {{disciple}},<b>Disciple</b> <i>(This card can be used to satisfy the Disciple requirement of another card's Worship effect while it shares a recruitment rail with that card.)</i>
 {{unique}},<b>Unique</b> <i>(You can only include one copy of this card in your deck.)</i>

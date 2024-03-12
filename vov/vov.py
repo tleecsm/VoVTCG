@@ -31,6 +31,12 @@ def index():
     user = discord.get_user()
     return render_template('index.j2', oauth=app.config['OAUTH'], user=user)
 """
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+@app.errorhandler(404)
+def serve(path):
+    return render_template('index.html')
+
 @app.route("/discord/login")
 def login():
     return discord.login(app)
@@ -48,14 +54,10 @@ def callback():
 def logout():
     return discord.logout(app)
 
-@app.route('/', defaults={'path': ''})
-@app.route('/<path:path>')
-@app.errorhandler(404)
-def serve(path):
-    return render_template('index.html')
+@app.route("/api/cards")
+def cards():
+    return
 
-@app.route('/about')
-def about():
-    user = discord.get_user()
-    return render_template('index.j2', oauth=app.config['OAUTH'], user=user)
-
+@app.route("/api/keywords")
+def keywords():
+    return

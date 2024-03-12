@@ -223,11 +223,11 @@ ALP.MEL.016,Twist the Knife,1,Response,,Melee,0,,,,"<b>Trigger:</b> Target allie
 <b>Response:</b> Target leader deals 1 additional damage with their attack."
 ALP.MEL.017,Everywhere At Once,2,Order,,Melee,1,,,,"If target leader is deployed to any lane this turn, you may redeploy them.  They must be redeployed to a different lane."
 ALP.MEL.018,Return of the King,2,Order,,Melee,1,,,,"If target melee leader is deployed this turn, you may recruit that leader for 0 {c} until the end of your turn.  "
-ALP.MEL.020,Fractal Plate,2,Order,,Melee,2,,,,"{{equip}}
+ALP.MEL.020,Fractal Plate,2,Order,,Melee,1,,,,"{{equip}}
 <b>Once per Turn Response (1 {d}):</b> 
 <b>Trigger:</b> Parent leader takes damage from a source controlled by an opponent.
 <b>Response:</b>  Prevent 1 of that damage."
-ALP.MEL.021,Briared Cuirass,2,Order,,Melee,2,,,,"{{equip}}
+ALP.MEL.021,Briared Cuirass,2,Order,,Melee,1,,,,"{{equip}}
 <b>Once per Turn Response (1 {d}):</b> 
 <b>Trigger:</b> Target leader takes damage from an attack.
 <b>Response:</b>  Deal 2 damage to the attacking card."
@@ -266,7 +266,7 @@ Whenever a <b>Persistence</b> card attached to this fortification is destroyed i
 Whenever a card attached to this fortification would gain a <b>Persist</b> counter, you may instead add that counter to this card."
 ALP.APS.001,"Father Azari, Golden Guidance",,Leader,Apostle,Faith,1,0,8,0,"<b>Worship, 1 Disciple (1 {d}):</b> Whenever an allied faith unit is deployed this turn, target allied card regains +1 {l}. 
 <i>(This effect can only be activated in your deployment phase while 1 allied Disciple card shares a recruitment rail with this Leader.)</i> "
-ALP.APS.002,Shepherd for All,1,Order,Apostle,Faith,0,,,,All cards regain +1 {l}.
+ALP.APS.002,Shepherd for All,1,Order,Apostle,Faith,1,,,,All cards regain +1 {l}.
 ALP.APS.003,Lead to Enlightenment,3,Reinforcement,Apostle,Faith,,,,,"{{persistence,1}}
 While this card is revealed in play, whenever an allied card regains any {l} (except from <i>Lead to Enlightenment</i>), all other allied cards regain +1 {l}."
 ALP.APS.004,Radiant Sanctuary,,Fortification,Apostle,Faith,,,6,,"{{rejuvenate}}

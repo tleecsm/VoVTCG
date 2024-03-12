@@ -1780,7 +1780,7 @@ If target melee leader is deployed this turn, you may recruit that leader for 0 
 ## <b>Fractal Plate</b>
 ### <i> Order, Melee</i>
  - Rank: 2
- - Cost: 2
+ - Cost: 1
 
 
 <b>Equip</b> <i>(Attach this card to another card. It remains attached until the parent card is destroyed.)</i>  
@@ -1796,7 +1796,7 @@ If target melee leader is deployed this turn, you may recruit that leader for 0 
 ## <b>Briared Cuirass</b>
 ### <i> Order, Melee</i>
  - Rank: 2
- - Cost: 2
+ - Cost: 1
 
 
 <b>Equip</b> <i>(Attach this card to another card. It remains attached until the parent card is destroyed.)</i>  
@@ -2042,7 +2042,7 @@ Move any number of <b>Persist</b> counters from one <b>Persistence</b> card to a
  - Rank: 3
 
 
-<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
+<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
 While this card is revealed in play, it is the only card that <b>Persist</b> counters must be removed from in the end phase. When this card leaves play, destroy all allied <b>Persistance</b> cards in play.
 <br>
 
@@ -2055,7 +2055,7 @@ While this card is revealed in play, it is the only card that <b>Persist</b> cou
  - Life: 10
 
 
-<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
+<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
 Whenever a <b>Persistence</b> card attached to this fortification is destroyed in the end phase, this card regains +2 Life.  
 Whenever a card attached to this fortification would gain a <b>Persist</b> counter, you may instead add that counter to this card.
 <br>
@@ -2081,7 +2081,7 @@ Whenever a card attached to this fortification would gain a <b>Persist</b> count
 ## <b>Shepherd for All</b>
 ### <i>Apostle Order, Faith</i>
  - Rank: 1
- - Cost: 0
+ - Cost: 1
 
 
 All cards regain +1 Life.
@@ -2096,7 +2096,7 @@ All cards regain +1 Life.
  - Rank: 3
 
 
-<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
+<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
 While this card is revealed in play, whenever an allied card regains any Life (except from <i>Lead to Enlightenment</i>), all other allied cards regain +1 Life.
 <br>
 
@@ -2188,7 +2188,7 @@ Target one reinforcement that is revealed in play. Turn it face down, then you m
  - Rank: 1
 
 
-<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
+<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
 Prevent the first 2 damage dealt to attached fortifications this turn.
 <br>
 
@@ -2201,7 +2201,7 @@ Prevent the first 2 damage dealt to attached fortifications this turn.
  - Rank: 1
 
 
-<b>Persistence, 2</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 2 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
+<b>Persistence, 2</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 2 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
 While this card is revealed in play, whenever an attached fortification would regain Life, it regains +1 Life.
 <br>
 
@@ -2214,7 +2214,7 @@ While this card is revealed in play, whenever an attached fortification would re
  - Rank: 1
 
 
-<b>Persistence, 2</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 2 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
+<b>Persistence, 2</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 2 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
 While this card is revealed in play, attached fortifications cannot be targeted by the effects of an opponent's orders.
 <br>
 
@@ -2227,7 +2227,7 @@ While this card is revealed in play, attached fortifications cannot be targeted 
  - Rank: 1
 
 
-<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
+<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
 Attached fortifications regain +2 Life.
 <br>
 
@@ -2240,7 +2240,7 @@ Attached fortifications regain +2 Life.
  - Rank: 1
 
 
-<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
+<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
 Cards that arrive at attached fortifications have -1 Power until the end of this turn.
 <br>
 
@@ -2266,7 +2266,7 @@ The next <b>Worship</b> effect you activate this turn gains -2 {d}.
  - Rank: 1
 
 
-<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>   
+<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>   
 Choose one attached fortification. While this card is revealed in play, it gain the <b>Sanctum</b> keyword.  
 (<b>Sanctum</b> <i>(Allied Worship effects require 1 less Disciple to activate.)</i>)
 <br>
@@ -2334,7 +2334,7 @@ All face down reinforcements are revealed.
  - Rank: 2
 
 
-<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>   
+<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>   
 While this card is revealed in play, prevent all damage dealt to allied units.
 <br>
 
@@ -2347,7 +2347,7 @@ While this card is revealed in play, prevent all damage dealt to allied units.
  - Rank: 2
 
 
-<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>   
+<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>   
 While this card is revealed in play, the first order you play each turn gains -1 Cost.
 <br>
 
@@ -2360,7 +2360,7 @@ While this card is revealed in play, the first order you play each turn gains -1
  - Rank: 2
 
 
-<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>   
+<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>   
 While this card is revealed in play, the first card you recruit each turn gains -1 Cost.
 <br>
 
@@ -2373,7 +2373,7 @@ While this card is revealed in play, the first card you recruit each turn gains 
  - Rank: 2
 
 
-<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
+<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
 All allied cards regain +1 Life.
 <br>
 
@@ -2389,7 +2389,7 @@ All allied cards regain +1 Life.
 
 <b>Trigger:</b> Target reinforcement is activated by a card arriving to its fortification.  
 <b>Response:</b> Target reinforcement gains the <b>Persistence, 1</b> keyword.   
-(<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>)
+(<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>)
 <br>
 
 ##### ALP.FTH.021
@@ -2401,7 +2401,7 @@ All allied cards regain +1 Life.
  - Rank: 3
 
 
-<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>   
+<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>   
 While this card is revealed in play, the first time an opponent pays one or more cards to fulfill the Cost of another card each turn, they pay an additional card (if possible).
 <br>
 
@@ -2414,7 +2414,7 @@ While this card is revealed in play, the first time an opponent pays one or more
  - Rank: 3
 
 
-<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter. In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
+<b>Persistence, 1</b> <i>(This card is not destroyed after activation. When this card is revealed, it gains 1 Persist counter(s). In the end phase of your turn, remove 1 Persist counter from this card or destroy it.)</i>  
 While this card is revealed in play, all damage dealt on an opponent's turn is prevented and attached fortifications gain <i>"damage dealt to this fortification cannot be prevented"</i>.  If this card is attached to a <b>Defenseless</b> fortification, destroy it.
 <br>
 

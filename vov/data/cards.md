@@ -1414,8 +1414,8 @@ Whenever Lothar is dealt damage to his Life, create a Rage counter on his card.
 
 ## <b>Seeing Bloodred</b>
 ### <i>Berserker Order, Melee</i>
- - Rank: 2
- - Cost: 3
+ - Rank: 3
+ - Cost: 2
 
 
 Remove all Rage counters from target Berserker leader.  Until the end of your turn, that leader may be redeployed once for each Rage counter removed this way.
@@ -2081,7 +2081,7 @@ Whenever a card attached to this fortification would gain a <b>Persist</b> count
 ## <b>Shepherd for All</b>
 ### <i>Apostle Order, Faith</i>
  - Rank: 1
- - Cost: 1
+ - Cost: 0
 
 
 All cards regain +1 Life.
@@ -2510,8 +2510,9 @@ When this card would be destroyed, it instead remains in play at 0 Life and gain
  - Hand: +1
 
 
-<b>Long-distance, 1</b> <i>(This card may skip the arrival step. If it does its Power becomes 1 until the end of the turn.)</i>  
-Whenever a <b>Long-distance</b> card skips the arrival step, you may reveal target face down reinforcement in the lane that card was deployed to.  
+<b>Long-distance</b>, <b>Reload</b>  
+Whenever a <b>Long-distance</b> card skips the arrival step, you may reveal target face down reinforcement in the lane that card was deployed to.    
+When this card is recruited, it gains 2 Ammo counters.
 <br>
 
 ##### ALP.SCT.001
@@ -2560,13 +2561,13 @@ Allied fortifications that share a lane with this fortification gain the <b>Scou
 ## <b>Sandpit Christy, Heartseeker</b>
 ### <i>Deadeye Leader, Ranged</i>
  - Cost: 3
- - Power: 2
- - Life: 5
+ - Power: 3
+ - Life: 6
  - Hand: -1
 
 
-<b>Long-distance, 3</b> <i>(This card may skip the arrival step. If it does its Power becomes 3 until the end of the turn.)</i>  
-<b>Piercing, 3</b> <i>(When this card deals damage to a fortification, you may deal 3 damage to a recruited card that it shares a field with.)</i>
+<b>Long-distance</b>, <b>Piercing</b>, <b>Reload</b>  
+When this card is recruited, it gains 3 Ammo counters.
 <br>
 
 ##### ALP.DDE.001
@@ -2575,11 +2576,11 @@ Allied fortifications that share a lane with this fortification gain the <b>Scou
 
 ## <b>Fire for Effect</b>
 ### <i>Deadeye Order, Ranged</i>
- - Rank: 3
- - Cost: 2
+ - Rank: 2
+ - Cost: 1
 
 
-Whenever a card with <b>Piercing</b> and <b>Long-distance</b> deploys this turn increase the value of both keywords to X, where X is the sum of the keywords' base values.  
+Whenever a card with <b>Piercing</b> and <b>Long-distance</b> deploys this turn, it may activate the effect of both keywords without removing any Ammo counters.
 <br>
 
 ##### ALP.DDE.002
@@ -2588,12 +2589,12 @@ Whenever a card with <b>Piercing</b> and <b>Long-distance</b> deploys this turn 
 
 ## <b>Death's Judgement</b>
 ### <i>Deadeye Response, Ranged</i>
- - Rank: 3
+ - Rank: 2
  - Cost: 1
 
 
 <b>Trigger:</b> Target <b>Piercing</b> card skips the arrival step and deals damage to a fortification.  
-<b>Response:</b> Target card may target a leader in reserve that it shares a field with for its piercing damage.
+<b>Response:</b> Target card may target any card controlled by an opponent for its piercing damage.
 <br>
 
 ##### ALP.DDE.003
@@ -2615,10 +2616,12 @@ Whenever a Deadeye leader is deployed from a field shared by this fortification,
 ## <b>Bowman</b>
 ### <i> Unit, Ranged</i>
  - Cost: 2
- - Power: 2
+ - Power: 1
 
 
-<b>Long-distance, 1</b> <i>(This card may skip the arrival step. If it does its Power becomes 1 until the end of the turn.)</i>
+<b>Long-distance</b> <i>(When this card is deployed, you may remove an Ammo counter from it. If you do, this card skips the arrival step.)</i>  
+<b>Reload</b> <i>(At the end of your deployment phase, if this card was deployed, you may remove an Ammo counter from it. If you do, place it back on the recruitment rail it was deployed from.)</i>  
+When this card is recruited, it gains 2 Ammo counters.
 <br>
 
 ##### ALP.RNG.001
@@ -2628,10 +2631,12 @@ Whenever a Deadeye leader is deployed from a field shared by this fortification,
 ## <b>Arbalist </b>
 ### <i> Unit, Ranged</i>
  - Cost: 2
- - Power: 2
+ - Power: 1
 
 
-<b>Piercing, 1</b> <i>(When this card deals damage to a fortification, you may deal 1 damage to a recruited card that it shares a field with.)</i>
+<b>Piercing</b> <i>(When this card deals damage to a fortification, you may remove an Ammo counter from it. If you do, this card deals 1 damage to a recruited card that shares a field with the fortification.)</i>  
+<b>Reload</b> <i>(At the end of your deployment phase, if this card was deployed, you may remove an Ammo counter from it. If you do, place it back on the recruitment rail it was deployed from.)</i>  
+When this card is recruited, it gains 2 Ammo counters.
 <br>
 
 ##### ALP.RNG.002
@@ -2641,11 +2646,11 @@ Whenever a Deadeye leader is deployed from a field shared by this fortification,
 ## <b>Ballista Crew</b>
 ### <i> Unit, Ranged</i>
  - Cost: 3
- - Power: 3
+ - Power: 2
 
 
-<b>Long-distance, 2</b> <i>(This card may skip the arrival step. If it does its Power becomes 2 until the end of the turn.)</i>  
-<b>Piercing, 2</b> <i>(When this card deals damage to a fortification, you may deal 2 damage to a recruited card that it shares a field with.)</i>
+<b>Long-distance</b>, <b>Piercing</b>, <b>Reload</b> <i>(At the end of your deployment phase, if this card was deployed, you may remove an Ammo counter from it. If you do, place it back on the recruitment rail it was deployed from.)</i>  
+When this card is recruited, it gains 3 Ammo counters.
 <br>
 
 ##### ALP.RNG.003
@@ -2667,11 +2672,11 @@ Whenever an allied card would deal <b>Piercing</b> damage to a recruited card th
 
 ## <b>Point-Blank</b>
 ### <i> Order, Ranged</i>
- - Rank: 1
- - Cost: X
+ - Rank: 2
+ - Cost: 0
 
 
-Whenever an allied <b>Long-distance</b> card arrives at a fortification this turn, it gains +X Power, where X is equal to its <b>Long-distance</b> damage.
+The first time an allied card arrives at a fortification this turn, you may remove any number of Ammo counters from it. If you do, it gains Power equal to the number of Ammo counters removed.
 <br>
 
 ##### ALP.RNG.005
@@ -2684,9 +2689,8 @@ Whenever an allied <b>Long-distance</b> card arrives at a fortification this tur
  - Cost: 1
 
 
-<b>Equip</b>, <b>Ammo</b> <i>(If this card was activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.)</i>  
-<b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Long-distance, 1</b> keyword until the end of this turn.  
-
+<b>Ammo</b>  
+Target ranged card gains an Ammo counter and the <b>Long-distance</b> keyword until the end of this turn.
 <br>
 
 ##### ALP.RNG.006
@@ -2699,8 +2703,8 @@ Whenever an allied <b>Long-distance</b> card arrives at a fortification this tur
  - Cost: 1
 
 
-<b>Equip</b>, <b>Ammo</b> <i>(If this card was activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.)</i>  
-<b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Piercing, 1</b> keyword until the end of this turn.
+<b>Ammo</b>  
+Target ranged card gains an Ammo counter and the <b>Piercing</b> keyword until the end of this turn.
 <br>
 
 ##### ALP.RNG.007
@@ -2774,7 +2778,7 @@ Reveal target card an opponent controls that shares a field with this reinforcem
  - Rank: 1
 
 
-You may play an <b>Ammo</b> order without paying its Cost.
+Target ranged card gains an Ammo counter.
 <br>
 
 ##### ALP.RNG.013
@@ -2784,12 +2788,11 @@ You may play an <b>Ammo</b> order without paying its Cost.
 ## <b>Two in the Chamber</b>
 ### <i> Response, Ranged</i>
  - Rank: 1
- - Cost: 0
+ - Cost: 1
 
 
 <b>Trigger:</b> Allied <b>Ammo</b> card is played.  
-<b>Response:</b> Discard an <b>Ammo</b> card from your hand. If you do, target card gains its Order activation effect.   
-<i>(This does not count as activating the discarded <b>Ammo</b> card)</i>.
+<b>Response:</b> You may play an additional <b>Ammo</b> card without paying its Cost.
 <br>
 
 ##### ALP.RNG.014
@@ -2803,7 +2806,7 @@ You may play an <b>Ammo</b> order without paying its Cost.
 
 
 <b>Trigger:</b> Allied fortification is attacked by target card controlled by an opponent.  
-<b>Response:</b> Destroy a recruited allied ranged unit. If you do, deal damage equal to the destroyed unit's Power to the target card.
+<b>Response:</b> Remove an ammo counter from a recruited allied ranged unit. If you do, deal damage equal to the unit's Power to the target card.
 <br>
 
 ##### ALP.RNG.015
@@ -2831,8 +2834,8 @@ You may play an <b>Ammo</b> order without paying its Cost.
  - Cost: 2
 
 
-<b>Equip</b>, <b>Ammo</b> <i>(If this card was activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.)</i>  
-<b>Once per Turn Order (destroy this):</b> Parent ranged card gains +1 Power while attacking fortifications.
+<b>Ammo</b>  
+Target ranged card gains an Ammo counter and +1 Power while attacking fortifications this turn.
 <br>
 
 ##### ALP.RNG.017
@@ -2845,8 +2848,8 @@ You may play an <b>Ammo</b> order without paying its Cost.
  - Cost: 2
 
 
-<b>Equip</b>, <b>Ammo</b> <i>(If this card was activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.)</i>  
-<b>Once per Turn Order (destroy this):</b> The first time parent ranged card deals damage to a fortification this turn, deal 1 damage to all other fortifications controlled by an opponent.
+<b>Ammo</b>  
+Target ranged card gains an Ammo counter and the first time it deals damage to a fortification this turn, deal 1 damage to all other fortifications controlled by an opponent.
 <br>
 
 ##### ALP.RNG.018
@@ -2859,7 +2862,7 @@ You may play an <b>Ammo</b> order without paying its Cost.
  - Cost: 1
 
 
-For each ranged card you have recruited, deal 1 damage to a target fortification controlled by an opponent. You cannot declare deployments this turn.
+For each Ammo counter on cards you have recruited, deal 1 damage to a target fortification controlled by an opponent. You cannot declare deployments this turn.
 <br>
 
 ##### ALP.RNG.019
@@ -2868,11 +2871,11 @@ For each ranged card you have recruited, deal 1 damage to a target fortification
 
 ## <b>Practice Makes Perfect</b>
 ### <i> Order, Ranged</i>
- - Rank: 2
+ - Rank: 1
  - Cost: 0
 
 
-Until the end of this turn, whenever an allied card would gain <b>Long-distance</b> or <b>Piercing</b> while already having the given keyword, increase the value of the original keyword by 1. 
+Until the end of this turn, whenever an allied card would gain <b>Long-distance</b> or <b>Piercing</b> while already having the given keyword, place an Ammo counter on that card.
 <br>
 
 ##### ALP.RNG.020
@@ -2908,7 +2911,7 @@ Return the first card that arrives at an attached fortification to its recruitme
 ## <b>Scouting Report</b>
 ### <i> Response, Ranged</i>
  - Rank: 2
- - Cost: 1
+ - Cost: 0
 
 
 <b>Trigger:</b> Target card is deployed.  
@@ -2926,7 +2929,7 @@ Return the first card that arrives at an attached fortification to its recruitme
 
 
 <b>Trigger:</b> Target <b>Piercing</b> card arrives at a fortification and activates a reinforcement card.  
-<b>Response:</b> Target <b>Piercing</b> card becomes <b>Piercing, 0</b>. Negate the activated reinforcement card and destroy it.
+<b>Response:</b> Remove an Ammo counter from target card. If you do, negate the activated reinforcement card and destroy it.
 <br>
 
 ##### ALP.RNG.024
@@ -2936,11 +2939,11 @@ Return the first card that arrives at an attached fortification to its recruitme
 ## <b>One Bird With Two Stones</b>
 ### <i> Response, Ranged</i>
  - Rank: 2
- - Cost: 2
+ - Cost: 1
 
 
-<b>Trigger:</b> An <b>Ammo</b> card is activated.  
-<b>Response:</b> Activate an additional <b>Ammo</b> card.  
+<b>Trigger:</b> An <b>Ammo</b> card is played.  
+<b>Response:</b> You may search your deck for an <b>Ammo</b> card with the same name, and play it without paying its Cost.
 <br>
 
 ##### ALP.RNG.025
@@ -2979,8 +2982,8 @@ Whenever a ranged card arrives at a fortification this turn, you may discard a c
  - Cost: 2
 
 
-<b>Trigger:</b> Target <b>Ammo</b> card attached to a ranged leader is activated.  
-<b>Response:</b> Apply the effect of target <b>Ammo</b> card to all allied ranged cards.  
+<b>Trigger:</b> An <b>Ammo</b> card is played.  
+<b>Response:</b> Apply the effect of that <b>Ammo</b> card to all allied ranged cards.  
 <br>
 
 ##### ALP.RNG.028

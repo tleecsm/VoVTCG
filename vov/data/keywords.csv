@@ -17,6 +17,7 @@ Keyword,Replacement
 {{packhunter}},<b>Pack Hunter</b> <i>(This card may be deployed alongside any number of other Pack Hunter cards to the same lane.)</i>
 {{armed}},"<b>Armed</b> <i>(At the start of the game, attach a token Equip order to this card. The order you choose must share an attribute or class with this card.)</i>"
 {{knockback}},"<b>Knockback</b> <i>(When this card attacks and deals damage to a target on a recruitment rail, that target is removed from the recruitment rail.)</i>"
-"{{longdistance,x}}","<b>Long-distance, {{x}}</b> <i>(This card may skip the arrival step. If it does its {p} becomes {{x}} until the end of the turn.)</i>"
-"{{piercing,x}}","<b>Piercing, {{x}}</b> <i>(When this card deals damage to a fortification, you may deal {{x}} damage to a recruited card that it shares a field with.)</i>"
-{{ammo}},"<b>Ammo</b> <i>(If this card was activated, parent card returns to a recruitment rail it was deployed from at the end of the deployment phase. You can only activate the effect of one Ammo card each turn.)</i>"
+{{longdistance}},"<b>Long-distance</b> <i>(When this card is deployed, you may remove an Ammo counter from it. If you do, this card skips the arrival step.)</i>"
+{{piercing}},"<b>Piercing</b> <i>(When this card deals damage to a fortification, you may remove an Ammo counter from it. If you do, this card deals 1 damage to a recruited card that shares a field with the fortification.)</i>"
+{{ammo}},<b>Ammo</b>
+{{reload}},"<b>Reload</b> <i>(At the end of your deployment phase, if this card was deployed, you may remove an Ammo counter from it. If you do, place it back on the recruitment rail it was deployed from.)</i>"

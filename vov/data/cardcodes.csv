@@ -185,7 +185,7 @@ ALP.ARC.034,Hurricane,3,Order,,Arcane,0,,,,"{{spell,3}}
 Remove any number of target cards from any recruitment rail that shares a field with this card's <b>Spellcaster</b>."
 ALP.BSK.001,"Lothar, Axe of the Asperlands",,Leader,Berserker,Melee,3,3,12,-1,"{{armed}}  
 Whenever Lothar is dealt damage to his {l}, create a Rage counter on his card.  "
-ALP.BSK.002,Seeing Bloodred,2,Order,Berserker,Melee,3,,,,"Remove all Rage counters from target Berserker leader.  Until the end of your turn, that leader may be redeployed once for each Rage counter removed this way."
+ALP.BSK.002,Seeing Bloodred,3,Order,Berserker,Melee,2,,,,"Remove all Rage counters from target Berserker leader.  Until the end of your turn, that leader may be redeployed once for each Rage counter removed this way."
 ALP.BSK.003,Relentless Rage,2,Order,Berserker,Melee,0,,,,"Remove 1 Rage counter from target Berserker leader. If you do, until the start of your next turn that leader cannot be reduced below 1 {l}."
 ALP.BSK.004,Wartorn Battlefield,,Fortification,Berserker,Melee,,,0,,"{{defenseless}}
 When an allied leader is deployed from a field shared by this fortification, it gain +1 {p}."
@@ -266,7 +266,7 @@ Whenever a <b>Persistence</b> card attached to this fortification is destroyed i
 Whenever a card attached to this fortification would gain a <b>Persist</b> counter, you may instead add that counter to this card."
 ALP.APS.001,"Father Azari, Golden Guidance",,Leader,Apostle,Faith,1,0,8,0,"<b>Worship, 1 Disciple (1 {d}):</b> Whenever an allied faith unit is deployed this turn, target allied card regains +1 {l}. 
 <i>(This effect can only be activated in your deployment phase while 1 allied Disciple card shares a recruitment rail with this Leader.)</i> "
-ALP.APS.002,Shepherd for All,1,Order,Apostle,Faith,1,,,,All cards regain +1 {l}.
+ALP.APS.002,Shepherd for All,1,Order,Apostle,Faith,0,,,,All cards regain +1 {l}.
 ALP.APS.003,Lead to Enlightenment,3,Reinforcement,Apostle,Faith,,,,,"{{persistence,1}}
 While this card is revealed in play, whenever an allied card regains any {l} (except from <i>Lead to Enlightenment</i>), all other allied cards regain +1 {l}."
 ALP.APS.004,Radiant Sanctuary,,Fortification,Apostle,Faith,,,6,,"{{rejuvenate}}
@@ -323,62 +323,65 @@ When this card would be destroyed, it instead remains in play at 0 {l} and gains
 ({{defenseless}})"
 ALP.FTH.029,"Her Gospel, Received",2,Response,,Faith,0,,,,"<b>Trigger:</b> A card is deployed.
 <b>Response:</b> Target reinforcement is revealed."
-ALP.SCT.001,"Teyr, Treetop Watchman",,Leader,Scout,Ranged,2,2,6,1,"{{longdistance,1}}
-Whenever a <b>Long-distance</b> card skips the arrival step, you may reveal target face down reinforcement in the lane that card was deployed to.  "
+ALP.SCT.001,"Teyr, Treetop Watchman",,Leader,Scout,Ranged,2,2,6,1,"<b>Long-distance</b>, <b>Reload</b>
+Whenever a <b>Long-distance</b> card skips the arrival step, you may reveal target face down reinforcement in the lane that card was deployed to.  
+When this card is recruited, it gains 2 Ammo counters."
 ALP.SCT.002,Bird's Eye View,1,Order,Scout,Ranged,1,,,,"Until the start of your next turn, whenever a reinforcement controlled by an opponent would be revealed, instead reveal all of their face down reinforcements."
 ALP.SCT.003,"Misfortune, Avoided",2,Order,Scout,Ranged,1,,,,"Until the start of your next turn, whenever a reinforcement controlled by an opponent is revealed, that reinforcement is placed on the bottom of their deck."
 ALP.SCT.004,Crow's Nest,,Fortification,Scout,Ranged,,,7,,"{{scout}}
 Allied fortifications that share a lane with this fortification gain the <b>Scout</b> keyword while it is in play."
-ALP.DDE.001,"Sandpit Christy, Heartseeker",,Leader,Deadeye,Ranged,3,2,5,-1,"{{longdistance,3}}
-{{piercing,3}}"
-ALP.DDE.002,Fire for Effect,3,Order,Deadeye,Ranged,2,,,,"Whenever a card with <b>Piercing</b> and <b>Long-distance</b> deploys this turn increase the value of both keywords to X, where X is the sum of the keywords' base values.  "
-ALP.DDE.003,Death's Judgement,3,Response,Deadeye,Ranged,1,,,,"<b>Trigger:</b> Target <b>Piercing</b> card skips the arrival step and deals damage to a fortification.
-<b>Response:</b> Target card may target a leader in reserve that it shares a field with for its piercing damage."
+ALP.DDE.001,"Sandpit Christy, Heartseeker",,Leader,Deadeye,Ranged,3,3,6,-1,"<b>Long-distance</b>, <b>Piercing</b>, <b>Reload</b>
+When this card is recruited, it gains 3 Ammo counters."
+ALP.DDE.002,Fire for Effect,2,Order,Deadeye,Ranged,1,,,,"Whenever a card with <b>Piercing</b> and <b>Long-distance</b> deploys this turn, it may activate the effect of both keywords without removing any Ammo counters."
+ALP.DDE.003,Death's Judgement,2,Response,Deadeye,Ranged,1,,,,"<b>Trigger:</b> Target <b>Piercing</b> card skips the arrival step and deals damage to a fortification.
+<b>Response:</b> Target card may target any card controlled by an opponent for its piercing damage."
 ALP.DDE.004,Predator's Loophole,,Fortification,Deadeye,Ranged,,,0,,"{{defenseless}}
 Whenever a Deadeye leader is deployed from a field shared by this fortification, it may declare attack targets as though it were deployed to any lane from an adjacent field."
-ALP.RNG.001,Bowman,,Unit,,Ranged,2,2,,,"{{longdistance,1}}"
-ALP.RNG.002,Arbalist ,,Unit,,Ranged,2,2,,,"{{piercing,1}}"
-ALP.RNG.003,Ballista Crew,,Unit,,Ranged,3,3,,,"{{longdistance,2}}
-{{piercing,2}}"
+ALP.RNG.001,Bowman,,Unit,,Ranged,2,1,,,"{{longdistance}}
+{{reload}}
+When this card is recruited, it gains 2 Ammo counters."
+ALP.RNG.002,Arbalist ,,Unit,,Ranged,2,1,,,"{{piercing}}
+{{reload}}
+When this card is recruited, it gains 2 Ammo counters."
+ALP.RNG.003,Ballista Crew,,Unit,,Ranged,3,2,,,"<b>Long-distance</b>, <b>Piercing</b>, {{reload}}
+When this card is recruited, it gains 3 Ammo counters."
 ALP.RNG.004,Ricochet,1,Order,,Ranged,0,,,,"Whenever an allied card would deal <b>Piercing</b> damage to a recruited card this turn, instead you may deal that damage to a different fortification that shares a lane with the original fortification the card attacked. "
-ALP.RNG.005,Point-Blank,1,Order,,Ranged,X,,,,"Whenever an allied <b>Long-distance</b> card arrives at a fortification this turn, it gains +X {p}, where X is equal to its <b>Long-distance</b> damage."
-ALP.RNG.006,Flight Arrows,1,Order,,Ranged,1,,,,"<b>Equip</b>, {{ammo}}
-<b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Long-distance, 1</b> keyword until the end of this turn.
-"
-ALP.RNG.007,Piercing Bolts,1,Order,,Ranged,1,,,,"<b>Equip</b>, {{ammo}}
-<b>Once per Turn Order (destroy this):</b> Parent ranged card gains the <b>Piercing, 1</b> keyword until the end of this turn."
+ALP.RNG.005,Point-Blank,2,Order,,Ranged,0,,,,"The first time an allied card arrives at a fortification this turn, you may remove any number of Ammo counters from it. If you do, it gains {p} equal to the number of Ammo counters removed."
+ALP.RNG.006,Flight Arrows,1,Order,,Ranged,1,,,,"{{ammo}}
+Target ranged card gains an Ammo counter and the <b>Long-distance</b> keyword until the end of this turn."
+ALP.RNG.007,Piercing Bolts,1,Order,,Ranged,1,,,,"{{ammo}}
+Target ranged card gains an Ammo counter and the <b>Piercing</b> keyword until the end of this turn."
 ALP.RNG.008,Shrapnel Shot,1,Order,,Ranged,1,,,,"The next time target ranged card would deal damage to a fortification this turn, that damage may instead be distributed to any number of recruited cards that share a field with the fortification."
 ALP.RNG.009,Concussion Shot,1,Order,,Ranged,1,,,,"The next time target ranged card would deal damage to a recruited card this turn, instead remove that card from its recruitment rail."
 ALP.RNG.010,Pick Off,1,Reinforcement,,Ranged,,,,,Deal 1 damage to any card an opponent has recruited or deployed.
 ALP.RNG.011,A Mile Away,1,Reinforcement,,Ranged,,,,,Prevent all damage dealt to recruited allied cards that share a field with this reinforcement until the end of this turn.
 ALP.RNG.012,Exposed Sightline,1,Reinforcement,,Ranged,,,,,Reveal target card an opponent controls that shares a field with this reinforcement.
-ALP.RNG.013,Resupply Run,1,Reinforcement,,Ranged,,,,,You may play an <b>Ammo</b> order without paying its {c}.
-ALP.RNG.014,Two in the Chamber,1,Response,,Ranged,0,,,,"<b>Trigger:</b> Allied <b>Ammo</b> card is played.
-<b>Response:</b> Discard an <b>Ammo</b> card from your hand. If you do, target card gains its Order activation effect. 
-<i>(This does not count as activating the discarded <b>Ammo</b> card)</i>."
+ALP.RNG.013,Resupply Run,1,Reinforcement,,Ranged,,,,,Target ranged card gains an Ammo counter.
+ALP.RNG.014,Two in the Chamber,1,Response,,Ranged,1,,,,"<b>Trigger:</b> Allied <b>Ammo</b> card is played.
+<b>Response:</b> You may play an additional <b>Ammo</b> card without paying its {c}."
 ALP.RNG.015,Watchful Sentry,1,Response,,Ranged,1,,,,"<b>Trigger:</b> Allied fortification is attacked by target card controlled by an opponent.
-<b>Response:</b> Destroy a recruited allied ranged unit. If you do, deal damage equal to the destroyed unit's {p} to the target card."
+<b>Response:</b> Remove an ammo counter from a recruited allied ranged unit. If you do, deal damage equal to the unit's {p} to the target card."
 ALP.RNG.016,Bound Back,1,Response,,Ranged,0,,,,"<b>Trigger:</b> Target <b>Long-distance</b> card arrives at a fortification and activates a reinforcement card.
 <b>Response:</b> Redeploy target <b>Long-distance</b> card to the same lane and skip the arrival step. 
 <i>(The activated reinforcement card's effect still resolves)</i>"
-ALP.RNG.017,Bunker Buster Bolts,2,Order,,Ranged,2,,,,"<b>Equip</b>, {{ammo}}
-<b>Once per Turn Order (destroy this):</b> Parent ranged card gains +1 {p} while attacking fortifications."
-ALP.RNG.018,Arc Arrows,2,Order,,Ranged,2,,,,"<b>Equip</b>, {{ammo}}
-<b>Once per Turn Order (destroy this):</b> The first time parent ranged card deals damage to a fortification this turn, deal 1 damage to all other fortifications controlled by an opponent."
-ALP.RNG.019,Firing Line,2,Order,,Ranged,1,,,,"For each ranged card you have recruited, deal 1 damage to a target fortification controlled by an opponent. You cannot declare deployments this turn."
-ALP.RNG.020,Practice Makes Perfect,2,Order,,Ranged,0,,,,"Until the end of this turn, whenever an allied card would gain <b>Long-distance</b> or <b>Piercing</b> while already having the given keyword, increase the value of the original keyword by 1. "
+ALP.RNG.017,Bunker Buster Bolts,2,Order,,Ranged,2,,,,"{{ammo}}
+Target ranged card gains an Ammo counter and +1 {p} while attacking fortifications this turn."
+ALP.RNG.018,Arc Arrows,2,Order,,Ranged,2,,,,"{{ammo}}
+Target ranged card gains an Ammo counter and the first time it deals damage to a fortification this turn, deal 1 damage to all other fortifications controlled by an opponent."
+ALP.RNG.019,Firing Line,2,Order,,Ranged,1,,,,"For each Ammo counter on cards you have recruited, deal 1 damage to a target fortification controlled by an opponent. You cannot declare deployments this turn."
+ALP.RNG.020,Practice Makes Perfect,1,Order,,Ranged,0,,,,"Until the end of this turn, whenever an allied card would gain <b>Long-distance</b> or <b>Piercing</b> while already having the given keyword, place an Ammo counter on that card."
 ALP.RNG.021,Return Fire,2,Reinforcement,,Ranged,,,,,"The first time an attached fortification takes damage this turn, you may destroy an allied ranged unit on a recruitment rail that shares a field with the fortification. If you do, deal damage equal to your destroyed unit's {p} to all cards an opponent has recruited to that field."
 ALP.RNG.022,Snare,2,Reinforcement,,Ranged,,,,,"Return the first card that arrives at an attached fortification to its recruitment rail and <b>equip</b> this card to it. While this is equipped, parent card cannot be deployed.
 {{equip}}
 <b>Once per Turn Order (1 {d}):</b> Destroy this card."
-ALP.RNG.023,Scouting Report,2,Response,,Ranged,1,,,,"<b>Trigger:</b> Target card is deployed.
+ALP.RNG.023,Scouting Report,2,Response,,Ranged,0,,,,"<b>Trigger:</b> Target card is deployed.
 <b>Response:</b> Target card skips the arrival step."
 ALP.RNG.024,Push Through,2,Response,,Ranged,0,,,,"<b>Trigger:</b> Target <b>Piercing</b> card arrives at a fortification and activates a reinforcement card.
-<b>Response:</b> Target <b>Piercing</b> card becomes <b>Piercing, 0</b>. Negate the activated reinforcement card and destroy it."
-ALP.RNG.025,One Bird With Two Stones,2,Response,,Ranged,2,,,,"<b>Trigger:</b> An <b>Ammo</b> card is activated.
-<b>Response:</b> Activate an additional <b>Ammo</b> card.  "
+<b>Response:</b> Remove an Ammo counter from target card. If you do, negate the activated reinforcement card and destroy it."
+ALP.RNG.025,One Bird With Two Stones,2,Response,,Ranged,1,,,,"<b>Trigger:</b> An <b>Ammo</b> card is played.
+<b>Response:</b> You may search your deck for an <b>Ammo</b> card with the same name, and play it without paying its {c}."
 ALP.RNG.026,Rain Hell,3,Order,,Ranged,1,,,,Any number of <b>Long-distance</b> cards may be deployed to the same lane until the end of this turn. Any <b>Long-distance</b> card deployed this turn must skip the arrival step.
 ALP.RNG.027,Rapid Fire,3,Order,,Ranged,1,,,,"Whenever a ranged card arrives at a fortification this turn, you may discard a card. If you do, the arriving card attacks twice in the attack step until the end of this turn. (<i>You may choose different targets for the attacks</i>)."
-ALP.RNG.028,Surplus Munitions,3,Response,,Ranged,2,,,,"<b>Trigger:</b> Target <b>Ammo</b> card attached to a ranged leader is activated.
-<b>Response:</b> Apply the effect of target <b>Ammo</b> card to all allied ranged cards.  "
+ALP.RNG.028,Surplus Munitions,3,Response,,Ranged,2,,,,"<b>Trigger:</b> An <b>Ammo</b> card is played.
+<b>Response:</b> Apply the effect of that <b>Ammo</b> card to all allied ranged cards.  "
 ALP.RNG.029,Ramparts,,Fortification,,Ranged,,,7,,"The first time a card arrives at this fortification each turn, you may destory a ranged card on an allied recruitment rail. If you do, deal 1 damage to the arriving card."

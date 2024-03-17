@@ -2,6 +2,8 @@
 
 import pandas as pd
 import re
+import shutil
+from pathlib import Path
 
 class CardCodesSpreadsheet:
     def __init__(self, spreadsheetFile, keywordsFile):
@@ -85,6 +87,14 @@ class CardCodesSpreadsheet:
         returnMarkdown = returnMarkdown.replace("{c}", "Cost")
         returnMarkdown = returnMarkdown.replace("{p}", "Power")
         return returnMarkdown
+    
+    def populateCardData(self):
+        for i in range(len(self.spreadsheet.index)):
+            folder_path = f"vov/data/card_data/{self.spreadsheet.loc[i, 'Code']}"
+            Path(folder_path).mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(f"vov/img/{self.spreadsheet.loc[i, 'Code'].replace('.', '')}.jpg", f"{folder_path}/image.jpg")
+            with open(file=f"{folder_path}/data.json", mode="w") as f:
+                f.write(self.spreadsheet.loc[i].to_json())
 
     def convertCardCodesToCardCreatorCSV(self):
         # Create the columns we need for the new dataframe
@@ -180,3 +190,4 @@ with open(file="vov/data/cards.md", mode="w") as f:
 with open(file="vov/database/cards.sql", mode="w") as f:
     f.write(ss.convertCardCodesToSQL())
 ss.convertCardCodesToCardCreatorCSV().to_csv("vov/data/cardcreator.csv", index=False)
+ss.populateCardData()

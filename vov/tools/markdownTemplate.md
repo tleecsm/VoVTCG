@@ -3,7 +3,10 @@
 {{Rank}}{{Cost}}{{Power}}{{Life}}{{Hand}}
 
 {{Text}}
-<br>
+<br> 
+
+![{{Name}}](vov/data/card_data/{{Code}}/card.jpg)  
+<br>  
 
 ##### {{Code}}
 

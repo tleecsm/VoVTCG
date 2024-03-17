@@ -5,9 +5,9 @@
 {{Text}}
 <br> 
 
-![{{Name}}](../data/card_data/{{Code}}/image.jpg)  
+<img src="../data/card_data/{{Code}}/image.jpg" width="250">{{Name}}</img>
 <br>  
 
 ##### {{Code}}
-
+ 
 <hr>

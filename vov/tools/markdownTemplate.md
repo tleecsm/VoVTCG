@@ -5,7 +5,7 @@
 {{Text}}
 <br> 
 
-![{{Name}}](vov/data/card_data/{{Code}}/card.jpg)  
+![{{Name}}](../data/card_data/{{Code}}/image.jpg)  
 <br>  
 
 ##### {{Code}}

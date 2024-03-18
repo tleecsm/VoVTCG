@@ -5,7 +5,7 @@
 {{Text}}
 <br> 
 
-<img src="../data/card_data/{{Code}}/image.jpg" width="250">{{Name}}</img>
+<img src="../data/card_data/{{Code}}/image.jpg" width="250" alt="Name" />
 <br>  
 
 ##### {{Code}}

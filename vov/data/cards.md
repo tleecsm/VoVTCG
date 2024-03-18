@@ -2979,7 +2979,7 @@ Whenever a ranged card arrives at a fortification this turn, you may discard a c
 ## <b>Surplus Munitions</b>
 ### <i> Response, Ranged</i>
  - Rank: 3
- - Cost: 2
+ - Cost: 1
 
 
 <b>Trigger:</b> An <b>Ammo</b> card is played.  

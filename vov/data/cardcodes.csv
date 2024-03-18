@@ -382,6 +382,6 @@ ALP.RNG.025,One Bird With Two Stones,2,Response,,Ranged,1,,,,"<b>Trigger:</b> An
 <b>Response:</b> You may search your deck for an <b>Ammo</b> card with the same name, and play it without paying its {c}."
 ALP.RNG.026,Rain Hell,3,Order,,Ranged,1,,,,Any number of <b>Long-distance</b> cards may be deployed to the same lane until the end of this turn. Any <b>Long-distance</b> card deployed this turn must skip the arrival step.
 ALP.RNG.027,Rapid Fire,3,Order,,Ranged,1,,,,"Whenever a ranged card arrives at a fortification this turn, you may discard a card. If you do, the arriving card attacks twice in the attack step until the end of this turn. (<i>You may choose different targets for the attacks</i>)."
-ALP.RNG.028,Surplus Munitions,3,Response,,Ranged,2,,,,"<b>Trigger:</b> An <b>Ammo</b> card is played.
+ALP.RNG.028,Surplus Munitions,3,Response,,Ranged,1,,,,"<b>Trigger:</b> An <b>Ammo</b> card is played.
 <b>Response:</b> Apply the effect of that <b>Ammo</b> card to all allied ranged cards.  "
 ALP.RNG.029,Ramparts,,Fortification,,Ranged,,,7,,"The first time a card arrives at this fortification each turn, you may destory a ranged card on an allied recruitment rail. If you do, deal 1 damage to the arriving card."

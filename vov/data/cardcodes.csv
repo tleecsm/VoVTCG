@@ -17,7 +17,7 @@ ALP.NAT.015,Starvation ,1,Reinforcement,,Non-attribute,,,,,"Whenever an attached
 ALP.NAT.016,Dishonorable Discharge ,1,Reinforcement,,Non-attribute,,,,,Return the first unit that arrives at each attached fortification to its recruitment rail; returned units cannot be redeployed this turn.
 ALP.NAT.017,Prepared Defensive ,1,Reinforcement,,Non-attribute,,,,,Cards that arrive at an attached fortification have -2 {p} until the end of this turn.
 ALP.NAT.018,Eye for an Eye,1,Response,,Non-attribute,0,,,,"<b>Trigger:</b> An opponent draws a card as the result of an order.
-<b>Response:</b> Draw a card."
+<b>Response:</b> That opponent discards a card. Draw a card."
 ALP.NAT.019,Rapid Response,1,Response,,Non-attribute,0,,,,"<b>Trigger:</b> Target leader takes damage from any source.  
 <b>Response:</b> Target leader regains +1 {l}. "
 ALP.NAT.020,Road Less Traveled ,1,Response,,Non-attribute,0,,,,"<b>Trigger:</b> Target card is deployed to a lane.
@@ -28,7 +28,7 @@ ALP.NAT.023,I want you!,2,Order,,Non-attribute,0,,,,Target leader gains +1 {h} u
 ALP.NAT.024,With Advantage! ,2,Order,,Non-attribute,1,,,,"If target card completes a successful attack this turn, deploy another unit to the same lane."
 ALP.NAT.025,Repeat Offender ,2,Order,,Non-attribute,2,,,,"If target card deals damage with an attack this turn, recruit them to the same recruitment rail at the end of the deployment phase. "
 ALP.NAT.026,Indestructible,2,Reinforcement,,Non-attribute,,,,,Attached fortifications cannot be reduced below 1 {l} this turn.
-ALP.NAT.027,Caltrops,2,Reinforcement,,Non-attribute,,,,,Deal 1 damage to the first card that arrives at each attached fortification.
+ALP.NAT.027,Caltrops,2,Reinforcement,,Non-attribute,,,,,Deal 1 damage to the first card that arrives at an attached fortification.
 ALP.NAT.028,Meat Shield,2,Reinforcement,,Non-attribute,,,,,"When an attached fortification is attacked, you may choose to destroy a unit from an allied recruitment rail and prevent damage equal to that unit's {p}. "
 ALP.NAT.029,Difficult Terrain,2,Response,,Non-attribute,1,,,,"<b>Trigger:</b> Target player deploys one or more units.
 <b>Response:</b> Target player cannot deploy or redeploy any additional units this turn."

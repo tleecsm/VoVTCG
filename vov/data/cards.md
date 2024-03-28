@@ -219,7 +219,7 @@ Cards that arrive at an attached fortification have -2 Power until the end of th
 
 
 <b>Trigger:</b> An opponent draws a card as the result of an order.  
-<b>Response:</b> Draw a card.
+<b>Response:</b> That opponent discards a card. Draw a card.
 <br>  
 
 ##### ALP.NAT.018
@@ -336,7 +336,7 @@ Attached fortifications cannot be reduced below 1 Life this turn.
  - Rank: 2
 
 
-Deal 1 damage to the first card that arrives at each attached fortification.
+Deal 1 damage to the first card that arrives at an attached fortification.
 <br>  
 
 ##### ALP.NAT.027

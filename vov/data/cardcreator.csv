@@ -17,7 +17,7 @@ TypeOverlay,AttributeOverlay,Art,Text,Name,Id,Rank,Life,Power,Attribute,Type,Han
 %PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.016.png,Return the first unit that arrives at each attached fortification to its recruitment rail; returned units cannot be redeployed this turn.,Dishonorable Discharge ,ALP.NAT.016,{r},,,,Reinforcement,,
 %PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.017.png,Cards that arrive at an attached fortification have -2 {p} until the end of this turn.,Prepared Defensive ,ALP.NAT.017,{r},,,,Reinforcement,,
 %PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.018.png,"<b>Trigger:</b> An opponent draws a card as the result of an order.
-<b>Response:</b> Draw a card.",Eye for an Eye,ALP.NAT.018,{r},,,,Response,,0
+<b>Response:</b> That opponent discards a card. Draw a card.",Eye for an Eye,ALP.NAT.018,{r},,,,Response,,0
 %PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.019.png,"<b>Trigger:</b> Target leader takes damage from any source.  
 <b>Response:</b> Target leader regains +1 {l}. ",Rapid Response,ALP.NAT.019,{r},,,,Response,,0
 %PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.020.png,"<b>Trigger:</b> Target card is deployed to a lane.
@@ -28,7 +28,7 @@ TypeOverlay,AttributeOverlay,Art,Text,Name,Id,Rank,Life,Power,Attribute,Type,Han
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.024.png,"If target card completes a successful attack this turn, deploy another unit to the same lane.",With Advantage! ,ALP.NAT.024,{r}{r},,,,Order,,1
 %PROJECT%/Order.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.025.png,"If target card deals damage with an attack this turn, recruit them to the same recruitment rail at the end of the deployment phase. ",Repeat Offender ,ALP.NAT.025,{r}{r},,,,Order,,2
 %PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.026.png,Attached fortifications cannot be reduced below 1 {l} this turn.,Indestructible,ALP.NAT.026,{r}{r},,,,Reinforcement,,
-%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.027.png,Deal 1 damage to the first card that arrives at each attached fortification.,Caltrops,ALP.NAT.027,{r}{r},,,,Reinforcement,,
+%PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.027.png,Deal 1 damage to the first card that arrives at an attached fortification.,Caltrops,ALP.NAT.027,{r}{r},,,,Reinforcement,,
 %PROJECT%/Reinforcement.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.028.png,"When an attached fortification is attacked, you may choose to destroy a unit from an allied recruitment rail and prevent damage equal to that unit's {p}. ",Meat Shield,ALP.NAT.028,{r}{r},,,,Reinforcement,,
 %PROJECT%/Response.png,%PROJECT%/Non-attribute.png,%PROJECT%/ALP.NAT.029.png,"<b>Trigger:</b> Target player deploys one or more units.
 <b>Response:</b> Target player cannot deploy or redeploy any additional units this turn.",Difficult Terrain,ALP.NAT.029,{r}{r},,,,Response,,1
